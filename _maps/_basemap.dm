@@ -16,6 +16,7 @@
 		// NOVA EDIT ADDITON START - Compiling our modular maps too!
 		#include "map_files\VoidRaptor\VoidRaptor.dmm"
 		#include "map_files\NSVBlueshift\Blueshift.dmm"
+		#include "_maps/map_files/lethalmaps/modular_map_debug.dmm"
 		// NOVA EDIT END
 
 		#ifdef CIBUILDING

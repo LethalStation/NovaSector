@@ -1,0 +1,25 @@
+{
+	"version": 1,
+	"map_name": "Modular Map Debug",
+	"map_path": "map_files/lethalmaps",
+	"map_file": "modular_map_debug.dmm",
+	"ignored_unit_tests": [
+		"/datum/unit_test/antag_moodlets",
+		"/datum/unit_test/job_roundstart_spawnpoints",
+		"/datum/unit_test/required_map_items",
+		"/datum/unit_test/space_dragon_expiration",
+		"/datum/unit_test/traitor"
+	],
+	"traits": [
+		{
+			"Up": true,
+			"Linkage": "Cross",
+			"Baseturf": "/turf/open/indestructible/plating"
+		},
+		{
+			"Down": true,
+			"Baseturf": "/turf/open/openspace",
+			"Linkage": "Cross"
+		}
+	]
+}

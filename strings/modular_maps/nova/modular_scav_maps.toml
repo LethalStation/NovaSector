@@ -1,0 +1,4 @@
+directory = "_maps/nova/deepmaint/"
+
+[rooms.shuttle_landing]
+modules = ["factory_entrance.dmm", "factory_entrance_aid.dmm", "factory_entrance_cargo.dmm", "factory_entrance_closets.dmm", "factory_entrance_customs.dmm"]

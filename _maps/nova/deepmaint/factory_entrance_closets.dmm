@@ -1,0 +1,722 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/obj/effect/spawner/random/epic_loot/random_supply_crate,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"eu" = (
+/obj/effect/spawner/random/structure/closet_empty/crate,
+/turf/open/floor/iron/smooth_half,
+/area/station/hallway/secondary/entry)
+"gz" = (
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/smooth_half,
+/area/station/hallway/secondary/entry)
+"gL" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4
+	},
+/obj/machinery/light/small/red/directional/south,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"iE" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4
+	},
+/obj/machinery/light/small/red/directional/north,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"iH" = (
+/obj/structure/rack/shelf,
+/obj/structure/maintenance_loot_structure/wall_jacket/random/directional/west,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"iP" = (
+/obj/structure/fluff/tram_rail/electric{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/white/line,
+/obj/effect/spawner/random/structure/shipping_container,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"jh" = (
+/obj/effect/spawner/random/structure/shipping_container,
+/turf/open/floor/iron/smooth_half,
+/area/station/hallway/secondary/entry)
+"jG" = (
+/obj/structure/fluff/tram_rail/floor,
+/obj/machinery/door/poddoor/shutters/indestructible{
+	id = "good_luck_pal"
+	},
+/obj/structure/fans/tiny/invisible,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/hallway/secondary/entry)
+"lh" = (
+/obj/structure/fluff/tram_rail/electric/anchor{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/white/line,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"lE" = (
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"mM" = (
+/obj/structure/fluff/tram_rail/electric,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"nK" = (
+/turf/open/floor/catwalk_floor,
+/area/station/hallway/secondary/entry)
+"oT" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_tools,
+/obj/effect/spawner/random/epic_loot/random_tools{
+	pixel_y = -5
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"pA" = (
+/obj/machinery/light/small/directional/north,
+/obj/effect/spawner/random/structure/closet_empty/crate,
+/turf/open/floor/iron/smooth_half,
+/area/station/hallway/secondary/entry)
+"qG" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"rq" = (
+/obj/structure/fluff/tram_rail/electric/anchor,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"rX" = (
+/turf/open/floor/iron/smooth_half,
+/area/station/hallway/secondary/entry)
+"sC" = (
+/obj/structure/maintenance_loot_structure/military_case/random,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"sM" = (
+/obj/structure/maintenance_loot_structure/toolbox/random,
+/turf/open/floor/catwalk_floor,
+/area/station/hallway/secondary/entry)
+"te" = (
+/obj/machinery/light/small/red/directional/south,
+/turf/open/floor/catwalk_floor,
+/area/station/hallway/secondary/entry)
+"tC" = (
+/turf/open/floor/iron/smooth_corner{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"uZ" = (
+/obj/structure/fake_stairs/directional/north,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth_large,
+/area/station/hallway/secondary/entry)
+"vF" = (
+/obj/machinery/door/poddoor/shutters/indestructible/preopen{
+	id = "this_one_is_open"
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/hallway/secondary/entry)
+"yy" = (
+/obj/structure/fluff/tram_rail/floor{
+	dir = 1
+	},
+/obj/machinery/door/poddoor/shutters/indestructible{
+	id = "good_luck_pal"
+	},
+/obj/structure/fans/tiny/invisible,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/hallway/secondary/entry)
+"zx" = (
+/obj/machinery/door/airlock/grunge,
+/obj/structure/fans/tiny/invisible,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/hallway/secondary/entry)
+"BM" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_components,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"BU" = (
+/obj/machinery/light/small/red/directional/south,
+/obj/effect/spawner/random/structure/closet_empty/crate,
+/turf/open/floor/iron/smooth_half,
+/area/station/hallway/secondary/entry)
+"Cn" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/machinery/light/small/red/directional/east,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"CA" = (
+/obj/machinery/light/small/red/directional/south,
+/turf/open/floor/iron/smooth_half,
+/area/station/hallway/secondary/entry)
+"CH" = (
+/obj/machinery/door/poddoor/shutters/indestructible/preopen{
+	id = "this_one_is_open"
+	},
+/obj/structure/fluff/tram_rail/floor,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/hallway/secondary/entry)
+"Dz" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_components,
+/obj/structure/maintenance_loot_structure/wall_jacket/random/directional/west,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"EO" = (
+/obj/structure/rack/shelf,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"Gs" = (
+/obj/machinery/light/small/red/directional/south,
+/obj/structure/maintenance_loot_structure/wall_jacket/random/directional/south,
+/turf/open/floor/catwalk_floor,
+/area/station/hallway/secondary/entry)
+"Hc" = (
+/obj/effect/spawner/random/structure/shipping_container,
+/turf/open/floor/catwalk_floor,
+/area/station/hallway/secondary/entry)
+"Hv" = (
+/obj/structure/maintenance_loot_structure/file_cabinet/random,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"HB" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/machinery/light/small/red/directional/west,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"Id" = (
+/turf/closed/indestructible/steel,
+/area/station/hallway/secondary/entry)
+"JJ" = (
+/turf/open/floor/iron/smooth_corner{
+	dir = 4
+	},
+/area/station/hallway/secondary/entry)
+"Kl" = (
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/station/hallway/secondary/entry)
+"KY" = (
+/obj/structure/fluff/tram_rail/electric{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/white/line,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"LP" = (
+/obj/effect/spawner/random/structure/closet_empty/crate,
+/turf/open/floor/iron/smooth_large,
+/area/station/hallway/secondary/entry)
+"Sb" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"Se" = (
+/obj/structure/fake_stairs/directional/north,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth_large,
+/area/station/hallway/secondary/entry)
+"SV" = (
+/turf/open/floor/iron/smooth_large,
+/area/station/hallway/secondary/entry)
+"Te" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/indestructible,
+/turf/open/floor/engine,
+/area/station/hallway/secondary/entry)
+"TK" = (
+/turf/template_noop,
+/area/template_noop)
+"UL" = (
+/obj/machinery/door/poddoor/shutters/indestructible{
+	id = "good_luck_pal"
+	},
+/obj/structure/fans/tiny/invisible,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/hallway/secondary/entry)
+"UU" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/obj/machinery/light/small/red/directional/north,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"Wn" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/obj/machinery/light/small/red/directional/south,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"Wu" = (
+/obj/machinery/door/poddoor/shutters/indestructible/preopen{
+	id = "this_one_is_open"
+	},
+/obj/structure/fluff/tram_rail/floor{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured_large,
+/area/station/hallway/secondary/entry)
+"Xo" = (
+/obj/modular_map_connector{
+	dir = 1
+	},
+/turf/closed/indestructible/steel,
+/area/station/hallway/secondary/entry)
+"XV" = (
+/obj/machinery/door/airlock/grunge,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/hallway/secondary/entry)
+"ZP" = (
+/obj/docking_port/stationary{
+	dir = 8;
+	dwidth = 1;
+	height = 13;
+	name = "arrivals";
+	shuttle_id = "arrivals_stationary";
+	width = 5
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+
+(1,1,1) = {"
+Id
+Id
+Id
+Id
+Id
+Id
+Id
+Id
+zx
+Id
+jG
+UL
+yy
+Id
+Id
+Id
+Id
+Id
+Xo
+"}
+(2,1,1) = {"
+Id
+Te
+Te
+Te
+Te
+Te
+Id
+rX
+Kl
+rX
+mM
+nK
+KY
+eu
+Id
+TK
+TK
+TK
+Id
+"}
+(3,1,1) = {"
+Id
+iE
+qG
+qG
+qG
+gL
+Id
+pA
+Kl
+jh
+mM
+nK
+KY
+CA
+Id
+Id
+Id
+Id
+Id
+"}
+(4,1,1) = {"
+Id
+lE
+lE
+lE
+lE
+lE
+Id
+Id
+SV
+rX
+rq
+nK
+lh
+Id
+Id
+oT
+EO
+Id
+Id
+"}
+(5,1,1) = {"
+Id
+lE
+lE
+lE
+lE
+lE
+HB
+tC
+Kl
+rX
+mM
+nK
+KY
+rX
+XV
+nK
+nK
+Gs
+Id
+"}
+(6,1,1) = {"
+Id
+lE
+lE
+lE
+lE
+lE
+uZ
+Kl
+Kl
+rX
+mM
+nK
+iP
+rX
+Id
+BM
+Hv
+Hv
+Id
+"}
+(7,1,1) = {"
+Id
+lE
+lE
+lE
+lE
+lE
+Id
+Id
+SV
+rX
+rq
+nK
+lh
+Id
+Id
+Id
+Id
+Id
+Id
+"}
+(8,1,1) = {"
+Id
+lE
+lE
+lE
+lE
+lE
+Id
+pA
+Kl
+rX
+mM
+nK
+KY
+CA
+Id
+BM
+aa
+Id
+Id
+"}
+(9,1,1) = {"
+Id
+lE
+lE
+lE
+lE
+lE
+Id
+eu
+Kl
+eu
+mM
+nK
+KY
+rX
+XV
+nK
+te
+Id
+Id
+"}
+(10,1,1) = {"
+Id
+lE
+lE
+lE
+lE
+lE
+Id
+Id
+XV
+Id
+CH
+vF
+Wu
+Id
+Id
+EO
+BM
+Id
+Id
+"}
+(11,1,1) = {"
+Id
+lE
+lE
+lE
+lE
+lE
+Id
+eu
+Kl
+rX
+mM
+nK
+KY
+eu
+Id
+Id
+Id
+Id
+Id
+"}
+(12,1,1) = {"
+Id
+lE
+lE
+lE
+lE
+lE
+Id
+gz
+Kl
+rX
+mM
+sM
+KY
+BU
+Id
+TK
+TK
+TK
+Id
+"}
+(13,1,1) = {"
+Id
+lE
+lE
+lE
+lE
+lE
+Id
+Id
+SV
+rX
+rq
+Hc
+lh
+Id
+Id
+Id
+Id
+Id
+Id
+"}
+(14,1,1) = {"
+Id
+lE
+lE
+lE
+lE
+lE
+Se
+Kl
+Kl
+rX
+mM
+nK
+KY
+eu
+Id
+iH
+Dz
+EO
+Id
+"}
+(15,1,1) = {"
+Id
+lE
+lE
+lE
+lE
+lE
+Cn
+JJ
+Kl
+rX
+mM
+nK
+KY
+rX
+XV
+nK
+nK
+te
+Id
+"}
+(16,1,1) = {"
+Id
+lE
+lE
+lE
+ZP
+lE
+Id
+Id
+LP
+rX
+rq
+nK
+lh
+Id
+Id
+sC
+EO
+Id
+Id
+"}
+(17,1,1) = {"
+Id
+UU
+Sb
+Sb
+Sb
+Wn
+Id
+gz
+Kl
+rX
+mM
+nK
+KY
+CA
+Id
+Id
+Id
+Id
+Id
+"}
+(18,1,1) = {"
+Id
+Te
+Te
+Te
+Te
+Te
+Id
+rX
+Kl
+eu
+mM
+nK
+KY
+eu
+Id
+TK
+TK
+TK
+Id
+"}
+(19,1,1) = {"
+Id
+Id
+Id
+Id
+Id
+Id
+Id
+Id
+zx
+Id
+jG
+UL
+yy
+Id
+Id
+Id
+Id
+Id
+Id
+"}

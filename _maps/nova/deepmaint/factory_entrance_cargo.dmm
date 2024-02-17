@@ -1,0 +1,721 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"b" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/machinery/light/small/red/directional/east,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"c" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/obj/machinery/light/small/red/directional/south,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"d" = (
+/obj/structure/fluff/tram_rail/electric{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/white/line,
+/obj/effect/spawner/random/structure/closet_empty/crate,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"e" = (
+/obj/machinery/door/poddoor/shutters/indestructible,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/hallway/secondary/entry)
+"f" = (
+/obj/docking_port/stationary{
+	dir = 8;
+	dwidth = 1;
+	height = 13;
+	name = "arrivals";
+	shuttle_id = "arrivals_stationary";
+	width = 5
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"g" = (
+/obj/structure/fluff/tram_rail/electric{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/white/line,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"h" = (
+/turf/closed/indestructible/steel,
+/area/station/hallway/secondary/entry)
+"i" = (
+/obj/machinery/light/small/directional/north,
+/obj/effect/spawner/random/structure/closet_empty/crate,
+/obj/machinery/digital_clock/directional/north,
+/turf/open/floor/iron/smooth_half,
+/area/station/hallway/secondary/entry)
+"j" = (
+/obj/machinery/light/small/directional/north,
+/obj/structure/sign/poster/random/directional/north,
+/turf/open/floor/iron/smooth_half,
+/area/station/hallway/secondary/entry)
+"k" = (
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/station/hallway/secondary/entry)
+"l" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4
+	},
+/obj/machinery/light/small/red/directional/south,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"m" = (
+/obj/machinery/door/poddoor/shutters/indestructible/preopen{
+	id = "this_one_is_open"
+	},
+/obj/structure/fluff/tram_rail/floor,
+/obj/structure/fans/tiny/invisible,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/hallway/secondary/entry)
+"n" = (
+/obj/effect/spawner/random/structure/closet_empty/crate,
+/turf/open/floor/iron/smooth_corner{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"o" = (
+/obj/structure/fluff/tram_rail/electric/anchor,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
+	},
+/obj/effect/spawner/random/structure/shipping_container,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"p" = (
+/obj/effect/spawner/random/structure/shipping_container,
+/turf/open/floor/catwalk_floor,
+/area/station/hallway/secondary/entry)
+"q" = (
+/obj/effect/spawner/random/structure/closet_empty/crate,
+/turf/open/floor/catwalk_floor,
+/area/station/hallway/secondary/entry)
+"r" = (
+/obj/machinery/light/small/directional/north,
+/obj/machinery/digital_clock/directional/north,
+/turf/open/floor/iron/smooth_half,
+/area/station/hallway/secondary/entry)
+"s" = (
+/obj/structure/fluff/tram_rail/electric/anchor{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/white/line,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"t" = (
+/obj/structure/fake_stairs/directional/north,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth_large,
+/area/station/hallway/secondary/entry)
+"u" = (
+/obj/effect/spawner/random/structure/closet_empty/crate,
+/turf/open/floor/iron/smooth_half,
+/area/station/hallway/secondary/entry)
+"v" = (
+/obj/structure/sign/poster/random/directional/south,
+/turf/open/floor/iron/smooth_half,
+/area/station/hallway/secondary/entry)
+"w" = (
+/turf/open/floor/iron/smooth_half,
+/area/station/hallway/secondary/entry)
+"x" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4
+	},
+/obj/machinery/light/small/red/directional/north,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"y" = (
+/obj/structure/fluff/tram_rail/electric/anchor,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"z" = (
+/obj/machinery/door/airlock/grunge,
+/obj/structure/fans/tiny/invisible,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/hallway/secondary/entry)
+"A" = (
+/obj/effect/spawner/random/epic_loot/random_supply_crate,
+/turf/open/floor/catwalk_floor,
+/area/station/hallway/secondary/entry)
+"B" = (
+/obj/effect/spawner/random/structure/closet_empty/crate,
+/obj/structure/sign/poster/random/directional/south,
+/turf/open/floor/iron/smooth_half,
+/area/station/hallway/secondary/entry)
+"C" = (
+/obj/structure/fluff/tram_rail/electric/anchor,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
+	},
+/obj/effect/spawner/random/epic_loot/random_supply_crate,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"D" = (
+/obj/structure/fluff/tram_rail/electric{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/white/line,
+/obj/effect/spawner/random/structure/shipping_container,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"E" = (
+/obj/machinery/light/small/red/directional/south,
+/obj/effect/spawner/random/structure/closet_empty/crate,
+/turf/open/floor/iron/smooth_half,
+/area/station/hallway/secondary/entry)
+"F" = (
+/obj/effect/spawner/random/structure/shipping_container,
+/turf/open/floor/iron/smooth_half,
+/area/station/hallway/secondary/entry)
+"G" = (
+/turf/open/floor/iron/smooth_large,
+/area/station/hallway/secondary/entry)
+"H" = (
+/obj/structure/fluff/tram_rail/electric,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
+	},
+/obj/effect/spawner/random/structure/shipping_container,
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"I" = (
+/obj/modular_map_connector{
+	dir = 1
+	},
+/turf/closed/indestructible/steel,
+/area/station/hallway/secondary/entry)
+"J" = (
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"K" = (
+/obj/structure/sign/poster/random/directional/north,
+/turf/open/floor/iron/smooth_large,
+/area/station/hallway/secondary/entry)
+"L" = (
+/turf/open/floor/catwalk_floor,
+/area/station/hallway/secondary/entry)
+"M" = (
+/obj/machinery/door/poddoor/shutters/indestructible/preopen{
+	id = "this_one_is_open"
+	},
+/obj/structure/fans/tiny/invisible,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/hallway/secondary/entry)
+"N" = (
+/obj/machinery/door/poddoor/shutters/indestructible/preopen{
+	id = "this_one_is_open"
+	},
+/obj/structure/fluff/tram_rail/floor{
+	dir = 1
+	},
+/obj/structure/fans/tiny/invisible,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/hallway/secondary/entry)
+"O" = (
+/obj/structure/fluff/tram_rail/floor,
+/obj/machinery/door/poddoor/shutters/indestructible,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/hallway/secondary/entry)
+"P" = (
+/obj/structure/fake_stairs/directional/north,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth_large,
+/area/station/hallway/secondary/entry)
+"Q" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"R" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/indestructible,
+/turf/open/floor/engine,
+/area/station/hallway/secondary/entry)
+"S" = (
+/obj/structure/fluff/tram_rail/electric,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/station/hallway/secondary/entry)
+"T" = (
+/obj/machinery/light/small/red/directional/south,
+/obj/structure/sign/poster/random/directional/south,
+/turf/open/floor/iron/smooth_half,
+/area/station/hallway/secondary/entry)
+"U" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/obj/machinery/light/small/red/directional/north,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"V" = (
+/obj/structure/fluff/tram_rail/floor{
+	dir = 1
+	},
+/obj/machinery/door/poddoor/shutters/indestructible,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/hallway/secondary/entry)
+"W" = (
+/obj/machinery/door/airlock/grunge,
+/turf/open/floor/iron/dark/textured_large,
+/area/station/hallway/secondary/entry)
+"X" = (
+/turf/open/floor/iron/smooth_corner{
+	dir = 4
+	},
+/area/station/hallway/secondary/entry)
+"Y" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+"Z" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/machinery/light/small/red/directional/west,
+/turf/open/floor/iron/smooth_half{
+	dir = 1
+	},
+/area/station/hallway/secondary/entry)
+
+(1,1,1) = {"
+h
+h
+h
+h
+h
+h
+h
+h
+z
+h
+m
+M
+N
+h
+h
+h
+h
+h
+I
+"}
+(2,1,1) = {"
+h
+R
+R
+R
+R
+R
+h
+u
+k
+w
+S
+L
+d
+B
+h
+a
+a
+a
+h
+"}
+(3,1,1) = {"
+h
+x
+Q
+Q
+Q
+l
+h
+i
+k
+w
+H
+A
+g
+E
+h
+a
+a
+a
+h
+"}
+(4,1,1) = {"
+h
+J
+J
+J
+J
+J
+h
+h
+K
+w
+y
+p
+s
+h
+h
+a
+a
+a
+h
+"}
+(5,1,1) = {"
+h
+J
+J
+J
+J
+J
+Z
+n
+k
+w
+S
+L
+g
+w
+h
+a
+a
+a
+h
+"}
+(6,1,1) = {"
+h
+J
+J
+J
+J
+J
+P
+k
+k
+w
+S
+L
+g
+u
+h
+a
+a
+a
+h
+"}
+(7,1,1) = {"
+h
+J
+J
+J
+J
+J
+h
+h
+K
+F
+y
+L
+s
+h
+h
+a
+a
+a
+h
+"}
+(8,1,1) = {"
+h
+J
+J
+J
+J
+J
+h
+j
+k
+w
+S
+L
+d
+T
+h
+a
+a
+a
+h
+"}
+(9,1,1) = {"
+h
+J
+J
+J
+J
+J
+h
+u
+k
+w
+S
+q
+d
+u
+h
+a
+a
+a
+h
+"}
+(10,1,1) = {"
+h
+J
+J
+J
+J
+J
+h
+h
+W
+h
+O
+e
+V
+h
+h
+a
+a
+a
+h
+"}
+(11,1,1) = {"
+h
+J
+J
+J
+J
+J
+h
+u
+k
+w
+S
+L
+g
+u
+h
+a
+a
+a
+h
+"}
+(12,1,1) = {"
+h
+J
+J
+J
+J
+J
+h
+j
+k
+F
+S
+L
+D
+T
+h
+a
+a
+a
+h
+"}
+(13,1,1) = {"
+h
+J
+J
+J
+J
+J
+h
+h
+G
+w
+o
+L
+s
+h
+h
+a
+a
+a
+h
+"}
+(14,1,1) = {"
+h
+J
+J
+J
+J
+J
+t
+k
+k
+w
+S
+L
+g
+B
+h
+a
+a
+a
+h
+"}
+(15,1,1) = {"
+h
+J
+J
+J
+J
+J
+b
+X
+k
+F
+S
+L
+g
+v
+h
+a
+a
+a
+h
+"}
+(16,1,1) = {"
+h
+J
+J
+J
+f
+J
+h
+h
+G
+w
+C
+L
+s
+h
+h
+a
+a
+a
+h
+"}
+(17,1,1) = {"
+h
+U
+Y
+Y
+Y
+c
+h
+r
+k
+w
+S
+L
+g
+E
+h
+a
+a
+a
+h
+"}
+(18,1,1) = {"
+h
+R
+R
+R
+R
+R
+h
+u
+k
+w
+S
+L
+g
+u
+h
+a
+a
+a
+h
+"}
+(19,1,1) = {"
+h
+h
+h
+h
+h
+h
+h
+h
+z
+h
+m
+M
+N
+h
+h
+h
+h
+h
+h
+"}

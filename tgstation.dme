@@ -7236,6 +7236,7 @@
 #include "modular_nova\modules\energy_axe\code\energy_fireaxe.dm"
 #include "modular_nova\modules\energy_axe\code\energy_fireaxe_case.dm"
 #include "modular_nova\modules\epic_loot\code\_basetype.dm"
+#include "modular_nova\modules\epic_loot\code\modular_map_roots.dm"
 #include "modular_nova\modules\epic_loot\code\random_spawners.dm"
 #include "modular_nova\modules\epic_loot\code\loot_items\components.dm"
 #include "modular_nova\modules\epic_loot\code\loot_items\electronics.dm"
