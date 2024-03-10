@@ -23,7 +23,7 @@ GLOBAL_DATUM(suit_up_controller, /datum/suit_up_controller)
 	for(var/obj/item/item in target_player.get_equipped_items())
 		qdel(item)
 
-	var/obj/item/organ/internal/brain/human_brain = target_player.getorganslot(BRAIN)
+	var/obj/item/organ/internal/brain/human_brain = target_player.get_organ_slot(BRAIN)
 	human_brain.destroy_all_skillchips()
 
 	var/outfit_to_equip_to_mob = new /datum/outfit/event_colonizer

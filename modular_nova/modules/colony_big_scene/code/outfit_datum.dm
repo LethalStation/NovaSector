@@ -38,9 +38,9 @@
 
 /datum/outfit/event_colonizer/pre_equip(mob/living/carbon/human/our_guy, visualsOnly = FALSE)
 	. = ..()
-	if(HAS_TRAIT(our_guy, TRAIT_NEARSIGHT))
+	if(our_guy.is_nearsighted())
 		glasses = /obj/item/clothing/glasses/regular
-	if(our_guy.getorganslot(ORGAN_SLOT_LUNGS) == /obj/item/organ/internal/lungs/nitrogen)
+	if(our_guy.get_organ_slot(ORGAN_SLOT_LUNGS) == /obj/item/organ/internal/lungs/nitrogen)
 		suit_store = /obj/item/tank/internals/nitrogen/full
 
 /obj/item/storage/belt/utility/frontier_colonist/stocked
