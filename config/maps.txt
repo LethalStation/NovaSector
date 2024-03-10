@@ -58,6 +58,9 @@ endmap
 map runtimestation
 endmap
 
+map big_colony_scene
+endmap
+
 ##NOVA SECTOR MAPS##
 
 map voidraptor

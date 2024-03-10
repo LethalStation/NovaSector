@@ -16,13 +16,14 @@
 	resistance_flags = FIRE_PROOF
 	max_heat_protection_temperature = FIRE_SUIT_MAX_TEMP_PROTECT
 	siemens_coefficient = 0
-	complexity_max = DEFAULT_MAX_COMPLEXITY - 7
+	complexity_max = DEFAULT_MAX_COMPLEXITY - 3
 	charge_drain = DEFAULT_CHARGE_DRAIN * 2
-	slowdown_inactive = 1.5
-	slowdown_active = 1
+	slowdown_inactive = 1
+	slowdown_active = 0.5
 	inbuilt_modules = list(
 		/obj/item/mod/module/plate_compression/permanent,
-		/obj/item/mod/module/joint_torsion/permanent
+		/obj/item/mod/module/joint_torsion/permanent,
+		/obj/item/mod/module/storage/permanent,
 	)
 	allowed_suit_storage = list(
 		/obj/item/ammo_box,
@@ -81,6 +82,8 @@
 		/obj/item/mod/module/status_readout,
 		/obj/item/mod/module/thermal_regulator,
 		/obj/item/mod/module/rad_protection,
+		/obj/item/mod/module/orebag,
+		/obj/item/mod/module/emp_shield,
 	)
 	default_pins = list(
 		/obj/item/mod/module/magboot,
@@ -95,11 +98,19 @@
 // Plate compression module that cannot be removed
 
 /obj/item/mod/module/plate_compression/permanent
+	incompatible_modules = list(/obj/item/mod/module/plate_compression)
 	removable = FALSE
 	complexity = 0
 
 // Joint torsion module that can't be removed and has no complexity
 
 /obj/item/mod/module/joint_torsion/permanent
+	removable = FALSE
+	complexity = 0
+
+// Basic storage module that can't be removed and has no complexity
+
+/obj/item/mod/module/storage/permanent
+	incompatible_modules = list(/obj/item/mod/module/storage)
 	removable = FALSE
 	complexity = 0

@@ -6,10 +6,10 @@
 	icon = 'modular_nova/modules/kahraman_equipment/icons/clothes/clothing.dmi'
 	icon_state = "backpack"
 	worn_icon = 'modular_nova/modules/kahraman_equipment/icons/clothes/clothing_worn.dmi'
+	inhand_icon_state = "messenger_security"
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
 	worn_icon_teshari = 'modular_nova/modules/kahraman_equipment/icons/clothes/clothing_worn_teshari.dmi'
 	worn_icon_state = "backpack"
-	inhand_icon_state = "backpack"
 
 /obj/item/storage/backpack/industrial/frontier_colonist/Initialize(mapload)
 	. = ..()
@@ -17,13 +17,13 @@
 
 /obj/item/storage/backpack/industrial/frontier_colonist/satchel
 	name = "frontier satchel"
-	desc = "A rugged satchel often used by settlers and explorers. Holds less of your equipment than a backpack will."
+	desc = "A rugged satchel often used by settlers and explorers."
 	icon_state = "satchel"
 	worn_icon_state = "satchel"
 
 /obj/item/storage/backpack/industrial/frontier_colonist/messenger
 	name = "frontier messenger bag"
-	desc = "A rugged messenger bag often used by settlers and explorers. Holds less of your equipment than a backpack will."
+	desc = "A rugged messenger bag often used by settlers and explorers."
 	icon_state = "messenger"
 	worn_icon_state = "messenger"
 
@@ -45,7 +45,7 @@
 /obj/item/storage/belt/utility/frontier_colonist/Initialize(mapload)
 	. = ..()
 	AddElement(/datum/element/manufacturer_examine, COMPANY_KAHRAMAN)
-	atom_storage.max_slots = 6
+	atom_storage.max_slots = 7
 	atom_storage.max_specific_storage = WEIGHT_CLASS_NORMAL
 	// Can hold whatever a toolbelt can + some mining equipment for convenience
 	atom_storage.set_holdable(list(

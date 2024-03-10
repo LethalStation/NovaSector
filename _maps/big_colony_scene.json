@@ -1,0 +1,30 @@
+{
+	"version": 1,
+	"map_name": "Red Planet Basin",
+	"map_path": "map_files/big_colony_scene",
+	"map_file": "runtimestation.dmm",
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"traits":[
+		{
+			"Linkage": null,
+			"Gravity": true,
+			"Weather_Ashstorm": true,
+			"Baseturf": "/turf/open/misc/asteroid/basalt/redplanet",
+			"No Parallax": true
+		}
+	],
+	"minetype": "none",
+	"job_changes": {
+		"Captain": {
+			"special_charter": "moon"
+		}
+	},
+	"ignored_unit_tests": [
+		"/datum/unit_test/antag_moodlets",
+		"/datum/unit_test/job_roundstart_spawnpoints",
+		"/datum/unit_test/required_map_items",
+		"/datum/unit_test/space_dragon_expiration",
+		"/datum/unit_test/traitor"
+	]
+}
