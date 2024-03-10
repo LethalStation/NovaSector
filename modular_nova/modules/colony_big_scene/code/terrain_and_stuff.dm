@@ -65,7 +65,7 @@
 	baseturfs = /turf/open/misc/asteroid/basalt/redplanet
 	color = DARK_ROCK
 
-/area/lavaplanet
+/area/redplanet
 	icon = 'icons/area/areas_station.dmi'
 	icon_state = "mining"
 	name = "Red Planet Outdoors"
@@ -85,6 +85,6 @@
 	outdoors = TRUE
 	base_lighting_alpha = 45
 
-/area/lavaplanet/Initialize(mapload)
+/area/redplanet/Initialize(mapload)
 	. = ..()
 	luminosity = 1
