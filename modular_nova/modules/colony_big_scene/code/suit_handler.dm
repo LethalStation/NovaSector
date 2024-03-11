@@ -56,7 +56,7 @@ GLOBAL_DATUM(suit_up_controller, /datum/suit_up_controller)
 		var/datum/supply_pack/new_pack = new roundstart_pack
 		new_pack.admin_spawned = TRUE
 		new_pack.generate(new_pod)
-		var/obj/effect/landmark/latejoin/latejoin_marker = get_latejoin_spawn_point()
+		var/obj/effect/landmark/latejoin/latejoin_marker = pick(SSjob.latejoin_trackers)
 		new /obj/effect/pod_landingzone(get_turf(latejoin_marker), new_pod)
 
 // I'm lazy, so here's the box that spawns the super lathe board that players can use later
