@@ -41,10 +41,6 @@ GLOBAL_DATUM(suit_up_controller, /datum/suit_up_controller)
 	var/outfit_to_equip_to_mob = new /datum/outfit/event_colonizer
 	target_player.equipOutfit(outfit_to_equip_to_mob)
 
-/// Starts the countdown callback to making a bunch of supply pods that crash down with all of the station's supplies (Based)
-/datum/suit_up_controller/proc/start_the_cargo_countdown()
-	addtimer(CALLBACK(src, PROC_REF(drop_the_cargo)), 20 SECONDS)
-
 /// Checks the roundstart crates list, spawns those crates, then loads them into drop pods that fall on one of the random latejoin markers
 /datum/suit_up_controller/proc/drop_the_cargo()
 	for(var/datum/supply_pack/roundstart_pack in roundstart_crates)
