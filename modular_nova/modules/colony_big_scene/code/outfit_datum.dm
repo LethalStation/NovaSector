@@ -1,7 +1,7 @@
 /datum/outfit/event_colonizer
 	name = "Planetary Colonizer"
 
-	id = /obj/item/card/id/advanced/black
+	id = /obj/item/card/id/advanced/chameleon/black
 	id_trim = /datum/id_trim/centcom/ert/engineer
 
 	uniform = /obj/item/clothing/under/frontier_colonist

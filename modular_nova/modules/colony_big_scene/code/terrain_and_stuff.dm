@@ -35,7 +35,7 @@
 
 /obj/structure/ore_vein/iron/more_than_one_ore
 	ore_amount = 7
-	regeneration_time = 30 SECONDS
+	regeneration_time = 30 MINUTES
 
 /turf/open/lava/smooth/redplanet
 	initial_gas_mix = RED_PLANET_ATMOS

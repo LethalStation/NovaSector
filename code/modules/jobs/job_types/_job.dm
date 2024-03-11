@@ -180,6 +180,8 @@
 		for(var/i in roundstart_experience)
 			spawned_human.mind.adjust_experience(i, roundstart_experience[i], TRUE)
 
+	drop_pod_that_man(spawned_human)
+
 /// Return the outfit to use
 /datum/job/proc/get_outfit()
 	return outfit
