@@ -13,14 +13,12 @@ GLOBAL_DATUM(suit_up_controller, /datum/suit_up_controller)
 		/datum/supply_pack/medical/heavy_duty_medical,
 		/datum/supply_pack/medical/supplies,
 		/datum/supply_pack/organic/seeds,
+		/datum/supply_pack/engineering/omnilathe_drop_pod,
 	)
 
 /datum/suit_up_controller/New()
 	. = ..()
 	RegisterSignal(SSdcs, COMSIG_GLOB_CREWMEMBER_JOINED, .proc/new_colonist)
-	if(!SSticker.HasRoundStarted())
-		RegisterSignal(SSticker, COMSIG_TICKER_ROUND_STARTING, PROC_REF(start_the_cargo_countdown))
-		return
 
 /datum/suit_up_controller/Destroy(force, ...)
 	. = ..()
@@ -45,9 +43,7 @@ GLOBAL_DATUM(suit_up_controller, /datum/suit_up_controller)
 
 /// Starts the countdown callback to making a bunch of supply pods that crash down with all of the station's supplies (Based)
 /datum/suit_up_controller/proc/start_the_cargo_countdown()
-	SIGNAL_HANDLER
-	addtimer(CALLBACK(src, PROC_REF(drop_the_cargo)), 1 MINUTES)
-	UnregisterSignal(SSticker, COMSIG_TICKER_ROUND_STARTING)
+	addtimer(CALLBACK(src, PROC_REF(drop_the_cargo)), 20 SECONDS)
 
 /// Checks the roundstart crates list, spawns those crates, then loads them into drop pods that fall on one of the random latejoin markers
 /datum/suit_up_controller/proc/drop_the_cargo()
