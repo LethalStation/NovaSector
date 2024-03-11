@@ -3,7 +3,7 @@
 	desc = "An advanced machine seen in frontier outposts and colonies capable of turning organic plant matter into \
 		reagents and items of use that a fabricator can't typically make. While the exact designs these machines have differs from \
 		location to location, and upon who designed them, this one should be able to at the very least provide you with \
-		some clothing, basic food supplies, and whatever else you may require."
+		some clothing, and basic materials."
 	icon = 'modular_nova/modules/kahraman_equipment/icons/biogenerator.dmi'
 	circuit = null
 	anchored = FALSE
@@ -35,6 +35,12 @@
 	icon = 'modular_nova/modules/kahraman_equipment/icons/biogenerator.dmi'
 	icon_state = "biogenerator_parts"
 	type_to_deploy = /obj/machinery/biogenerator/organic_printer
+	custom_materials = list(
+		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 10,
+		/datum/material/glass = SHEET_MATERIAL_AMOUNT * 5,
+		/datum/material/plasma = SHEET_MATERIAL_AMOUNT,
+		/datum/material/gold = SHEET_MATERIAL_AMOUNT,
+	)
 
 /obj/item/flatpacked_machine/organics_printer/give_manufacturer_examine()
 	AddElement(/datum/element/manufacturer_examine, COMPANY_KAHRAMAN)
