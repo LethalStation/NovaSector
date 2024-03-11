@@ -134,11 +134,6 @@
 	name = "gas miner beacon"
 	desc = "Once a gas miner type is selected, delivers a gas miner to the target location."
 
-	allowed_areas = list(
-		/area/station/engineering/atmos,
-		/area/station/engineering/atmospherics_engine,
-	)
-
 	selectable_atoms = list(
 		/obj/machinery/atmospherics/miner/carbon_dioxide,
 		/obj/machinery/atmospherics/miner/n2o,
