@@ -42,6 +42,8 @@
 
 	var/list/loadout_datums = loadout_list_to_datums(preference_source?.loadout_list)
 
+	override_preference = LOADOUT_OVERRIDE_CASE
+
 	if(override_preference == LOADOUT_OVERRIDE_CASE && !visuals_only)
 		var/obj/item/storage/briefcase/empty/briefcase = new(loc)
 
