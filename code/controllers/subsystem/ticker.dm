@@ -242,6 +242,7 @@ SUBSYSTEM_DEF(ticker)
 /datum/controller/subsystem/ticker/proc/setup()
 	to_chat(world, span_boldannounce("Starting game..."))
 	var/init_start = world.timeofday
+	GLOB.suit_up_controller = new /datum/suit_up_controller
 
 	CHECK_TICK
 	//Configure mode and assign player to antagonists

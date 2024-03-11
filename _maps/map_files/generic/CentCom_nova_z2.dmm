@@ -3769,7 +3769,6 @@
 /area/centcom/holding/cafe)
 "aUh" = (
 /obj/structure/chair/sofa/bench/right,
-/obj/effect/landmark/latejoin,
 /obj/effect/turf_decal/trimline/dark_green/filled/line{
 	dir = 1
 	},
@@ -4124,7 +4123,6 @@
 /area/centcom/holding/cafepark)
 "aYK" = (
 /obj/structure/chair/sofa/bench/left,
-/obj/effect/landmark/latejoin,
 /obj/effect/turf_decal/trimline/dark_green/filled/line{
 	dir = 5
 	},
@@ -4391,7 +4389,6 @@
 /obj/effect/turf_decal/siding/white/corner{
 	dir = 1
 	},
-/obj/effect/landmark/latejoin,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -4838,7 +4835,6 @@
 /obj/structure/chair/sofa/bench/left{
 	dir = 4
 	},
-/obj/effect/landmark/latejoin,
 /turf/open/floor/iron,
 /area/centcom/interlink)
 "bTK" = (
@@ -5177,7 +5173,6 @@
 /obj/structure/chair/sofa/bench/right{
 	dir = 4
 	},
-/obj/effect/landmark/latejoin,
 /obj/effect/turf_decal/trimline/dark_green/filled/line{
 	dir = 10
 	},
@@ -5929,10 +5924,6 @@
 /obj/item/food/moonfish_eggs,
 /turf/open/floor/iron/showroomfloor,
 /area/centcom/holding/cafe)
-"dRE" = (
-/obj/effect/landmark/latejoin,
-/turf/open/floor/iron/white,
-/area/centcom/interlink)
 "dRI" = (
 /obj/structure/table/reinforced/rglass,
 /obj/effect/turf_decal/siding/wood{
@@ -6222,7 +6213,6 @@
 /obj/structure/chair/sofa/bench/left{
 	dir = 4
 	},
-/obj/effect/landmark/latejoin,
 /obj/effect/turf_decal/trimline/dark_green/filled/line{
 	dir = 8
 	},
@@ -6413,13 +6403,6 @@
 	icon_state = "floor"
 	},
 /area/centcom/holding/cafepark)
-"eOx" = (
-/obj/structure/chair/sofa/bench{
-	dir = 8
-	},
-/obj/effect/landmark/latejoin,
-/turf/open/floor/iron/dark,
-/area/centcom/interlink)
 "ePa" = (
 /obj/effect/turf_decal/box,
 /obj/effect/turf_decal/caution/stand_clear,
@@ -6718,13 +6701,6 @@
 "fqg" = (
 /turf/open/floor/iron/smooth,
 /area/centcom/interlink)
-"fsl" = (
-/obj/structure/chair/sofa/bench{
-	dir = 4
-	},
-/obj/effect/landmark/latejoin,
-/turf/open/floor/iron,
-/area/centcom/interlink)
 "fua" = (
 /obj/machinery/door/airlock/multi_tile/public/glass{
 	dir = 8;
@@ -6849,7 +6825,6 @@
 /area/centcom/holding/cafepark)
 "fGC" = (
 /obj/structure/chair/sofa/bench,
-/obj/effect/landmark/latejoin,
 /obj/effect/turf_decal/trimline/dark_green/filled/line{
 	dir = 1
 	},
@@ -7304,7 +7279,6 @@
 /obj/structure/chair/sofa/bench/left{
 	dir = 8
 	},
-/obj/effect/landmark/latejoin,
 /turf/open/floor/mineral/titanium,
 /area/centcom/interlink)
 "gup" = (
@@ -7407,16 +7381,6 @@
 "gCR" = (
 /turf/closed/wall/mineral/sandstone,
 /area/centcom/holding/cafe)
-"gIO" = (
-/obj/structure/chair/sofa/bench{
-	dir = 4
-	},
-/obj/effect/landmark/latejoin,
-/obj/effect/turf_decal/trimline/dark_green/filled/line{
-	dir = 8
-	},
-/turf/open/floor/iron,
-/area/centcom/interlink)
 "gKe" = (
 /obj/structure/window/reinforced/spawner/directional/south,
 /obj/structure/table{
@@ -7857,7 +7821,6 @@
 /obj/structure/chair/sofa/bench/right{
 	dir = 4
 	},
-/obj/effect/landmark/latejoin,
 /turf/open/floor/mineral/titanium,
 /area/centcom/interlink)
 "huK" = (
@@ -7900,7 +7863,6 @@
 /obj/structure/chair/sofa/bench/right{
 	dir = 4
 	},
-/obj/effect/landmark/latejoin,
 /obj/effect/turf_decal/trimline/dark_green/filled/line,
 /obj/effect/turf_decal/siding/white,
 /turf/open/floor/iron,
@@ -8184,12 +8146,6 @@
 /obj/structure/chair/sofa/bench,
 /turf/open/floor/wood/large,
 /area/centcom/holding/cafe)
-"hZk" = (
-/obj/structure/sink/directional/south,
-/obj/structure/mirror/directional/north,
-/obj/effect/landmark/latejoin,
-/turf/open/floor/iron/white,
-/area/centcom/interlink)
 "iax" = (
 /obj/effect/turf_decal/trimline/green/line,
 /turf/open/floor/iron/dark,
@@ -8424,13 +8380,6 @@
 /obj/structure/flora/bush/sparsegrass,
 /turf/open/floor/grass/fairy,
 /area/centcom/holding/cafepark)
-"irn" = (
-/obj/structure/chair/sofa/bench/left{
-	dir = 8
-	},
-/obj/effect/landmark/latejoin,
-/turf/open/floor/iron,
-/area/centcom/interlink)
 "iro" = (
 /obj/structure/stone_tile/block/cracked{
 	dir = 1
@@ -8805,7 +8754,6 @@
 /obj/structure/chair/sofa/bench{
 	dir = 8
 	},
-/obj/effect/landmark/latejoin,
 /turf/open/floor/mineral/titanium,
 /area/centcom/interlink)
 "jbu" = (
@@ -8973,16 +8921,6 @@
 /obj/structure/closet/crate/freezer/blood,
 /obj/effect/turf_decal/bot_blue,
 /turf/open/floor/iron/freezer,
-/area/centcom/interlink)
-"jqo" = (
-/obj/effect/turf_decal/siding/white{
-	dir = 1
-	},
-/obj/structure/chair/sofa/bench/right{
-	dir = 8
-	},
-/obj/effect/landmark/latejoin,
-/turf/open/floor/iron,
 /area/centcom/interlink)
 "jsN" = (
 /obj/machinery/light/directional/east,
@@ -9541,7 +9479,6 @@
 /area/centcom/interlink)
 "kvF" = (
 /obj/structure/urinal/directional/north,
-/obj/effect/landmark/latejoin,
 /turf/open/floor/iron/white,
 /area/centcom/interlink)
 "kvU" = (
@@ -10199,7 +10136,6 @@
 /area/centcom/holding/cafepark)
 "lxl" = (
 /obj/structure/chair/sofa/bench/right,
-/obj/effect/landmark/latejoin,
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
 	},
@@ -11399,7 +11335,6 @@
 /area/centcom/holding/cafe)
 "nqQ" = (
 /obj/machinery/computer/cryopod/directional/north,
-/obj/effect/landmark/latejoin,
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
 	},
@@ -11710,7 +11645,6 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 9
 	},
-/obj/effect/landmark/latejoin,
 /obj/structure/disposalpipe/segment{
 	dir = 5
 	},
@@ -12074,14 +12008,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/centcom/holding/cafe)
-"oAn" = (
-/obj/structure/chair/sofa/bench/right,
-/obj/effect/landmark/latejoin,
-/obj/effect/turf_decal/trimline/dark_green/filled/line{
-	dir = 9
-	},
-/turf/open/floor/iron,
-/area/centcom/interlink)
 "oAt" = (
 /obj/structure/flora/grass/jungle/a/style_4,
 /obj/structure/fans/tiny/invisible,
@@ -12106,7 +12032,6 @@
 	dir = 8
 	},
 /obj/machinery/light/directional/east,
-/obj/effect/landmark/latejoin,
 /turf/open/floor/mineral/titanium,
 /area/centcom/interlink)
 "oBn" = (
@@ -12820,13 +12745,6 @@
 	},
 /turf/open/floor/wood/tile,
 /area/centcom/interlink)
-"pHQ" = (
-/obj/structure/chair/sofa/bench/right{
-	dir = 8
-	},
-/obj/effect/landmark/latejoin,
-/turf/open/floor/iron/dark,
-/area/centcom/interlink)
 "pKF" = (
 /obj/machinery/processor,
 /turf/open/floor/wood,
@@ -13197,16 +13115,6 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
-/area/centcom/interlink)
-"qji" = (
-/obj/effect/turf_decal/siding/white{
-	dir = 1
-	},
-/obj/structure/chair/sofa/bench/left{
-	dir = 4
-	},
-/obj/effect/landmark/latejoin,
-/turf/open/floor/iron,
 /area/centcom/interlink)
 "qjL" = (
 /obj/effect/turf_decal/delivery,
@@ -14585,7 +14493,6 @@
 /turf/open/floor/iron/dark,
 /area/centcom/interlink)
 "stk" = (
-/obj/effect/landmark/latejoin,
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 5
 	},
@@ -15428,7 +15335,6 @@
 /obj/structure/chair/sofa/bench/right{
 	dir = 4
 	},
-/obj/effect/landmark/latejoin,
 /obj/effect/turf_decal/siding/dark{
 	dir = 8
 	},
@@ -15791,13 +15697,6 @@
 /obj/structure/flora/rock/pile/style_random,
 /turf/open/misc/dirt/planet,
 /area/centcom/interlink)
-"uny" = (
-/obj/structure/chair/sofa/bench{
-	dir = 8
-	},
-/obj/effect/landmark/latejoin,
-/turf/open/floor/iron,
-/area/centcom/interlink)
 "uoo" = (
 /obj/effect/turf_decal/delivery,
 /obj/machinery/disposal/bin,
@@ -15855,13 +15754,6 @@
 	dir = 4
 	},
 /area/centcom/holding/cafepark)
-"uyr" = (
-/obj/structure/chair/sofa/bench/right{
-	dir = 4
-	},
-/obj/effect/landmark/latejoin,
-/turf/open/floor/iron,
-/area/centcom/interlink)
 "uAi" = (
 /obj/effect/turf_decal/trimline/dark_red/filled/arrow_cw{
 	dir = 8
@@ -16272,7 +16164,6 @@
 /area/centcom/interlink)
 "vsB" = (
 /obj/structure/chair/sofa/bench/left,
-/obj/effect/landmark/latejoin,
 /obj/effect/turf_decal/trimline/dark_green/filled/line{
 	dir = 1
 	},
@@ -16717,13 +16608,6 @@
 	},
 /turf/open/floor/sepia,
 /area/centcom/holding/cafe)
-"wfh" = (
-/obj/effect/landmark/latejoin,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/iron,
-/area/centcom/interlink)
 "wft" = (
 /obj/structure/chair/sofa/corner/brown{
 	dir = 1
@@ -17378,7 +17262,6 @@
 /obj/structure/chair/sofa/bench/right{
 	dir = 8
 	},
-/obj/effect/landmark/latejoin,
 /turf/open/floor/mineral/titanium,
 /area/centcom/interlink)
 "xpy" = (
@@ -17400,7 +17283,6 @@
 /obj/structure/chair/sofa/bench{
 	dir = 4
 	},
-/obj/effect/landmark/latejoin,
 /obj/effect/turf_decal/siding/dark{
 	dir = 8
 	},
@@ -17665,7 +17547,6 @@
 /obj/structure/chair/sofa/bench/left{
 	dir = 4
 	},
-/obj/effect/landmark/latejoin,
 /turf/open/floor/mineral/titanium,
 /area/centcom/interlink)
 "xPL" = (
@@ -17884,7 +17765,6 @@
 	},
 /area/centcom/holding/cafepark)
 "ydt" = (
-/obj/effect/landmark/latejoin,
 /obj/effect/turf_decal/trimline/blue/filled/corner{
 	dir = 8
 	},
@@ -17915,7 +17795,6 @@
 /turf/open/floor/iron/white,
 /area/centcom/interlink)
 "yfX" = (
-/obj/effect/landmark/latejoin,
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 8
 	},
@@ -24718,7 +24597,7 @@ abZ
 rDL
 hvQ
 pMN
-wfh
+bIG
 pMN
 tvw
 kvF
@@ -24975,7 +24854,7 @@ egW
 rDL
 hvQ
 pMN
-wfh
+bIG
 pMN
 tvw
 aWb
@@ -26006,7 +25885,7 @@ kfb
 jMh
 wHJ
 tvw
-hZk
+kdy
 hIH
 czF
 xVV
@@ -27784,7 +27663,7 @@ cNw
 vat
 tvw
 nqQ
-dRE
+aWb
 ydt
 bFN
 cYT
@@ -29584,7 +29463,7 @@ aqG
 aVs
 rMF
 hES
-jqo
+vWy
 axB
 afe
 hvQ
@@ -30357,7 +30236,7 @@ rma
 aXG
 vWy
 axB
-irn
+afe
 hvQ
 tvw
 kJO
@@ -30376,7 +30255,7 @@ hvQ
 hvQ
 aBm
 axB
-uny
+axB
 pBj
 aXG
 jxw
@@ -30612,7 +30491,7 @@ aqG
 tvw
 ssn
 aXG
-qji
+mac
 bNh
 tEq
 hvQ
@@ -30889,7 +30768,7 @@ ngU
 hvQ
 hvQ
 bTH
-fsl
+bNh
 bNh
 hzz
 aXG
@@ -31384,7 +31263,7 @@ aDg
 cal
 aXG
 mac
-uyr
+tEq
 adU
 hvQ
 hvQ
@@ -34202,17 +34081,17 @@ eXn
 aqG
 tvw
 mtv
-eOx
+pZh
 pZh
 pZh
 jtl
 aXG
 huK
 xyz
-pHQ
+mtv
 pZh
 pZh
-eOx
+pZh
 jtl
 aXG
 cVm
@@ -35243,7 +35122,7 @@ rSK
 cal
 aXG
 tvw
-oAn
+pgL
 uUo
 nJp
 tvw
@@ -38593,7 +38472,7 @@ sxE
 kZB
 exf
 qzE
-gIO
+mMu
 mMu
 xwC
 uUo

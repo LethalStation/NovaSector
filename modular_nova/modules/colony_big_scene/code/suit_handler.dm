@@ -1,9 +1,5 @@
 GLOBAL_DATUM(suit_up_controller, /datum/suit_up_controller)
 
-// Makes a new suit up controller datum for equipping every newly spawned player and nothing else
-/datum/controller/subsystem/processing/dcs/Initialize()
-	GLOB.suit_up_controller = new /datum/suit_up_controller
-
 /datum/suit_up_controller
 
 /datum/suit_up_controller/New()
