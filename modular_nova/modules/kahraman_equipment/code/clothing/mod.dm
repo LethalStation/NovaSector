@@ -17,7 +17,7 @@
 	max_heat_protection_temperature = FIRE_SUIT_MAX_TEMP_PROTECT
 	siemens_coefficient = 0
 	complexity_max = DEFAULT_MAX_COMPLEXITY - 3
-	charge_drain = DEFAULT_CHARGE_DRAIN * 2
+	charge_drain = DEFAULT_CHARGE_DRAIN - 1
 	slowdown_inactive = 1
 	slowdown_active = 0.5
 	inbuilt_modules = list(
