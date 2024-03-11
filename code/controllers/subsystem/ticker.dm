@@ -279,7 +279,6 @@ SUBSYSTEM_DEF(ticker)
 	create_characters() //Create player characters
 	collect_minds()
 	equip_characters()
-	GLOB.suit_up_controller.drop_the_cargo()
 
 	GLOB.manifest.build()
 

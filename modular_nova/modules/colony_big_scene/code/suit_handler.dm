@@ -15,10 +15,12 @@ GLOBAL_DATUM(suit_up_controller, /datum/suit_up_controller)
 		/datum/supply_pack/organic/seeds,
 		/datum/supply_pack/engineering/omnilathe_drop_pod,
 	)
+	/// Has the controller already spawned all the epic loot ?
+	var/has_spawned_loot = FALSE
 
 /datum/suit_up_controller/New()
 	. = ..()
-	RegisterSignal(SSdcs, COMSIG_GLOB_CREWMEMBER_JOINED, .proc/new_colonist)
+	RegisterSignal(SSdcs, COMSIG_GLOB_CREWMEMBER_JOINED, PROC_REF(new_colonist))
 
 /datum/suit_up_controller/Destroy(force, ...)
 	. = ..()
@@ -27,8 +29,9 @@ GLOBAL_DATUM(suit_up_controller, /datum/suit_up_controller)
 /// Tracks if a new colonist spawns, telling them to get their outfit on
 /datum/suit_up_controller/proc/new_colonist(datum/source, mob/living/new_crewmember, rank)
 	SIGNAL_HANDLER
-
 	suit_up_mf(new_crewmember)
+	if(!has_spawned_loot)
+		drop_the_cargo()
 
 /// Spawns the required colonist outfit on someone
 /datum/suit_up_controller/proc/suit_up_mf(mob/living/carbon/human/target_player)
@@ -45,7 +48,7 @@ GLOBAL_DATUM(suit_up_controller, /datum/suit_up_controller)
 /datum/suit_up_controller/proc/drop_the_cargo()
 	for(var/datum/supply_pack/roundstart_pack in roundstart_crates)
 		var/obj/structure/closet/supplypod/centcompod/new_pod = new()
-		var/datum/supply_pack/new_pack = new roundstart_pack
+		var/datum/supply_pack/new_pack = new roundstart_pack(new_pod)
 		new_pack.admin_spawned = TRUE
 		new_pack.generate(new_pod)
 		var/obj/effect/landmark/latejoin/latejoin_marker = pick(SSjob.latejoin_trackers)
