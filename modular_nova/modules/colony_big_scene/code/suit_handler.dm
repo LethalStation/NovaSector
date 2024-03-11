@@ -46,13 +46,12 @@ GLOBAL_DATUM(suit_up_controller, /datum/suit_up_controller)
 
 /// Checks the roundstart crates list, spawns those crates, then loads them into drop pods that fall on one of the random latejoin markers
 /datum/suit_up_controller/proc/drop_the_cargo()
+	has_spawned_loot = TRUE
 	for(var/datum/supply_pack/roundstart_pack in roundstart_crates)
-		var/obj/structure/closet/supplypod/centcompod/new_pod = new()
-		var/datum/supply_pack/new_pack = new roundstart_pack(new_pod)
+		var/obj/effect/landmark/latejoin_marker = pick(SSjob.latejoin_trackers)
+		var/datum/supply_pack/new_pack = new roundstart_pack()
 		new_pack.admin_spawned = TRUE
-		new_pack.generate(new_pod)
-		var/obj/effect/landmark/latejoin/latejoin_marker = pick(SSjob.latejoin_trackers)
-		new /obj/effect/pod_landingzone(get_turf(latejoin_marker), new_pod)
+		new_pack.generate(get_turf(latejoin_marker))
 
 // I'm lazy, so here's the box that spawns the super lathe board that players can use later
 /datum/supply_pack/engineering/omnilathe_drop_pod
