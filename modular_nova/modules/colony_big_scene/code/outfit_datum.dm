@@ -8,10 +8,10 @@
 	suit = /obj/item/clothing/suit/jacket/frontier_colonist/short
 	suit_store = /obj/item/tank/internals/oxygen/yellow
 	back = /obj/item/mod/control/pre_equipped/frontier_colonist
-	box = /obj/item/storage/box/survival/engineer
 	backpack_contents = list(
-		/obj/item/storage/box/nri_flares = 1,
+		/obj/item/tank/internals/emergency_oxygen/engi = 1,
 		/obj/item/trench_tool = 1,
+		/obj/item/flashlight/flare = 1,
 	)
 	belt = /obj/item/storage/belt/utility/frontier_colonist/stocked
 	ears = /obj/item/radio/headset/headset_cargo/mining
