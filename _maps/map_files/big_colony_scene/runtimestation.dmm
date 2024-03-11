@@ -29,6 +29,10 @@
 "ez" = (
 /turf/open/misc/asteroid/basalt/redplanet/randomrocks,
 /area/redplanet)
+"eF" = (
+/obj/structure/ore_vent/random,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
 "fi" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 8
@@ -63,31 +67,7 @@
 	},
 /turf/open/misc/ironsand/redplanet,
 /area/redplanet)
-"nf" = (
-/obj/effect/landmark/latejoin,
-/turf/open/floor/catwalk_floor/colony_fabricator{
-	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
-	},
-/area/redplanet)
-"pf" = (
-/obj/structure/reagent_dispensers/watertank,
-/turf/open/floor/iron/colony/white{
-	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
-	},
-/area/redplanet)
-"pk" = (
-/obj/effect/landmark/latejoin,
-/turf/open/floor/iron/colony/white{
-	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
-	},
-/area/redplanet)
-"tb" = (
-/obj/structure/marker_beacon/teal,
-/turf/open/floor/iron/colony/bolts{
-	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
-	},
-/area/redplanet)
-"ts" = (
+"mn" = (
 /obj/structure/closet/crate/engineering,
 /obj/item/flatpacked_machine,
 /obj/item/flatpacked_machine/organics_printer,
@@ -104,6 +84,30 @@
 /obj/item/electronics/apc,
 /obj/item/stock_parts/cell/high,
 /turf/open/floor/iron/colony/white{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/redplanet)
+"nf" = (
+/obj/effect/landmark/latejoin,
+/turf/open/floor/catwalk_floor/colony_fabricator{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/redplanet)
+"pk" = (
+/obj/effect/landmark/latejoin,
+/turf/open/floor/iron/colony/white{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/redplanet)
+"sK" = (
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/iron/colony/white{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/redplanet)
+"tb" = (
+/obj/structure/marker_beacon/teal,
+/turf/open/floor/iron/colony/bolts{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
@@ -168,20 +172,46 @@
 	},
 /turf/closed/indestructible/riveted,
 /area/centcom/tdome/arena)
+"FK" = (
+/obj/structure/closet/crate/medical,
+/obj/item/defibrillator/compact/loaded,
+/obj/item/storage/backpack/duffelbag/deforest_medkit/stocked,
+/obj/item/storage/backpack/duffelbag/deforest_surgical/stocked,
+/obj/item/wallframe/frontier_medstation,
+/obj/item/bodybag/stasis,
+/obj/item/bodybag/stasis,
+/turf/open/floor/iron/colony/white/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/redplanet)
 "Gc" = (
 /obj/structure/sign/logo,
 /turf/closed/indestructible/riveted,
 /area/centcom/tdome/arena)
-"Jh" = (
-/obj/structure/ore_vent/random,
-/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+"Hw" = (
+/obj/structure/cargo_shuttle_beacon,
+/turf/open/floor/catwalk_floor/colony_fabricator{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
 /area/redplanet)
-"Ms" = (
-/obj/structure/closet/crate/cardboard/mothic,
-/obj/item/storage/box/mothic_rations,
-/obj/item/storage/box/mothic_rations,
-/obj/item/storage/box/mothic_rations,
-/turf/open/floor/iron/colony/white/bolts{
+"Ne" = (
+/obj/structure/closet/crate/hydroponics,
+/obj/item/seeds/carrot/parsnip,
+/obj/item/seeds/carrot/parsnip,
+/obj/item/seeds/carrot/parsnip,
+/obj/item/seeds/potato,
+/obj/item/seeds/potato,
+/obj/item/seeds/potato,
+/obj/item/seeds/soya,
+/obj/item/seeds/soya,
+/obj/item/seeds/soya,
+/obj/item/seeds/wheat/oat,
+/obj/item/seeds/wheat/oat,
+/obj/item/seeds/wheat/oat,
+/obj/item/seeds/plump,
+/obj/item/seeds/plump,
+/obj/item/seeds/plump,
+/turf/open/floor/iron/colony/white{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
@@ -206,55 +236,27 @@
 	},
 /turf/closed/indestructible/riveted,
 /area/centcom/tdome/arena)
-"PN" = (
-/obj/structure/closet/crate/hydroponics,
-/obj/item/seeds/carrot/parsnip,
-/obj/item/seeds/carrot/parsnip,
-/obj/item/seeds/carrot/parsnip,
-/obj/item/seeds/potato,
-/obj/item/seeds/potato,
-/obj/item/seeds/potato,
-/obj/item/seeds/soya,
-/obj/item/seeds/soya,
-/obj/item/seeds/soya,
-/obj/item/seeds/wheat/oat,
-/obj/item/seeds/wheat/oat,
-/obj/item/seeds/wheat/oat,
-/obj/item/seeds/plump,
-/obj/item/seeds/plump,
-/obj/item/seeds/plump,
-/turf/open/floor/iron/colony/white{
-	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
-	},
-/area/redplanet)
 "Qi" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 9
 	},
 /turf/open/misc/ironsand/redplanet,
 /area/redplanet)
-"RX" = (
-/turf/closed/mineral/random/redplanet,
-/area/redplanet)
-"TU" = (
-/obj/structure/closet/crate/cargo,
-/obj/item/circuitboard/machine/techfab,
-/turf/open/floor/iron/colony/white{
+"QP" = (
+/obj/structure/closet/crate/cardboard/mothic,
+/obj/item/storage/box/mothic_rations,
+/obj/item/storage/box/mothic_rations,
+/obj/item/storage/box/mothic_rations,
+/turf/open/floor/iron/colony/white/bolts{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
+/area/redplanet)
+"RX" = (
+/turf/closed/mineral/random/redplanet,
 /area/redplanet)
 "Uk" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner,
 /turf/open/misc/ironsand/redplanet,
-/area/redplanet)
-"Uo" = (
-/obj/structure/closet/crate/medical,
-/obj/item/defibrillator/compact/loaded,
-/obj/item/storage/backpack/duffelbag/deforest_medkit/stocked,
-/obj/item/storage/backpack/duffelbag/deforest_surgical/stocked,
-/turf/open/floor/iron/colony/white/bolts{
-	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
-	},
 /area/redplanet)
 "Uz" = (
 /turf/cordon,
@@ -274,6 +276,14 @@
 /area/redplanet)
 "Yd" = (
 /turf/open/floor/catwalk_floor/colony_fabricator{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/redplanet)
+"ZH" = (
+/obj/structure/closet/crate/cargo,
+/obj/item/circuitboard/machine/techfab,
+/obj/item/circuitboard/computer/cargo/express,
+/turf/open/floor/iron/colony/white{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
@@ -13939,7 +13949,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -14306,7 +14316,7 @@ VL
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -21372,7 +21382,7 @@ PB
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -26385,7 +26395,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -27380,7 +27390,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -30740,7 +30750,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -32321,7 +32331,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 PB
@@ -34857,7 +34867,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -36967,7 +36977,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -39143,7 +39153,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -39361,7 +39371,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -47792,7 +47802,7 @@ RX
 RX
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -50657,7 +50667,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -50989,7 +50999,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -56401,7 +56411,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -57152,7 +57162,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 PB
 PB
@@ -61777,7 +61787,7 @@ uS
 pk
 pk
 nf
-ts
+mn
 pk
 uS
 xi
@@ -62163,10 +62173,10 @@ jj
 gA
 yt
 ad
-Ms
+QP
 Yd
 Vz
-TU
+ZH
 Vz
 gA
 ah
@@ -62490,7 +62500,7 @@ PB
 PB
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -62551,7 +62561,7 @@ jj
 Ap
 nf
 Yd
-Yd
+Hw
 vy
 Yd
 nf
@@ -62938,10 +62948,10 @@ aa
 jj
 gA
 yt
-ts
+mn
 Vz
 Yd
-Uo
+FK
 pk
 Vz
 gA
@@ -63327,9 +63337,9 @@ xg
 zl
 uS
 pk
-PN
+Ne
 nf
-pf
+sK
 pk
 uS
 Qi
@@ -72151,7 +72161,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 PB
@@ -78330,7 +78340,7 @@ PB
 PB
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -80808,7 +80818,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -82177,7 +82187,7 @@ VL
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -90642,7 +90652,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -97246,7 +97256,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -100817,7 +100827,7 @@ PB
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -100952,7 +100962,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -109539,7 +109549,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -112967,7 +112977,7 @@ PB
 PB
 PB
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -123553,7 +123563,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -124900,7 +124910,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 PB
@@ -125755,7 +125765,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -126737,7 +126747,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -130381,7 +130391,7 @@ PB
 PB
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -131126,7 +131136,7 @@ PB
 PB
 PB
 ez
-Jh
+eF
 ez
 ez
 ez
@@ -135643,7 +135653,7 @@ ez
 ez
 ez
 ez
-Jh
+eF
 ez
 ez
 ez
