@@ -168,7 +168,8 @@
 	PROTECTED_PROC(TRUE)
 	SHOULD_CALL_PARENT(FALSE)
 
-	flick_overlay_view(mutable_appearance('icons/obj/machines/research.dmi', "protolathe_[mat_name]"), 1 SECONDS)
+	if(!fuck_off_overlays)
+		flick_overlay_view(mutable_appearance('icons/obj/machines/research.dmi', "protolathe_[mat_name]"), 1 SECONDS)
 
 ///When materials are instered into local storage
 /obj/machinery/rnd/proc/local_material_insert(container, obj/item/item_inserted, last_inserted_id, list/mats_consumed, amount_inserted, atom/context)

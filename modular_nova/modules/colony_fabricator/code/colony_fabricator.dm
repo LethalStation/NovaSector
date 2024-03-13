@@ -1,3 +1,7 @@
+/obj/machinery/rnd/production
+	/// Makes the material insertion overlay fuck off (I HATE TG PRIVATE PROCING EVERYTHING!!!)
+	var/fuck_off_overlays = FALSE
+
 /obj/machinery/rnd/production/colony_lathe
 	name = "rapid construction fabricator"
 	desc = "These bad boys are seen just about anywhere someone would want or need to build fast, damn the consequences. \
@@ -14,6 +18,7 @@
 	light_power = 5
 	allowed_buildtypes = COLONY_FABRICATOR
 	speedup_disabled = TRUE
+	fuck_off_overlays = TRUE
 	/// The item we turn into when repacked
 	var/repacked_type = /obj/item/flatpacked_machine
 	/// The sound loop played while the fabricator is making something
