@@ -58,11 +58,6 @@
 	},
 /turf/open/lava/smooth/redplanet,
 /area/redplanet)
-"bs" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/marker_beacon/teal,
-/turf/open/space/basic,
-/area/centcom/tdome/arena)
 "bu" = (
 /obj/structure/rack/shelf,
 /obj/item/flatpacked_machine/arc_furnace,
@@ -211,10 +206,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/prefab_plastic,
 /area/ruin/space/has_grav/derelictoutpost)
-"dF" = (
-/obj/machinery/computer/communications,
-/turf/open/indestructible/plating,
-/area/centcom/tdome/arena)
 "dH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -425,10 +416,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/colony/bolts,
 /area/ruin/space/has_grav/derelictoutpost)
-"hn" = (
-/obj/machinery/computer/communications,
-/turf/open/misc/ironsand/redplanet/randomrocks,
-/area/ruin/powered/bathhouse)
 "hN" = (
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-flat-1"
@@ -543,12 +530,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/colony/texture,
 /area/ruin/space/has_grav/derelictoutpost/powerstorage)
-"jt" = (
-/obj/structure/sign/logo{
-	icon_state = "nanotrasen_sign3"
-	},
-/turf/closed/indestructible/riveted,
-/area/centcom/tdome/arena)
 "jv" = (
 /mob/living/basic/hivebot{
 	faction = list("Syndicate")
@@ -1681,9 +1662,6 @@
 /obj/structure/billboard/nanotrasen,
 /turf/open/misc/ironsand/redplanet/randomrocks,
 /area/redplanet)
-"Bo" = (
-/turf/open/space/basic,
-/area/centcom/tdome/arena)
 "Bu" = (
 /obj/structure/frame/machine,
 /obj/item/circuitboard/machine/autolathe,
@@ -1798,12 +1776,6 @@
 	},
 /turf/open/floor/iron/colony/white/bolts,
 /area/redplanet)
-"Do" = (
-/obj/structure/sign/logo{
-	icon_state = "nanotrasen_sign5"
-	},
-/turf/closed/indestructible/riveted,
-/area/centcom/tdome/arena)
 "Dp" = (
 /turf/open/floor/iron/colony/bolts,
 /area/ruin/space/has_grav/derelictoutpost/powerstorage)
@@ -2037,10 +2009,6 @@
 	},
 /turf/open/floor/iron/colony/bolts,
 /area/ruin/space/has_grav/derelictoutpost/powerstorage)
-"Gc" = (
-/obj/structure/sign/logo,
-/turf/closed/indestructible/riveted,
-/area/centcom/tdome/arena)
 "Gg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -2655,12 +2623,6 @@
 /obj/structure/sign/departments/engineering/directional/north,
 /turf/open/misc/ironsand/redplanet/randomrocks,
 /area/redplanet)
-"OU" = (
-/obj/structure/sign/logo{
-	icon_state = "nanotrasen_sign2"
-	},
-/turf/closed/indestructible/riveted,
-/area/centcom/tdome/arena)
 "Pa" = (
 /obj/machinery/atmospherics/components/tank/air,
 /turf/open/floor/iron/colony/white,
@@ -2725,12 +2687,6 @@
 "PB" = (
 /turf/closed/mineral/random/redplanet/dark,
 /area/redplanet)
-"PM" = (
-/obj/structure/sign/logo{
-	icon_state = "nanotrasen_sign4"
-	},
-/turf/closed/indestructible/riveted,
-/area/centcom/tdome/arena)
 "PQ" = (
 /obj/structure/cable,
 /turf/open/floor/iron/colony,
@@ -53069,9 +53025,9 @@ Uz
 Uz
 Uz
 Uz
-Uz
-Uz
-Uz
+RX
+RX
+RX
 RX
 RX
 RX
@@ -53457,9 +53413,9 @@ Uz
 Uz
 Uz
 Uz
-Uz
-Uz
-Uz
+RX
+RX
+RX
 RX
 RX
 RX
@@ -53845,9 +53801,9 @@ Uz
 Uz
 Uz
 Uz
-Uz
-Uz
-Uz
+RX
+RX
+RX
 RX
 RX
 RX
@@ -54230,12 +54186,12 @@ Uz
 Uz
 "}
 (132,1,1) = {"
-Bo
-Bo
-Bo
 Uz
 Uz
 Uz
+RX
+RX
+RX
 RX
 RX
 RX
@@ -54618,12 +54574,12 @@ Uz
 Uz
 "}
 (133,1,1) = {"
-bs
-Gc
-bs
 Uz
 Uz
 Uz
+RX
+RX
+RX
 RX
 RX
 RX
@@ -55006,12 +54962,12 @@ Uz
 Uz
 "}
 (134,1,1) = {"
-Bo
-OU
-Bo
 Uz
 Uz
 Uz
+RX
+RX
+RX
 RX
 RX
 RX
@@ -55394,12 +55350,12 @@ Uz
 Uz
 "}
 (135,1,1) = {"
-bs
-jt
-dF
 Uz
 Uz
 Uz
+RX
+RX
+RX
 RX
 RX
 RX
@@ -55782,12 +55738,12 @@ Uz
 Uz
 "}
 (136,1,1) = {"
-Bo
-PM
-Bo
 Uz
 Uz
 Uz
+RX
+RX
+RX
 RX
 RX
 RX
@@ -56170,12 +56126,12 @@ Uz
 Uz
 "}
 (137,1,1) = {"
-bs
-Do
-bs
 Uz
 Uz
 Uz
+RX
+RX
+RX
 RX
 RX
 RX
@@ -56558,12 +56514,12 @@ Uz
 Uz
 "}
 (138,1,1) = {"
-Bo
-Bo
-Bo
 Uz
 Uz
 Uz
+RX
+RX
+RX
 RX
 RX
 RX
@@ -56949,9 +56905,9 @@ Uz
 Uz
 Uz
 Uz
-Uz
-Uz
-Uz
+RX
+RX
+RX
 RX
 RX
 RX
@@ -57337,9 +57293,9 @@ Uz
 Uz
 Uz
 Uz
-Uz
-Uz
-Uz
+RX
+RX
+RX
 RX
 RX
 RX
@@ -57725,9 +57681,9 @@ Uz
 Uz
 Uz
 Uz
-Uz
-Uz
-Uz
+RX
+RX
+RX
 RX
 RX
 RX
@@ -81774,7 +81730,7 @@ RX
 RX
 RX
 Uz
-hn
+Uz
 Uz
 "}
 (203,1,1) = {"
