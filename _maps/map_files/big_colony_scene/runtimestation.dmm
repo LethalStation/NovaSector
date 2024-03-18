@@ -13,6 +13,14 @@
 	},
 /turf/open/misc/ironsand/redplanet,
 /area/redplanet)
+"al" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/canister/nitrogen,
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "ao" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table/reinforced/rglass,
@@ -23,36 +31,103 @@
 /mob/living/basic/mining/goliath,
 /turf/open/misc/asteroid/basalt/redplanet/randomrocks,
 /area/redplanet)
-"aJ" = (
-/obj/effect/turf_decal/stripes/white/line{
+"aF" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
-/turf/open/floor/plating/lavaland_atmos,
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"aJ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"aN" = (
+/obj/structure/lattice/lava,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 10
+	},
+/turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "bs" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/marker_beacon/teal,
 /turf/open/space/basic,
 /area/centcom/tdome/arena)
+"bu" = (
+/obj/structure/rack/shelf,
+/obj/item/flatpacked_machine/arc_furnace,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"bx" = (
+/turf/open/floor/iron/colony{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "by" = (
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
-	},
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
-"bW" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/iron/colony/white/texture,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"bG" = (
+/obj/structure/closet/emcloset/anchored,
+/obj/machinery/light/small/red/directional/east,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"bS" = (
+/obj/machinery/airalarm/directional/north,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
+"bW" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"bZ" = (
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-flat-1"
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"ce" = (
+/obj/structure/closet/firecloset/full,
+/obj/machinery/light/small/red/directional/west,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost)
 "cx" = (
 /obj/item/shovel,
 /turf/open/misc/asteroid/basalt/redplanet/randomrocks,
 /area/redplanet)
+"cE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/structure/deployable_barricade/metal{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "cF" = (
 /obj/item/storage/cans/sixbeer,
 /obj/item/reagent_containers/cup/glass/bottle/beer/almost_empty{
@@ -83,42 +158,89 @@
 /obj/machinery/door/airlock/medical,
 /turf/open/floor/iron/colony/white,
 /area/redplanet)
-"cV" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing,
-/obj/machinery/power/colony_wind_turbine,
-/obj/structure/cable,
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
-"cX" = (
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
+"cT" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
-/turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
+"cV" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/box/white/corners{
+	dir = 4
+	},
+/obj/effect/turf_decal/box/white/corners{
+	dir = 1
+	},
+/turf/open/floor/iron/colony{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"cX" = (
+/obj/machinery/porta_turret/syndicate,
+/turf/closed/wall/prefab_plastic,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "dj" = (
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
 /area/redplanet)
 "dq" = (
 /obj/structure/window/fulltile/colony_fabricator,
 /obj/structure/barricade/wooden/crude,
 /turf/open/misc/ironsand/redplanet/randomrocks,
 /area/redplanet)
+"dw" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/canister/plasma,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "dx" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /mob/living/basic/blankbody,
 /turf/open/floor/iron/colony/white,
 /area/redplanet)
+"dC" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/prefab_plastic,
+/area/ruin/space/has_grav/derelictoutpost)
 "dF" = (
 /obj/machinery/computer/communications,
 /turf/open/indestructible/plating,
 /area/centcom/tdome/arena)
 "dH" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/red/line{
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/structure/deployable_barricade/metal{
+	dir = 4
+	},
+/obj/structure/deployable_barricade/metal,
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"dQ" = (
+/obj/structure/lattice/lava,
+/obj/structure/railing{
 	dir = 8
 	},
-/turf/open/floor/mineral/plastitanium,
+/obj/structure/railing/corner,
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 5
+	},
+/turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "dR" = (
 /obj/effect/landmark/observer_start,
@@ -134,14 +256,29 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"dY" = (
+/obj/structure/sink/directional/east,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
+"eb" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"ef" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "ei" = (
-/obj/structure/table,
-/obj/item/wrench,
-/obj/item/crowbar,
-/turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/obj/machinery/atmospherics/components/tank/nitrogen,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "ep" = (
 /obj/structure/table/reinforced/rglass,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -156,8 +293,11 @@
 "er" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "ez" = (
 /turf/open/misc/asteroid/basalt/redplanet/randomrocks,
 /area/redplanet)
@@ -170,6 +310,17 @@
 /obj/item/folder/ancient_paperwork,
 /turf/open/floor/iron/colony/white,
 /area/redplanet)
+"fd" = (
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
+"fg" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "fi" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 8
@@ -177,44 +328,40 @@
 /turf/open/misc/ironsand/redplanet,
 /area/redplanet)
 "fm" = (
-/obj/machinery/door/airlock/shuttle,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/catwalk_floor/colony_fabricator{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "fs" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/carpet,
-/area/redplanet)
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "fv" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/cable,
+/turf/open/floor/iron/colony/white/texture,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "fC" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
 "fJ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/iron/colony/white,
 /area/redplanet)
 "fK" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing/corner{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
-	},
-/obj/structure/cable,
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/obj/machinery/door/airlock/colony_prefab,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "fO" = (
 /turf/closed/wall/prefab_plastic,
 /area/redplanet)
@@ -222,39 +369,62 @@
 /turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "fW" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/east,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "gf" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
-/obj/structure/filingcabinet,
-/turf/open/floor/carpet,
-/area/redplanet)
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"gi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/light/dim/directional/east,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "go" = (
 /obj/structure/girder,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
 /area/redplanet)
 "gu" = (
-/obj/machinery/door/airlock/shuttle,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/cable,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "gA" = (
 /turf/open/floor/iron/colony/bolts{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
+"gO" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/obj/item/gun/ballistic/shotgun/hook,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "gS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"hc" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "hn" = (
 /obj/machinery/computer/communications,
 /turf/open/misc/ironsand/redplanet/randomrocks,
@@ -263,17 +433,25 @@
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-flat-1"
 	},
-/turf/open/floor/plating/lavaland_atmos,
-/area/redplanet)
-"ih" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/marker_beacon/burgundy,
-/obj/structure/railing{
-	dir = 9
+/obj/structure/table,
+/obj/machinery/chem_dispenser/frontier_appliance,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
+"hT" = (
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"hZ" = (
 /obj/structure/cable,
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"ih" = (
+/obj/machinery/porta_turret/syndicate/energy,
+/turf/closed/wall/prefab_plastic,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "ik" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment{
@@ -281,12 +459,23 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/cable,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "il" = (
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"ip" = (
+/obj/structure/tank_holder/oxygen/yellow,
+/obj/machinery/light/small/red/directional/west,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "ir" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table/reinforced/rglass,
@@ -297,32 +486,44 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/catwalk_floor/colony_fabricator{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "iL" = (
-/obj/machinery/airalarm/directional/east,
-/turf/open/floor/plating/lavaland_atmos,
-/area/redplanet)
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "iN" = (
 /obj/structure/shipping_container/deforest,
 /turf/open/misc/ironsand/redplanet/randomrocks,
 /area/redplanet)
+"iU" = (
+/obj/structure/table,
+/turf/open/floor/iron/colony{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "jf" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/closed/wall,
-/area/redplanet)
+/obj/structure/tank_holder/oxygen/yellow,
+/obj/machinery/light/small/red/directional/west,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "jj" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/misc/ironsand/redplanet,
 /area/redplanet)
 "jn" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating/lavaland_atmos,
-/area/redplanet)
+/obj/structure/cable,
+/turf/open/floor/iron/colony/white/texture,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "jq" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/misc/asteroid/basalt/redplanet/randomrocks,
@@ -339,8 +540,9 @@
 	desc = "A massive combat drone with cybersun markings on it, loaded with rockets and machine guns. This seems like a bad idea.";
 	name = "hivebot shepard"
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/cable,
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "jt" = (
 /obj/structure/sign/logo{
 	icon_state = "nanotrasen_sign3"
@@ -351,69 +553,94 @@
 /mob/living/basic/hivebot{
 	faction = list("Syndicate")
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "jw" = (
 /obj/machinery/computer/mech_bay_power_console{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/mineral/plastitanium,
-/area/redplanet)
-"jA" = (
-/obj/machinery/disposal/bin,
-/obj/structure/disposalpipe/trunk{
+/obj/effect/turf_decal/stripes/red/line{
 	dir = 1
 	},
-/turf/open/floor/iron/smooth,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"jy" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
+"jA" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/manifold{
+	dir = 8
+	},
+/turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "jI" = (
-/obj/machinery/porta_turret/syndicate,
-/turf/closed/wall,
-/area/redplanet)
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"jL" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/dim/directional/west,
+/obj/structure/cable,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
 "jV" = (
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-flat-1"
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/machinery/light/dim/directional/west,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "kf" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
+/obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/marker_beacon/teal,
-/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
-/area/redplanet)
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "ky" = (
 /obj/structure/flora/biolumi/mine/weaklight,
-/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/turf/open/misc/asteroid/basalt/redplanet,
 /area/redplanet)
+"kz" = (
+/obj/structure/cable,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "kA" = (
-/obj/structure/frame/machine,
-/obj/item/circuitboard/machine/autolathe,
-/obj/machinery/light/dim/directional/south,
-/turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "kS" = (
 /obj/structure/flora/biolumi/lamp/weaklight,
 /obj/structure/flora/ash/leaf_shroom,
-/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/turf/open/misc/asteroid/basalt/redplanet,
 /area/redplanet)
 "kW" = (
-/obj/structure/stone_tile/surrounding_tile/cracked,
-/obj/structure/stone_tile/center/cracked,
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/obj/machinery/photocopier,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"ld" = (
+/obj/structure/filingcabinet/chestdrawer,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "lh" = (
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
-	},
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 10
-	},
-/turf/open/floor/plating/lavaland_atmos,
-/area/redplanet)
+/turf/closed/wall,
+/area/ruin/space/has_grav/derelictoutpost)
 "ln" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 4
@@ -421,15 +648,14 @@
 /turf/open/misc/ironsand/redplanet,
 /area/redplanet)
 "lo" = (
-/obj/machinery/door/airlock/shuttle,
 /obj/structure/cable,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "lq" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing/corner,
-/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
-/area/redplanet)
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/derelictoutpost)
 "lr" = (
 /obj/item/pickaxe,
 /obj/effect/mob_spawn/corpse/human/miner/explorer,
@@ -440,31 +666,30 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "lM" = (
 /obj/structure/stone_tile/cracked,
 /obj/structure/stone_tile/center/burnt,
-/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/turf/open/misc/asteroid/basalt/redplanet,
 /area/redplanet)
 "mc" = (
-/obj/machinery/door/airlock/maintenance_hatch,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/closed/wall,
-/area/redplanet)
-"mj" = (
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 10
+/obj/structure/chair/plastic{
+	dir = 4
 	},
-/turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
+"mj" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "mm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "mn" = (
 /obj/structure/closet/crate/engineering,
 /obj/item/flatpacked_machine,
@@ -488,14 +713,24 @@
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
+"mz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/rack/shelf,
+/obj/item/door_seal,
+/obj/item/door_seal,
+/obj/item/crowbar/large/doorforcer,
+/obj/machinery/light/small/red/directional/north,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "mG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment,
-/obj/structure/chair/office{
-	dir = 4
-	},
-/turf/open/floor/carpet,
-/area/redplanet)
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "mH" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/blood/tracks{
@@ -507,6 +742,13 @@
 /obj/item/storage/toolbox/fishing/small,
 /turf/open/misc/ironsand/redplanet/randomrocks,
 /area/redplanet)
+"mU" = (
+/obj/effect/mob_spawn/corpse/human/syndicatepilot,
+/obj/effect/gibspawner/human/bodypartless,
+/turf/open/floor/iron/colony/texture{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "nf" = (
 /obj/effect/landmark/latejoin,
 /turf/open/floor/catwalk_floor/colony_fabricator{
@@ -514,21 +756,20 @@
 	},
 /area/redplanet)
 "nj" = (
-/obj/structure/lattice/catwalk,
-/obj/machinery/power/colony_wind_turbine,
-/obj/structure/cable,
+/obj/structure/lattice/lava,
+/obj/structure/marker_beacon/burgundy,
 /turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "nn" = (
-/obj/machinery/door/airlock/highsecurity,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/fans/tiny,
-/turf/open/floor/iron/colony,
-/area/redplanet)
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "nq" = (
 /obj/structure/fluff/empty_sleeper/bloodied{
-	dir = 8;
-	desc = "A closed, occupied sleeper, bloodied handprints are seen on the inside, along with an odd, redish blur. It seems sealed shut."
+	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/colony/white,
@@ -539,13 +780,16 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/cable,
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "nN" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/lava,
+/obj/structure/railing,
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 4
+	},
+/turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "nV" = (
 /obj/item/reagent_containers/cup/glass/bottle/beer/almost_empty{
@@ -562,17 +806,17 @@
 /area/redplanet)
 "og" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/broken/directional/north,
-/obj/structure/fluff/empty_sleeper,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/closet/secure_closet/personal,
+/obj/structure/cable,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "oj" = (
 /obj/item/flashlight/lantern,
 /turf/open/misc/asteroid/basalt/redplanet/randomrocks,
 /area/redplanet)
 "ol" = (
 /obj/structure/flora/ash/leaf_shroom,
-/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/turf/open/misc/asteroid/basalt/redplanet,
 /area/redplanet)
 "ov" = (
 /obj/item/condom_pack{
@@ -585,10 +829,13 @@
 /turf/open/misc/ironsand/redplanet/randomrocks,
 /area/redplanet)
 "ox" = (
-/obj/machinery/door/airlock/highsecurity,
-/obj/structure/fans/tiny,
-/turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/obj/machinery/door/airlock/colony_prefab,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "oC" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -598,8 +845,9 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/cable,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "oF" = (
 /obj/structure/closet/secure_closet/medical1,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -617,24 +865,36 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/cable,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "oM" = (
-/obj/machinery/door/airlock/maintenance_hatch,
-/turf/closed/wall,
-/area/redplanet)
+/obj/effect/turf_decal/box/white/corners{
+	dir = 4
+	},
+/obj/effect/turf_decal/box/white/corners{
+	dir = 1
+	},
+/obj/structure/closet/crate/cargo,
+/obj/item/stack/sheet/iron/fifty,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "oN" = (
-/obj/machinery/vending/sovietsoda,
-/obj/machinery/light/dim/directional/north,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "oO" = (
-/obj/machinery/door/airlock/shuttle,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"oX" = (
+/obj/structure/cable,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "pc" = (
 /obj/structure/flora/ash/seraka,
 /turf/open/misc/asteroid/basalt/redplanet/randomrocks,
@@ -646,17 +906,23 @@
 	},
 /area/redplanet)
 "pl" = (
-/obj/structure/stone_tile/surrounding_tile,
-/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
-/area/redplanet)
+/obj/structure/table,
+/obj/item/paper_bin/carbon{
+	pixel_y = 6;
+	pixel_x = 5
+	},
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "pu" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/portable_atmospherics/canister/air,
-/obj/machinery/atmospherics/components/unary/portables_connector/visible/layer4{
-	dir = 1
-	},
-/turf/open/floor/plating/lavaland_atmos,
-/area/redplanet)
+/obj/structure/table/wood,
+/obj/item/modular_computer/laptop/preset/civilian/closed,
+/obj/item/usb_cable,
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron/colony/white,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "pB" = (
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-flat-1"
@@ -665,27 +931,44 @@
 /mob/living/basic/hivebot/strong{
 	faction = list("Syndicate")
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"pL" = (
+/obj/structure/table,
+/obj/machinery/microwave/frontier_printed,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
+"pN" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "pZ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
+/obj/structure/table,
+/obj/item/paperwork/ancient{
+	pixel_y = 9;
+	pixel_x = -4
 	},
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
-"qv" = (
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 8
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
-/turf/open/floor/plating/lavaland_atmos,
-/area/redplanet)
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"qm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 6
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"qv" = (
+/obj/structure/table/wood,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "qx" = (
 /obj/structure/stone_tile/cracked,
-/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/turf/open/misc/asteroid/basalt/redplanet,
 /area/redplanet)
 "qy" = (
 /obj/effect/decal/cleanable/dirt,
@@ -697,69 +980,98 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/cable,
+/obj/structure/mineral_door/manual_colony_door,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost)
 "qA" = (
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 4
-	},
-/turf/open/floor/plating/lavaland_atmos,
-/area/redplanet)
+/obj/machinery/atmospherics/components/tank/air,
+/obj/structure/cable,
+/turf/open/floor/iron/colony/white,
+/area/ruin/space/has_grav/derelictoutpost)
 "qC" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 4
+/obj/machinery/mecha_part_fabricator/maint{
+	name = "forgotten exosuit fabricator"
 	},
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"qL" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/obj/structure/cable,
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "qT" = (
-/obj/machinery/door/airlock/shuttle,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/machinery/door/airlock/multi_tile/metal{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"qV" = (
+/obj/machinery/door/airlock/multi_tile/metal{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/lava/smooth/redplanet,
+/area/ruin/space/has_grav/derelictoutpost)
 "qX" = (
 /obj/item/pickaxe,
 /turf/open/misc/asteroid/basalt/redplanet/randomrocks,
 /area/redplanet)
 "rl" = (
-/turf/open/floor/plating/lavaland_atmos,
-/area/redplanet)
+/obj/machinery/vending/wardrobe/jani_wardrobe,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
 "ro" = (
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/wood,
-/obj/item/modular_computer/laptop/preset/civilian/closed,
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/turf/open/floor/carpet,
-/area/redplanet)
+/obj/structure/frame/machine,
+/turf/open/floor/iron/colony/white,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "rp" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth,
+/obj/structure/lattice/lava,
+/obj/structure/railing,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
+/turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "rC" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/mob/living/basic/hivebot{
+	faction = list("Syndicate")
+	},
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
 "rD" = (
 /obj/structure/flora/biolumi/lamp/weaklight,
-/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/turf/open/misc/asteroid/basalt/redplanet,
 /area/redplanet)
 "rF" = (
 /obj/structure/closet/crate/rcd,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
 /area/redplanet)
+"rQ" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"rZ" = (
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "sk" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -767,26 +1079,34 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light/dim/directional/east,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/cable,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
 "sp" = (
-/obj/machinery/vending/sustenance,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "ss" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
 "sA" = (
 /obj/structure/table,
-/obj/machinery/coffeemaker{
-	pixel_y = 9
+/obj/item/gun/ballistic/automatic/pistol/sol/evil/no_mag{
+	pixel_y = 9;
+	pixel_x = 4
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/item/ammo_box/magazine/c35sol_pistol/stendo{
+	pixel_x = -10;
+	pixel_y = -5
+	},
+/turf/open/floor/iron/colony{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "sD" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/window/reinforced/plasma{
@@ -806,46 +1126,70 @@
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
+"sN" = (
+/obj/structure/rack/shelf,
+/obj/item/crowbar/red,
+/obj/item/crowbar/red{
+	pixel_y = 7;
+	pixel_x = 5
+	},
+/obj/machinery/light/small/red/directional/west,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "sT" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating/lavaland_atmos,
-/area/redplanet)
+/obj/structure/table,
+/obj/item/plate{
+	pixel_y = 10;
+	pixel_x = 3
+	},
+/turf/open/floor/iron/colony/white/texture,
+/area/ruin/space/has_grav/derelictoutpost)
 "sU" = (
-/obj/structure/closet/firecloset,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/machinery/door/airlock/multi_tile/metal{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
+/obj/effect/mapping_helpers/airlock/welded,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"sY" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "tb" = (
 /obj/structure/marker_beacon/teal,
+/obj/effect/turf_decal/mining,
 /turf/open/floor/iron/colony/bolts{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
 "tt" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/power/terminal{
-	dir = 1
-	},
 /obj/structure/cable,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "tx" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/colony/white/texture,
 /area/redplanet)
 "ty" = (
-/obj/machinery/power/smes/battery_pack/large/precharged,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/rack/shelf,
+/obj/item/flatpacked_machine/fuel_generator,
+/turf/open/floor/iron/colony/white/texture,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "tz" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 4
-	},
-/obj/machinery/power/colony_wind_turbine,
 /obj/structure/cable,
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"tC" = (
+/obj/machinery/light/dim/directional/west,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "tJ" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
 	dir = 1
@@ -857,59 +1201,101 @@
 /turf/open/misc/asteroid/basalt/redplanet/randomrocks,
 /area/redplanet)
 "tM" = (
-/obj/machinery/door/airlock/bathroom{
-	name = "Primary Restroom"
+/obj/effect/spawner/structure/window/hollow/plasma/directional{
+	dir = 8
 	},
-/turf/open/floor/iron/white,
-/area/redplanet)
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost)
 "tR" = (
-/turf/open/floor/iron/smooth,
-/area/redplanet)
-"ud" = (
-/obj/machinery/light/broken/directional/south,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
-"uq" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
-/turf/open/floor/plating/lavaland_atmos,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"tX" = (
+/obj/structure/chair/office/tactical{
+	dir = 8;
+	pixel_x = 8
+	},
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"ud" = (
+/obj/structure/lattice/lava,
+/turf/open/lava/smooth/redplanet,
+/area/ruin/space/has_grav/derelictoutpost)
+"ug" = (
+/obj/item/chair/plastic,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
+"uq" = (
+/obj/machinery/light/dim/directional/west,
+/turf/open/floor/iron/colony{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"uD" = (
+/obj/structure/lattice/lava,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 4
+	},
+/turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "uL" = (
-/obj/machinery/light/broken/directional/south,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/iron/fifty,
-/obj/structure/closet/crate,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "uN" = (
 /turf/open/floor/iron/colony/white,
 /area/redplanet)
 "uP" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 1
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
-/obj/structure/railing,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/mineral_door/manual_colony_door,
 /obj/structure/cable,
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost)
 "uS" = (
 /turf/open/floor/iron/colony/texture{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
-"uX" = (
-/obj/effect/decal/cleanable/dirt,
+"uV" = (
 /obj/structure/cable,
-/obj/structure/disposalpipe/segment{
-	dir = 5
+/obj/machinery/mech_bay_recharge_port{
+	dir = 1
 	},
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"uW" = (
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"uX" = (
+/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
 "vy" = (
 /obj/item/gps/computer/beacon,
 /turf/open/floor/iron/colony/white/texture{
@@ -917,63 +1303,68 @@
 	},
 /area/redplanet)
 "vH" = (
-/obj/item/mop,
-/obj/structure/mop_bucket,
-/turf/open/floor/plating/lavaland_atmos,
-/area/redplanet)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "vJ" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating/lavaland_atmos,
-/area/redplanet)
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "vR" = (
-/obj/structure/lattice/catwalk,
+/obj/structure/lattice/lava,
 /obj/structure/railing{
-	dir = 1
+	dir = 6
 	},
-/obj/structure/cable,
+/obj/structure/railing{
+	dir = 10
+	},
 /turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "wi" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 1
+/obj/machinery/door/airlock/multi_tile/metal{
+	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
 	},
-/obj/structure/cable,
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "wj" = (
 /obj/structure/table/reinforced/rglass,
 /obj/machinery/computer/med_data/laptop,
 /turf/open/floor/iron/colony/white,
 /area/redplanet)
+"wq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/portable_atmospherics/pump/lil_pump,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "wr" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
-	},
-/turf/open/floor/plating/lavaland_atmos,
-/area/redplanet)
+/obj/machinery/atmospherics/components/tank/air,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "wx" = (
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"wz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
 "wB" = (
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 5
-	},
-/turf/open/floor/plating/lavaland_atmos,
-/area/redplanet)
+/obj/machinery/portable_atmospherics/scrubber/huge,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "wI" = (
-/obj/effect/turf_decal/siding/wideplating_new/dark,
-/obj/structure/billboard/nanotrasen,
-/turf/open/misc/ironsand/redplanet,
-/area/redplanet)
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/trashcart/laundry,
+/turf/open/floor/iron/colony/white,
+/area/ruin/space/has_grav/derelictoutpost)
 "wJ" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
 	dir = 4
@@ -981,25 +1372,26 @@
 /turf/open/misc/ironsand/redplanet,
 /area/redplanet)
 "wL" = (
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
-	},
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"wN" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 6
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"wS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
-/obj/structure/closet/crate/science/robo,
-/obj/item/v8_engine,
-/turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "xa" = (
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 1
+	},
 /turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "xg" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
 	dir = 8
@@ -1007,14 +1399,10 @@
 /turf/open/misc/ironsand/redplanet,
 /area/redplanet)
 "xh" = (
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
-	},
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 8
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/obj/structure/closet/crate/science/robo,
+/obj/item/v8_engine,
+/turf/open/floor/iron/colony/white,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "xi" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 5
@@ -1023,7 +1411,9 @@
 /area/redplanet)
 "xx" = (
 /obj/structure/closet/crate/solarpanel_small,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
 /area/redplanet)
 "xB" = (
 /obj/effect/decal/cleanable/dirt{
@@ -1032,15 +1422,36 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
+/obj/structure/cable,
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"xM" = (
+/obj/structure/lattice/lava,
+/obj/structure/railing{
+	dir = 10
+	},
+/obj/structure/railing{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 1
+	},
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"xP" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 5
+	},
+/turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "ye" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/cable,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "yf" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/blood/old,
@@ -1049,51 +1460,63 @@
 	},
 /turf/open/floor/iron/colony/white,
 /area/redplanet)
+"yi" = (
+/mob/living/basic/hivebot{
+	faction = list("Syndicate")
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "yo" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/vending/wardrobe/jani_wardrobe,
-/turf/open/floor/plating/lavaland_atmos,
-/area/redplanet)
+/turf/closed/wall/prefab_plastic,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "yt" = (
 /turf/open/floor/iron/colony/white/bolts{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
+"yv" = (
+/obj/machinery/airalarm/directional/west,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"yy" = (
+/obj/machinery/power/stirling_generator,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"yA" = (
+/obj/machinery/porta_turret/syndicate/energy,
+/turf/closed/wall/prefab_plastic,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "yB" = (
 /obj/structure/disposalpipe/junction/flip{
 	dir = 1
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "yC" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
-	},
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/turf/open/floor/iron/colony/white,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "yS" = (
 /obj/structure/billboard/azik,
 /turf/open/misc/ironsand/redplanet/randomrocks,
 /area/redplanet)
 "yT" = (
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 9
 	},
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 1
-	},
-/turf/open/floor/plating/lavaland_atmos,
+/turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "yZ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony/texture{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "zd" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table/reinforced/rglass,
@@ -1107,8 +1530,9 @@
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-flat-1"
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/cable,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "zl" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 10
@@ -1120,19 +1544,26 @@
 /turf/open/floor/iron/colony/white,
 /area/redplanet)
 "zw" = (
-/obj/machinery/door/airlock/shuttle,
-/obj/machinery/door/airlock/highsecurity,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"zx" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
 "zK" = (
 /obj/structure/rack/shelf,
 /obj/item/mecha_parts/mecha_equipment/drill,
 /obj/item/stack/sheet/mineral/sandbags/fifty,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
 /area/redplanet)
 "zX" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -1140,65 +1571,81 @@
 /turf/open/floor/iron/colony/white,
 /area/redplanet)
 "zZ" = (
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
+/obj/item/shard{
+	pixel_y = -8;
+	pixel_x = 3
 	},
-/obj/machinery/light/dim/directional/west,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/item/shard{
+	pixel_y = 13;
+	pixel_x = -5
+	},
+/obj/structure/grille/broken,
+/obj/structure/cable,
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Ac" = (
-/obj/machinery/airalarm/directional/west,
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/carpet,
-/area/redplanet)
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment,
+/obj/structure/mineral_door/manual_colony_door,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"Ad" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/tank_holder/oxygen/yellow,
+/obj/machinery/light/small/red/directional/east,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Ae" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 9
+	},
 /turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Af" = (
-/obj/effect/spawner/structure/window/reinforced/plasma,
-/turf/closed/wall,
-/area/redplanet)
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 5
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "Ap" = (
 /obj/structure/marker_beacon/teal,
 /turf/open/floor/iron/colony/texture{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
+"Ar" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "Au" = (
-/obj/item/modular_computer/pda/clear,
-/obj/structure/closet/l3closet/janitor,
-/obj/item/clothing/shoes/galoshes,
-/turf/open/floor/plating/lavaland_atmos,
-/area/redplanet)
+/obj/structure/disposalpipe/segment,
+/obj/structure/rack/shelf,
+/obj/item/flatpacked_machine/gps_beacon,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Av" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
-	},
-/obj/structure/cable,
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/obj/structure/fluff/empty_sleeper,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "Ay" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/basic/hivebot{
-	faction = list("Syndicate")
-	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/closed/wall/prefab_plastic,
+/area/ruin/space/has_grav/derelictoutpost)
 "AB" = (
 /obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/north,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony/texture{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "AD" = (
 /obj/structure/stone_tile/burnt,
-/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/turf/open/misc/asteroid/basalt/redplanet,
 /area/redplanet)
 "AJ" = (
 /obj/structure/chair/stool,
@@ -1216,6 +1663,20 @@
 	},
 /turf/open/lava/smooth/redplanet,
 /area/redplanet)
+"Bd" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/mob/living/basic/hivebot{
+	faction = list("Syndicate")
+	},
+/obj/structure/cable,
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
 "Bn" = (
 /obj/structure/billboard/nanotrasen,
 /turf/open/misc/ironsand/redplanet/randomrocks,
@@ -1224,24 +1685,29 @@
 /turf/open/space/basic,
 /area/centcom/tdome/arena)
 "Bu" = (
+/obj/structure/frame/machine,
+/obj/item/circuitboard/machine/autolathe,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"Bx" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/dim/directional/west,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
-"Bz" = (
-/obj/machinery/door/airlock/highsecurity,
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/iron/colony{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
-/obj/structure/fans/tiny,
-/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"Bz" = (
+/obj/structure/lattice/lava,
+/obj/structure/railing,
+/turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "BD" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
 	},
+/obj/effect/turf_decal/stripes/red/line,
 /turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "BJ" = (
 /obj/structure/shipping_container/nakamura,
 /turf/open/misc/ironsand/redplanet/randomrocks,
@@ -1251,14 +1717,21 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/colony/white,
 /area/redplanet)
-"Cl" = (
-/obj/structure/table,
-/obj/machinery/microwave{
-	pixel_x = -1;
-	pixel_y = 6
+"Cj" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 10
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"Cl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Cn" = (
 /obj/machinery/computer/terminal/dangerous_research{
 	dir = 8
@@ -1267,33 +1740,57 @@
 /turf/open/floor/iron/colony/white,
 /area/redplanet)
 "CI" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/effect/spawner/structure/window/reinforced/plasma,
-/turf/open/floor/plating,
-/area/redplanet)
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 6
+	},
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"CN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "CU" = (
 /obj/machinery/light/broken/directional/north,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/rack/shelf,
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "CX" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden,
 /turf/open/floor/plating,
-/area/redplanet)
+/area/ruin/space/has_grav/derelictoutpost)
 "CY" = (
-/obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/east,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
-"Df" = (
-/obj/structure/toilet{
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
+"CZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/meter/layer4,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
+"Dd" = (
+/obj/machinery/modular_computer/preset/civilian{
 	dir = 8
 	},
-/obj/machinery/light/small/dim/directional/east,
-/obj/item/gun/ballistic/shotgun/hook,
-/turf/open/floor/iron/white,
-/area/redplanet)
+/turf/open/floor/iron/colony/white,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"Df" = (
+/obj/machinery/door/airlock/multi_tile/metal{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Dg" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/blood/tracks{
@@ -1308,121 +1805,181 @@
 /turf/closed/indestructible/riveted,
 /area/centcom/tdome/arena)
 "Dp" = (
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 6
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"Ds" = (
+/obj/structure/tank_holder/extinguisher/advanced,
+/obj/structure/cable,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"Dt" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"DD" = (
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
-/turf/open/floor/plating/lavaland_atmos,
-/area/redplanet)
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "DP" = (
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
-	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
-/obj/structure/table/wood,
-/obj/effect/turf_decal/siding/wood{
-	dir = 6
+/obj/machinery/power/apc/auto_name/directional/west,
+/obj/structure/cable,
+/obj/structure/frame/computer{
+	dir = 4
 	},
-/obj/item/usb_cable,
-/turf/open/floor/carpet,
-/area/redplanet)
+/obj/effect/mapping_helpers/apc/syndicate_access,
+/obj/effect/mapping_helpers/apc/no_charge,
+/obj/effect/mapping_helpers/apc/cut_AI_wire,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "DS" = (
-/obj/effect/turf_decal/stripes/white/line,
-/turf/open/floor/plating/lavaland_atmos,
-/area/redplanet)
+/obj/structure/chair/office/tactical{
+	dir = 1
+	},
+/turf/open/floor/iron/colony/texture{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "DV" = (
 /obj/structure/billboard/space_cola,
 /turf/open/misc/ironsand/redplanet/randomrocks,
 /area/redplanet)
 "DW" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 8
-	},
-/turf/open/floor/plating/lavaland_atmos,
-/area/redplanet)
-"Ee" = (
-/obj/structure/mirror{
-	pixel_y = 32
-	},
-/obj/structure/sink/directional/south,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
-"Eh" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/marker_beacon/burgundy,
-/obj/structure/railing{
-	dir = 10
-	},
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
-"Er" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
-"EC" = (
-/obj/machinery/power/terminal{
+/obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
-/obj/structure/cable,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
-"ED" = (
-/obj/machinery/light/small/broken/directional/east,
-/obj/machinery/shower/directional/west,
-/obj/structure/drain,
-/turf/open/floor/iron/white,
-/area/redplanet)
-"EN" = (
-/obj/machinery/door/airlock/shuttle,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
-"EQ" = (
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"DZ" = (
+/obj/machinery/door/airlock/colony_prefab,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
+/obj/effect/mapping_helpers/airlock/welded,
+/turf/open/floor/catwalk_floor/colony_fabricator{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"Ee" = (
+/obj/machinery/porta_turret/syndicate/energy,
+/turf/closed/wall/prefab_plastic,
+/area/ruin/space/has_grav/derelictoutpost)
+"Eh" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/red/line{
+/obj/machinery/atmospherics/components/unary/portables_connector/layer2{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/canister,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
+"Ep" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"Er" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/meter/layer2,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
+"Ez" = (
+/obj/machinery/shower/directional/south,
+/obj/structure/curtain,
+/obj/structure/drain,
+/turf/open/floor/iron/colony/white/texture,
+/area/ruin/space/has_grav/derelictoutpost)
+"EC" = (
+/obj/structure/rack/shelf,
+/obj/item/flatpacked_machine/co2_cracker,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"ED" = (
+/turf/closed/wall/prefab_plastic,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"EN" = (
+/obj/machinery/door/airlock/multi_tile/metal{
 	dir = 8
 	},
-/turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"EQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
+"EZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/mop,
+/obj/structure/mop_bucket,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
 "Fk" = (
-/obj/structure/closet/crate,
-/obj/item/stack/sheet/iron/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/machinery/light/dim/directional/east,
+/turf/open/floor/iron/colony{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Fl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
-"Fu" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/red/line{
+/turf/open/floor/iron/colony{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"Fr" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
 	},
-/obj/structure/table,
-/obj/item/stack/sheet/iron/fifty,
-/turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/obj/structure/deployable_barricade/metal{
+	dir = 8
+	},
+/mob/living/basic/hivebot{
+	faction = list("Syndicate")
+	},
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"Fu" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "Fv" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/airalarm/directional/north,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
+"Fx" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "FB" = (
 /obj/structure/sign/departments/med/directional/east,
 /turf/open/misc/ironsand/redplanet/randomrocks,
 /area/redplanet)
+"FH" = (
+/obj/machinery/atmospherics/components/tank/nitrogen,
+/turf/open/floor/iron/colony/white,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "FK" = (
 /obj/structure/closet/crate/medical,
 /obj/item/defibrillator/compact/loaded,
@@ -1435,6 +1992,23 @@
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
+"FL" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/structure/deployable_barricade/metal{
+	dir = 1
+	},
+/obj/structure/deployable_barricade/metal{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "FN" = (
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 1
@@ -1442,16 +2016,27 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "FQ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/airalarm/directional/east,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/machinery/atmospherics/pipe/layer_manifold/supply/hidden,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
+"FS" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/obj/machinery/door/poddoor/preopen,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"FT" = (
+/obj/structure/chair/office/tactical{
+	dir = 4
+	},
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "Gc" = (
 /obj/structure/sign/logo,
 /turf/closed/indestructible/riveted,
@@ -1462,48 +2047,63 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Gh" = (
-/obj/structure/stone_tile/surrounding/cracked,
-/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
-/area/redplanet)
-"Gw" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 10
-	},
-/obj/machinery/power/colony_wind_turbine,
+/obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"Gw" = (
+/obj/structure/table,
+/obj/item/plate,
+/turf/open/floor/iron/colony/white/texture,
+/area/ruin/space/has_grav/derelictoutpost)
 "GC" = (
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 4
 	},
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 1
+/obj/machinery/portable_atmospherics/canister/nitrogen,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"GD" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/layer2{
+	dir = 4
 	},
-/turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/obj/machinery/portable_atmospherics/canister,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
+"GG" = (
+/obj/structure/closet/emcloset/anchored,
+/obj/machinery/light/small/red/directional/west,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "GV" = (
-/obj/machinery/power/smes/battery_pack/large/precharged,
 /obj/machinery/light/dim/directional/north,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "GX" = (
-/obj/structure/closet/secure_closet/personal,
-/obj/item/toy/cards/deck/syndicate,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/mineral_door/manual_colony_door,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost)
 "GZ" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/marker_beacon/burgundy,
-/obj/structure/railing{
-	dir = 6
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/secure_closet/personal,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
+"Ho" = (
+/obj/effect/mob_spawn/corpse/human/syndicatepilot,
+/obj/effect/decal/cleanable/blood/old,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
 	},
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/turf/open/floor/iron/colony/texture{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Ht" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/chair,
@@ -1511,21 +2111,33 @@
 /area/redplanet)
 "Hv" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 8
+	},
 /turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Hw" = (
 /obj/structure/cargo_shuttle_beacon,
 /turf/open/floor/catwalk_floor/colony_fabricator{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
-"HE" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+"HB" = (
+/obj/machinery/door/airlock/colony_prefab,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"HE" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "HG" = (
 /obj/structure/fence{
 	dir = 8
@@ -1534,31 +2146,57 @@
 /area/redplanet)
 "HI" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/lavaland_atmos,
+/obj/structure/mineral_door/manual_colony_door,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost)
+"HP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/electrolyzer/co2_cracker,
+/obj/structure/cable,
+/turf/open/floor/iron/colony/white/texture,
+/area/ruin/space/has_grav/derelictoutpost)
+"HQ" = (
+/obj/structure/lattice/lava,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "HS" = (
-/obj/machinery/light/broken/directional/east,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"HW" = (
+/obj/structure/marker_beacon/burgundy,
+/turf/closed/wall/prefab_plastic,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "HZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/closet/secure_closet/personal,
+/obj/item/toy/cards/deck/syndicate,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "Ii" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing/corner{
-	dir = 4
-	},
-/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
-/area/redplanet)
-"Ik" = (
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-flat-1"
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/cable,
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"Ik" = (
+/turf/open/lava/smooth/redplanet,
+/area/ruin/space/has_grav/derelictoutpost)
+"Io" = (
+/obj/machinery/door/airlock/colony_prefab,
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "It" = (
 /obj/structure/table/reinforced/rglass,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -1570,52 +2208,90 @@
 /obj/structure/table/reinforced/rglass,
 /turf/open/floor/iron/colony/white/bolts,
 /area/redplanet)
+"ID" = (
+/turf/open/floor/iron/colony/white,
+/area/ruin/space/has_grav/derelictoutpost)
 "IE" = (
 /obj/structure/rack/shelf,
 /obj/item/storage/belt/utility/full/powertools,
 /obj/item/shovel,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/redplanet)
+"IN" = (
+/obj/structure/flippedtable,
+/turf/open/floor/iron/colony{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"IS" = (
+/obj/structure/lattice/lava,
+/obj/structure/railing,
+/obj/machinery/atmospherics/pipe/heat_exchanging/junction{
+	dir = 8
+	},
+/turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "IW" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 9
+/obj/machinery/door/airlock/multi_tile/metal{
+	dir = 1
 	},
-/turf/open/floor/plating/lavaland_atmos,
-/area/redplanet)
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Ja" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Jz" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment,
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/carpet,
-/area/redplanet)
+/turf/closed/wall/prefab_plastic,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "JE" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/door/airlock/multi_tile/metal{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"JF" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
 	},
-/obj/machinery/power/colony_wind_turbine,
-/obj/structure/cable,
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
-"JF" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 6
+/obj/structure/deployable_barricade/metal{
+	dir = 1
 	},
-/obj/machinery/power/colony_wind_turbine,
-/obj/structure/cable,
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/obj/structure/deployable_barricade/metal{
+	dir = 8
+	},
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "JM" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/lattice/catwalk,
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"JS" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "JX" = (
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-flat-1"
@@ -1625,70 +2301,96 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/cable,
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "Kg" = (
 /obj/effect/mob_spawn/corpse/human/miner/explorer,
 /turf/open/misc/asteroid/basalt/redplanet/randomrocks,
 /area/redplanet)
 "Kj" = (
-/obj/machinery/door/airlock/shuttle,
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "Kl" = (
-/obj/machinery/door/airlock/shuttle,
 /obj/structure/cable,
-/obj/machinery/door/airlock/highsecurity,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
-"Kn" = (
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"Km" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
-"Kx" = (
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
-"KK" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing/corner{
-	dir = 1
+/turf/open/floor/iron/colony/texture{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
-/obj/structure/cable,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"Kn" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 6
+	},
 /turf/open/lava/smooth/redplanet,
 /area/redplanet)
-"KO" = (
+"Ks" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"Kv" = (
+/obj/machinery/atmospherics/components/tank/air,
+/obj/structure/cable,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
+"Kw" = (
+/obj/machinery/door/airlock/multi_tile/metal{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/lava/smooth/redplanet,
+/area/ruin/space/has_grav/derelictoutpost)
+"Kx" = (
+/obj/structure/lattice/lava,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"KH" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"KK" = (
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-flat-1"
 	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
-"KW" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"KO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
-/obj/effect/spawner/random/engineering/tool,
-/turf/open/floor/mineral/plastitanium,
+/obj/item/multitool,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"KW" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/manifold4w,
+/turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "Lb" = (
 /obj/structure/lattice/catwalk,
@@ -1700,66 +2402,91 @@
 /turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "Ld" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
+/obj/effect/turf_decal/box/white/corners{
+	dir = 8
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/effect/turf_decal/box/white/corners,
+/turf/open/floor/iron/colony{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Lt" = (
-/obj/effect/turf_decal/bot_red,
-/turf/open/floor/mineral/plastitanium,
+/obj/structure/fence/door/opened{
+	dir = 4
+	},
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
 /area/redplanet)
 "Lu" = (
 /obj/structure/closet/crate/engineering/electrical,
-/turf/open/floor/plating/rust,
-/area/redplanet)
-"LR" = (
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
-/obj/effect/decal/cleanable/dirt,
+/area/redplanet)
+"Ly" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"LR" = (
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/machinery/porta_turret/syndicate,
+/turf/closed/wall/prefab_plastic,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "LS" = (
+/obj/machinery/suit_storage_unit/industrial,
+/obj/machinery/light/small/red/directional/south,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"LZ" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/machinery/light/dim/directional/west,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "Mb" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/cable,
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost)
 "Mk" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "Mq" = (
-/obj/structure/fluff/empty_sleeper,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/closet/secure_closet/personal,
+/obj/structure/cable,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "MA" = (
 /obj/structure/fence/corner{
 	dir = 10
 	},
 /turf/open/misc/asteroid/basalt/redplanet/randomrocks,
 /area/redplanet)
-"MJ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
+"MG" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/apc/syndicate_access,
+/obj/effect/mapping_helpers/apc/no_charge,
+/obj/effect/mapping_helpers/apc/cut_AI_wire,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
-/obj/machinery/portable_atmospherics/canister/air,
-/turf/open/floor/plating/lavaland_atmos,
-/area/redplanet)
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"MI" = (
+/obj/machinery/airalarm/directional/north,
+/obj/structure/closet/crate/trashcart/filled,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
+"MJ" = (
+/obj/machinery/biogenerator/organic_printer,
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "MQ" = (
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-flat-1"
@@ -1767,8 +2494,8 @@
 /mob/living/basic/hivebot/strong{
 	faction = list("Syndicate")
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "MR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt{
@@ -1777,8 +2504,9 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/cable,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
 "Ne" = (
 /obj/structure/closet/crate/hydroponics,
 /obj/item/seeds/carrot/parsnip,
@@ -1801,94 +2529,117 @@
 	},
 /area/redplanet)
 "Nf" = (
-/obj/structure/stone_tile/slab/cracked,
-/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
-/area/redplanet)
+/obj/machinery/modular_computer/preset/civilian,
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron/colony{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Nh" = (
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/obj/structure/mecha_wreckage/ripley/mk2,
+/obj/structure/cable,
+/turf/open/floor/iron/colony/white/texture,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Nl" = (
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 1
-	},
-/obj/structure/table,
-/obj/item/multitool,
-/turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "NF" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/dim/directional/east,
+/obj/structure/cable,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
+"NG" = (
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-flat-1"
 	},
-/obj/structure/cable,
+/obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/machinery/door/airlock/multi_tile/metal{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "NV" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing,
-/turf/open/lava/smooth/redplanet,
+/obj/structure/marker_beacon/burgundy,
+/turf/closed/wall/prefab_plastic,
 /area/redplanet)
 "Oc" = (
 /turf/closed/wall/rust,
 /area/redplanet)
 "Of" = (
-/obj/structure/filingcabinet,
-/turf/open/floor/carpet,
-/area/redplanet)
+/obj/structure/cable,
+/obj/structure/table/wood,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "Oj" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/cable,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
 "Ol" = (
-/obj/machinery/light/dim/directional/north,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/effect/decal/cleanable/blood/old,
+/obj/effect/turf_decal/box/white,
+/turf/open/floor/iron/colony{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Om" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/machinery/portable_atmospherics/scrubber,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "Op" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
-"Os" = (
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
+/turf/open/floor/iron/colony{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
-/obj/machinery/door/airlock/shuttle,
-/obj/structure/cable,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"Os" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/item/storage/medkit/civil_defense,
+/obj/item/weldingtool/mini/empty{
+	pixel_y = 7;
+	pixel_x = -9
+	},
+/turf/open/floor/iron/colony/texture{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Oz" = (
 /obj/effect/mapping_helpers/airlock/welded,
 /obj/effect/mapping_helpers/airlock/welded,
 /obj/machinery/door/airlock/medical,
 /turf/open/floor/iron/colony/white,
 /area/redplanet)
+"OC" = (
+/obj/structure/tank_holder/extinguisher,
+/obj/machinery/light/small/red/directional/east,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "OF" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/colony/white/bolts,
 /area/redplanet)
 "OG" = (
-/obj/structure/mecha_wreckage/ripley/mk2,
-/obj/effect/turf_decal/stripes/box,
-/obj/effect/turf_decal/stripes/red/box,
-/turf/open/floor/iron/recharge_floor,
-/area/redplanet)
+/obj/effect/turf_decal/stripes/red/line,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "OL" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 6
@@ -1910,12 +2661,21 @@
 	},
 /turf/closed/indestructible/riveted,
 /area/centcom/tdome/arena)
+"Pa" = (
+/obj/machinery/atmospherics/components/tank/air,
+/turf/open/floor/iron/colony/white,
+/area/ruin/space/has_grav/derelictoutpost)
+"Pf" = (
+/obj/structure/cable,
+/obj/structure/mineral_door/manual_colony_door,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost)
 "Ph" = (
-/obj/machinery/mech_bay_recharge_port{
-	dir = 2
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/obj/machinery/mech_bay_recharge_port,
+/obj/structure/cable,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Pm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -1924,8 +2684,9 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/cable,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
 "Pn" = (
 /obj/structure/flora/rock,
 /obj/item/nullrod/claymore/chainsaw_sword{
@@ -1942,16 +2703,25 @@
 	pixel_y = -15
 	},
 /obj/structure/stone_tile/slab/cracked,
-/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/turf/open/misc/asteroid/basalt/redplanet,
 /area/redplanet)
 "Ps" = (
-/turf/closed/wall,
-/area/redplanet)
+/obj/structure/chair/plastic{
+	dir = 8
+	},
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "Pt" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/secure_closet/personal,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/effect/spawner/structure/window/hollow/plasma/directional,
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost)
+"Pu" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
+/obj/structure/cable,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "PB" = (
 /turf/closed/mineral/random/redplanet/dark,
 /area/redplanet)
@@ -1963,17 +2733,21 @@
 /area/centcom/tdome/arena)
 "PQ" = (
 /obj/structure/cable,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"PW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Qg" = (
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
-	},
-/obj/structure/disposalpipe/segment{
+/obj/structure/disposalpipe/junction/flip{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "Qi" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 9
@@ -1986,20 +2760,25 @@
 /turf/open/floor/iron/colony/white,
 /area/redplanet)
 "Qy" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing/corner{
-	dir = 8
+/obj/machinery/atmospherics/pipe/heat_exchanging/manifold{
+	dir = 4
 	},
 /turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "QK" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 8
+/obj/effect/turf_decal/box/white/corners{
+	dir = 4
 	},
-/obj/structure/cable,
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/obj/effect/turf_decal/box/white/corners{
+	dir = 1
+	},
+/obj/structure/closet/crate/cargo,
+/obj/item/flatpacked_machine,
+/obj/machinery/light/dim/directional/east,
+/turf/open/floor/iron/colony{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "QP" = (
 /obj/structure/closet/crate/cardboard/mothic,
 /obj/item/storage/box/mothic_rations,
@@ -2010,72 +2789,116 @@
 	},
 /area/redplanet)
 "QT" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/light/dim/directional/north,
-/obj/structure/table/wood,
-/obj/item/paper_bin{
-	pixel_y = 3
-	},
-/obj/item/pen/fountain{
-	pixel_y = 5
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/turf/open/floor/carpet,
-/area/redplanet)
-"Rb" = (
-/obj/machinery/door/airlock/highsecurity,
-/obj/structure/fans/tiny,
 /obj/structure/cable,
-/turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/obj/structure/frame/machine,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"Rb" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "Rp" = (
 /obj/structure/rack/wooden,
 /obj/item/pickaxe,
 /obj/item/shovel,
 /turf/open/misc/asteroid/basalt/redplanet/randomrocks,
 /area/redplanet)
+"RC" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost)
 "RK" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 1
+/obj/structure/closet/firecloset/full,
+/obj/machinery/light/small/red/directional/east,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
-/obj/structure/railing/corner{
-	dir = 8
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"RL" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
 	},
-/obj/structure/cable,
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "RX" = (
 /turf/closed/mineral/random/redplanet,
 /area/redplanet)
 "Sg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/effect/turf_decal/box/white/corners{
+	dir = 8
+	},
+/obj/effect/turf_decal/box/white/corners,
+/obj/structure/closet/crate/cargo/mining,
+/obj/item/stack/sheet/glass/fifty,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Sh" = (
-/obj/machinery/door/airlock/shuttle,
-/obj/machinery/door/airlock/highsecurity,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/machinery/door/airlock/multi_tile/metal{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "Sk" = (
 /obj/structure/mineral_door/manual_colony_door,
 /obj/structure/barricade/wooden/crude,
 /turf/open/floor/iron/colony/white,
 /area/redplanet)
-"SJ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/porta_turret/syndicate,
-/turf/closed/wall,
+"Sm" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost)
+"SD" = (
+/obj/structure/lattice/lava,
+/obj/structure/railing,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 4
+	},
+/turf/open/lava/smooth/redplanet,
 /area/redplanet)
+"SJ" = (
+/obj/machinery/porta_turret/syndicate,
+/turf/closed/wall/prefab_plastic,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"SM" = (
+/mob/living/basic/hivebot{
+	faction = list("Syndicate")
+	},
+/turf/open/floor/iron/colony/texture{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"SO" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/structure/deployable_barricade/metal{
+	dir = 8
+	},
+/obj/structure/deployable_barricade/metal,
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "SP" = (
 /obj/structure/fence,
 /turf/open/misc/asteroid/basalt/redplanet/randomrocks,
@@ -2087,13 +2910,29 @@
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-flat-1"
 	},
-/turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/obj/item/wrench,
+/obj/item/crowbar,
+/obj/structure/table,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"Tm" = (
+/obj/structure/rack/shelf,
+/obj/item/door_seal,
+/obj/item/storage/medkit/emergency,
+/obj/item/crowbar/red,
+/obj/machinery/light/small/red/directional/north,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Tr" = (
-/obj/machinery/door/airlock/shuttle,
-/obj/machinery/door/airlock/highsecurity,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"Tv" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Tw" = (
 /obj/structure/closet/secure_closet/medical2,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -2107,37 +2946,59 @@
 /turf/open/floor/iron/colony/white,
 /area/redplanet)
 "Tx" = (
-/obj/machinery/light/dim/directional/south,
-/turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/obj/structure/closet/crate,
+/obj/item/stack/sheet/iron/fifty,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "TF" = (
 /obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/west,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
-"TM" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/east,
 /obj/structure/disposalpipe/segment,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"TK" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/iron/colony/texture{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"TM" = (
+/obj/structure/cable,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
+"TN" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "TQ" = (
 /obj/machinery/airalarm/directional/east,
 /obj/structure/closet/crate,
 /obj/item/stack/sheet/plasmaglass/fifty,
 /obj/item/stack/sheet/mineral/plasma/thirty,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
-"TS" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 10
+/obj/effect/turf_decal/box/white/corners{
+	dir = 8
 	},
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/obj/effect/turf_decal/box/white/corners,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"TS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"Uc" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "Uj" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/vending/deforest_medvend,
@@ -2148,34 +3009,56 @@
 /turf/open/misc/ironsand/redplanet,
 /area/redplanet)
 "Uq" = (
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
+/obj/machinery/atmospherics/pipe/heat_exchanging/manifold{
+	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth,
+/turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "Uv" = (
-/obj/structure/cable,
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
 "Uz" = (
 /turf/cordon,
 /area/misc/cordon)
 "UK" = (
-/obj/structure/closet/emcloset,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
-"Vb" = (
-/obj/structure/lattice/catwalk,
+/obj/structure/lattice/lava,
 /obj/structure/railing{
 	dir = 4
 	},
-/obj/structure/cable,
+/obj/structure/railing/corner{
+	dir = 8
+	},
 /turf/open/lava/smooth/redplanet,
 /area/redplanet)
+"UR" = (
+/obj/machinery/suit_storage_unit/industrial,
+/obj/machinery/light/small/red/directional/south,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"US" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 9
+	},
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"Vb" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 5
+	},
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"Vs" = (
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Vy" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/iron/colony/white,
@@ -2195,8 +3078,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "VL" = (
 /turf/open/misc/ironsand/redplanet/randomrocks,
 /area/redplanet)
@@ -2207,12 +3091,7 @@
 /turf/open/floor/iron/colony/white/bolts,
 /area/redplanet)
 "VR" = (
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth,
+/turf/open/misc/asteroid/basalt/redplanet,
 /area/redplanet)
 "VX" = (
 /obj/structure/fluff/empty_sleeper{
@@ -2233,10 +3112,14 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/cable,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "Ww" = (
-/obj/structure/lattice/catwalk,
+/obj/structure/lattice/lava,
+/obj/structure/railing{
+	dir = 8
+	},
 /turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "WA" = (
@@ -2245,27 +3128,37 @@
 /area/redplanet)
 "WB" = (
 /obj/structure/stone_tile/block/cracked,
-/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/turf/open/misc/asteroid/basalt/redplanet,
 /area/redplanet)
+"WF" = (
+/obj/structure/filingcabinet,
+/turf/open/floor/iron/colony/white,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "WQ" = (
-/obj/structure/closet/secure_closet/personal,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "WW" = (
-/obj/effect/turf_decal/stripes/red/line{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/structure/cable,
-/turf/open/floor/mineral/plastitanium,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"WY" = (
+/obj/structure/lattice/lava,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/railing/corner,
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 6
+	},
+/turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "Xg" = (
-/obj/machinery/light/dim/directional/east,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
 "Xj" = (
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-flat-1"
@@ -2273,81 +3166,128 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
+"Xl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 10
+	},
+/obj/machinery/light/dim/directional/east,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"Xo" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "XB" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
 	},
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "XF" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony/texture{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "XU" = (
 /obj/effect/landmark/observer_start,
 /turf/open/misc/ironsand/redplanet,
 /area/redplanet)
+"XX" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/colony{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"XY" = (
+/obj/machinery/computer/mech_bay_power_console{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Ya" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/table,
+/obj/machinery/biogenerator/foodricator,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "Yd" = (
 /turf/open/floor/catwalk_floor/colony_fabricator{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
+"Ye" = (
+/obj/structure/rack/shelf,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Yg" = (
-/obj/machinery/mecha_part_fabricator/maint{
-	name = "forgotten exosuit fabricator"
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 10
 	},
-/turf/open/floor/mineral/plastitanium,
+/turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "Yi" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 5
-	},
-/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/heat_exchanging/manifold,
 /turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "Yv" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/redplanet)
-"Yz" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/marker_beacon/burgundy,
-/obj/structure/railing{
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
-/obj/structure/railing/corner,
-/obj/structure/cable,
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/obj/machinery/door/poddoor/preopen,
+/turf/open/floor/iron/colony/texture{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"Yz" = (
+/obj/structure/closet/emcloset/anchored,
+/obj/machinery/light/small/red/directional/east,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost)
 "YB" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/colony/texture,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "YI" = (
 /obj/structure/flora/biolumi/flower/weaklight,
-/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/turf/open/misc/asteroid/basalt/redplanet,
 /area/redplanet)
 "YJ" = (
 /obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
+"YN" = (
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
+"YQ" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible,
+/obj/machinery/portable_atmospherics/canister/nitrogen,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost/powerstorage)
 "YV" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/blood/old,
@@ -2361,8 +3301,8 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
 "Zf" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -2370,36 +3310,64 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/mineral_door/manual_colony_door,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost)
+"Zh" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/obj/structure/tank_dispenser/oxygen,
+/obj/effect/mapping_helpers/apc/syndicate_access,
+/obj/effect/mapping_helpers/apc/no_charge,
+/obj/effect/mapping_helpers/apc/cut_AI_wire,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 "Zi" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 8
-	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron/colony,
+/area/ruin/space/has_grav/derelictoutpost)
 "Zl" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/airalarm/directional/east,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Zp" = (
-/obj/effect/decal/cleanable/dirt{
-	icon_state = "dirt-flat-1"
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/colony_fabricator,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
+"Zu" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/colony/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
-/turf/closed/wall,
-/area/redplanet)
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Zz" = (
 /obj/machinery/door/airlock/colony_prefab,
-/turf/open/floor/plating/rust,
+/turf/open/floor/plating/rust{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
 /area/redplanet)
+"ZC" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/plating{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "ZG" = (
-/turf/open/floor/mineral/plastitanium,
-/area/redplanet)
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "ZH" = (
 /obj/structure/closet/crate/cargo,
 /obj/item/circuitboard/machine/techfab,
@@ -2409,13 +3377,29 @@
 	},
 /area/redplanet)
 "ZI" = (
-/obj/machinery/airalarm/directional/east,
-/turf/open/floor/iron/smooth,
-/area/redplanet)
+/obj/structure/closet/secure_closet/personal,
+/turf/open/floor/iron/colony/white/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
+"ZN" = (
+/obj/machinery/door/airlock/multi_tile/metal{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
+/obj/effect/mapping_helpers/airlock/welded,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/catwalk_floor/colony_fabricator{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/ruin/space/has_grav/derelictoutpost/cargobay)
 "ZU" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/lava/smooth/redplanet,
-/area/redplanet)
+/obj/structure/closet/l3closet/janitor,
+/obj/item/modular_computer/pda/clear,
+/obj/item/clothing/shoes/galoshes,
+/turf/open/floor/iron/colony/bolts,
+/area/ruin/space/has_grav/derelictoutpost)
 
 (1,1,1) = {"
 Uz
@@ -64298,7 +65282,7 @@ aa
 aa
 aa
 aa
-wI
+jj
 gA
 yt
 ad
@@ -96943,14 +97927,14 @@ PB
 ez
 sE
 SP
+Lt
 SP
 SP
 SP
-SP
-SP
-SP
+Lt
 SP
 MA
+ez
 ez
 PB
 PB
@@ -97337,8 +98321,8 @@ ez
 ez
 jq
 ez
+HG
 ez
-nX
 ez
 PB
 PB
@@ -97725,8 +98709,8 @@ ez
 ez
 ez
 ez
+nX
 ez
-HG
 ez
 PB
 PB
@@ -98113,8 +99097,8 @@ ez
 ez
 ez
 ez
-ez
 HG
+ez
 ez
 PB
 PB
@@ -98501,8 +99485,8 @@ Kg
 jq
 ez
 ez
-ez
 cJ
+SP
 SP
 PB
 PB
@@ -98884,10 +99868,10 @@ ez
 ez
 ez
 ez
-kf
-Ii
-lq
-kf
+ez
+ez
+ez
+ez
 ez
 ez
 ez
@@ -99272,10 +100256,10 @@ ez
 ez
 ez
 ez
-fV
-Mk
-NV
-fV
+ez
+ez
+ez
+ez
 ez
 ez
 ez
@@ -99661,10 +100645,10 @@ ez
 ez
 fV
 fV
-Mk
+fV
 NV
-fV
-fV
+ez
+ez
 ez
 ez
 ez
@@ -100046,11 +101030,11 @@ ez
 ez
 ez
 ez
-fV
-fV
-fV
-Mk
 NV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -100085,11 +101069,11 @@ PB
 PB
 PB
 PB
-ez
-ez
-ez
-ez
-ez
+SP
+SP
+SP
+SP
+MA
 ez
 ez
 ez
@@ -100437,8 +101421,8 @@ fV
 fV
 fV
 fV
-Mk
-NV
+fV
+fV
 fV
 fV
 fV
@@ -100477,7 +101461,7 @@ ez
 ez
 ez
 ez
-ez
+HG
 ez
 ez
 ez
@@ -100825,8 +101809,8 @@ fV
 fV
 fV
 fV
-Mk
-NV
+fV
+fV
 fV
 fV
 fV
@@ -100865,7 +101849,7 @@ ez
 ez
 ez
 ez
-ez
+nX
 ez
 ez
 ez
@@ -101213,8 +102197,8 @@ fV
 fV
 fV
 fV
-Mk
-NV
+fV
+fV
 fV
 fV
 fV
@@ -101253,7 +102237,7 @@ ez
 ez
 ez
 ez
-ez
+HG
 ez
 ez
 ez
@@ -101595,16 +102579,16 @@ ez
 ez
 ez
 ez
+NV
 fV
 fV
 fV
 fV
-jI
-Ps
-Bz
-nn
-Ps
-jI
+fV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -101641,7 +102625,7 @@ ez
 ez
 ez
 ez
-ez
+HG
 ez
 ez
 ez
@@ -101984,18 +102968,6 @@ ez
 ez
 fV
 fV
-Ps
-Yv
-Yv
-Zp
-jV
-Ja
-Ja
-tR
-Ps
-Yv
-Yv
-Ps
 fV
 fV
 fV
@@ -102007,6 +102979,18 @@ fV
 fV
 fV
 fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
 ez
 ez
 ez
@@ -102029,12 +103013,12 @@ ez
 ez
 ez
 ez
-ez
-ez
-ez
-ez
-ez
-ez
+cJ
+SP
+SP
+SP
+SP
+SP
 PB
 PB
 PB
@@ -102372,18 +103356,18 @@ ez
 fV
 fV
 fV
-Ps
-sU
-tR
-zZ
-jV
-tR
-tR
-Ja
-Bu
-Ja
-UK
-Ps
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -102756,22 +103740,22 @@ ez
 ez
 ez
 ez
+NV
 fV
 fV
 fV
 fV
-Yv
-tR
-Ja
-Ja
-jV
-Uq
-Ja
-Sg
-Ja
-Ja
-tR
-Yv
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -103148,18 +104132,18 @@ fV
 fV
 fV
 fV
-Yv
-tR
-tR
-tR
-Sg
-Ik
-bW
-HE
-Ja
-Ja
-Ja
-Yv
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -103400,7 +104384,7 @@ ez
 RX
 RX
 ky
-ez
+VR
 AD
 qx
 YI
@@ -103536,18 +104520,18 @@ fV
 fV
 fV
 fV
-Ps
-Ps
-tR
-Ja
-tR
-Ja
-Kx
-jV
-Ja
-tR
-Ps
-Ps
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -103788,9 +104772,9 @@ ez
 RX
 RX
 ez
-ez
+VR
 rD
-ez
+VR
 RX
 RX
 RX
@@ -103918,6 +104902,7 @@ ez
 ez
 ez
 ez
+NV
 fV
 fV
 fV
@@ -103925,16 +104910,15 @@ fV
 fV
 fV
 fV
-Ps
-jI
-tR
-tR
-tR
-pZ
-fW
-ZI
-jI
-Ps
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -104314,14 +105298,14 @@ fV
 fV
 fV
 fV
-Ps
-Ps
-Ps
-EN
-Os
-Ps
-Ps
-Ps
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -104704,10 +105688,10 @@ fV
 fV
 fV
 fV
-Ps
-jV
-KO
-Ps
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -105091,12 +106075,6 @@ fV
 fV
 fV
 fV
-Ps
-Ps
-jV
-Om
-Ps
-Ps
 fV
 fV
 fV
@@ -105115,7 +106093,13 @@ fV
 fV
 fV
 fV
+nj
 fV
+fV
+fV
+nj
+fV
+nj
 fV
 fV
 fV
@@ -105469,23 +106453,7 @@ ez
 ez
 ez
 ez
-ez
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-Ps
-Ps
-tR
-rp
-NF
-tR
-Ps
-Ps
+NV
 fV
 fV
 fV
@@ -105497,14 +106465,30 @@ fV
 fV
 fV
 fV
-Ps
-Ps
-Ps
-Ps
-Ps
 fV
 fV
 fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+nj
+fV
+fV
+fV
+yo
+Gh
+Gh
+Gh
+yo
+fV
+yo
+ih
 fV
 fV
 fV
@@ -105866,34 +106850,34 @@ fV
 fV
 fV
 fV
-Ps
-sp
-tR
-Sg
-NF
-jV
-tR
-Ps
 fV
 fV
 fV
 fV
 fV
 fV
+nj
 fV
 fV
-Ps
-Ps
-Yv
-Ps
+nj
+fV
+fV
+fV
+nj
+fV
+yo
+Gh
+Gh
+Gh
+yo
 jw
 Ph
 OG
-Ps
-Ps
-fV
-fV
-fV
+yo
+yo
+yo
+yo
+nj
 fV
 fV
 fV
@@ -106254,32 +107238,32 @@ fV
 fV
 fV
 fV
-Ps
-oN
-tR
-Sg
-lv
-jV
-tR
-Ps
-Ps
 fV
 fV
 fV
 fV
 fV
+Ee
+Ay
 fV
-Ps
-Ps
+fV
+Ay
+lq
+lq
+lq
+yo
+yo
+yo
+bu
 fv
-il
-Kn
+Au
+PW
 FN
 Nh
 BD
-ZG
-Ps
-Ps
+tC
+rZ
+yo
 fV
 fV
 fV
@@ -106633,7 +107617,7 @@ ez
 ez
 ez
 ez
-ez
+NV
 fV
 fV
 fV
@@ -106642,34 +107626,34 @@ fV
 fV
 fV
 fV
-Yv
-sA
-Ja
-LS
-dX
-Ja
-Ja
-tR
-Ps
-Ps
-Yv
-Yv
-Ps
-Ps
+fV
+fV
+fV
+fV
+nj
+Ay
+Ay
+Ay
+Ay
+Ay
+Om
+HP
+wq
+yo
 jf
-jf
+yo
 CU
-Ja
-tR
-Ja
-wx
-ZG
+by
+Vs
+SJ
+Cj
+Tv
 Ae
 ZG
 Tx
-Ps
-jI
-fV
+yo
+yo
+nj
 fV
 fV
 fV
@@ -107030,40 +108014,40 @@ fV
 fV
 fV
 fV
-Yv
-Cl
-Ja
-Ja
-lv
-Ja
-Ja
-Ja
-tR
-Ja
-Ja
-Ja
-Ja
-tR
-EN
-Ja
-Ja
+fV
+fV
+fV
+fV
+fV
+fV
+Ay
+Eh
+GD
+Ay
+Om
+EQ
+vH
+Df
+RL
+IW
+Xo
 ye
 Gg
-tR
-wx
 ZG
-Ae
+wx
+PQ
+JS
+qm
 Hv
 Hv
-Hv
-ox
-XB
-XB
-XB
-yC
-yC
-yC
-TS
+Gh
+fV
+fV
+fV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -107418,40 +108402,40 @@ fV
 fV
 fV
 fV
-Ps
-Ps
-fv
-il
+fV
+fV
+fV
+fV
+fV
+fV
+Ay
+bS
 Uv
-TM
-FQ
-Er
-Er
 Er
 Uv
 uX
-dX
+zx
 dX
 oO
 Zl
 lv
-lv
+TS
 mm
-jv
+yi
 mj
-xa
+tz
 WW
 xa
-xa
-xa
-Rb
-Vb
-Vb
-Av
-Av
-Av
-fK
-NV
+jn
+uV
+Gh
+fV
+fV
+fV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -107798,7 +108782,7 @@ ez
 ez
 ez
 ez
-ez
+NV
 fV
 fV
 fV
@@ -107807,39 +108791,39 @@ fV
 fV
 fV
 fV
-Ps
-Ps
-Yv
-Yv
-Ps
-Ps
-Ps
-Ps
+fV
+fV
+fV
+fV
+Ay
+Ay
+Ay
+fd
 Xg
-Ja
+Fv
 Zc
-Xg
-Ps
-Ps
-Ps
+YN
+yo
+OC
+yo
 GV
 tt
 gS
-Sg
-tR
+gi
+PQ
 PQ
 VD
-Ja
+Xl
 uL
-Ps
-jI
+XY
+Gh
 fV
 fV
-by
 fV
 fV
-wi
-NV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -108199,37 +109183,37 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-Ps
-Ps
-Ja
-Zf
-Ps
-Ps
-fV
-Ps
-Ps
+lq
+Pa
+wr
+FQ
+CY
+CZ
+YJ
+Ay
+yo
+yo
+yo
+Ye
 ty
 EC
-CY
-er
-er
-VD
-tR
-Ps
-Ps
+yo
+yo
+lo
+JE
+yo
+yo
+yo
+yo
+nj
 fV
 fV
 fV
 fV
 fV
 fV
-vR
-NV
 fV
-ZU
+fV
 fV
 fV
 fV
@@ -108587,38 +109571,38 @@ fV
 fV
 fV
 fV
+lq
+Kv
+qA
+oX
+TM
+fC
+Kj
+lq
+fV
+yo
+yo
+yo
+yo
+yo
+yo
+mz
+Dt
+kA
+UR
+yo
 fV
 fV
 fV
 fV
-Yv
-Ja
-Zf
-Yv
-fV
-fV
-fV
-Ps
-Ps
-Yv
-jf
-jf
-PQ
-yZ
-Ps
-Ps
 fV
 fV
 fV
 fV
-ih
-QK
-QK
-KK
-Qy
-Zi
-XB
-Eh
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -108965,7 +109949,7 @@ ez
 ez
 ez
 ez
-ez
+NV
 fV
 fV
 fV
@@ -108974,39 +109958,39 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-Ps
-Ja
+nj
+Ay
+Ay
+Ay
+Ay
+Ay
+HI
 Zf
-Ps
+Ay
 fV
 Gh
 kW
-fV
-fV
-fV
-fV
-Ps
+iU
+bx
+ld
+yo
+yo
 lo
 qT
-Ps
+yo
+yo
+yo
 fV
 fV
 fV
 fV
 fV
-vR
-Dp
-qv
-qv
-qv
-DW
-wB
-NV
+fV
+fV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -109355,46 +110339,46 @@ ez
 ez
 ez
 ez
+nj
+fV
+fV
+fV
+nj
 fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-Ps
+Ay
+ce
+Ay
+Zh
 gu
 Kj
-Ps
+lq
 fV
-ez
+yo
 Nf
-WB
-fV
-fV
-Ps
-Ps
-AB
-VD
-Ps
-Ps
-fV
-fV
-fV
-fV
-vR
-aJ
-HI
-rl
-uq
-rl
 DS
-NV
+SM
+IN
+yo
+MG
+AB
+Km
+HS
+SJ
+yo
+yo
+yo
+ih
+nj
+fV
+fV
+fV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -109743,46 +110727,46 @@ ez
 ez
 ez
 ez
+Ww
+Ww
+Ww
+Ww
+Ww
+Ww
+Ww
+Ww
+Ww
+Kw
+RC
+qV
+hc
+jy
+YJ
+lq
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-Ps
-Sg
-Zf
-Ps
-fV
-fV
+Gh
 pl
-ez
-fV
-fV
-Ps
+bx
+mU
+bx
+zZ
 tR
-er
-VD
-tR
-Ps
+Ep
+KH
+HS
+bx
+uq
+HS
+HW
 fV
 fV
 fV
 fV
-vR
-aJ
-rl
-rl
-hN
-rl
-DS
-NV
+fV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -110131,46 +111115,46 @@ ez
 ez
 ez
 ez
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-Ps
-jf
+Kx
+Kx
+Kx
+Kx
+Kx
+Kx
+Kx
+Kx
+Kx
+Ik
+Sm
+lh
+vH
 Fv
 YJ
-Ps
-Ps
+lq
+fV
+yo
+yo
+tX
+sA
+pZ
+bW
+CN
+US
+XB
+JF
+Fr
+SO
+fW
+FS
 fV
 fV
 fV
 fV
-Ps
-Ps
-Sg
-gS
-yZ
-Ja
-Ps
-Ps
 fV
 fV
 fV
-vR
-yT
-hN
-wr
-rl
-rl
-DS
-NV
+fV
+fV
 fV
 fV
 fV
@@ -110519,46 +111503,46 @@ ez
 ez
 ez
 ez
-ez
+nj
+fV
+fV
+fV
+nj
 fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-Ps
-tR
-Sg
-Wp
-Ja
-Ps
-fV
-fV
-Ps
-Ps
-Ps
+Ay
+Yz
+Ay
+MI
+wI
+cT
+dC
+yo
+yo
+yo
+DZ
+yo
+bW
 SJ
-Ja
-PQ
-VD
-Sg
-jI
-Ps
-Ps
-Ps
+eb
+DW
+Cl
+wS
+DD
+DD
+DD
+Yv
 fV
-vR
-aJ
-rl
-hN
-uq
-hN
-DS
-NV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -110914,39 +111898,39 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-Ps
-Ja
-Sg
-Wp
-Ja
-Ps
-fV
-fV
-Ps
+nj
+Ee
+Ay
+Ay
+Ay
+Ay
+GZ
+Zi
+vH
+yo
+sN
+yo
+hT
 Ol
-Ja
+cV
 Sg
-Ja
 er
-yZ
+aF
+kf
 Ja
-Sg
+wS
 Ja
 Ja
 Yv
 fV
-vR
-aJ
-rl
-uq
-rl
-rl
-DS
-NV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -111295,7 +112279,7 @@ ez
 ez
 ez
 ez
-ez
+NV
 fV
 fV
 fV
@@ -111303,38 +112287,38 @@ fV
 fV
 fV
 fV
-fV
-Ps
-Yv
-Ps
-Ja
-nN
+ud
+lq
+Av
+WQ
+Ay
+Ay
 Wp
-Ja
-Ps
-Yv
-Ps
-Ps
+Fv
+sU
+Ho
+ZN
+TK
 Op
 Fl
-Ja
-jv
-PQ
-VD
+Bx
+tR
+DW
+Cl
 jv
 Ja
 Ja
 Ja
 Yv
 fV
-vR
-aJ
-uq
-rl
-HI
-rl
-DS
-NV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -111691,38 +112675,38 @@ fV
 fV
 fV
 fV
-fV
-Ps
+ud
+lq
 Mq
-Ja
-Sg
-tR
+NF
+gu
+Pf
 Pm
-mm
-XF
-XF
+wz
+Zp
+Os
 fm
 XF
-XF
+fm
 it
-Ja
-Ja
-PQ
-yZ
-Sg
-Ja
-Ja
-tR
-Yv
+XX
+er
+Vb
+FL
+cE
+dH
+ZC
+rQ
+FS
 fV
-vR
-aJ
-uq
-rl
-rl
-HI
-DS
-NV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -112078,39 +113062,39 @@ fV
 fV
 fV
 fV
-fV
-fV
-Ps
-Mq
-Ja
-Sg
+nj
 Ay
-Wp
-Ja
-Sg
-Ja
-Ps
-Ps
-Ps
-Ps
+Ay
+Ay
+Ay
+Ay
+Ay
+Bd
+Fv
+yo
+Ad
+yo
+oM
+Ld
+QK
 TQ
 tR
 er
-VD
-Ja
-Ja
+KH
+Zu
+XX
 Fk
-Ps
-Ps
+HS
+HW
 fV
-vR
-lh
-qA
-qA
-qA
-qA
-IW
-NV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -112467,38 +113451,38 @@ fV
 fV
 fV
 fV
-fV
-Ps
-og
-Ja
-Ja
-Ja
-oC
-tR
-Ja
 ud
-Ps
-HI
-rl
-Ps
-Ps
+lq
+og
+jL
+EQ
+Pf
+oC
+WQ
+yo
+yo
+yo
+yo
+yo
+yo
+yo
 HS
-PQ
+AB
 yZ
-tR
 HS
-Ps
-Ps
+SJ
+yo
+yo
+yo
+ih
+nj
 fV
 fV
-Yz
-fC
-fC
-fC
-fC
-fC
-qC
-GZ
+fV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -112855,31 +113839,31 @@ fV
 fV
 fV
 fV
-fV
-Ps
-Mq
-Ja
-Ja
-Ja
-Wp
-tR
+ud
+lq
+Av
+vH
 Ay
-tR
-oM
+Ay
+uP
+GX
+dC
+WQ
+WQ
 HI
-HI
+LZ
 rl
-Ps
-Ps
+yo
+yo
 lo
 EN
-Ps
-Ps
-Ps
+yo
+yo
+yo
 fV
 fV
 fV
-uP
+fV
 fV
 fV
 fV
@@ -113242,37 +114226,37 @@ fV
 fV
 fV
 fV
-fV
-fV
-Ps
-Ps
-Pt
-tR
-tR
+nj
+Ay
+Ay
+Ay
+Ay
+Ay
+ZI
 Wp
-Ja
+Fv
 WQ
-Ps
-Ps
-Ps
-HI
-HI
-Au
-Ps
+Xg
+pL
+Ay
+EZ
+ZU
+yo
+Tm
 YB
-yZ
-Ps
+kA
+LS
+yo
 fV
 fV
 fV
 fV
 fV
-RK
-JE
-JE
-JE
-JE
-Gw
+fV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -113632,35 +114616,35 @@ fV
 fV
 fV
 fV
-fV
-Ps
-Ps
-WQ
+Ay
+Ez
+dY
+Ay
 HZ
 Oj
 ss
-Ps
-Ps
+Xg
+WQ
 hN
-Ps
-vH
-HI
+ED
+ED
+ED
 yo
-Ps
-PQ
-VD
-Ps
+yo
+lo
+wi
+yo
+yo
+ED
+ED
+WY
+xM
+nj
 fV
 fV
 fV
 fV
 fV
-vR
-Ww
-Ww
-Ww
-Ww
-NV
 fV
 fV
 fV
@@ -114020,35 +115004,35 @@ fV
 fV
 fV
 fV
-fV
-fV
-Ps
+Ay
+gO
+ID
 GX
-Ja
+vH
 Oj
 rC
 mc
 vJ
-uq
-Ps
-Ps
-Ps
-Ps
-Ps
+ED
+ED
+WF
+HE
+fs
+yv
 Kl
 zw
-Ps
-Ps
-Ps
+Dp
+ED
+GG
+ED
+nN
 fV
 fV
 fV
-vR
-nj
-nj
-nj
-nj
-cV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -114406,37 +115390,37 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-Ps
-Ps
-tR
+nj
+Ay
+Ay
+Ay
+Ay
+Ay
+MJ
 Oj
-Ps
-Ps
+ug
+Gw
 sT
-jn
+ED
 pu
-Ps
+FT
 jI
 Ac
 TF
-PQ
+hZ
 Qg
-Uq
-tR
-Ps
-Ps
-fV
-fV
-vR
-Ww
-Ww
-Ww
+bZ
+Io
 JM
-NV
+ox
+nN
+fV
+fV
+fV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -114795,36 +115779,36 @@ fV
 fV
 fV
 fV
-fV
-fV
+Ee
+Ay
 fV
 Lb
 CX
 Ya
 oH
+WQ
 Ps
 Ps
-iL
-hN
-Ps
-Ps
+ED
+qv
+Dd
 Of
 fs
-tR
-jV
-yZ
-tR
-Ja
-tR
-Ps
-Ps
-fV
+wL
+Ii
+nn
+oN
+ED
+ED
+ED
+uD
+HQ
 vR
 nj
-nj
-nj
-nj
-cV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -115184,35 +116168,35 @@ fV
 fV
 fV
 fV
-fV
+nj
 fV
 AU
-Ps
-Ja
+Ay
+Ay
 qy
-tR
-Ps
-Ps
-MJ
-Ps
+GX
+Ay
+ED
+ED
+ED
 gf
 mG
 Jz
 LR
-il
+Mk
 yB
 il
-LR
+ED
 Kn
 jA
-Ps
+KW
+jA
+xP
 fV
-vR
-Ww
-Ww
-Ww
-Ww
-NV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -115575,32 +116559,32 @@ fV
 fV
 fV
 fV
-Ps
-tR
+fV
+Pt
 Wp
-Ld
+Xg
 jV
-Ps
-Ps
-Ps
+ED
+ip
+ED
 QT
 ro
 DP
-tR
-Ja
-Uq
+kz
+qL
+iL
 MQ
-tR
-Ja
-tR
-Af
-fV
+fs
+Uq
+KW
+KW
+KW
 Yi
-tz
-tz
-tz
-tz
-JF
+fV
+fV
+fV
+fV
+fV
 fV
 fV
 fV
@@ -115963,27 +116947,27 @@ fV
 fV
 fV
 fV
-Ps
-Ps
+nj
+Pt
 sk
 Mb
 MR
-xB
+NG
 xB
 Sh
 ik
 nC
 JX
-tR
-tR
-jV
-Ja
-tR
+Ar
+aJ
+TN
+ED
+ED
 Uq
-tR
-CI
-fV
-fV
+KW
+KW
+KW
+Yi
 fV
 fV
 fV
@@ -116352,26 +117336,26 @@ fV
 fV
 fV
 fV
-Ps
-Ps
-Ee
-Ja
-tR
-jV
+Pt
+WQ
+Xg
+WQ
 Tr
-tR
-tR
+KK
+Tr
+Dp
+wL
 Xj
-jV
+Fu
 jr
+bZ
+KO
+fs
 Uq
-Ja
-VR
-tR
-tR
-CI
-fV
-fV
+KW
+KW
+KW
+Yi
 fV
 fV
 fV
@@ -116739,27 +117723,27 @@ fV
 fV
 fV
 fV
-fV
-fV
-Ps
+nj
+Ay
 tM
-Ps
 tM
-Ps
-Ps
-tR
-tR
-jV
-tR
-Ja
+tM
+ED
+RK
+ED
+uW
+JM
+ED
+Dp
+qL
 wL
 xh
-EQ
-dH
-Fu
-Af
-fV
-fV
+fs
+Uq
+KW
+KW
+KW
+Yi
 fV
 fV
 fV
@@ -117128,26 +118112,26 @@ fV
 fV
 fV
 fV
+nj
 fV
-Ps
-Df
-Ps
+nj
+fV
 ED
-Ps
-Ps
-tR
-tR
-tR
+ED
+ED
+qC
+yC
+JM
 pB
-jV
-wx
+Ii
+wL
 Tc
-cX
-ZG
+fs
+Uq
 KW
-Ps
-fV
-fV
+KW
+KW
+Yi
 fV
 fV
 fV
@@ -117517,25 +118501,25 @@ fV
 fV
 fV
 fV
-Ps
-Ps
-Ps
-Ps
-Ps
-Ps
-Ps
-tR
-Ja
+fV
+fV
+fV
+fV
+fV
+ED
+ED
+Bu
+wN
+Fx
 zi
-zi
-wx
+Dp
 cX
-Lt
+ED
 Yg
-Ps
-Ps
-fV
-fV
+Qy
+KW
+Qy
+yT
 fV
 fV
 fV
@@ -117911,20 +118895,20 @@ fV
 fV
 fV
 fV
-Ps
-SJ
-Ja
-tR
-tR
+ED
+ED
+cX
+al
+Kl
 GC
-ZG
-kA
-Ps
-Ps
-fV
-fV
-fV
-fV
+dw
+ED
+ED
+ED
+aN
+dQ
+vR
+nj
 fV
 fV
 fV
@@ -118300,17 +119284,17 @@ fV
 fV
 fV
 fV
-Ps
-Ps
-tR
-tR
+fs
+YQ
+sp
+Pu
 Nl
-ei
-Ps
-Ps
+Nl
+sp
+wB
+ED
 fV
-fV
-fV
+SD
 fV
 fV
 fV
@@ -118688,17 +119672,17 @@ fV
 fV
 fV
 fV
-fV
-Ps
-Af
+fs
+FH
+Nl
 CI
-CI
+fg
 Af
-Ps
-fV
-fV
-fV
-fV
+ef
+ED
+ED
+ED
+IS
 fV
 fV
 fV
@@ -119076,17 +120060,17 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+fs
+ei
+sp
+Ks
+yy
+Rb
+Rb
+fK
+sY
+HB
+rp
 fV
 fV
 fV
@@ -119463,18 +120447,18 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+nj
+ED
+ED
+ED
+Ly
+Uc
+pN
+Dp
+ED
+bG
+ED
+Bz
 fV
 fV
 fV
@@ -119854,17 +120838,17 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+ED
+Dp
+Ds
+Dp
+ED
+ED
+ED
+ED
+UK
+vR
+nj
 fV
 fV
 fV
@@ -120240,15 +121224,15 @@ fV
 fV
 fV
 fV
+nj
+ED
+ED
+fs
+fs
+fs
+ED
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+nj
 fV
 fV
 fV
@@ -120629,12 +121613,12 @@ fV
 fV
 fV
 fV
+yA
+ED
 fV
 fV
 fV
-fV
-fV
-fV
+nj
 fV
 fV
 fV
@@ -121018,7 +122002,7 @@ fV
 fV
 fV
 fV
-fV
+nj
 fV
 fV
 fV
