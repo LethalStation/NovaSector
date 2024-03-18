@@ -528,7 +528,7 @@
 "nq" = (
 /obj/structure/fluff/empty_sleeper/bloodied{
 	dir = 8;
-	desc = "A closed, occupied sleeper, bloodied handprints are seen on the inside, along with an odd, redish blur. It seems sealed shut."sssss"
+	desc = "A closed, occupied sleeper, bloodied handprints are seen on the inside, along with an odd, redish blur. It seems sealed shut."
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/colony/white,
