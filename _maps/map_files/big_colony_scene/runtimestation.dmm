@@ -1279,6 +1279,7 @@
 /area/ruin/space/has_grav/derelictoutpost)
 "vy" = (
 /obj/item/gps/computer/beacon,
+/obj/effect/landmark/blobstart,
 /turf/open/floor/iron/colony/white/texture{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
@@ -1734,7 +1735,6 @@
 	},
 /area/ruin/space/has_grav/derelictoutpost/cargobay)
 "CU" = (
-/obj/machinery/light/broken/directional/north,
 /obj/structure/rack/shelf,
 /obj/machinery/light/dim/directional/north,
 /turf/open/floor/iron/colony/white/bolts,
@@ -2588,7 +2588,6 @@
 	},
 /area/ruin/space/has_grav/derelictoutpost/cargobay)
 "Oz" = (
-/obj/effect/mapping_helpers/airlock/welded,
 /obj/effect/mapping_helpers/airlock/welded,
 /obj/machinery/door/airlock/medical,
 /turf/open/floor/iron/colony/white,
