@@ -1090,9 +1090,7 @@
 /area/ruin/space/has_grav/derelictoutpost/cargobay)
 "sD" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/window/reinforced/plasma{
-	dir = 4
-	},
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
 /turf/open/floor/iron/colony/white,
 /area/redplanet)
 "sE" = (
@@ -1437,9 +1435,7 @@
 "yf" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/blood/old,
-/obj/structure/window/reinforced/plasma{
-	dir = 4
-	},
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
 /turf/open/floor/iron/colony/white,
 /area/redplanet)
 "yi" = (
@@ -2627,7 +2623,6 @@
 /turf/open/floor/iron/colony/white,
 /area/ruin/space/has_grav/derelictoutpost)
 "Pf" = (
-/obj/structure/cable,
 /obj/structure/mineral_door/manual_colony_door,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/colony_fabricator,
