@@ -13,18 +13,150 @@
 	},
 /turf/open/misc/ironsand/redplanet,
 /area/redplanet)
+"ao" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/reinforced/rglass,
+/obj/structure/desk_bell,
+/turf/open/floor/iron/colony/white/bolts,
+/area/redplanet)
+"aq" = (
+/mob/living/basic/mining/goliath,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"aJ" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
 "bs" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/marker_beacon/teal,
 /turf/open/space/basic,
 /area/centcom/tdome/arena)
+"by" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"bW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"cx" = (
+/obj/item/shovel,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"cF" = (
+/obj/item/storage/cans/sixbeer,
+/obj/item/reagent_containers/cup/glass/bottle/beer/almost_empty{
+	pixel_x = 5;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/cup/glass/bottle/beer/almost_empty{
+	pixel_x = -10;
+	pixel_y = 9
+	},
+/obj/item/reagent_containers/cup/glass/bottle/beer/almost_empty{
+	pixel_x = -7;
+	pixel_y = -7
+	},
+/obj/item/reagent_containers/cup/glass/bottle/beer/almost_empty{
+	pixel_x = 4;
+	pixel_y = -7
+	},
+/turf/open/misc/ironsand/redplanet/randomrocks,
+/area/redplanet)
+"cJ" = (
+/obj/structure/fence/corner{
+	dir = 4
+	},
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"cK" = (
+/obj/machinery/door/airlock/medical,
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"cV" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing,
+/obj/machinery/power/colony_wind_turbine,
+/obj/structure/cable,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"cX" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"dj" = (
+/turf/open/floor/plating/rust,
+/area/redplanet)
+"dq" = (
+/obj/structure/window/fulltile/colony_fabricator,
+/obj/structure/barricade/wooden/crude,
+/turf/open/misc/ironsand/redplanet/randomrocks,
+/area/redplanet)
+"dx" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/mob/living/basic/blankbody,
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
 "dF" = (
 /obj/machinery/computer/communications,
 /turf/open/indestructible/plating,
 /area/centcom/tdome/arena)
+"dH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
 "dR" = (
 /obj/effect/landmark/observer_start,
 /turf/open/misc/ironsand/redplanet/randomrocks,
+/area/redplanet)
+"dT" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/reinforced/rglass,
+/obj/item/autosurgeon/medical_hud,
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"dX" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"ei" = (
+/obj/structure/table,
+/obj/item/wrench,
+/obj/item/crowbar,
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"ep" = (
+/obj/structure/table/reinforced/rglass,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/wrench/medical,
+/obj/item/storage/backpack/duffelbag/deforest_surgical/stocked,
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"eq" = (
+/obj/structure/chair/stool,
+/turf/closed/mineral/random/redplanet,
+/area/redplanet)
+"er" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
 /area/redplanet)
 "ez" = (
 /turf/open/misc/asteroid/basalt/redplanet/randomrocks,
@@ -33,27 +165,181 @@
 /obj/structure/ore_vent/random,
 /turf/open/misc/asteroid/basalt/redplanet/randomrocks,
 /area/redplanet)
+"eJ" = (
+/obj/structure/table/reinforced/rglass,
+/obj/item/folder/ancient_paperwork,
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
 "fi" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 8
 	},
 /turf/open/misc/ironsand/redplanet,
 /area/redplanet)
+"fm" = (
+/obj/machinery/door/airlock/shuttle,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"fs" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/carpet,
+/area/redplanet)
+"fv" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"fC" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"fJ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"fK" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/structure/cable,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"fO" = (
+/turf/closed/wall/prefab_plastic,
+/area/redplanet)
 "fV" = (
 /turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"fW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/east,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"gf" = (
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/obj/structure/filingcabinet,
+/turf/open/floor/carpet,
+/area/redplanet)
+"go" = (
+/obj/structure/girder,
+/turf/open/floor/plating/rust,
+/area/redplanet)
+"gu" = (
+/obj/machinery/door/airlock/shuttle,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
 /area/redplanet)
 "gA" = (
 /turf/open/floor/iron/colony/bolts{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
+"gS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
 "hn" = (
 /obj/machinery/computer/communications,
 /turf/open/misc/ironsand/redplanet/randomrocks,
 /area/ruin/powered/bathhouse)
+"hN" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
+"ih" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/marker_beacon/burgundy,
+/obj/structure/railing{
+	dir = 9
+	},
+/obj/structure/cable,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"ik" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"il" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"ir" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/reinforced/rglass,
+/obj/item/storage/briefcase/medicalgunset/cmo,
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"it" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"iL" = (
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
+"iN" = (
+/obj/structure/shipping_container/deforest,
+/turf/open/misc/ironsand/redplanet/randomrocks,
+/area/redplanet)
+"jf" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall,
+/area/redplanet)
 "jj" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark,
 /turf/open/misc/ironsand/redplanet,
+/area/redplanet)
+"jn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
+"jq" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"jr" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/mob/living/basic/netguardian{
+	faction = list("Syndicate");
+	desc = "A massive combat drone with cybersun markings on it, loaded with rockets and machine guns. This seems like a bad idea.";
+	name = "hivebot shepard"
+	},
+/turf/open/floor/iron/smooth,
 /area/redplanet)
 "jt" = (
 /obj/structure/sign/logo{
@@ -61,11 +347,123 @@
 	},
 /turf/closed/indestructible/riveted,
 /area/centcom/tdome/arena)
+"jv" = (
+/mob/living/basic/hivebot{
+	faction = list("Syndicate")
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"jw" = (
+/obj/machinery/computer/mech_bay_power_console{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"jA" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"jI" = (
+/obj/machinery/porta_turret/syndicate,
+/turf/closed/wall,
+/area/redplanet)
+"jV" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"kf" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/marker_beacon/teal,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"ky" = (
+/obj/structure/flora/biolumi/mine/weaklight,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"kA" = (
+/obj/structure/frame/machine,
+/obj/item/circuitboard/machine/autolathe,
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"kS" = (
+/obj/structure/flora/biolumi/lamp/weaklight,
+/obj/structure/flora/ash/leaf_shroom,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"kW" = (
+/obj/structure/stone_tile/surrounding_tile/cracked,
+/obj/structure/stone_tile/center/cracked,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"lh" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 10
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
 "ln" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 4
 	},
 /turf/open/misc/ironsand/redplanet,
+/area/redplanet)
+"lo" = (
+/obj/machinery/door/airlock/shuttle,
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"lq" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/corner,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"lr" = (
+/obj/item/pickaxe,
+/obj/effect/mob_spawn/corpse/human/miner/explorer,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"lv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"lM" = (
+/obj/structure/stone_tile/cracked,
+/obj/structure/stone_tile/center/burnt,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"mc" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/closed/wall,
+/area/redplanet)
+"mj" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"mm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
 /area/redplanet)
 "mn" = (
 /obj/structure/closet/crate/engineering,
@@ -83,9 +481,31 @@
 /obj/item/wallframe/apc,
 /obj/item/electronics/apc,
 /obj/item/stock_parts/cell/high,
+/obj/item/stack/sheet/mineral/sandbags/fifty,
+/obj/item/shovel,
+/obj/item/storage/box/emptysandbags,
 /turf/open/floor/iron/colony/white{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
+/area/redplanet)
+"mG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/carpet,
+/area/redplanet)
+"mH" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 4
+	},
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"mT" = (
+/obj/item/storage/toolbox/fishing/small,
+/turf/open/misc/ironsand/redplanet/randomrocks,
 /area/redplanet)
 "nf" = (
 /obj/effect/landmark/latejoin,
@@ -93,11 +513,292 @@
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
+"nj" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/power/colony_wind_turbine,
+/obj/structure/cable,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"nn" = (
+/obj/machinery/door/airlock/highsecurity,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/fans/tiny,
+/turf/open/floor/iron/colony,
+/area/redplanet)
+"nq" = (
+/obj/structure/fluff/empty_sleeper/bloodied{
+	dir = 8;
+	desc = "A closed, occupied sleeper, bloodied handprints are seen on the inside, along with an odd, redish blur. It seems sealed shut."sssss"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"nC" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"nN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"nV" = (
+/obj/item/reagent_containers/cup/glass/bottle/beer/almost_empty{
+	pixel_x = -12
+	},
+/turf/open/misc/ironsand/redplanet/randomrocks,
+/area/redplanet)
+"nX" = (
+/obj/structure/fence{
+	dir = 8
+	},
+/obj/structure/sign/warning,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"og" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/broken/directional/north,
+/obj/structure/fluff/empty_sleeper,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"oj" = (
+/obj/item/flashlight/lantern,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"ol" = (
+/obj/structure/flora/ash/leaf_shroom,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"ov" = (
+/obj/item/condom_pack{
+	pixel_x = -5
+	},
+/obj/item/reagent_containers/cup/glass/bottle/beer/almost_empty{
+	pixel_x = -12;
+	pixel_y = -10
+	},
+/turf/open/misc/ironsand/redplanet/randomrocks,
+/area/redplanet)
+"ox" = (
+/obj/machinery/door/airlock/highsecurity,
+/obj/structure/fans/tiny,
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"oC" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"oF" = (
+/obj/structure/closet/secure_closet/medical1,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/spawner/random/medical/surgery_tool_advanced,
+/obj/effect/spawner/random/medical/medkit_rare,
+/obj/item/reagent_containers/hypospray/medipen/deforest/synalvipitol,
+/obj/item/reagent_containers/hypospray/medipen/deforest/pentibinin,
+/obj/item/reagent_containers/hypospray/medipen/deforest/occuisate,
+/obj/item/stack/medical/suture/coagulant,
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"oH" = (
+/obj/structure/disposalpipe/junction/yjunction{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"oM" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/turf/closed/wall,
+/area/redplanet)
+"oN" = (
+/obj/machinery/vending/sovietsoda,
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"oO" = (
+/obj/machinery/door/airlock/shuttle,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"pc" = (
+/obj/structure/flora/ash/seraka,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
 "pk" = (
 /obj/effect/landmark/latejoin,
 /turf/open/floor/iron/colony/white{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
+/area/redplanet)
+"pl" = (
+/obj/structure/stone_tile/surrounding_tile,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"pu" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/portable_atmospherics/canister/air,
+/obj/machinery/atmospherics/components/unary/portables_connector/visible/layer4{
+	dir = 1
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
+"pB" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/effect/decal/cleanable/dirt,
+/mob/living/basic/hivebot/strong{
+	faction = list("Syndicate")
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"pZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"qv" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
+"qx" = (
+/obj/structure/stone_tile/cracked,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"qy" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"qA" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
+"qC" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"qT" = (
+/obj/machinery/door/airlock/shuttle,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"qX" = (
+/obj/item/pickaxe,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"rl" = (
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
+"ro" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/wood,
+/obj/item/modular_computer/laptop/preset/civilian/closed,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/carpet,
+/area/redplanet)
+"rp" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"rC" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"rD" = (
+/obj/structure/flora/biolumi/lamp/weaklight,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"rF" = (
+/obj/structure/closet/crate/rcd,
+/turf/open/floor/plating/rust,
+/area/redplanet)
+"sk" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light/dim/directional/east,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"sp" = (
+/obj/machinery/vending/sustenance,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"ss" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"sA" = (
+/obj/structure/table,
+/obj/machinery/coffeemaker{
+	pixel_y = 9
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"sD" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/window/reinforced/plasma{
+	dir = 4
+	},
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"sE" = (
+/obj/structure/fence/corner{
+	dir = 9
+	},
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
 /area/redplanet)
 "sK" = (
 /obj/structure/reagent_dispensers/watertank,
@@ -105,11 +806,45 @@
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
+"sT" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
+"sU" = (
+/obj/structure/closet/firecloset,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
 "tb" = (
 /obj/structure/marker_beacon/teal,
 /turf/open/floor/iron/colony/bolts{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
+/area/redplanet)
+"tt" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"tx" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/colony/white/texture,
+/area/redplanet)
+"ty" = (
+/obj/machinery/power/smes/battery_pack/large/precharged,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"tz" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/machinery/power/colony_wind_turbine,
+/obj/structure/cable,
+/turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "tJ" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
@@ -117,10 +852,63 @@
 	},
 /turf/open/misc/ironsand/redplanet,
 /area/redplanet)
+"tL" = (
+/obj/structure/ore_box,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"tM" = (
+/obj/machinery/door/airlock/bathroom{
+	name = "Primary Restroom"
+	},
+/turf/open/floor/iron/white,
+/area/redplanet)
+"tR" = (
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"ud" = (
+/obj/machinery/light/broken/directional/south,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"uq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
+"uL" = (
+/obj/machinery/light/broken/directional/south,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/structure/closet/crate,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"uN" = (
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"uP" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/railing,
+/obj/structure/cable,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
 "uS" = (
 /turf/open/floor/iron/colony/texture{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
+/area/redplanet)
+"uX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
 /area/redplanet)
 "vy" = (
 /obj/item/gps/computer/beacon,
@@ -128,11 +916,89 @@
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
+"vH" = (
+/obj/item/mop,
+/obj/structure/mop_bucket,
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
+"vJ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
+"vR" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"wi" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/structure/cable,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"wj" = (
+/obj/structure/table/reinforced/rglass,
+/obj/machinery/computer/med_data/laptop,
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"wr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
+"wx" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"wB" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 5
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
+"wI" = (
+/obj/effect/turf_decal/siding/wideplating_new/dark,
+/obj/structure/billboard/nanotrasen,
+/turf/open/misc/ironsand/redplanet,
+/area/redplanet)
 "wJ" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
 	dir = 4
 	},
 /turf/open/misc/ironsand/redplanet,
+/area/redplanet)
+"wL" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 6
+	},
+/obj/structure/closet/crate/science/robo,
+/obj/item/v8_engine,
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"xa" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
 /area/redplanet)
 "xg" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
@@ -140,16 +1006,108 @@
 	},
 /turf/open/misc/ironsand/redplanet,
 /area/redplanet)
+"xh" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
 "xi" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 5
 	},
 /turf/open/misc/ironsand/redplanet,
 /area/redplanet)
+"xx" = (
+/obj/structure/closet/crate/solarpanel_small,
+/turf/open/floor/plating/rust,
+/area/redplanet)
+"xB" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"ye" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"yf" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood/old,
+/obj/structure/window/reinforced/plasma{
+	dir = 4
+	},
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"yo" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/wardrobe/jani_wardrobe,
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
 "yt" = (
 /turf/open/floor/iron/colony/white/bolts{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
+/area/redplanet)
+"yB" = (
+/obj/structure/disposalpipe/junction/flip{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"yC" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"yS" = (
+/obj/structure/billboard/azik,
+/turf/open/misc/ironsand/redplanet/randomrocks,
+/area/redplanet)
+"yT" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
+"yZ" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"zd" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/reinforced/rglass,
+/obj/item/stack/medical/wound_recovery,
+/turf/open/floor/iron/colony/white/texture,
+/area/redplanet)
+"zi" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/turf/open/floor/iron/smooth,
 /area/redplanet)
 "zl" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -157,21 +1115,314 @@
 	},
 /turf/open/misc/ironsand/redplanet,
 /area/redplanet)
+"zs" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"zw" = (
+/obj/machinery/door/airlock/shuttle,
+/obj/machinery/door/airlock/highsecurity,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"zK" = (
+/obj/structure/rack/shelf,
+/obj/item/mecha_parts/mecha_equipment/drill,
+/obj/item/stack/sheet/mineral/sandbags/fifty,
+/turf/open/floor/plating/rust,
+/area/redplanet)
+"zX" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/reinforced/rglass,
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"zZ" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/machinery/light/dim/directional/west,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Ac" = (
+/obj/machinery/airalarm/directional/west,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/carpet,
+/area/redplanet)
+"Ae" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"Af" = (
+/obj/effect/spawner/structure/window/reinforced/plasma,
+/turf/closed/wall,
+/area/redplanet)
 "Ap" = (
 /obj/structure/marker_beacon/teal,
 /turf/open/floor/iron/colony/texture{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
+"Au" = (
+/obj/item/modular_computer/pda/clear,
+/obj/structure/closet/l3closet/janitor,
+/obj/item/clothing/shoes/galoshes,
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
+"Av" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/structure/cable,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"Ay" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/basic/hivebot{
+	faction = list("Syndicate")
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"AB" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"AD" = (
+/obj/structure/stone_tile/burnt,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"AJ" = (
+/obj/structure/chair/stool,
+/obj/effect/mob_spawn/corpse/human,
+/obj/item/clothing/suit/space/emergency,
+/obj/item/clothing/head/helmet/space/emergency,
+/obj/item/tank/internals/emergency_oxygen/empty,
+/obj/item/clothing/mask/breath,
+/turf/open/misc/ironsand/redplanet/randomrocks,
+/area/redplanet)
+"AU" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/atmospherics/components/unary/passive_vent{
+	dir = 8
+	},
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"Bn" = (
+/obj/structure/billboard/nanotrasen,
+/turf/open/misc/ironsand/redplanet/randomrocks,
+/area/redplanet)
 "Bo" = (
 /turf/open/space/basic,
 /area/centcom/tdome/arena)
+"Bu" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/dim/directional/west,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Bz" = (
+/obj/machinery/door/airlock/highsecurity,
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/iron/colony,
+/area/redplanet)
+"BD" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"BJ" = (
+/obj/structure/shipping_container/nakamura,
+/turf/open/misc/ironsand/redplanet/randomrocks,
+/area/redplanet)
+"Cd" = (
+/obj/structure/showcase/horrific_experiment,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"Cl" = (
+/obj/structure/table,
+/obj/machinery/microwave{
+	pixel_x = -1;
+	pixel_y = 6
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Cn" = (
+/obj/machinery/computer/terminal/dangerous_research{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"CI" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/spawner/structure/window/reinforced/plasma,
+/turf/open/floor/plating,
+/area/redplanet)
+"CU" = (
+/obj/machinery/light/broken/directional/north,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"CX" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden,
+/turf/open/floor/plating,
+/area/redplanet)
+"CY" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/east,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Df" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/obj/machinery/light/small/dim/directional/east,
+/obj/item/gun/ballistic/shotgun/hook,
+/turf/open/floor/iron/white,
+/area/redplanet)
+"Dg" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 4
+	},
+/turf/open/floor/iron/colony/white/bolts,
+/area/redplanet)
 "Do" = (
 /obj/structure/sign/logo{
 	icon_state = "nanotrasen_sign5"
 	},
 /turf/closed/indestructible/riveted,
 /area/centcom/tdome/arena)
+"Dp" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 6
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
+"DP" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/structure/table/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/obj/item/usb_cable,
+/turf/open/floor/carpet,
+/area/redplanet)
+"DS" = (
+/obj/effect/turf_decal/stripes/white/line,
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
+"DV" = (
+/obj/structure/billboard/space_cola,
+/turf/open/misc/ironsand/redplanet/randomrocks,
+/area/redplanet)
+"DW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
+"Ee" = (
+/obj/structure/mirror{
+	pixel_y = 32
+	},
+/obj/structure/sink/directional/south,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Eh" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/marker_beacon/burgundy,
+/obj/structure/railing{
+	dir = 10
+	},
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"Er" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"EC" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"ED" = (
+/obj/machinery/light/small/broken/directional/east,
+/obj/machinery/shower/directional/west,
+/obj/structure/drain,
+/turf/open/floor/iron/white,
+/area/redplanet)
+"EN" = (
+/obj/machinery/door/airlock/shuttle,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"EQ" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"Fk" = (
+/obj/structure/closet/crate,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Fl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Fu" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 8
+	},
+/obj/structure/table,
+/obj/item/stack/sheet/iron/fifty,
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"Fv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"FB" = (
+/obj/structure/sign/departments/med/directional/east,
+/turf/open/misc/ironsand/redplanet/randomrocks,
+/area/redplanet)
 "FK" = (
 /obj/structure/closet/crate/medical,
 /obj/item/defibrillator/compact/loaded,
@@ -184,15 +1435,349 @@
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
+"FN" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"FQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
 "Gc" = (
 /obj/structure/sign/logo,
 /turf/closed/indestructible/riveted,
 /area/centcom/tdome/arena)
+"Gg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Gh" = (
+/obj/structure/stone_tile/surrounding/cracked,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"Gw" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 10
+	},
+/obj/machinery/power/colony_wind_turbine,
+/obj/structure/cable,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"GC" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"GV" = (
+/obj/machinery/power/smes/battery_pack/large/precharged,
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"GX" = (
+/obj/structure/closet/secure_closet/personal,
+/obj/item/toy/cards/deck/syndicate,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"GZ" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/marker_beacon/burgundy,
+/obj/structure/railing{
+	dir = 6
+	},
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"Ht" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/chair,
+/turf/open/floor/iron/colony/white/bolts,
+/area/redplanet)
+"Hv" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
 "Hw" = (
 /obj/structure/cargo_shuttle_beacon,
 /turf/open/floor/catwalk_floor/colony_fabricator{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
+/area/redplanet)
+"HE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"HG" = (
+/obj/structure/fence{
+	dir = 8
+	},
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"HI" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
+"HS" = (
+/obj/machinery/light/broken/directional/east,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"HZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Ii" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"Ik" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"It" = (
+/obj/structure/table/reinforced/rglass,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/storage/backpack/duffelbag/deforest_medkit/stocked,
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"IC" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/reinforced/rglass,
+/turf/open/floor/iron/colony/white/bolts,
+/area/redplanet)
+"IE" = (
+/obj/structure/rack/shelf,
+/obj/item/storage/belt/utility/full/powertools,
+/obj/item/shovel,
+/turf/open/floor/plating/rust,
+/area/redplanet)
+"IW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 9
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
+"Ja" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Jz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/carpet,
+/area/redplanet)
+"JE" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/machinery/power/colony_wind_turbine,
+/obj/structure/cable,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"JF" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 6
+	},
+/obj/machinery/power/colony_wind_turbine,
+/obj/structure/cable,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"JM" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/lattice/catwalk,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"JX" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Kg" = (
+/obj/effect/mob_spawn/corpse/human/miner/explorer,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"Kj" = (
+/obj/machinery/door/airlock/shuttle,
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Kl" = (
+/obj/machinery/door/airlock/shuttle,
+/obj/structure/cable,
+/obj/machinery/door/airlock/highsecurity,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Kn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Kx" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"KK" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"KO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"KW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/obj/effect/spawner/random/engineering/tool,
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"Lb" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/disposalpipe/trunk,
+/obj/structure/disposaloutlet{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"Ld" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Lt" = (
+/obj/effect/turf_decal/bot_red,
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"Lu" = (
+/obj/structure/closet/crate/engineering/electrical,
+/turf/open/floor/plating/rust,
+/area/redplanet)
+"LR" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"LS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Mb" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Mk" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"Mq" = (
+/obj/structure/fluff/empty_sleeper,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"MA" = (
+/obj/structure/fence/corner{
+	dir = 10
+	},
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"MJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/machinery/portable_atmospherics/canister/air,
+/turf/open/floor/plating/lavaland_atmos,
+/area/redplanet)
+"MQ" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/mob/living/basic/hivebot/strong{
+	faction = list("Syndicate")
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"MR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
 /area/redplanet)
 "Ne" = (
 /obj/structure/closet/crate/hydroponics,
@@ -215,11 +1800,109 @@
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
+"Nf" = (
+/obj/structure/stone_tile/slab/cracked,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"Nh" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"Nl" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 1
+	},
+/obj/structure/table,
+/obj/item/multitool,
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"NF" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"NV" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"Oc" = (
+/turf/closed/wall/rust,
+/area/redplanet)
+"Of" = (
+/obj/structure/filingcabinet,
+/turf/open/floor/carpet,
+/area/redplanet)
+"Oj" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Ol" = (
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Om" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Op" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Os" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/machinery/door/airlock/shuttle,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Oz" = (
+/obj/effect/mapping_helpers/airlock/welded,
+/obj/effect/mapping_helpers/airlock/welded,
+/obj/machinery/door/airlock/medical,
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"OF" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/colony/white/bolts,
+/area/redplanet)
+"OG" = (
+/obj/structure/mecha_wreckage/ripley/mk2,
+/obj/effect/turf_decal/stripes/box,
+/obj/effect/turf_decal/stripes/red/box,
+/turf/open/floor/iron/recharge_floor,
+/area/redplanet)
 "OL" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 6
 	},
 /turf/open/misc/ironsand/redplanet,
+/area/redplanet)
+"OR" = (
+/obj/machinery/fishing_portal_generator,
+/obj/item/fishing_rod,
+/turf/open/misc/ironsand/redplanet/randomrocks,
+/area/redplanet)
+"OS" = (
+/obj/structure/sign/departments/engineering/directional/north,
+/turf/open/misc/ironsand/redplanet/randomrocks,
 /area/redplanet)
 "OU" = (
 /obj/structure/sign/logo{
@@ -227,6 +1910,48 @@
 	},
 /turf/closed/indestructible/riveted,
 /area/centcom/tdome/arena)
+"Ph" = (
+/obj/machinery/mech_bay_recharge_port{
+	dir = 2
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"Pm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Pn" = (
+/obj/structure/flora/rock,
+/obj/item/nullrod/claymore/chainsaw_sword{
+	name = "Kanabysian Threshermaw";
+	desc = "A device of Kanabysian make utilized both as a tool of traversing dense woods and in ritualistic combat ceremony. Its presence here is unexpected."
+	},
+/obj/item/bong/lungbuster{
+	pixel_x = 10;
+	pixel_y = -10;
+	name = "Kanabysian Votive Device";
+	desc = "A votive device utilized in the spiritual practices of the Kanabysian people."
+	},
+/obj/item/food/grown/cannabis{
+	pixel_y = -15
+	},
+/obj/structure/stone_tile/slab/cracked,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"Ps" = (
+/turf/closed/wall,
+/area/redplanet)
+"Pt" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/secure_closet/personal,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
 "PB" = (
 /turf/closed/mineral/random/redplanet/dark,
 /area/redplanet)
@@ -236,11 +1961,44 @@
 	},
 /turf/closed/indestructible/riveted,
 /area/centcom/tdome/arena)
+"PQ" = (
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Qg" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
 "Qi" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 9
 	},
 /turf/open/misc/ironsand/redplanet,
+/area/redplanet)
+"Qj" = (
+/obj/structure/table/reinforced/rglass,
+/obj/item/paperwork/medical,
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"Qy" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"QK" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/lava/smooth/redplanet,
 /area/redplanet)
 "QP" = (
 /obj/structure/closet/crate/cardboard/mothic,
@@ -251,33 +2009,396 @@
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
+"QT" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/light/dim/directional/north,
+/obj/structure/table/wood,
+/obj/item/paper_bin{
+	pixel_y = 3
+	},
+/obj/item/pen/fountain{
+	pixel_y = 5
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/carpet,
+/area/redplanet)
+"Rb" = (
+/obj/machinery/door/airlock/highsecurity,
+/obj/structure/fans/tiny,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"Rp" = (
+/obj/structure/rack/wooden,
+/obj/item/pickaxe,
+/obj/item/shovel,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"RK" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
 "RX" = (
 /turf/closed/mineral/random/redplanet,
+/area/redplanet)
+"Sg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Sh" = (
+/obj/machinery/door/airlock/shuttle,
+/obj/machinery/door/airlock/highsecurity,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Sk" = (
+/obj/structure/mineral_door/manual_colony_door,
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"SJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/porta_turret/syndicate,
+/turf/closed/wall,
+/area/redplanet)
+"SP" = (
+/obj/structure/fence,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"Tc" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"Tr" = (
+/obj/machinery/door/airlock/shuttle,
+/obj/machinery/door/airlock/highsecurity,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Tw" = (
+/obj/structure/closet/secure_closet/medical2,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/spawner/random/medical/surgery_tool_advanced,
+/obj/effect/spawner/random/medical/medkit_rare,
+/obj/item/reagent_containers/hypospray/medipen/deforest/twitch,
+/obj/item/reagent_containers/hypospray/medipen/deforest/synephrine,
+/obj/item/reagent_containers/hypospray/medipen/deforest/halobinin,
+/obj/item/reagent_containers/hypospray/medipen/deforest/krotozine,
+/obj/item/reagent_containers/hypospray/medipen/deforest/adrenaline,
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"Tx" = (
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"TF" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/west,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"TM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"TQ" = (
+/obj/machinery/airalarm/directional/east,
+/obj/structure/closet/crate,
+/obj/item/stack/sheet/plasmaglass/fifty,
+/obj/item/stack/sheet/mineral/plasma/thirty,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"TS" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 10
+	},
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"Uj" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/vending/deforest_medvend,
+/turf/open/floor/iron/colony/white,
 /area/redplanet)
 "Uk" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner,
 /turf/open/misc/ironsand/redplanet,
 /area/redplanet)
+"Uq" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Uv" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
 "Uz" = (
 /turf/cordon,
 /area/misc/cordon)
+"UK" = (
+/obj/structure/closet/emcloset,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Vb" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"Vy" = (
+/obj/structure/filingcabinet,
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
 "Vz" = (
 /obj/effect/landmark/latejoin,
 /turf/open/floor/iron/colony/white/bolts{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
 /area/redplanet)
+"VC" = (
+/obj/structure/closet/crate/trashcart/filled,
+/turf/open/misc/ironsand/redplanet/randomrocks,
+/area/redplanet)
+"VD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
 "VL" = (
 /turf/open/misc/ironsand/redplanet/randomrocks,
+/area/redplanet)
+"VQ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/reinforced/rglass,
+/obj/item/folder/blue,
+/turf/open/floor/iron/colony/white/bolts,
+/area/redplanet)
+"VR" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"VX" = (
+/obj/structure/fluff/empty_sleeper{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/colony/white,
+/area/redplanet)
+"Wh" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/suit_storage_unit/medical,
+/turf/open/floor/iron/colony/white/bolts,
+/area/redplanet)
+"Wp" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Ww" = (
+/obj/structure/lattice/catwalk,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"WA" = (
+/obj/vehicle/sealed/mecha/ripley/mining,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"WB" = (
+/obj/structure/stone_tile/block/cracked,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"WQ" = (
+/obj/structure/closet/secure_closet/personal,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"WW" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"Xg" = (
+/obj/machinery/light/dim/directional/east,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Xj" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"XB" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"XF" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
 /area/redplanet)
 "XU" = (
 /obj/effect/landmark/observer_start,
 /turf/open/misc/ironsand/redplanet,
 /area/redplanet)
+"Ya" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
 "Yd" = (
 /turf/open/floor/catwalk_floor/colony_fabricator{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
+/area/redplanet)
+"Yg" = (
+/obj/machinery/mecha_part_fabricator/maint{
+	name = "forgotten exosuit fabricator"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/redplanet)
+"Yi" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 5
+	},
+/obj/structure/cable,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"Yv" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/redplanet)
+"Yz" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/marker_beacon/burgundy,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/railing/corner,
+/obj/structure/cable,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"YB" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"YI" = (
+/obj/structure/flora/biolumi/flower/weaklight,
+/turf/open/misc/asteroid/basalt/redplanet/randomrocks,
+/area/redplanet)
+"YJ" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"YV" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/iron/colony/white/bolts,
+/area/redplanet)
+"Zc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Zf" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Zi" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"Zl" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"Zp" = (
+/obj/effect/decal/cleanable/dirt{
+	icon_state = "dirt-flat-1"
+	},
+/turf/closed/wall,
+/area/redplanet)
+"Zz" = (
+/obj/machinery/door/airlock/colony_prefab,
+/turf/open/floor/plating/rust,
+/area/redplanet)
+"ZG" = (
+/turf/open/floor/mineral/plastitanium,
 /area/redplanet)
 "ZH" = (
 /obj/structure/closet/crate/cargo,
@@ -286,6 +2407,14 @@
 /turf/open/floor/iron/colony/white{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
+/area/redplanet)
+"ZI" = (
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/iron/smooth,
+/area/redplanet)
+"ZU" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/lava/smooth/redplanet,
 /area/redplanet)
 
 (1,1,1) = {"
@@ -13390,7 +15519,7 @@ VL
 VL
 VL
 VL
-VL
+BJ
 VL
 VL
 VL
@@ -13542,7 +15671,7 @@ ez
 ez
 ez
 ez
-ez
+WA
 PB
 PB
 PB
@@ -13772,10 +15901,10 @@ RX
 RX
 RX
 RX
-RX
-VL
-VL
-VL
+Oc
+Oc
+Oc
+Oc
 VL
 VL
 VL
@@ -13931,7 +16060,7 @@ ez
 ez
 ez
 ez
-ez
+tL
 PB
 PB
 PB
@@ -14160,10 +16289,10 @@ RX
 RX
 RX
 RX
-RX
-VL
-VL
-VL
+Oc
+rF
+Lu
+Oc
 VL
 VL
 VL
@@ -14318,10 +16447,10 @@ ez
 ez
 eF
 ez
+oj
 ez
-ez
-ez
-ez
+Rp
+tL
 PB
 PB
 PB
@@ -14548,10 +16677,10 @@ RX
 RX
 RX
 RX
-RX
-VL
-VL
-VL
+Oc
+xx
+dj
+Zz
 VL
 VL
 VL
@@ -14936,11 +17065,11 @@ RX
 RX
 RX
 RX
-RX
-VL
-VL
-VL
-VL
+Oc
+zK
+dj
+Oc
+OS
 VL
 VL
 VL
@@ -15324,10 +17453,10 @@ RX
 RX
 RX
 RX
-RX
-VL
-VL
-VL
+go
+IE
+dj
+go
 VL
 VL
 VL
@@ -15713,9 +17842,9 @@ RX
 RX
 RX
 RX
-VL
-VL
-VL
+Oc
+Oc
+go
 VL
 VL
 VL
@@ -16492,7 +18621,7 @@ RX
 RX
 VL
 VL
-VL
+BJ
 VL
 VL
 VL
@@ -19336,7 +21465,7 @@ RX
 RX
 RX
 RX
-VL
+yS
 VL
 VL
 VL
@@ -25661,7 +27790,7 @@ PB
 PB
 PB
 PB
-VL
+VC
 VL
 VL
 VL
@@ -26048,7 +28177,7 @@ PB
 PB
 PB
 PB
-VL
+DV
 VL
 VL
 VL
@@ -27754,7 +29883,7 @@ RX
 RX
 RX
 RX
-VL
+Bn
 VL
 VL
 VL
@@ -53401,7 +55530,7 @@ PB
 PB
 PB
 ez
-ez
+pc
 ez
 ez
 ez
@@ -54565,7 +56694,7 @@ PB
 ez
 ez
 ez
-ez
+aq
 ez
 PB
 PB
@@ -54953,7 +57082,7 @@ PB
 ez
 ez
 ez
-ez
+pc
 PB
 PB
 PB
@@ -55338,7 +57467,7 @@ PB
 PB
 PB
 PB
-ez
+pc
 ez
 ez
 PB
@@ -62169,7 +64298,7 @@ aa
 aa
 aa
 aa
-jj
+wI
 gA
 yt
 ad
@@ -67753,7 +69882,7 @@ VL
 VL
 VL
 VL
-VL
+iN
 VL
 VL
 VL
@@ -68913,7 +71042,7 @@ VL
 VL
 VL
 VL
-VL
+iN
 VL
 VL
 VL
@@ -69310,10 +71439,10 @@ VL
 VL
 VL
 VL
-VL
-VL
-VL
-VL
+fO
+fO
+fO
+fO
 VL
 VL
 VL
@@ -69695,14 +71824,14 @@ VL
 VL
 VL
 VL
+FB
 VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
+fO
+fO
+oF
+Tw
+fO
+fO
 VL
 VL
 VL
@@ -70080,17 +72209,17 @@ VL
 VL
 VL
 VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
+fO
+fO
+fO
+fO
+Sk
+fO
+fO
+zs
+OF
+Uj
+fO
 VL
 VL
 VL
@@ -70468,18 +72597,18 @@ VL
 VL
 VL
 VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
+dq
+OF
+zs
+OF
+tx
+OF
+fO
+OF
+tx
+Wh
+fO
+fO
 VL
 VL
 RX
@@ -70856,18 +72985,18 @@ RX
 RX
 VL
 VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
+dq
+zX
+VQ
+zX
+ao
+zs
+cK
+zs
+OF
+zs
+It
+fO
 RX
 RX
 RX
@@ -71244,18 +73373,18 @@ RX
 RX
 RX
 VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
-VL
-RX
-RX
+fO
+wj
+tx
+Ht
+zd
+OF
+fO
+mH
+OF
+zs
+ep
+fO
 RX
 RX
 RX
@@ -71632,18 +73761,18 @@ RX
 RX
 RX
 RX
-RX
-VL
-VL
-VL
-VL
-VL
-RX
-RX
-RX
-RX
-RX
-RX
+fO
+Vy
+uN
+zs
+IC
+zs
+fO
+Dg
+tx
+YV
+fO
+fO
 RX
 RX
 RX
@@ -72020,17 +74149,17 @@ RX
 RX
 RX
 RX
-RX
-RX
-RX
-RX
-RX
-RX
-RX
-RX
-RX
-RX
-RX
+fO
+Qj
+eJ
+OF
+tx
+OF
+fO
+mH
+OF
+zs
+fO
 RX
 RX
 RX
@@ -72408,17 +74537,17 @@ RX
 RX
 RX
 RX
-RX
-RX
-RX
-RX
-RX
-RX
-RX
-RX
-RX
-RX
-RX
+fO
+fO
+fO
+fO
+fO
+Oz
+fO
+nq
+Cn
+VX
+fO
 RX
 RX
 RX
@@ -72798,15 +74927,15 @@ RX
 RX
 RX
 RX
-RX
-RX
-RX
-RX
-RX
-RX
-RX
-RX
-RX
+fO
+Cd
+zs
+zs
+fO
+fO
+fO
+fO
+fO
 RX
 RX
 RX
@@ -73186,11 +75315,11 @@ RX
 RX
 RX
 RX
-RX
-RX
-RX
-RX
-RX
+fO
+Cd
+dx
+fJ
+fO
 RX
 RX
 RX
@@ -73575,10 +75704,10 @@ RX
 RX
 RX
 RX
-RX
-RX
-RX
-RX
+fO
+yf
+sD
+fO
 RX
 RX
 RX
@@ -73963,10 +76092,10 @@ RX
 RX
 RX
 RX
-RX
-RX
-RX
-RX
+fO
+dT
+ir
+fO
 RX
 RX
 RX
@@ -74351,10 +76480,10 @@ RX
 RX
 RX
 RX
-RX
-RX
-RX
-RX
+fO
+fO
+fO
+fO
 RX
 RX
 RX
@@ -94812,16 +96941,16 @@ PB
 PB
 PB
 ez
-ez
-ez
-ez
-ez
-ez
-ez
-ez
-ez
-ez
-ez
+sE
+SP
+SP
+SP
+SP
+SP
+SP
+SP
+SP
+MA
 ez
 PB
 PB
@@ -95200,16 +97329,16 @@ PB
 PB
 PB
 PB
+nX
 ez
 ez
 ez
 ez
 ez
+jq
 ez
 ez
-ez
-ez
-ez
+nX
 ez
 PB
 PB
@@ -95597,7 +97726,7 @@ ez
 ez
 ez
 ez
-ez
+HG
 ez
 PB
 PB
@@ -95979,13 +98108,13 @@ PB
 PB
 ez
 ez
+jq
 ez
 ez
 ez
 ez
 ez
-ez
-ez
+HG
 ez
 PB
 PB
@@ -96368,13 +98497,13 @@ ez
 ez
 ez
 ez
+Kg
+jq
 ez
 ez
 ez
-ez
-ez
-ez
-ez
+cJ
+SP
 PB
 PB
 PB
@@ -96755,10 +98884,10 @@ ez
 ez
 ez
 ez
-ez
-ez
-ez
-ez
+kf
+Ii
+lq
+kf
 ez
 ez
 ez
@@ -97144,8 +99273,8 @@ ez
 ez
 ez
 fV
-fV
-fV
+Mk
+NV
 fV
 ez
 ez
@@ -97532,19 +99661,19 @@ ez
 ez
 fV
 fV
+Mk
+NV
 fV
 fV
-fV
-fV
 ez
 ez
 ez
 ez
 ez
+jq
 ez
 ez
-ez
-ez
+nX
 ez
 ez
 ez
@@ -97920,19 +100049,19 @@ ez
 fV
 fV
 fV
+Mk
+NV
 fV
 fV
 fV
-fV
-fV
 ez
 ez
 ez
 ez
+Kg
 ez
-ez
-ez
-ez
+jq
+HG
 ez
 ez
 ez
@@ -98308,15 +100437,15 @@ fV
 fV
 fV
 fV
-fV
-fV
+Mk
+NV
 fV
 fV
 fV
 fV
 ez
 ez
-ez
+jq
 ez
 ez
 ez
@@ -98696,8 +100825,8 @@ fV
 fV
 fV
 fV
-fV
-fV
+Mk
+NV
 fV
 fV
 fV
@@ -99084,8 +101213,8 @@ fV
 fV
 fV
 fV
-fV
-fV
+Mk
+NV
 fV
 fV
 fV
@@ -99331,7 +101460,7 @@ RX
 RX
 RX
 RX
-RX
+ez
 RX
 RX
 RX
@@ -99470,12 +101599,12 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
+jI
+Ps
+Bz
+nn
+Ps
+jI
 fV
 fV
 fV
@@ -99718,10 +101847,10 @@ RX
 RX
 RX
 RX
+ez
 RX
-RX
-RX
-RX
+ez
+ez
 RX
 RX
 RX
@@ -99855,18 +101984,18 @@ ez
 ez
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Ps
+Yv
+Yv
+Zp
+jV
+Ja
+Ja
+tR
+Ps
+Yv
+Yv
+Ps
 fV
 fV
 fV
@@ -100105,15 +102234,15 @@ RX
 RX
 RX
 RX
+ez
+ez
 RX
 RX
-RX
-RX
-RX
-RX
-RX
-RX
-RX
+ez
+ez
+ez
+ez
+ez
 RX
 RX
 RX
@@ -100243,18 +102372,18 @@ ez
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Ps
+sU
+tR
+zZ
+jV
+tR
+tR
+Ja
+Bu
+Ja
+UK
+Ps
 fV
 fV
 fV
@@ -100493,13 +102622,13 @@ RX
 RX
 RX
 RX
+ez
 RX
-RX
-RX
-RX
-RX
-RX
-RX
+rD
+qx
+ol
+kS
+ez
 RX
 RX
 RX
@@ -100631,18 +102760,18 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Yv
+tR
+Ja
+Ja
+jV
+Uq
+Ja
+Sg
+Ja
+Ja
+tR
+Yv
 fV
 fV
 fV
@@ -100880,13 +103009,13 @@ RX
 RX
 RX
 RX
+ez
 RX
 RX
-RX
-RX
-RX
-RX
-RX
+lM
+Pn
+WB
+ol
 RX
 RX
 RX
@@ -101019,18 +103148,18 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Yv
+tR
+tR
+tR
+Sg
+Ik
+bW
+HE
+Ja
+Ja
+Ja
+Yv
 fV
 fV
 fV
@@ -101267,14 +103396,14 @@ RX
 RX
 RX
 RX
+ez
 RX
 RX
-RX
-RX
-RX
-RX
-RX
-RX
+ky
+ez
+AD
+qx
+YI
 RX
 RX
 RX
@@ -101407,18 +103536,18 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Ps
+Ps
+tR
+Ja
+tR
+Ja
+Kx
+jV
+Ja
+tR
+Ps
+Ps
 fV
 fV
 fV
@@ -101655,13 +103784,13 @@ RX
 RX
 RX
 RX
+ez
 RX
 RX
-RX
-RX
-RX
-RX
-RX
+ez
+ez
+rD
+ez
 RX
 RX
 RX
@@ -101796,16 +103925,16 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Ps
+jI
+tR
+tR
+tR
+pZ
+fW
+ZI
+jI
+Ps
 fV
 fV
 fV
@@ -102046,8 +104175,8 @@ RX
 RX
 RX
 RX
-RX
-RX
+ez
+ez
 RX
 RX
 RX
@@ -102185,14 +104314,14 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Ps
+Ps
+Ps
+EN
+Os
+Ps
+Ps
+Ps
 fV
 fV
 fV
@@ -102434,12 +104563,12 @@ RX
 RX
 RX
 RX
+ez
 RX
 RX
 RX
 RX
-RX
-RX
+ez
 RX
 RX
 RX
@@ -102575,10 +104704,10 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
+Ps
+jV
+KO
+Ps
 fV
 fV
 fV
@@ -102822,9 +104951,9 @@ RX
 RX
 RX
 RX
+ez
 RX
-RX
-RX
+ez
 RX
 RX
 RX
@@ -102962,12 +105091,12 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
+Ps
+Ps
+jV
+Om
+Ps
+Ps
 fV
 fV
 fV
@@ -103349,6 +105478,14 @@ fV
 fV
 fV
 fV
+Ps
+Ps
+tR
+rp
+NF
+tR
+Ps
+Ps
 fV
 fV
 fV
@@ -103360,19 +105497,11 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Ps
+Ps
+Ps
+Ps
+Ps
 fV
 fV
 fV
@@ -103737,6 +105866,14 @@ fV
 fV
 fV
 fV
+Ps
+sp
+tR
+Sg
+NF
+jV
+tR
+Ps
 fV
 fV
 fV
@@ -103745,23 +105882,15 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Ps
+Ps
+Yv
+Ps
+jw
+Ph
+OG
+Ps
+Ps
 fV
 fV
 fV
@@ -104125,32 +106254,32 @@ fV
 fV
 fV
 fV
+Ps
+oN
+tR
+Sg
+lv
+jV
+tR
+Ps
+Ps
 fV
 fV
 fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Ps
+Ps
+fv
+il
+Kn
+FN
+Nh
+BD
+ZG
+Ps
+Ps
 fV
 fV
 fV
@@ -104513,33 +106642,33 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Yv
+sA
+Ja
+LS
+dX
+Ja
+Ja
+tR
+Ps
+Ps
+Yv
+Yv
+Ps
+Ps
+jf
+jf
+CU
+Ja
+tR
+Ja
+wx
+ZG
+Ae
+ZG
+Tx
+Ps
+jI
 fV
 fV
 fV
@@ -104901,40 +107030,40 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Yv
+Cl
+Ja
+Ja
+lv
+Ja
+Ja
+Ja
+tR
+Ja
+Ja
+Ja
+Ja
+tR
+EN
+Ja
+Ja
+ye
+Gg
+tR
+wx
+ZG
+Ae
+Hv
+Hv
+Hv
+ox
+XB
+XB
+XB
+yC
+yC
+yC
+TS
 fV
 fV
 fV
@@ -105289,40 +107418,40 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Ps
+Ps
+fv
+il
+Uv
+TM
+FQ
+Er
+Er
+Er
+Uv
+uX
+dX
+dX
+oO
+Zl
+lv
+lv
+mm
+jv
+mj
+xa
+WW
+xa
+xa
+xa
+Rb
+Vb
+Vb
+Av
+Av
+Av
+fK
+NV
 fV
 fV
 fV
@@ -105678,39 +107807,39 @@ fV
 fV
 fV
 fV
+Ps
+Ps
+Yv
+Yv
+Ps
+Ps
+Ps
+Ps
+Xg
+Ja
+Zc
+Xg
+Ps
+Ps
+Ps
+GV
+tt
+gS
+Sg
+tR
+PQ
+VD
+Ja
+uL
+Ps
+jI
 fV
 fV
+by
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+wi
+NV
 fV
 fV
 fV
@@ -106073,34 +108202,34 @@ fV
 fV
 fV
 fV
+Ps
+Ps
+Ja
+Zf
+Ps
+Ps
+fV
+Ps
+Ps
+ty
+EC
+CY
+er
+er
+VD
+tR
+Ps
+Ps
 fV
 fV
 fV
 fV
 fV
 fV
+vR
+NV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+ZU
 fV
 fV
 fV
@@ -106462,34 +108591,34 @@ fV
 fV
 fV
 fV
+Yv
+Ja
+Zf
+Yv
+fV
+fV
+fV
+Ps
+Ps
+Yv
+jf
+jf
+PQ
+yZ
+Ps
+Ps
 fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+ih
+QK
+QK
+KK
+Qy
+Zi
+XB
+Eh
 fV
 fV
 fV
@@ -106850,34 +108979,34 @@ fV
 fV
 fV
 fV
+Ps
+Ja
+Zf
+Ps
+fV
+Gh
+kW
+fV
+fV
+fV
+fV
+Ps
+lo
+qT
+Ps
 fV
 fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+vR
+Dp
+qv
+qv
+qv
+DW
+wB
+NV
 fV
 fV
 fV
@@ -107238,34 +109367,34 @@ fV
 fV
 fV
 fV
+Ps
+gu
+Kj
+Ps
+fV
+ez
+Nf
+WB
+fV
+fV
+Ps
+Ps
+AB
+VD
+Ps
+Ps
 fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+vR
+aJ
+HI
+rl
+uq
+rl
+DS
+NV
 fV
 fV
 fV
@@ -107626,34 +109755,34 @@ fV
 fV
 fV
 fV
+Ps
+Sg
+Zf
+Ps
+fV
+fV
+pl
+ez
+fV
+fV
+Ps
+tR
+er
+VD
+tR
+Ps
 fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+vR
+aJ
+rl
+rl
+hN
+rl
+DS
+NV
 fV
 fV
 fV
@@ -108013,35 +110142,35 @@ fV
 fV
 fV
 fV
+Ps
+jf
+Fv
+YJ
+Ps
+Ps
 fV
 fV
 fV
 fV
+Ps
+Ps
+Sg
+gS
+yZ
+Ja
+Ps
+Ps
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+vR
+yT
+hN
+wr
+rl
+rl
+DS
+NV
 fV
 fV
 fV
@@ -108401,35 +110530,35 @@ fV
 fV
 fV
 fV
+Ps
+tR
+Sg
+Wp
+Ja
+Ps
 fV
 fV
+Ps
+Ps
+Ps
+SJ
+Ja
+PQ
+VD
+Sg
+jI
+Ps
+Ps
+Ps
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+vR
+aJ
+rl
+hN
+uq
+hN
+DS
+NV
 fV
 fV
 fV
@@ -108773,12 +110902,12 @@ ez
 ez
 ez
 ez
+lr
 ez
 ez
 ez
 ez
 ez
-ez
 fV
 fV
 fV
@@ -108789,35 +110918,35 @@ fV
 fV
 fV
 fV
+Ps
+Ja
+Sg
+Wp
+Ja
+Ps
 fV
 fV
+Ps
+Ol
+Ja
+Sg
+Ja
+er
+yZ
+Ja
+Sg
+Ja
+Ja
+Yv
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+vR
+aJ
+rl
+uq
+rl
+rl
+DS
+NV
 fV
 fV
 fV
@@ -109175,37 +111304,37 @@ fV
 fV
 fV
 fV
+Ps
+Yv
+Ps
+Ja
+nN
+Wp
+Ja
+Ps
+Yv
+Ps
+Ps
+Op
+Fl
+Ja
+jv
+PQ
+VD
+jv
+Ja
+Ja
+Ja
+Yv
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+vR
+aJ
+uq
+rl
+HI
+rl
+DS
+NV
 fV
 fV
 fV
@@ -109563,37 +111692,37 @@ fV
 fV
 fV
 fV
+Ps
+Mq
+Ja
+Sg
+tR
+Pm
+mm
+XF
+XF
+fm
+XF
+XF
+it
+Ja
+Ja
+PQ
+yZ
+Sg
+Ja
+Ja
+tR
+Yv
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+vR
+aJ
+uq
+rl
+rl
+HI
+DS
+NV
 fV
 fV
 fV
@@ -109951,37 +112080,37 @@ fV
 fV
 fV
 fV
+Ps
+Mq
+Ja
+Sg
+Ay
+Wp
+Ja
+Sg
+Ja
+Ps
+Ps
+Ps
+Ps
+TQ
+tR
+er
+VD
+Ja
+Ja
+Fk
+Ps
+Ps
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+vR
+lh
+qA
+qA
+qA
+qA
+IW
+NV
 fV
 fV
 fV
@@ -110339,37 +112468,37 @@ fV
 fV
 fV
 fV
+Ps
+og
+Ja
+Ja
+Ja
+oC
+tR
+Ja
+ud
+Ps
+HI
+rl
+Ps
+Ps
+HS
+PQ
+yZ
+tR
+HS
+Ps
+Ps
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Yz
+fC
+fC
+fC
+fC
+fC
+qC
+GZ
 fV
 fV
 fV
@@ -110727,30 +112856,30 @@ fV
 fV
 fV
 fV
+Ps
+Mq
+Ja
+Ja
+Ja
+Wp
+tR
+Ay
+tR
+oM
+HI
+HI
+rl
+Ps
+Ps
+lo
+EN
+Ps
+Ps
+Ps
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+uP
 fV
 fV
 fV
@@ -111115,35 +113244,35 @@ fV
 fV
 fV
 fV
+Ps
+Ps
+Pt
+tR
+tR
+Wp
+Ja
+WQ
+Ps
+Ps
+Ps
+HI
+HI
+Au
+Ps
+YB
+yZ
+Ps
 fV
 fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+RK
+JE
+JE
+JE
+JE
+Gw
 fV
 fV
 fV
@@ -111504,34 +113633,34 @@ fV
 fV
 fV
 fV
+Ps
+Ps
+WQ
+HZ
+Oj
+ss
+Ps
+Ps
+hN
+Ps
+vH
+HI
+yo
+Ps
+PQ
+VD
+Ps
 fV
 fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+vR
+Ww
+Ww
+Ww
+Ww
+NV
 fV
 fV
 fV
@@ -111893,33 +114022,33 @@ fV
 fV
 fV
 fV
+Ps
+GX
+Ja
+Oj
+rC
+mc
+vJ
+uq
+Ps
+Ps
+Ps
+Ps
+Ps
+Kl
+zw
+Ps
+Ps
+Ps
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+vR
+nj
+nj
+nj
+nj
+cV
 fV
 fV
 fV
@@ -112281,33 +114410,33 @@ fV
 fV
 fV
 fV
+Ps
+Ps
+tR
+Oj
+Ps
+Ps
+sT
+jn
+pu
+Ps
+jI
+Ac
+TF
+PQ
+Qg
+Uq
+tR
+Ps
+Ps
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+vR
+Ww
+Ww
+Ww
+JM
+NV
 fV
 fV
 fV
@@ -112669,33 +114798,33 @@ fV
 fV
 fV
 fV
+Lb
+CX
+Ya
+oH
+Ps
+Ps
+iL
+hN
+Ps
+Ps
+Of
+fs
+tR
+jV
+yZ
+tR
+Ja
+tR
+Ps
+Ps
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+vR
+nj
+nj
+nj
+nj
+cV
 fV
 fV
 fV
@@ -113057,33 +115186,33 @@ fV
 fV
 fV
 fV
+AU
+Ps
+Ja
+qy
+tR
+Ps
+Ps
+MJ
+Ps
+gf
+mG
+Jz
+LR
+il
+yB
+il
+LR
+Kn
+jA
+Ps
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+vR
+Ww
+Ww
+Ww
+Ww
+NV
 fV
 fV
 fV
@@ -113446,32 +115575,32 @@ fV
 fV
 fV
 fV
+Ps
+tR
+Wp
+Ld
+jV
+Ps
+Ps
+Ps
+QT
+ro
+DP
+tR
+Ja
+Uq
+MQ
+tR
+Ja
+tR
+Af
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Yi
+tz
+tz
+tz
+tz
+JF
 fV
 fV
 fV
@@ -113834,25 +115963,25 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Ps
+Ps
+sk
+Mb
+MR
+xB
+xB
+Sh
+ik
+nC
+JX
+tR
+tR
+jV
+Ja
+tR
+Uq
+tR
+CI
 fV
 fV
 fV
@@ -114223,24 +116352,24 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Ps
+Ps
+Ee
+Ja
+tR
+jV
+Tr
+tR
+tR
+Xj
+jV
+jr
+Uq
+Ja
+VR
+tR
+tR
+CI
 fV
 fV
 fV
@@ -114612,23 +116741,23 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Ps
+tM
+Ps
+tM
+Ps
+Ps
+tR
+tR
+jV
+tR
+Ja
+wL
+xh
+EQ
+dH
+Fu
+Af
 fV
 fV
 fV
@@ -115000,23 +117129,23 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Ps
+Df
+Ps
+ED
+Ps
+Ps
+tR
+tR
+tR
+pB
+jV
+wx
+Tc
+cX
+ZG
+KW
+Ps
 fV
 fV
 fV
@@ -115388,23 +117517,23 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Ps
+Ps
+Ps
+Ps
+Ps
+Ps
+Ps
+tR
+Ja
+zi
+zi
+wx
+cX
+Lt
+Yg
+Ps
+Ps
 fV
 fV
 fV
@@ -115782,16 +117911,16 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Ps
+SJ
+Ja
+tR
+tR
+GC
+ZG
+kA
+Ps
+Ps
 fV
 fV
 fV
@@ -116171,14 +118300,14 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
-fV
+Ps
+Ps
+tR
+tR
+Nl
+ei
+Ps
+Ps
 fV
 fV
 fV
@@ -116560,12 +118689,12 @@ fV
 fV
 fV
 fV
-fV
-fV
-fV
-fV
-fV
-fV
+Ps
+Af
+CI
+CI
+Af
+Ps
 fV
 fV
 fV
@@ -127527,8 +129656,8 @@ ez
 ez
 ez
 ez
-ez
-ez
+oj
+cx
 RX
 RX
 RX
@@ -127913,9 +130042,9 @@ ez
 ez
 ez
 ez
-ez
-ez
-ez
+jq
+qX
+Kg
 ez
 RX
 RX
@@ -128300,7 +130429,7 @@ ez
 ez
 ez
 ez
-ez
+tL
 ez
 ez
 ez
@@ -128690,7 +130819,7 @@ ez
 ez
 ez
 ez
-ez
+WA
 ez
 RX
 RX
@@ -129079,7 +131208,7 @@ ez
 ez
 ez
 ez
-ez
+tL
 RX
 RX
 RX
@@ -138835,7 +140964,7 @@ VL
 VL
 VL
 VL
-VL
+cF
 VL
 VL
 VL
@@ -139222,9 +141351,9 @@ VL
 VL
 VL
 VL
-VL
-VL
-VL
+AJ
+OR
+AJ
 VL
 VL
 VL
@@ -139610,9 +141739,9 @@ VL
 VL
 VL
 VL
-VL
-VL
-VL
+ov
+mT
+nV
 VL
 VL
 VL
@@ -143473,7 +145602,7 @@ RX
 RX
 RX
 RX
-RX
+eq
 RX
 RX
 RX
@@ -144249,7 +146378,7 @@ RX
 RX
 RX
 RX
-RX
+eq
 RX
 RX
 RX
@@ -145412,7 +147541,7 @@ RX
 RX
 RX
 RX
-RX
+eq
 RX
 RX
 RX
@@ -145800,7 +147929,7 @@ RX
 RX
 RX
 RX
-RX
+eq
 RX
 RX
 RX
