@@ -30,12 +30,6 @@
 		new /obj/structure/flora/rock/style_random(get_turf(src))
 	else if(prob(2))
 		new /obj/structure/flora/rock/pile/style_random(get_turf(src))
-	else if(prob(1))
-		new /obj/structure/ore_vein/iron/more_than_one_ore(get_turf(src))
-
-/obj/structure/ore_vein/iron/more_than_one_ore
-	ore_amount = 7
-	regeneration_time = 30 MINUTES
 
 /turf/open/lava/smooth/redplanet
 	initial_gas_mix = RED_PLANET_ATMOS

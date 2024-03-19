@@ -415,12 +415,12 @@
 
 /obj/structure/ore_vent/random/Initialize(mapload)
 	. = ..()
-	if(!unique_vent && !mapload)
+	if(!unique_vent)
 		generate_mineral_breakdown(map_loading = mapload) //Default to random mineral breakdowns, unless this is a unique vent or we're still setting up default vent distribution.
 		generate_description()
 	artifact_chance = rand(0, MAX_ARTIFACT_ROLL_CHANCE)
 	var/string_boulder_size = pick_weight(ore_vent_options)
-	name = "[string_boulder_size] ore vent"
+	name = "[string_boulader_size] ore vent"
 	switch(string_boulder_size)
 		if(LARGE_VENT_TYPE)
 			boulder_size = BOULDER_SIZE_LARGE

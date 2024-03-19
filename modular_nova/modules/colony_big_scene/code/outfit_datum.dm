@@ -22,7 +22,7 @@
 	neck = null
 	shoes = /obj/item/clothing/shoes/jackboots/frontier_colonist
 	l_pocket = /obj/item/spess_knife
-	r_pocket = /obj/item/storage/bag/ore
+	r_pocket = /obj/item/t_scanner/adv_mining_scanner/lesser
 	l_hand = null
 	r_hand = null
 	accessory = null
