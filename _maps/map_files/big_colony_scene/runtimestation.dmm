@@ -620,7 +620,7 @@
 	},
 /area/ruin/space/has_grav/derelictoutpost/cargobay)
 "lh" = (
-/turf/closed/wall,
+/turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/space/has_grav/derelictoutpost)
 "ln" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -1004,7 +1004,7 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/lava/smooth/redplanet,
+/turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/space/has_grav/derelictoutpost)
 "qX" = (
 /obj/item/pickaxe,
@@ -1995,6 +1995,7 @@
 	dir = 1
 	},
 /obj/machinery/door/poddoor/preopen,
+/obj/structure/railing,
 /turf/open/floor/iron/colony/bolts{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
@@ -2152,9 +2153,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/colony/texture,
 /area/ruin/space/has_grav/derelictoutpost/powerstorage)
-"Ik" = (
-/turf/open/lava/smooth/redplanet,
-/area/ruin/space/has_grav/derelictoutpost)
 "Io" = (
 /obj/machinery/door/airlock/colony_prefab,
 /obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
@@ -2318,7 +2316,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/any/syndicate/general,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/turf/open/lava/smooth/redplanet,
+/turf/open/floor/catwalk_floor/colony_fabricator,
 /area/ruin/space/has_grav/derelictoutpost)
 "Kx" = (
 /obj/structure/lattice/lava,
@@ -3199,6 +3197,7 @@
 	dir = 1
 	},
 /obj/machinery/door/poddoor/preopen,
+/obj/structure/railing,
 /turf/open/floor/iron/colony/texture{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
@@ -111074,7 +111073,7 @@ Kx
 Kx
 Kx
 Kx
-Ik
+lh
 Sm
 lh
 vH
