@@ -2,6 +2,7 @@
 
 #define FABRICATOR_CATEGORY_FLATPACK_MACHINES "/Flatpacked Machines"
 #define FABRICATOR_SUBCATEGORY_MANUFACTURING "/Manufacturing"
+#define FABRICATOR_SUBCATEGORY_MEDICAL "/Medical"
 #define FABRICATOR_SUBCATEGORY_POWER "/Power"
 #define FABRICATOR_SUBCATEGORY_MATERIALS "/Materials"
 #define FABRICATOR_SUBCATEGORY_ATMOS "/Atmospherics"
@@ -28,6 +29,8 @@
 		"flatpack_thumper",
 		"flatpack_organics_printer",
 		"flatpack_gps_beacon",
+		"flatpack_afk_pod",
+		"flatpack_cryopod",
 	)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000000000000000) // God save you
 	hidden = TRUE
@@ -332,6 +335,45 @@
 	category = list(
 		RND_CATEGORY_INITIAL,
 		FABRICATOR_CATEGORY_FLATPACK_MACHINES,
+	)
+	construction_time = 15 SECONDS
+
+// A pod with atmosphere that puts you on stasis, for going afk in
+
+/datum/design/flatpack_afk_pod
+	name = "Cryostasis Pod Parts Kit"
+	desc = "The parts to build a cryostasis pod, a pod where you can sleep theoretically forever in a safe environment, so long as there is power."
+	id = "flatpack_afk_pod"
+	build_type = COLONY_FABRICATOR
+	materials = list(
+		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 5,
+		/datum/material/glass = SHEET_MATERIAL_AMOUNT * 5,
+		/datum/material/silver = SHEET_MATERIAL_AMOUNT,
+		/datum/material/titanium = SHEET_MATERIAL_AMOUNT,
+	)
+	build_path = /obj/item/flatpacked_machine/afk_pod
+	category = list(
+		RND_CATEGORY_INITIAL,
+		FABRICATOR_CATEGORY_FLATPACK_MACHINES + FABRICATOR_SUBCATEGORY_MEDICAL,
+	)
+	construction_time = 15 SECONDS
+
+// A pod with atmosphere that puts you on stasis, for going afk in
+
+/datum/design/flatpack_cryopod
+	name = "Mounted Cryogenic Freezer"
+	desc = "A wall-mount for a cryogenic freezer, able to store personnel that will be effected by extended periods of 'oh so eepy sleepy'."
+	id = "flatpack_cryopod"
+	build_type = COLONY_FABRICATOR
+	materials = list(
+		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 5,
+		/datum/material/glass = SHEET_MATERIAL_AMOUNT * 5,
+		/datum/material/gold = SHEET_MATERIAL_AMOUNT,
+	)
+	build_path = /obj/item/wallframe/wall_cryopod
+	category = list(
+		RND_CATEGORY_INITIAL,
+		FABRICATOR_CATEGORY_FLATPACK_MACHINES + FABRICATOR_SUBCATEGORY_MEDICAL,
 	)
 	construction_time = 15 SECONDS
 
