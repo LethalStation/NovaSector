@@ -420,7 +420,7 @@
 		generate_description()
 	artifact_chance = rand(0, MAX_ARTIFACT_ROLL_CHANCE)
 	var/string_boulder_size = pick_weight(ore_vent_options)
-	name = "[string_boulader_size] ore vent"
+	name = "[string_boulder_size] ore vent"
 	switch(string_boulder_size)
 		if(LARGE_VENT_TYPE)
 			boulder_size = BOULDER_SIZE_LARGE
