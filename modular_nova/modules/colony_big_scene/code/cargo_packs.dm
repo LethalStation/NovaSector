@@ -1,5 +1,3 @@
-// Engineering
-
 /datum/supply_pack/engineering/random_lathe_boards
 	name = "Technology Fabricator Board Triple Pack"
 	desc = "Three random technology fabricator boards from the various departments."
@@ -12,7 +10,7 @@
 		/obj/item/circuitboard/machine/techfab/department/security,
 		/obj/item/circuitboard/machine/techfab/department/service,
 	)
-	crate_name = "colonization kit crate"
+	crate_name = "technology fabricator circuits crate"
 
 /datum/supply_pack/engineering/random_lathe_boards/fill(obj/structure/closet/crate/my_house_in_the_middle)
 	for(var/iteraor in 1 to 3)
