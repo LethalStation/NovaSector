@@ -8,6 +8,7 @@
 	suit = /obj/item/clothing/suit/jacket/frontier_colonist/short
 	suit_store = /obj/item/tank/internals/oxygen/yellow
 	back = /obj/item/mod/control/pre_equipped/frontier_colonist
+	box = null
 	backpack_contents = list(
 		/obj/item/storage/box/colonist_internals = 1,
 	)
