@@ -16,14 +16,12 @@
 	resistance_flags = FIRE_PROOF
 	max_heat_protection_temperature = FIRE_SUIT_MAX_TEMP_PROTECT
 	siemens_coefficient = 0
-	complexity_max = DEFAULT_MAX_COMPLEXITY - 3
+	complexity_max = DEFAULT_MAX_COMPLEXITY
 	charge_drain = DEFAULT_CHARGE_DRAIN - 1
 	slowdown_inactive = 1
 	slowdown_active = 0.5
 	inbuilt_modules = list(
-		/obj/item/mod/module/plate_compression/permanent,
 		/obj/item/mod/module/joint_torsion/permanent,
-		/obj/item/mod/module/storage/permanent,
 	)
 	allowed_suit_storage = list(
 		/obj/item/ammo_box,
@@ -84,33 +82,22 @@
 		/obj/item/mod/module/rad_protection,
 		/obj/item/mod/module/orebag,
 		/obj/item/mod/module/emp_shield,
+		/obj/item/mod/module/storage,
+		/obj/item/mod/module/gps,
 	)
 	default_pins = list(
 		/obj/item/mod/module/magboot,
 		/obj/item/mod/module/flashlight,
 		/obj/item/mod/module/thermal_regulator,
+		/obj/item/mod/module/orebag,
 	)
 
 /obj/item/mod/control/pre_equipped/frontier_colonist/Initialize(mapload)
 	. = ..()
 	AddElement(/datum/element/manufacturer_examine, COMPANY_KAHRAMAN)
 
-// Plate compression module that cannot be removed
-
-/obj/item/mod/module/plate_compression/permanent
-	incompatible_modules = list(/obj/item/mod/module/plate_compression)
-	removable = FALSE
-	complexity = 0
-
 // Joint torsion module that can't be removed and has no complexity
 
 /obj/item/mod/module/joint_torsion/permanent
-	removable = FALSE
-	complexity = 0
-
-// Basic storage module that can't be removed and has no complexity
-
-/obj/item/mod/module/storage/permanent
-	incompatible_modules = list(/obj/item/mod/module/storage)
 	removable = FALSE
 	complexity = 0

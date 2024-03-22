@@ -9,9 +9,7 @@
 	suit_store = /obj/item/tank/internals/oxygen/yellow
 	back = /obj/item/mod/control/pre_equipped/frontier_colonist
 	backpack_contents = list(
-		/obj/item/tank/internals/emergency_oxygen/engi = 1,
-		/obj/item/trench_tool = 1,
-		/obj/item/flashlight/flare = 1,
+		/obj/item/storage/box/colonist_internals = 1,
 	)
 	belt = /obj/item/storage/belt/utility/frontier_colonist/stocked
 	ears = /obj/item/radio/headset/headset_cargo/mining
@@ -54,3 +52,17 @@
 	new /obj/item/wirecutters(src)
 	new /obj/item/multitool(src)
 	new /obj/item/stack/cable_coil(src)
+
+/obj/item/storage/box/colonist_internals
+	name = "survival box"
+	desc = "A box with the bare essentials of ensuring the survival of you and others. This one is labelled to contain an extended-capacity tank."
+	illustration = "extendedtank"
+
+/obj/item/storage/box/colonist_internals/PopulateContents()
+	new /obj/item/clothing/mask/gas/sechailer/half_mask(src)
+	new /obj/item/tank/internals/emergency_oxygen/engi(src)
+	new /obj/item/storage/medkit/civil_defense/stocked(src)
+	new /obj/item/trench_tool(src)
+	new /obj/item/flashlight/flare(src)
+	new /obj/item/flashlight/flare(src)
+	new /obj/item/stack/marker_beacon/ten(src)
