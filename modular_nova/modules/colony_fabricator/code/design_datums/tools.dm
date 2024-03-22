@@ -78,3 +78,20 @@
 		RND_CATEGORY_INITIAL,
 		RND_CATEGORY_TOOLS + RND_SUBCATEGORY_TOOLS_MINING,
 	)
+
+// It's the metal hydrogen axe except you'll actually see it once in a bazillion years
+
+/datum/design/colony_extraction_axe
+	name = "Emergency Extraction Axe"
+	id = "colony_extraction_axe"
+	build_type = COLONY_FABRICATOR
+	build_path = /obj/item/fireaxe/metal_h2_axe/extraction_tool
+	materials = list(
+		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 3,
+		/datum/material/plasma = SHEET_MATERIAL_AMOUNT,
+		/datum/material/titanium = SHEET_MATERIAL_AMOUNT * 5,
+	)
+	category = list(
+		RND_CATEGORY_INITIAL,
+		RND_CATEGORY_TOOLS + RND_SUBCATEGORY_TOOLS_ENGINEERING_ADVANCED,
+	)
