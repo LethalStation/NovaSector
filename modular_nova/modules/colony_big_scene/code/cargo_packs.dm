@@ -18,4 +18,3 @@
 	for(var/iteraor in 1 to 3)
 		var/obj/new_board = pick(contains)
 		new new_board(my_house_in_the_middle)
-
