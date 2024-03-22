@@ -1053,6 +1053,12 @@
 /obj/structure/closet/emcloset/anchored,
 /turf/open/floor/iron/colony/bolts,
 /area/ruin/space/has_grav/derelictoutpost/cargobay)
+"sd" = (
+/obj/machinery/portable_atmospherics/canister/air,
+/turf/open/floor/iron/colony/white/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
+/area/redplanet)
 "sk" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -1145,6 +1151,10 @@
 /turf/open/floor/iron/colony/bolts{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
+/area/redplanet)
+"td" = (
+/obj/effect/landmark/blobstart,
+/turf/open/misc/ironsand/redplanet/randomrocks,
 /area/redplanet)
 "tt" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1316,6 +1326,10 @@
 /obj/machinery/computer/med_data/laptop,
 /turf/open/floor/iron/colony/white,
 /area/redplanet)
+"wm" = (
+/obj/effect/landmark/carpspawn,
+/turf/open/misc/ironsand/redplanet/randomrocks,
+/area/redplanet)
 "wq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/portable_atmospherics/pump/lil_pump,
@@ -1350,6 +1364,10 @@
 	dir = 4
 	},
 /turf/open/misc/ironsand/redplanet,
+/area/redplanet)
+"wK" = (
+/obj/effect/landmark/generic_maintenance_landmark,
+/turf/open/misc/ironsand/redplanet/randomrocks,
 /area/redplanet)
 "wL" = (
 /turf/open/floor/iron/colony,
@@ -1449,6 +1467,9 @@
 /turf/closed/wall/prefab_plastic,
 /area/ruin/space/has_grav/derelictoutpost/cargobay)
 "yt" = (
+/obj/structure/closet/crate/secure/weapon,
+/obj/item/circuitboard/machine/techfab/department/security,
+/obj/item/circuitboard/machine/ammo_workbench,
 /turf/open/floor/iron/colony/white/bolts{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
@@ -1856,6 +1877,10 @@
 /obj/machinery/meter/layer2,
 /turf/open/floor/iron/colony/bolts,
 /area/ruin/space/has_grav/derelictoutpost)
+"Ey" = (
+/obj/effect/landmark/event_spawn,
+/turf/open/misc/ironsand/redplanet/randomrocks,
+/area/redplanet)
 "Ez" = (
 /obj/machinery/shower/directional/south,
 /obj/structure/curtain,
@@ -1956,6 +1981,7 @@
 /obj/item/wallframe/frontier_medstation,
 /obj/item/bodybag/stasis,
 /obj/item/bodybag/stasis,
+/obj/item/circuitboard/machine/techfab/department/medical,
 /turf/open/floor/iron/colony/white/bolts{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
@@ -2486,6 +2512,7 @@
 /obj/item/seeds/plump,
 /obj/item/seeds/plump,
 /obj/item/seeds/plump,
+/obj/item/circuitboard/machine/techfab/department/service,
 /turf/open/floor/iron/colony/white{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
@@ -2822,6 +2849,14 @@
 	dir = 4
 	},
 /turf/open/lava/smooth/redplanet,
+/area/redplanet)
+"SG" = (
+/obj/structure/closet/crate/science,
+/obj/item/circuitboard/machine/techfab/department/science,
+/obj/item/circuitboard/machine/autolathe,
+/turf/open/floor/iron/colony/white/bolts{
+	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
+	},
 /area/redplanet)
 "SJ" = (
 /obj/machinery/porta_turret/syndicate,
@@ -3319,8 +3354,9 @@
 /area/ruin/space/has_grav/derelictoutpost/cargobay)
 "ZH" = (
 /obj/structure/closet/crate/cargo,
-/obj/item/circuitboard/machine/techfab,
 /obj/item/circuitboard/computer/cargo/express,
+/obj/item/circuitboard/machine/techfab/department/cargo,
+/obj/item/circuitboard/machine/techfab/department/engineering,
 /turf/open/floor/iron/colony/white{
 	initial_gas_mix = "co2=40;o2=3;n2=7;TEMP=210"
 	},
@@ -12964,7 +13000,7 @@ RX
 VL
 VL
 VL
-VL
+wm
 VL
 VL
 VL
@@ -13151,7 +13187,7 @@ VL
 VL
 VL
 VL
-VL
+wK
 VL
 VL
 VL
@@ -13780,7 +13816,7 @@ VL
 VL
 VL
 VL
-VL
+Ey
 VL
 VL
 VL
@@ -14955,7 +14991,7 @@ VL
 VL
 VL
 VL
-VL
+td
 VL
 VL
 VL
@@ -15811,7 +15847,7 @@ VL
 VL
 VL
 VL
-VL
+wK
 VL
 VL
 VL
@@ -16267,7 +16303,7 @@ VL
 VL
 VL
 VL
-VL
+td
 VL
 VL
 VL
@@ -17818,7 +17854,7 @@ VL
 VL
 VL
 VL
-VL
+wm
 VL
 VL
 VL
@@ -21023,7 +21059,7 @@ VL
 VL
 VL
 VL
-VL
+wK
 VL
 VL
 RX
@@ -22406,7 +22442,7 @@ VL
 VL
 VL
 VL
-VL
+td
 VL
 VL
 VL
@@ -25154,7 +25190,7 @@ VL
 VL
 VL
 VL
-VL
+wm
 VL
 VL
 VL
@@ -25430,7 +25466,7 @@ VL
 VL
 VL
 VL
-VL
+wm
 VL
 VL
 VL
@@ -25896,7 +25932,7 @@ VL
 VL
 VL
 VL
-VL
+wm
 VL
 VL
 VL
@@ -26067,7 +26103,7 @@ VL
 VL
 VL
 VL
-VL
+td
 VL
 VL
 VL
@@ -26969,7 +27005,7 @@ VL
 VL
 VL
 VL
-VL
+wK
 VL
 VL
 VL
@@ -27886,7 +27922,7 @@ VL
 VL
 VL
 VL
-VL
+Ey
 VL
 VL
 VL
@@ -29503,7 +29539,7 @@ VL
 VL
 VL
 VL
-VL
+Ey
 VL
 VL
 VL
@@ -33715,7 +33751,7 @@ VL
 VL
 VL
 VL
-VL
+wm
 VL
 VL
 VL
@@ -36420,7 +36456,7 @@ VL
 VL
 VL
 VL
-VL
+wK
 VL
 VL
 VL
@@ -37622,7 +37658,7 @@ VL
 VL
 VL
 VL
-VL
+td
 VL
 VL
 VL
@@ -39583,7 +39619,7 @@ VL
 VL
 VL
 VL
-VL
+wK
 VL
 VL
 VL
@@ -40904,7 +40940,7 @@ VL
 VL
 VL
 VL
-VL
+Ey
 VL
 VL
 VL
@@ -65015,7 +65051,7 @@ VL
 VL
 VL
 VL
-VL
+wm
 VL
 VL
 VL
@@ -65233,7 +65269,7 @@ aa
 aa
 jj
 gA
-yt
+SG
 ad
 QP
 Yd
@@ -65926,7 +65962,7 @@ VL
 VL
 VL
 VL
-VL
+wm
 VL
 VL
 VL
@@ -66009,7 +66045,7 @@ XU
 aa
 jj
 gA
-yt
+sd
 mn
 Vz
 Yd
@@ -67082,7 +67118,7 @@ VL
 VL
 VL
 VL
-VL
+Ey
 VL
 VL
 VL
@@ -67694,7 +67730,7 @@ VL
 VL
 VL
 VL
-VL
+Ey
 VL
 VL
 VL
@@ -69255,7 +69291,7 @@ VL
 VL
 VL
 VL
-VL
+td
 VL
 VL
 VL
@@ -71218,7 +71254,7 @@ VL
 VL
 VL
 VL
-VL
+wK
 VL
 VL
 VL
@@ -71309,7 +71345,7 @@ RX
 VL
 VL
 VL
-VL
+Ey
 VL
 VL
 VL
@@ -77101,7 +77137,7 @@ VL
 VL
 VL
 VL
-VL
+wm
 VL
 VL
 VL
@@ -81058,7 +81094,7 @@ VL
 VL
 VL
 VL
-VL
+Ey
 VL
 VL
 VL
@@ -83526,7 +83562,7 @@ VL
 VL
 VL
 VL
-VL
+td
 VL
 VL
 VL
@@ -85907,7 +85943,7 @@ VL
 VL
 VL
 VL
-VL
+wm
 VL
 VL
 VL
@@ -88988,7 +89024,7 @@ VL
 VL
 VL
 VL
-VL
+wK
 VL
 VL
 VL
@@ -89187,7 +89223,7 @@ VL
 VL
 VL
 VL
-VL
+wm
 VL
 VL
 VL
@@ -92135,7 +92171,7 @@ VL
 VL
 VL
 VL
-VL
+td
 VL
 VL
 VL
@@ -93822,7 +93858,7 @@ VL
 VL
 VL
 VL
-VL
+wK
 VL
 VL
 RX
@@ -108134,7 +108170,7 @@ VL
 VL
 VL
 VL
-VL
+Ey
 VL
 VL
 VL
@@ -112025,7 +112061,7 @@ VL
 VL
 VL
 VL
-VL
+wm
 VL
 VL
 VL
@@ -116207,7 +116243,7 @@ VL
 VL
 VL
 VL
-VL
+wK
 VL
 VL
 VL
@@ -117756,7 +117792,7 @@ VL
 VL
 VL
 VL
-VL
+Ey
 VL
 VL
 VL
@@ -120475,7 +120511,7 @@ VL
 VL
 VL
 VL
-VL
+wm
 VL
 VL
 VL
@@ -121001,7 +121037,7 @@ VL
 VL
 VL
 VL
-VL
+wK
 VL
 VL
 VL
@@ -123732,7 +123768,7 @@ VL
 VL
 VL
 VL
-VL
+td
 VL
 VL
 VL
@@ -131606,7 +131642,7 @@ VL
 VL
 VL
 VL
-VL
+wm
 VL
 VL
 VL
@@ -131802,7 +131838,7 @@ RX
 VL
 VL
 VL
-VL
+td
 VL
 VL
 VL
@@ -134950,7 +134986,7 @@ VL
 VL
 VL
 VL
-VL
+wm
 VL
 ez
 ez
@@ -137403,7 +137439,7 @@ VL
 VL
 VL
 VL
-VL
+td
 VL
 VL
 VL
@@ -137765,7 +137801,7 @@ VL
 VL
 VL
 VL
-VL
+wK
 VL
 VL
 VL
@@ -139358,6 +139394,7 @@ VL
 VL
 VL
 VL
+Ey
 VL
 VL
 VL
@@ -139412,8 +139449,7 @@ VL
 VL
 VL
 VL
-VL
-VL
+wK
 VL
 VL
 VL
@@ -139825,7 +139861,7 @@ VL
 VL
 VL
 VL
-VL
+td
 VL
 VL
 VL
@@ -140434,7 +140470,7 @@ VL
 VL
 VL
 VL
-VL
+wm
 VL
 VL
 VL
@@ -142527,7 +142563,7 @@ VL
 VL
 VL
 VL
-VL
+wm
 VL
 VL
 VL
@@ -143471,7 +143507,7 @@ VL
 VL
 VL
 VL
-VL
+wK
 VL
 VL
 VL
@@ -144663,7 +144699,7 @@ VL
 VL
 VL
 VL
-VL
+Ey
 VL
 VL
 VL
