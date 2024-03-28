@@ -18,6 +18,20 @@
 	/// How much mana each tick of healing uses
 	var/mana_per_heal_tick = 5
 
+/datum/action/cooldown/spell/touch/fleshmend_lesser/cast(mob/living/carbon/cast_on)
+	var/mob/living/carbon/human/owner_human = owner
+	var/datum/quirk/magical/mage = owner_human.get_quirk(/datum/quirk/magical)
+	if (!mage)
+		owner.balloon_alert(owner, "can't cast: no magical talent!")
+		return FALSE
+
+	if (!mage.can_cast_spell(mana_cost))
+		owner.balloon_alert(owner, "not enough mana!")
+		return FALSE
+
+	mage.cast_quirk_spell(mana_cost)
+	. = ..()
+
 /datum/action/cooldown/spell/touch/fleshmend_lesser/cast_on_hand_hit(obj/item/melee/touch_attack/hand, mob/living/victim, mob/living/carbon/human/caster)
 	var/datum/quirk/magical/mage = caster.get_quirk(/datum/quirk/magical)
 	if (!mage)

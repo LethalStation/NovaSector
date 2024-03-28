@@ -12,6 +12,7 @@
 	lose_text = span_notice("Mundanity descends upon you as your magic power flees...")
 	value = 10
 	quirk_flags = QUIRK_HUMAN_ONLY | QUIRK_PROCESSES
+	medical_record_text = "Subject appears to have enhanced sensitivity to resonance exudate, and is able to manifest supernatural phenomena."
 	mob_trait = TRAIT_MAGICALLY_GIFTED
 	icon = FA_ICON_MAGIC
 	/// The mana value held by the quirk and used to power quirk-only spells.

@@ -16,10 +16,11 @@
 	var/datum/quirk/magical/mage = owner_human.get_quirk(/datum/quirk/magical)
 	if (!mage)
 		owner.balloon_alert(owner, "can't cast: no magical talent!")
+		return FALSE
 
 	if (!mage.can_cast_spell(mana_cost))
 		owner.balloon_alert(owner, "not enough mana!")
-		return
+		return FALSE
 
 	. = ..()
 
