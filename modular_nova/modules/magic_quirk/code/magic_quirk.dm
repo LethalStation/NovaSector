@@ -3,7 +3,6 @@
 #define MAGIC_NUTRITION_MODERATE 2.5
 #define MAGIC_NUTRITION_SEVERE 4
 #define MAGIC_MANA_REGAIN_TICK 1
-#define MAGIC_STAFF_REGEN_PENALTY 0.5
 
 /datum/quirk/magical
 	name = "Magical"
@@ -25,6 +24,12 @@
 	var/mana_notify
 	/// Is regeneration currently halted at the moment?
 	var/halt_regen = FALSE
+	/// The bonded item we've marked. Holding this gives us a pretty big mana regeneration efficiency buff.
+	var/obj/bonded_item
+	/// Our current mana regeneration modifier. Scale this UP to make things more efficient.
+	var/regeneration_mana_modifier = 0
+	/// Our current nutrition efficiency modifier. Scale this DOWN to make things more efficient.
+	var/regeneration_nutrition_modifier = 0
 
 /datum/quirk/magical/process(seconds_per_tick)
 	var/mob/living/carbon/human/human_holder = quirk_holder
@@ -32,20 +37,28 @@
 		return
 
 	var/regained_mana = FALSE
+	var/regen_bonus_mana = 1.0
+	var/regen_bonus_nutrition = 1.0
+
+	//we're holding our bonded item! yippee! give us some regen buffs.
+	if (bonded_item && human_holder.get_active_held_item() == bonded_item)
+		regen_bonus_mana += regeneration_mana_modifier
+		regen_bonus_nutrition += regeneration_nutrition_modifier
+
 	//may also wanna put some reagents checking in here so we can have stuff that'll help restore mana quickly
 	// like chems or wiz fizz or whatever
 	if ((mana < max_mana) && !halt_regen && human_holder.nutrition > 0)
 		// we're low on mana so regain it!
 		regained_mana = TRUE
 		if (mana < max_mana*0.3)
-			human_holder.adjust_nutrition(-MAGIC_NUTRITION_SEVERE)
-			mana += MAGIC_MANA_REGAIN_TICK * 2.5
+			human_holder.adjust_nutrition(-(MAGIC_NUTRITION_SEVERE*regen_bonus_nutrition))
+			mana += (MAGIC_MANA_REGAIN_TICK * 2.5) * regen_bonus_mana
 		else if (mana < max_mana*0.6)
-			human_holder.adjust_nutrition(-MAGIC_NUTRITION_MODERATE)
-			mana += MAGIC_MANA_REGAIN_TICK * 1.5
+			human_holder.adjust_nutrition(-(MAGIC_NUTRITION_MODERATE*regen_bonus_nutrition))
+			mana += (MAGIC_MANA_REGAIN_TICK * 1.5) * regen_bonus_mana
 		else
-			human_holder.adjust_nutrition(-MAGIC_NUTRITION_MILD)
-			mana += MAGIC_MANA_REGAIN_TICK
+			human_holder.adjust_nutrition(-(MAGIC_NUTRITION_MILD*regen_bonus_nutrition))
+			mana += (MAGIC_MANA_REGAIN_TICK) * regen_bonus_mana
 
 		//ensure we never exceed the max mana from regen
 		mana = min(max_mana, mana)
@@ -54,6 +67,11 @@
 		if (mana_notify)
 			mana_notify_reset()
 
+	if (regained_mana)
+		human_holder.apply_status_effect(/datum/status_effect/mana_regeneration)
+	else
+		human_holder.remove_status_effect(/datum/status_effect/mana_regeneration)
+
 /datum/quirk/magical/add(client/client_source)
 	var/mob/living/carbon/human/human_holder = quirk_holder
 
@@ -61,8 +79,6 @@
 	var/datum/action/cooldown/spell/conjure_item/infinite_guns/arcane_barrage/lesser/barrage = new /datum/action/cooldown/spell/conjure_item/infinite_guns/arcane_barrage/lesser()
 	barrage.Grant(human_holder)
 	added_spells += barrage
-
-	//flameburst - 85 mana upfront normal wizard fireball
 
 	//shift - 35 mana telegram scepter jaunt for 5 tiles instead of 8, up to 3 tiles imprecision depending on flux & mana
 	var/datum/action/cooldown/spell/pointed/shift/shift_spell = new /datum/action/cooldown/spell/pointed/shift
@@ -74,6 +90,11 @@
 	fleshmend_spell.Grant(human_holder)
 	added_spells += fleshmend_spell
 
+	// bonded item: basically instant summons but we also get a small buff to mana regeneration when holding it (larger if it's a staff)
+	var/datum/action/cooldown/spell/summonitem/lesser/summon_spell = new /datum/action/cooldown/spell/summonitem/lesser
+	summon_spell.Grant(human_holder)
+	added_spells += summon_spell
+
 /datum/quirk/magical/remove()
 	QDEL_LIST(added_spells)
 
@@ -82,6 +103,21 @@
 		return TRUE
 	else
 		return FALSE
+
+/datum/quirk/magical/proc/set_bonded_item(obj/item/thing)
+	// Sets whatever the hell our bonded item is and adjusts regen modifiers appropriately.
+	regeneration_mana_modifier = initial(regeneration_mana_modifier)
+	regeneration_nutrition_modifier = initial(regeneration_nutrition_modifier)
+
+	// for a little extra flavor, if our bonded item is any kind of staff (even a kludged, player-crafted renamed one), lets give it a pretty ample mana regen buff
+	if (findtext(thing.name, "staff"))
+		regeneration_mana_modifier += 0.25
+
+	//let's make nutrition a little easier for everyone too
+	regeneration_nutrition_modifier -= 0.15
+	regeneration_mana_modifier += 0.25
+
+	bonded_item = thing
 
 /// To be called inside spells/items that should consume mana from the Magical quirk. Deducts mana and calls appropriate checks.
 /datum/quirk/magical/proc/cast_quirk_spell(mana_cost)

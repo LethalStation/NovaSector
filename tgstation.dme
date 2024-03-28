@@ -7462,6 +7462,8 @@
 #include "modular_nova\modules\lorecaster\code\story_manager.dm"
 #include "modular_nova\modules\lorecaster\code\subsystem.dm"
 #include "modular_nova\modules\magic_quirk\code\magic_quirk.dm"
+#include "modular_nova\modules\magic_quirk\code\magic_quirk_particles.dm"
+#include "modular_nova\modules\magic_quirk\code\spells\bonded_item.dm"
 #include "modular_nova\modules\magic_quirk\code\spells\lesser_arcane_barrage.dm"
 #include "modular_nova\modules\magic_quirk\code\spells\lesser_fleshmend.dm"
 #include "modular_nova\modules\magic_quirk\code\spells\lesser_shift.dm"
