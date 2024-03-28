@@ -34,7 +34,7 @@
 	var/regained_mana = FALSE
 	//may also wanna put some reagents checking in here so we can have stuff that'll help restore mana quickly
 	// like chems or wiz fizz or whatever
-	if ((mana < max_mana) && !halt_regen)
+	if ((mana < max_mana) && !halt_regen && human_holder.nutrition > 0)
 		// we're low on mana so regain it!
 		regained_mana = TRUE
 		if (mana < max_mana*0.3)
