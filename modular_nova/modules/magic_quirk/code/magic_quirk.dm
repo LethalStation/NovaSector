@@ -22,6 +22,8 @@
 	var/list/added_spells = list()
 	/// TimerID for the mana notification alert
 	var/mana_notify
+	/// Is regeneration currently halted at the moment?
+	var/halt_regen = FALSE
 
 /datum/quirk/magical/process(seconds_per_tick)
 	var/mob/living/carbon/human/human_holder = quirk_holder
@@ -31,7 +33,7 @@
 	var/regained_mana = FALSE
 	//may also wanna put some reagents checking in here so we can have stuff that'll help restore mana quickly
 	// like chems or wiz fizz or whatever
-	if (mana < max_mana)
+	if ((mana < max_mana) && !halt_regen)
 		// we're low on mana so regain it!
 		regained_mana = TRUE
 		if (mana < max_mana*0.3)
@@ -65,6 +67,11 @@
 	var/datum/action/cooldown/spell/pointed/shift/shift_spell = new /datum/action/cooldown/spell/pointed/shift
 	shift_spell.Grant(human_holder)
 	added_spells += shift_spell
+
+	//lesser fleshmend: an exercise in why real wizards use staves and wands for healing. excruciatingly painful triage healing
+	var/datum/action/cooldown/spell/touch/fleshmend_lesser/fleshmend_spell = new /datum/action/cooldown/spell/touch/fleshmend_lesser
+	fleshmend_spell.Grant(human_holder)
+	added_spells += fleshmend_spell
 
 /datum/quirk/magical/remove()
 	QDEL_LIST(added_spells)
@@ -108,13 +115,21 @@
 
 	// are we casting on an empty stomach? that's no good.
 	switch(human_holder.nutrition)
-		if (0 to NUTRITION_LEVEL_STARVING)
+		if (1 to NUTRITION_LEVEL_STARVING)
 			if (rand(3))
 				human_holder.adjustStaminaLoss(35)
 				human_holder.visible_message(
 					span_danger("[human_holder] looks exhausted, breathing heavily!"),
 					span_danger("Lacking any calorific reserves, your body struggles with your mana channeling!"),
 				)
+		if (0)
+			//nothing's in the tank, boss. nighty night
+			human_holder.visible_message(
+				span_danger("[human_holder] teeters on the spot for a moment, then collapses from exhaustion."),
+				span_userdanger("You expend the last bit of energy you have left, and promptly fall unconscious!")
+			)
+			human_holder.SetSleeping(10 SECONDS)
+			to_chat(human_holder, span_boldnotice("You really need to get something to eat!"))
 
 #undef MAGIC_NUTRITION_MILD
 #undef MAGIC_NUTRITION_MODERATE

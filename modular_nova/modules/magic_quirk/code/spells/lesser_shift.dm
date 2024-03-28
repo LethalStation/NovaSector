@@ -6,6 +6,7 @@
 	button_icon = 'icons/mob/actions/actions_revenant.dmi'
 	button_icon_state = "r_transmit"
 	spell_requirements = SPELL_REQUIRES_NO_ANTIMAGIC
+	check_flags = AB_CHECK_CONSCIOUS | AB_CHECK_INCAPACITATED
 	antimagic_flags = MAGIC_RESISTANCE_HOLY
 	cooldown_time = 3 SECONDS
 	cast_range = 5
@@ -22,15 +23,15 @@
 
 	if(get_dist(start_turf, target_turf) > cast_range)
 		owner.balloon_alert(owner, "too far!")
-		return
+		return FALSE
 
 	if(!(target_turf in view(owner, owner.client?.view || world.view)))
 		owner.balloon_alert(owner, "out of view!")
-		return
+		return FALSE
 
 	if(target_turf.is_blocked_turf(exclude_mobs = TRUE, source_atom = owner))
 		owner.balloon_alert(owner, "obstructed!")
-		return
+		return FALSE
 
 /datum/action/cooldown/spell/pointed/shift/cast(atom/cast_on)
 	. = ..()
