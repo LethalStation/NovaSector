@@ -2,7 +2,7 @@
 /datum/action/cooldown/spell/conjure_item/infinite_guns/arcane_barrage/lesser
 	name = "Lesser Arcane Barrage"
 	desc = "Unleash a small torrent of energy at your foes with this spell. \
-	Consumes 2 mana with every shot, and will spend up to 60 before dispersing."
+		Consumes 2 mana with every shot, and will spend up to 60 before dispersing."
 	button_icon_state = "arcane_barrage"
 	spell_requirements = SPELL_REQUIRES_NO_ANTIMAGIC
 	cooldown_time = 10 SECONDS

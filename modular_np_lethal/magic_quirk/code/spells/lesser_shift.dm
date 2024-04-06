@@ -1,8 +1,8 @@
 /datum/action/cooldown/spell/pointed/shift
 	name = "Lesser Shift"
 	desc = "Jaunt through the ether a short distance, incurring minor teleportation flux \
-	and leaving some of your stomach contents behind. Becomes less accurate the lower on mana you are, and if you have \
-	more flux accrued on your person. Teleporting with flux will hurt you a little bit."
+		and leaving some of your stomach contents behind. Becomes less accurate the lower on mana you are, and if you have \
+		more flux accrued on your person. Teleporting with flux will hurt you a little bit."
 	button_icon = 'icons/mob/actions/actions_revenant.dmi'
 	button_icon_state = "r_transmit"
 	spell_requirements = SPELL_REQUIRES_NO_ANTIMAGIC

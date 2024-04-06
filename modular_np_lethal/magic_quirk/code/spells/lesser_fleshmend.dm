@@ -1,6 +1,10 @@
 /datum/action/cooldown/spell/touch/fleshmend_lesser
 	name = "Lesser Fleshmend"
-	desc = "Tought to nearly every apprentice by the Spinward Independent Magicians, this spell transmutes a portion of the target's blood and the caster's mana into freshly grown bands of new flesh with one slight caveat: <b>it is EXCRUCIATINGLY painful for the recipient.</b> It also cannot completely mend flesh - some medical assistance will be required, but it is enough to a mage or their apprentice back on their feet (and maybe wishing they weren't)."
+	desc = "Tought to nearly every apprentice by the Spinward Independent Magicians, \
+		this spell transmutes a portion of the target's blood and the caster's mana into freshly grown bands \
+		of new flesh with one slight caveat: <b>it is EXCRUCIATINGLY painful for the recipient.</b> It also \
+		cannot completely mend flesh - some medical assistance will be required, but it is enough to a mage \
+		or their apprentice back on their feet (and maybe wishing they weren't)."
 	spell_requirements = SPELL_REQUIRES_NO_ANTIMAGIC
 	button_icon = 'icons/mob/actions/actions_revenant.dmi'
 	button_icon_state = "r_transmit"
