@@ -21,6 +21,15 @@ GLOBAL_LIST_INIT(loadout_helmets, generate_loadout_items(/datum/loadout_item/hea
 	else
 		outfit.head = item_path
 
+///HELMETS
+/datum/loadout_item/head/frontier_helmet
+	name = "Frontier Helmet"
+	item_path = /obj/item/clothing/head/frontier_colonist_helmet
+
+/datum/loadout_item/head/welding_helmet
+	name = "Welding Helmet"
+	item_path = /obj/item/clothing/head/utility/welding
+
 /*
 *	BEANIES
 */
@@ -29,6 +38,7 @@ GLOBAL_LIST_INIT(loadout_helmets, generate_loadout_items(/datum/loadout_item/hea
 	name = "Recolorable Beanie"
 	item_path = /obj/item/clothing/head/beanie
 
+/* Lethalstation removal
 /datum/loadout_item/head/black_beanie
 	name = "Black Beanie"
 	item_path = /obj/item/clothing/head/beanie/black
@@ -56,6 +66,7 @@ GLOBAL_LIST_INIT(loadout_helmets, generate_loadout_items(/datum/loadout_item/hea
 /datum/loadout_item/head/christmas_beanie
 	name = "Christmas Beanie"
 	item_path = /obj/item/clothing/head/beanie/christmas
+*/
 
 /*
 *	BERETS
@@ -281,6 +292,10 @@ GLOBAL_LIST_INIT(loadout_helmets, generate_loadout_items(/datum/loadout_item/hea
 	name = "Colourable Maid Headband"
 	item_path = /obj/item/clothing/head/maid_headband
 
+/datum/loadout_item/head/combat_maid
+	name = "Tactical Maid Headband"
+	item_path = /obj/item/clothing/head/costume/maidheadband/syndicate
+
 /*
 *	CHRISTMAS
 */
@@ -465,6 +480,7 @@ GLOBAL_LIST_INIT(loadout_helmets, generate_loadout_items(/datum/loadout_item/hea
 	name = "Flat-Brimmed Hat with Cowl"
 	item_path = /obj/item/clothing/head/cowboy/nova/flat/cowl
 
+/* Lethalstation removal
 /datum/loadout_item/head/cowboyhat_sheriff
 	name = "Sheriff Hat"
 	item_path = /obj/item/clothing/head/cowboy/nova/flat/sheriff
@@ -476,6 +492,7 @@ GLOBAL_LIST_INIT(loadout_helmets, generate_loadout_items(/datum/loadout_item/hea
 /datum/loadout_item/head/cowboyhat_winter
 	name = "Winter Cowboy Hat"
 	item_path = /obj/item/clothing/head/cowboy/nova/flat/cowl/sheriff
+*/
 
 /*
 *	TREK HATS (JOB-LOCKED)

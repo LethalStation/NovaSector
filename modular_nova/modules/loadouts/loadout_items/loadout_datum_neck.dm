@@ -26,6 +26,7 @@ GLOBAL_LIST_INIT(loadout_necks, generate_loadout_items(/datum/loadout_item/neck)
 *	SCARVES
 */
 
+/* Lethalstation removal
 /datum/loadout_item/neck/scarf_black
 	name = "Black Scarf"
 	item_path = /obj/item/clothing/neck/scarf/black
@@ -65,6 +66,7 @@ GLOBAL_LIST_INIT(loadout_necks, generate_loadout_items(/datum/loadout_item/neck)
 /datum/loadout_item/neck/scarf_yellow
 	name = "Yellow Scarf"
 	item_path = /obj/item/clothing/neck/scarf/yellow
+*/
 
 /datum/loadout_item/neck/scarf_white
 	name = "White Scarf"
@@ -82,9 +84,11 @@ GLOBAL_LIST_INIT(loadout_necks, generate_loadout_items(/datum/loadout_item/neck)
 	name = "Striped Green Scarf"
 	item_path = /obj/item/clothing/neck/large_scarf/green
 
+/* Lethalstation removal
 /datum/loadout_item/neck/scarf_zebra
 	name = "Zebra Scarf"
 	item_path = /obj/item/clothing/neck/scarf/zebra
+*/
 
 /datum/loadout_item/neck/scarf_infinity
 	name = "Infinity Scarf"

@@ -64,6 +64,7 @@ GLOBAL_LIST_INIT(loadout_exosuits, generate_loadout_items(/datum/loadout_item/su
 	name = "Recolorable Formal Suit Jacket"
 	item_path = /obj/item/clothing/suit/toggle/lawyer/greyscale
 
+/* Lethalstation removal
 /datum/loadout_item/suit/black_suit_jacket
 	name = "Black Formal Suit Jacket"
 	item_path = /obj/item/clothing/suit/toggle/lawyer/black
@@ -79,6 +80,7 @@ GLOBAL_LIST_INIT(loadout_exosuits, generate_loadout_items(/datum/loadout_item/su
 /datum/loadout_item/suit/white_suit_jacket
 	name = "White Formal Suit Jacket"
 	item_path = /obj/item/clothing/suit/toggle/lawyer/white
+*/
 
 /datum/loadout_item/suit/suitblackbetter
 	name = "Light Black Formal Suit Jacket"
@@ -213,6 +215,7 @@ GLOBAL_LIST_INIT(loadout_exosuits, generate_loadout_items(/datum/loadout_item/su
 *	COSTUMES
 */
 
+/* Lethalstation removal
 /datum/loadout_item/suit/owl
 	name = "Owl Cloak"
 	item_path = /obj/item/clothing/suit/toggle/owlwings
@@ -220,19 +223,23 @@ GLOBAL_LIST_INIT(loadout_exosuits, generate_loadout_items(/datum/loadout_item/su
 /datum/loadout_item/suit/griffin
 	name = "Griffon Cloak"
 	item_path = /obj/item/clothing/suit/toggle/owlwings/griffinwings
+*/
 
 /datum/loadout_item/suit/syndi
 	name = "Black And Red Space Suit Replica"
 	item_path = /obj/item/clothing/suit/syndicatefake
 
+/* Lethalstation removal
 /datum/loadout_item/suit/bee
 	name = "Bee Outfit"
 	item_path = /obj/item/clothing/suit/hooded/bee_costume
+*/
 
 /datum/loadout_item/suit/plague_doctor
 	name = "Plague Doctor Suit"
 	item_path = /obj/item/clothing/suit/bio_suit/plaguedoctorsuit
 
+/* Lethalstation removal
 /datum/loadout_item/suit/snowman
 	name = "Snowman Outfit"
 	item_path = /obj/item/clothing/suit/costume/snowman
@@ -268,6 +275,7 @@ GLOBAL_LIST_INIT(loadout_exosuits, generate_loadout_items(/datum/loadout_item/su
 /datum/loadout_item/suit/shork_costume
 	name = "Shork Costume"
 	item_path = /obj/item/clothing/suit/hooded/shork_costume
+*/
 
 /datum/loadout_item/suit/wizard
 	name = "Wizard Robe"
@@ -277,6 +285,7 @@ GLOBAL_LIST_INIT(loadout_exosuits, generate_loadout_items(/datum/loadout_item/su
 	name = "Witch Robe"
 	item_path = /obj/item/clothing/suit/wizrobe/marisa/fake
 
+/* Lethalstation removal
 /*
 *	SEASONAL
 */
@@ -288,6 +297,7 @@ GLOBAL_LIST_INIT(loadout_exosuits, generate_loadout_items(/datum/loadout_item/su
 /datum/loadout_item/suit/winter_coat/christmas/green
 	name = "Green Christmas Coat"
 	item_path = /obj/item/clothing/suit/hooded/wintercoat/nova/christmas/green
+*/
 
 /*
 *	MISC
@@ -507,6 +517,7 @@ GLOBAL_LIST_INIT(loadout_exosuits, generate_loadout_items(/datum/loadout_item/su
 	name = "Greyscale Trimmed Hoodie (Alt)"
 	item_path = /obj/item/clothing/suit/toggle/jacket/hoodie/trim/alt
 
+/* Lethalstation removal
 /datum/loadout_item/suit/hoodie/black
 	name = "Black Hoodie"
 	item_path = /obj/item/clothing/suit/toggle/jacket/hoodie/black
@@ -534,6 +545,7 @@ GLOBAL_LIST_INIT(loadout_exosuits, generate_loadout_items(/datum/loadout_item/su
 /datum/loadout_item/suit/hoodie/grey
 	name = "Grey Hoodie"
 	item_path = /obj/item/clothing/suit/toggle/jacket/hoodie/grey
+*/
 
 /datum/loadout_item/suit/hoodie/nt
 	name = "NT Hoodie"

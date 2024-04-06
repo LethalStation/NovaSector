@@ -110,6 +110,7 @@ GLOBAL_LIST_INIT(loadout_shoes, generate_loadout_items(/datum/loadout_item/shoes
 	name = "Colorable Sneakers"
 	item_path = /obj/item/clothing/shoes/sneakers
 
+/* Lethalstation removal
 /datum/loadout_item/shoes/black_sneakers
 	name = "Black Sneakers"
 	item_path = /obj/item/clothing/shoes/sneakers/black
@@ -141,6 +142,7 @@ GLOBAL_LIST_INIT(loadout_shoes, generate_loadout_items(/datum/loadout_item/shoes
 /datum/loadout_item/shoes/white_sneakers
 	name = "White Sneakers"
 	item_path = /obj/item/clothing/shoes/sneakers/white
+*/
 
 /*
 *	LEG WRAPS
