@@ -1,7 +1,7 @@
 /obj/effect/spawner/random/epic_loot
 	name = "extraction loot spawner"
 	desc = "Gods please let there be nobody extract camping."
-	icon = 'modular_nova/modules/epic_loot/icons/epic_loot.dmi'
+	icon = 'modular_np_lethal/epic_loot/icons/epic_loot.dmi'
 	icon_state = null
 
 /obj/effect/spawner/random/epic_loot/chainlet
@@ -158,7 +158,7 @@
 		/obj/item/healthanalyzer/simple/disease = 2,
 		/obj/item/hemostat = 2,
 		/obj/item/hypospray/mkii = 2,
-		/obj/item/hypospray/mkii/cmo = 1,
+		/obj/item/hypospray/mkii/deluxe = 1,
 		/obj/item/storage/box/bandages = 1,
 		/obj/item/bodybag = 2,
 		/obj/item/bodybag/stasis = 1,

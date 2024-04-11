@@ -3,7 +3,7 @@
 	max_specific_storage = WEIGHT_CLASS_BULKY
 	max_total_storage = WEIGHT_CLASS_BULKY * 16
 	screen_max_columns = 4
-	opening_sound = 'modular_nova/modules/epic_loot/sound/containers/wood_crate_3.mp3'
+	opening_sound = 'modular_np_lethal/epic_loot/sound/containers/wood_crate_3.mp3'
 
 /obj/structure/maintenance_loot_structure/large_crate
 	name = "ration supply box"
@@ -57,7 +57,7 @@
 /obj/effect/spawner/random/epic_loot/random_supply_crate
 	name = "random supply crate spawner"
 	desc = "Automagically transforms into a random supply crate, hopefully filled with goodies."
-	icon = 'modular_nova/modules/epic_loot/icons/loot_structures.dmi'
+	icon = 'modular_np_lethal/epic_loot/icons/loot_structures.dmi'
 	icon_state = "crate_random"
 	loot = list(
 		/obj/structure/maintenance_loot_structure/large_crate,
