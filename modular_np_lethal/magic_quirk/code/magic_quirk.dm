@@ -6,7 +6,8 @@
 
 /datum/quirk/magical
 	name = "Magical"
-	desc = "You've got access to powerful psionics or another kind of force that to basically everybody else, appears outwardly as magic. You can't use guns (ever) but begin play with an assortment of lesser spells fuelled by your mana and nutrition - manage them wisely!"
+	desc = "You've got access to powerful psionics or another kind of force that to basically everybody else, \
+		appears outwardly as magic. You get an assortment of lesser spells fuelled by your mana and nutrition - manage them wisely!"
 	gain_text = span_notice("Magical potential floods your nervous system!")
 	lose_text = span_notice("Mundanity descends upon you as your magic power flees...")
 	value = 10

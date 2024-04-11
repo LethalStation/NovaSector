@@ -2,7 +2,7 @@
 	name = "Bonded Object"
 	desc = "This spell allows you to tie some of your mana to a treasured object of yours, \
 		allowing you to retrieve it from just about anywhere within a five solar system radius. \
-	    In addition, while held in your hands, your bonded item will help you regenerate mana more efficiently, \
+		In addition, while held in your hands, your bonded item will help you regenerate mana more efficiently, \
 		and if it is a staff of some kind, even more efficiently again."
 	invocation_type = INVOCATION_NONE
 	/// How much mana does this cost to use?
