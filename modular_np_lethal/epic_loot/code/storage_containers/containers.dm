@@ -3,6 +3,9 @@
 	desc = "A semi-rigid case for holding a large number of autoinjectors inside of."
 	icon = 'modular_np_lethal/epic_loot/icons/storage_items.dmi'
 	icon_state = "pencase"
+	equip_sound = 'sound/items/equip/toolbelt_equip.ogg'
+	pickup_sound = 'sound/items/handling/cloth_pickup.ogg'
+	drop_sound = 'sound/items/handling/cloth_drop.ogg'
 	storage_type = /datum/storage/maintenance_loot_structure/epic_loot_medpen_case
 	slot_flags = ITEM_SLOT_POCKETS
 	w_class = WEIGHT_CLASS_BULKY
@@ -36,6 +39,9 @@
 	desc = "A large pouch conveniently shaped to hold all of the valueable paperwork in the galaxy."
 	icon = 'modular_np_lethal/epic_loot/icons/storage_items.dmi'
 	icon_state = "documents"
+	equip_sound = 'sound/items/equip/toolbelt_equip.ogg'
+	pickup_sound = 'sound/items/handling/cloth_pickup.ogg'
+	drop_sound = 'sound/items/handling/cloth_drop.ogg'
 	storage_type = /datum/storage/maintenance_loot_structure/epic_loot_docs_case
 	slot_flags = ITEM_SLOT_POCKETS
 	w_class = WEIGHT_CLASS_BULKY
@@ -70,6 +76,9 @@
 	desc = "A pouch with every possible type of pocket and organizer stuck into it, to hold all of the small stuff you could think of."
 	icon = 'modular_np_lethal/epic_loot/icons/storage_items.dmi'
 	icon_state = "sick"
+	equip_sound = 'sound/items/equip/toolbelt_equip.ogg'
+	pickup_sound = 'sound/items/handling/cloth_pickup.ogg'
+	drop_sound = 'sound/items/handling/cloth_drop.ogg'
 	storage_type = /datum/storage/maintenance_loot_structure/epic_loot_org_pouch
 	slot_flags = ITEM_SLOT_POCKETS
 	w_class = WEIGHT_CLASS_BULKY
@@ -87,6 +96,8 @@
 	desc = "A metal clip for holding your pile of extremely useful colored keycards together."
 	icon = 'modular_np_lethal/epic_loot/icons/storage_items.dmi'
 	icon_state = "card_holder"
+	drop_sound = 'sound/items/handling/ammobox_drop.ogg'
+	pickup_sound = 'sound/items/handling/ammobox_pickup.ogg'
 	storage_type = /datum/storage/maintenance_loot_structure/epic_loot_keycards
 	w_class = WEIGHT_CLASS_SMALL
 
@@ -126,6 +137,8 @@
 	lefthand_file = 'icons/mob/inhands/equipment/toolbox_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/toolbox_righthand.dmi'
 	inhand_icon_state = "toolbox_blue"
+	drop_sound = 'sound/items/handling/ammobox_drop.ogg'
+	pickup_sound = 'sound/items/handling/ammobox_pickup.ogg'
 	storage_type = /datum/storage/maintenance_loot_structure/epic_loot_cooler
 	w_class = WEIGHT_CLASS_BULKY
 
@@ -154,6 +167,8 @@
 	lefthand_file = 'icons/mob/inhands/equipment/briefcase_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/briefcase_righthand.dmi'
 	inhand_icon_state = "lockbox"
+	drop_sound = 'sound/items/handling/ammobox_drop.ogg'
+	pickup_sound = 'sound/items/handling/ammobox_pickup.ogg'
 	storage_type = /datum/storage/maintenance_loot_structure/epic_loot_grenade_box
 	w_class = WEIGHT_CLASS_BULKY
 
@@ -182,6 +197,8 @@
 	lefthand_file = 'icons/mob/inhands/equipment/briefcase_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/briefcase_righthand.dmi'
 	inhand_icon_state = "lockbox"
+	drop_sound = 'sound/items/handling/ammobox_drop.ogg'
+	pickup_sound = 'sound/items/handling/ammobox_pickup.ogg'
 	storage_type = /datum/storage/maintenance_loot_structure/epic_loot_the_money
 	w_class = WEIGHT_CLASS_BULKY
 
@@ -209,6 +226,8 @@
 	lefthand_file = 'icons/mob/inhands/equipment/briefcase_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/briefcase_righthand.dmi'
 	inhand_icon_state = "bitrunning"
+	drop_sound = 'sound/items/handling/ammobox_drop.ogg'
+	pickup_sound = 'sound/items/handling/ammobox_pickup.ogg'
 	storage_type = /datum/storage/maintenance_loot_structure/epic_loot_medkit
 	w_class = WEIGHT_CLASS_BULKY
 
