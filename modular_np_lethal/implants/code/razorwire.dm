@@ -4,6 +4,7 @@
 	righthand_file = 'modular_np_lethal/implants/icons/inhands/righthand.dmi'
 	lefthand_file = 'modular_np_lethal/implants/icons/inhands/lefthand.dmi'
 	inhand_icon_state = "razorwire"
+	obj_flags = UNIQUE_RENAME | INFINITE_RESKIN
 	uses_advanced_reskins = TRUE
 	unique_reskin = list(
 		"Evil Red" = list(
