@@ -1,30 +1,8 @@
-/datum/job/gakster
+/datum/job/assistant
 	title = "Scavenger"
 	description = "Scrap an abandoned underground facility for all that it's worth, or die trying."
-	faction = FACTION_STATION
-	total_positions = -1
-	spawn_positions = -1
 	supervisors = "absolutely nobody"
-	exp_granted_type = EXP_TYPE_CREW
 	outfit = /datum/outfit/job/gakster
-	paycheck = 0 // GET A REAL JOB
-
-	paycheck_department = ACCOUNT_CIV
-	display_order = JOB_DISPLAY_ORDER_ASSISTANT
-
-	liver_traits = list(TRAIT_MAINTENANCE_METABOLISM)
-
-	department_for_prefs = /datum/job_department/assistant
-
-	family_heirlooms = list(/obj/item/storage/toolbox/mechanical/old/heirloom, /obj/item/clothing/gloves/cut/heirloom)
-
-	job_flags = STATION_JOB_FLAGS
-	rpg_title = "Lout"
-
-/datum/job/gakster/New()
-	. = ..()
-	total_positions = -1
-	spawn_positions = -1
 
 /datum/outfit/job/gakster
 	name = "Scavenger"
