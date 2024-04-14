@@ -196,7 +196,8 @@
 		message_admins("[src] just tried to craft something from requirements, but was not given a list of requirements!")
 		return FALSE
 
-	var/obj/newly_created_thing = new recipe_to_follow.resulting_item(src)
+	use_or_delete_recipe_requirements(things_to_use, recipe_to_follow)
+	var/obj/newly_created_thing = new recipe_to_follow.resulting_item(drop_location())
 
 	if(!newly_created_thing)
 		message_admins("[src] just failed to create something while crafting!")
@@ -208,8 +209,6 @@
 
 /// Takes the given list, things_to_use, compares it to recipe_to_follow's requirements, then either uses items from a stack, or deletes them otherwise. Returns custom material of forge items in the end.
 /obj/structure/epic_loot_crafting_bench/proc/use_or_delete_recipe_requirements(list/things_to_use, datum/crafting_bench_recipe/recipe_to_follow)
-	var/list/materials_to_transfer = list()
-
 	for(var/obj/requirement_item as anything in things_to_use)
 		if(isstack(requirement_item))
 			var/stack_type
@@ -230,8 +229,6 @@
 
 		else
 			qdel(requirement_item)
-
-	return materials_to_transfer
 
 /// Gets movable atoms within one tile of range of the crafting bench
 /obj/structure/epic_loot_crafting_bench/proc/get_environment()
