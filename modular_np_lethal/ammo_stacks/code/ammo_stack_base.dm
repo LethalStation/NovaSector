@@ -5,6 +5,7 @@
 	icon = null
 	icon_state = null
 	base_icon_state = null
+	w_class = WEIGHT_CLASS_NORMAL
 	multiple_sprites = AMMO_BOX_ONE_SPRITE
 	multiload = FALSE
 	start_empty = TRUE
