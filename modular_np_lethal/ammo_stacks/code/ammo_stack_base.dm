@@ -24,7 +24,7 @@
 	. = ..()
 	AddElement(/datum/element/can_shatter, number_of_shards = 0, shattering_sound = 'sound/weapons/gun/general/mag_bullet_remove.ogg', shatters_as_weapon = TRUE)
 
-/obj/item/ammo_box/magazine/ammo_stack/handle_atom_del(atom/A)
+/obj/item/ammo_box/magazine/ammo_stack/attack_self(mob/user)
 	. = ..()
 	check_empty()
 
@@ -32,7 +32,7 @@
 	. = ..()
 	check_empty()
 
-/obj/item/ammo_box/magazine/ammo_stack/update_ammo_count()
+/obj/item/ammo_box/magazine/ammo_stack/update_icon_state()
 	. = ..()
 	check_empty()
 
@@ -63,23 +63,23 @@
 		return
 
 	var/obj/item/ammo_casing/ammo_casing = attacking_item
-	if(!ammo_casing.stack_type)
+	if(!ammo_casing.ammo_stack_type)
 		balloon_alert(user, "[ammo_casing] can't stack")
 		return
-	if(!stack_type)
+	if(!ammo_stack_type)
 		balloon_alert(user, "[src] can't stack")
 		return
 	if(caliber != ammo_casing.caliber)
 		balloon_alert(user, "can't stack different calibers")
 		return
-	if(stack_type != ammo_casing.stack_type)
+	if(ammo_stack_type != ammo_casing.ammo_stack_type)
 		balloon_alert(user, "can't stack [src] with [ammo_casing]")
 		return
 	if(!loaded_projectile || !ammo_casing.loaded_projectile)
 		balloon_alert(user, "can't stack empty casings")
 		return
 
-	var/obj/item/ammo_box/magazine/ammo_stack = new stack_type(drop_location())
+	var/obj/item/ammo_box/magazine/ammo_stack = new ammo_stack_type(drop_location())
 	user.transferItemToLoc(src, ammo_stack, silent = TRUE)
 	ammo_stack.give_round(src)
 	user.transferItemToLoc(ammo_casing, ammo_stack, silent = TRUE)
