@@ -25,6 +25,7 @@
 	name = "Scavenger"
 	jobtype = /datum/job/assistant
 	id_trim = /datum/id_trim/job/assistant
+	belt = null
 
 	shoes = /obj/item/clothing/shoes/jackboots/frontier_colonist
 	gloves = /obj/item/clothing/gloves/frontier_colonist
@@ -43,3 +44,10 @@
 		QDEL_NULL(cell)
 
 	cell = new /obj/item/stock_parts/cell/infinite/abductor(src)
+
+// Makes every other job have no slots
+
+/datum/job/New()
+	. = ..()
+	total_positions = 0
+	spawn_positions = 0

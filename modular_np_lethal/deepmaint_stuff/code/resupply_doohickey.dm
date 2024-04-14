@@ -48,6 +48,9 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/vending/wallmed/epic_loot, 32)
 	name = "Evil ClothesMate"
 	desc = "A vending machine for clothing, and also weapons and tools to kill your fellow scavenger with!"
 	product_slogans = "Dress to kill!;If you're the last thing they'll ever see, at least dress good!;Look at all these metal pipes!;Why leave warfare up to fate? Use the ClothesMate!"
+	flags_1 = NO_DECONSTRUCTION
+	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
+	tiltable = FALSE
 	product_categories = list(
 		list(
 			"name" = "Clothing",
@@ -74,7 +77,6 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/vending/wallmed/epic_loot, 32)
 				/obj/item/storage/backpack/industrial/frontier_colonist/satchel = INFINITY,
 			),
 		),
-
 		list(
 			"name" = "Weapons",
 			"icon" = "hammer",
