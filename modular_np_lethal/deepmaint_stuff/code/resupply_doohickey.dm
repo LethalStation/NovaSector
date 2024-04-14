@@ -1,10 +1,6 @@
 /obj/machinery/vending/wallmed/epic_loot
 	name = "\improper SuperSupply ™"
 	desc = "Wall-mounted dispenser filled with bullets and basic medical supplies."
-	icon_state = "wallmed"
-	icon_deny = "wallmed-deny"
-	panel_type = "wallmed-panel"
-	density = FALSE
 	flags_1 = NO_DECONSTRUCTION
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 	product_categories = list(
@@ -38,7 +34,6 @@
 		),
 	)
 	contraband = list()
-	refill_canister = /obj/item/vending_refill/wallmed
 	default_price = 0
 	extra_price = 0
 	onstation = FALSE
@@ -46,5 +41,59 @@
 MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/vending/wallmed/epic_loot, 32)
 
 /obj/machinery/vending/wallmed/epic_loot/Initialize(mapload)
+	. = ..()
+	onstation = FALSE
+
+/obj/machinery/vending/clothing/evil
+	name = "Evil ClothesMate"
+	desc = "A vending machine for clothing, and also weapons and tools to kill your fellow scavenger with!"
+	product_slogans = "Dress to kill!;If you're the last thing they'll ever see, at least dress good!;Look at all these metal pipes!;Why leave warfare up to fate? Use the ClothesMate!"
+	product_categories = list(
+		list(
+			"name" = "Clothing",
+			"icon" = "shirt",
+			"products" = list(
+				/obj/item/clothing/head/soft/black = INFINITY,
+				/obj/item/clothing/head/standalone_hood = INFINITY,
+				/obj/item/clothing/mask/bandana/black = INFINITY,
+				/obj/item/clothing/mask/gas/sechailer/half_mask = INFINITY,
+				/obj/item/clothing/mask/gas/alt = INFINITY,
+				/obj/item/clothing/mask/paper = INFINITY,
+				/obj/item/clothing/gloves/frontier_colonist = INFINITY,
+				/obj/item/clothing/shoes/jackboots/frontier_colonist = INFINITY,
+				/obj/item/clothing/glasses/heat = INFINITY,
+				/obj/item/clothing/glasses/nightmare_vision = INFINITY,
+				/obj/item/clothing/under/frontier_colonist = INFINITY,
+				/obj/item/clothing/under/sol_peacekeeper = INFINITY,
+				/obj/item/clothing/neck/ranger_poncho = INFINITY,
+				/obj/item/clothing/neck/robe_cape = INFINITY,
+				/obj/item/clothing/neck/long_cape = INFINITY,
+				/obj/item/clothing/neck/wide_cape = INFINITY,
+				/obj/item/storage/backpack/industrial/frontier_colonist = INFINITY,
+				/obj/item/storage/backpack/industrial/frontier_colonist/messenger = INFINITY,
+				/obj/item/storage/backpack/industrial/frontier_colonist/satchel = INFINITY,
+			),
+		),
+
+		list(
+			"name" = "Weapons",
+			"icon" = "hammer",
+			"products" = list(
+				/obj/item/lead_pipe = INFINITY,
+				/obj/item/knife/combat/survival = INFINITY,
+				/obj/item/switchblade = INFINITY,
+				/obj/item/crowbar/red = INFINITY,
+				/obj/item/crowbar/mechremoval = INFINITY,
+				/obj/item/trench_tool = INFINITY,
+			),
+		),
+	)
+
+	contraband = list()
+	premium = list()
+	default_price = 0
+	extra_price = 0
+
+/obj/machinery/vending/clothing/evil/Initialize(mapload)
 	. = ..()
 	onstation = FALSE
