@@ -206,8 +206,6 @@
 		message_admins("[src] just failed to create something while crafting!")
 		return FALSE
 
-	user.mind.adjust_experience(skill_to_grant, skill_amount)
-
 	clear_recipe()
 	update_appearance()
 	return newly_created_thing
