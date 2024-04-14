@@ -6,6 +6,7 @@
 
 	anchored = TRUE
 	density = TRUE
+	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 
 	/// What the currently picked recipe is
 	var/datum/crafting_bench_recipe_real/selected_recipe

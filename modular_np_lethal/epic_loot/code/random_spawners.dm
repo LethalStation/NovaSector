@@ -486,7 +486,7 @@
 		/obj/item/ammo_box/magazine/ammo_stack/c27_54cesarzowa/prefilled/incapacitator = 2,
 		/obj/item/ammo_box/c27_54cesarzowa/rubber = 2,
 		// .60
-		/obj/item/ammo_box/magazine/ammo_stack/c60_strela = 2,
+		/obj/item/ammo_box/magazine/ammo_stack/c60_strela/prefilled = 2,
 		/obj/item/ammo_casing/p60strela = 2,
 		// Magazines
 		/obj/item/ammo_box/magazine/c35sol_pistol = 2,
