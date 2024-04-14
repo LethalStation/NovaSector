@@ -24,7 +24,7 @@
 		),
 		list(
 			"name" = "Ammunition",
-			"icon" = "person-rifle"
+			"icon" = "person-rifle",
 			"products" = list(
 				/obj/item/ammo_box/magazine/ammo_stack/c980/prefilled = INFINITY,
 				/obj/item/ammo_box/magazine/ammo_stack/s12gauge/prefilled/buckshot = INFINITY,
