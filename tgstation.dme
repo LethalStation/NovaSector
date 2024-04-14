@@ -8275,6 +8275,7 @@
 #include "modular_np_lethal\deepmaint_stuff\code\crafting_bench.dm"
 #include "modular_np_lethal\deepmaint_stuff\code\crafting_bench_recipes.dm"
 #include "modular_np_lethal\deepmaint_stuff\code\entrance_and_exit.dm"
+#include "modular_np_lethal\deepmaint_stuff\code\floor.dm"
 #include "modular_np_lethal\deepmaint_stuff\code\gakster_fit.dm"
 #include "modular_np_lethal\deepmaint_stuff\code\keycard_doors.dm"
 #include "modular_np_lethal\deepmaint_stuff\code\resupply_doohickey.dm"
