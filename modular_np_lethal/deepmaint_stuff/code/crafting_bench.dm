@@ -57,11 +57,11 @@
 	/// An associative list of names --> recipe path that the radial recipe picker will choose from later
 	var/list/recipe_names_to_path = list()
 
-/obj/structure/reagent_crafting_bench/Initialize(mapload)
+/obj/structure/epic_loot_crafting_bench/Initialize(mapload)
 	. = ..()
 	populate_radial_choice_list()
 
-/obj/structure/reagent_crafting_bench/proc/populate_radial_choice_list()
+/obj/structure/epic_loot_crafting_bench/proc/populate_radial_choice_list()
 	if(!length(allowed_choices))
 		return
 
@@ -76,7 +76,7 @@
 		qdel(recipe_to_take_from)
 
 
-/obj/structure/reagent_crafting_bench/examine(mob/user)
+/obj/structure/epic_loot_crafting_bench/examine(mob/user)
 	. = ..()
 
 	if(!selected_recipe)
@@ -99,7 +99,7 @@
 
 	return .
 
-/obj/structure/reagent_crafting_bench/attack_hand(mob/living/user, list/modifiers)
+/obj/structure/epic_loot_crafting_bench/attack_hand(mob/living/user, list/modifiers)
 	. = ..()
 	update_appearance()
 
@@ -122,17 +122,17 @@
 	update_appearance()
 
 /// Clears the current recipe and sets hits to completion to zero
-/obj/structure/reagent_crafting_bench/proc/clear_recipe()
+/obj/structure/epic_loot_crafting_bench/proc/clear_recipe()
 	QDEL_NULL(selected_recipe)
 	current_hits_to_completion = 0
 
-/obj/structure/reagent_crafting_bench/wrench_act(mob/living/user, obj/item/tool)
+/obj/structure/epic_loot_crafting_bench/wrench_act(mob/living/user, obj/item/tool)
 	tool.play_tool_sound(src)
 	deconstruct(disassembled = TRUE)
 	return ITEM_INTERACT_SUCCESS
 
 /// Takes the given list of item requirements and checks the surroundings for them, returns TRUE unless return_ingredients_list is set, in which case a list of all the items to use is returned
-/obj/structure/reagent_crafting_bench/proc/can_we_craft_this(list/required_items, return_ingredients_list = FALSE)
+/obj/structure/epic_loot_crafting_bench/proc/can_we_craft_this(list/required_items, return_ingredients_list = FALSE)
 	if(!length(required_items))
 		message_admins("[src] just tried to check for ingredients nearby without having a list of items to check for!")
 		return FALSE
@@ -168,7 +168,7 @@
 	else
 		return TRUE
 
-/obj/structure/reagent_crafting_bench/attack_hand_secondary(mob/user, list/modifiers)
+/obj/structure/epic_loot_crafting_bench/attack_hand_secondary(mob/user, list/modifiers)
 	. = ..()
 	if(. == SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN)
 		return
@@ -191,7 +191,7 @@
 	return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
 
 /// Passes the list of found ingredients + the recipe to use_or_delete_recipe_requirements, then spawns the given recipe's result
-/obj/structure/reagent_crafting_bench/proc/create_thing_from_requirements(list/things_to_use, datum/crafting_bench_recipe/recipe_to_follow, mob/living/user, datum/skill/skill_to_grant, skill_amount, completing_a_weapon)
+/obj/structure/epic_loot_crafting_bench/proc/create_thing_from_requirements(list/things_to_use, datum/crafting_bench_recipe/recipe_to_follow, mob/living/user, datum/skill/skill_to_grant, skill_amount, completing_a_weapon)
 
 	if(!recipe_to_follow)
 		message_admins("[src] just tried to complete a recipe without having a recipe!")
@@ -201,18 +201,7 @@
 		message_admins("[src] just tried to craft something from requirements, but was not given a list of requirements!")
 		return FALSE
 
-	var/obj/newly_created_thing
-
-	if(completing_a_weapon)
-		var/obj/item/forging/complete/completed_forge_item = contents[1]
-		newly_created_thing = new completed_forge_item.spawning_item(src)
-		if(completed_forge_item.custom_materials) // We need to add the weapon head's materials to the completed item, too
-			for(var/custom_material in completed_forge_item.custom_materials)
-				materials_to_transfer[custom_material] += completed_forge_item.custom_materials[custom_material]
-		qdel(completed_forge_item) // And then we also need to 'use' the item
-
-	else
-		newly_created_thing = new recipe_to_follow.resulting_item(src)
+	var/obj/newly_created_thing = new recipe_to_follow.resulting_item(src)
 
 	if(!newly_created_thing)
 		message_admins("[src] just failed to create something while crafting!")
@@ -225,7 +214,7 @@
 	return newly_created_thing
 
 /// Takes the given list, things_to_use, compares it to recipe_to_follow's requirements, then either uses items from a stack, or deletes them otherwise. Returns custom material of forge items in the end.
-/obj/structure/reagent_crafting_bench/proc/use_or_delete_recipe_requirements(list/things_to_use, datum/crafting_bench_recipe/recipe_to_follow)
+/obj/structure/epic_loot_crafting_bench/proc/use_or_delete_recipe_requirements(list/things_to_use, datum/crafting_bench_recipe/recipe_to_follow)
 	var/list/materials_to_transfer = list()
 
 	for(var/obj/requirement_item as anything in things_to_use)
@@ -252,7 +241,7 @@
 	return materials_to_transfer
 
 /// Gets movable atoms within one tile of range of the crafting bench
-/obj/structure/reagent_crafting_bench/proc/get_environment()
+/obj/structure/epic_loot_crafting_bench/proc/get_environment()
 	. = list()
 
 	if(!get_turf(src))
