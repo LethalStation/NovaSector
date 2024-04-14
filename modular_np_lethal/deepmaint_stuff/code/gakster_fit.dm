@@ -1,10 +1,5 @@
-GLOBAL_DATUM(colored_assistant, /datum/colored_assistant)
-
-/*
-Assistant
-*/
-/datum/job/assistant
-	title = JOB_ASSISTANT
+/datum/job/gakster
+	title = "Scavenger"
 	description = "Scrap an abandoned underground facility for all that it's worth, or die trying."
 	faction = FACTION_STATION
 	total_positions = -1
