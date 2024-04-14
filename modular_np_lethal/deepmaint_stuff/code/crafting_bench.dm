@@ -124,7 +124,6 @@
 /// Clears the current recipe and sets hits to completion to zero
 /obj/structure/epic_loot_crafting_bench/proc/clear_recipe()
 	QDEL_NULL(selected_recipe)
-	current_hits_to_completion = 0
 
 /obj/structure/epic_loot_crafting_bench/wrench_act(mob/living/user, obj/item/tool)
 	tool.play_tool_sound(src)
@@ -186,12 +185,12 @@
 
 	var/list/things_to_use = can_we_craft_this(selected_recipe.recipe_requirements, TRUE)
 
-	create_thing_from_requirements(things_to_use, selected_recipe, user, selected_recipe.relevant_skill, selected_recipe.relevant_skill_reward)
+	create_thing_from_requirements(things_to_use, selected_recipe, user)
 
 	return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
 
 /// Passes the list of found ingredients + the recipe to use_or_delete_recipe_requirements, then spawns the given recipe's result
-/obj/structure/epic_loot_crafting_bench/proc/create_thing_from_requirements(list/things_to_use, datum/crafting_bench_recipe/recipe_to_follow, mob/living/user, datum/skill/skill_to_grant, skill_amount, completing_a_weapon)
+/obj/structure/epic_loot_crafting_bench/proc/create_thing_from_requirements(list/things_to_use, datum/crafting_bench_recipe/recipe_to_follow, mob/living/user)
 
 	if(!recipe_to_follow)
 		message_admins("[src] just tried to complete a recipe without having a recipe!")
