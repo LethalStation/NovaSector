@@ -1,7 +1,7 @@
 /obj/structure/epic_loot_crafting_bench
 	name = "crafting bench"
 	desc = "A crafting bench fitted with tools, securing mechanisms, and a steady surface for turning random scrap into tools of war."
-	icon = 'modular_nova/modules/reagent_forging/icons/obj/forge_structures.dmi'
+	icon = 'modular_np_lethal/deepmaint_stuff/icons/crafting_bench.dmi'
 	icon_state = "crafting_bench_empty"
 
 	anchored = TRUE
