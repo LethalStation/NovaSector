@@ -84,7 +84,7 @@
 
 	var/obj/resulting_item = selected_recipe.resulting_item
 	. += span_notice("The selected recipe's resulting item is: <b>[initial(resulting_item.name)]</b> <br>")
-	. += span_notice("Gather the required materials, listed below, <b>near the bench</b>, then start <b>right-click</b> to complete it! <br>")
+	. += span_notice("Gather the required materials, listed below, <b>near the bench</b>, then start <b>control-click</b> to complete it! <br>")
 
 	if(!length(selected_recipe.recipe_requirements))
 		. += span_boldwarning("Somehow, this recipe has no requirements, report this as this shouldn't happen.")
@@ -167,10 +167,8 @@
 	else
 		return TRUE
 
-/obj/structure/epic_loot_crafting_bench/attack_hand_secondary(mob/user, list/modifiers)
+/obj/structure/epic_loot_crafting_bench/CtrlClick(mob/user)
 	. = ..()
-	if(. == SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN)
-		return
 
 	if(!can_interact(user) || !user.can_perform_action(src))
 		return
@@ -186,8 +184,6 @@
 	var/list/things_to_use = can_we_craft_this(selected_recipe.recipe_requirements, TRUE)
 
 	create_thing_from_requirements(things_to_use, selected_recipe, user)
-
-	return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
 
 /// Passes the list of found ingredients + the recipe to use_or_delete_recipe_requirements, then spawns the given recipe's result
 /obj/structure/epic_loot_crafting_bench/proc/create_thing_from_requirements(list/things_to_use, datum/crafting_bench_recipe/recipe_to_follow, mob/living/user)

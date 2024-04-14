@@ -40,6 +40,7 @@
 	name = "advanced satchel medical kit"
 	icon = 'modular_np_lethal/epic_loot/icons/epic_loot.dmi'
 	icon_state = "satchel_super"
+	worn_icon_state = "satchel"
 	storage_type = /datum/storage/duffel/deforest_medkit/super
 
 /obj/item/storage/backpack/duffelbag/deforest_medkit/stocked/super/PopulateContents()
@@ -48,7 +49,6 @@
 		/obj/item/reagent_containers/hypospray/medipen/deforest/pentibinin = 1,
 		/obj/item/reagent_containers/hypospray/medipen/deforest/lepoturi = 1,
 		/obj/item/reagent_containers/hypospray/medipen/deforest/lipital = 1,
-		/obj/item/reagent_containers/hypospray/medipen/deforest/demoneye = 1,
 		/obj/item/reagent_containers/hypospray/medipen/deforest/coagulants = 2,
 		/obj/item/bonesetter = 1,
 		/obj/item/hemostat/alien = 1,
