@@ -154,14 +154,14 @@
 
 // .60 strela
 
-/obj/projectile/bullet/p60strela
+/obj/item/ammo_casing/p60strela
 	ammo_stack_type = /obj/item/ammo_box/magazine/ammo_stack/c60_strela
 
 /obj/item/ammo_box/magazine/ammo_stack/c60_strela
 	name = ".60 Strela casings"
 	desc = "A stack of .60 Strela cartridges."
 	caliber = CALIBER_60STRELA
-	ammo_type = /obj/projectile/bullet/p60strela
+	ammo_type = /obj/item/ammo_casing/p60strela
 	max_ammo = 6
 	casing_x_positions = list(
 		-6,
