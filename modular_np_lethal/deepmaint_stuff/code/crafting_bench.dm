@@ -57,6 +57,35 @@
 	var/list/radial_choice_list = list()
 	/// An associative list of names --> recipe path that the radial recipe picker will choose from later
 	var/list/recipe_names_to_path = list()
+	/// List of random construction sounds to play when crafting stuff
+	var/list/construction_sounds = list(
+		'sound/items/wirecutter.ogg',
+		'sound/items/welder2.ogg',
+		'sound/items/welder.ogg',
+		'sound/items/trayhit2.ogg',
+		'sound/items/trayhit1.ogg',
+		'sound/items/sheath.ogg',
+		'sound/items/screwdriver2.ogg',
+		'sound/items/screwdriver.ogg',
+		'sound/items/rped.ogg',
+		'sound/items/ratchet.ogg',
+		'sound/items/jaws_pry.ogg',
+		'sound/items/jaws_cut.ogg',
+		'sound/items/hammering_wood.ogg',
+		'sound/items/foodcanopen.ogg',
+		'sound/items/electronic_assembly_emptying.ogg',
+		'sound/items/duct_tape_rip.ogg',
+		'sound/items/drill_use.ogg',
+		'sound/items/drill_hit.ogg',
+		'sound/items/crowbar.ogg',
+		'sound/items/change_jaws.ogg',
+		'sound/items/change_drill.ogg',
+		'sound/items/ceramic_break.ogg',
+		'sound/items/car_engine_start.ogg',
+		'sound/items/boxcutter_activate.ogg',
+		'sound/items/box_cut.ogg',
+		'sound/items/ampoule_snap.ogg',
+	)
 
 /obj/structure/epic_loot_crafting_bench/Initialize(mapload)
 	. = ..()
@@ -199,6 +228,7 @@
 
 	use_or_delete_recipe_requirements(things_to_use, recipe_to_follow)
 	var/obj/newly_created_thing = new recipe_to_follow.resulting_item(drop_location())
+	playsound(src, pick(construction_sounds), 50, TRUE)
 
 	if(!newly_created_thing)
 		message_admins("[src] just failed to create something while crafting!")
