@@ -25,6 +25,7 @@
 	return
 
 /mob/living/carbon/human/equip_outfit_and_loadout(datum/outfit/outfit, datum/preferences/preference_source = GLOB.preference_entries_by_key[ckey], visuals_only = FALSE, datum/job/equipping_job)
+	preference_source = null // LETHALSTATION EDIT ADDITION - NO LOADOUTS FOR GAKSTERS, SORRY
 	if (!preference_source)
 		equipOutfit(outfit, visuals_only) // no prefs for loadout items, but we should still equip the outfit.
 		return FALSE
