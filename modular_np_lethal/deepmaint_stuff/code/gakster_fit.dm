@@ -21,6 +21,11 @@
 	job_flags = STATION_JOB_FLAGS
 	rpg_title = "Lout"
 
+/datum/job/gakster/New()
+	. = ..()
+	total_positions = -1
+	spawn_positions = -1
+
 /datum/outfit/job/gakster
 	name = "Scavenger"
 	jobtype = /datum/job/assistant

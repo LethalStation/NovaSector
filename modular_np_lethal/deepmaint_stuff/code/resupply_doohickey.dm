@@ -44,13 +44,14 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/vending/wallmed/epic_loot, 32)
 	. = ..()
 	onstation = FALSE
 
-/obj/machinery/vending/clothing/evil
+/obj/machinery/vending/evil_clothing
 	name = "Evil ClothesMate"
 	desc = "A vending machine for clothing, and also weapons and tools to kill your fellow scavenger with!"
 	product_slogans = "Dress to kill!;If you're the last thing they'll ever see, at least dress good!;Look at all these metal pipes!;Why leave warfare up to fate? Use the ClothesMate!"
-	flags_1 = NO_DECONSTRUCTION
-	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
-	tiltable = FALSE
+	vend_reply = "Thank you for using the ClothesMate!"
+	icon_state = "clothes"
+	icon_deny = "clothes-deny"
+	panel_type = "panel15"
 	product_categories = list(
 		list(
 			"name" = "Clothing",
@@ -91,11 +92,13 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/vending/wallmed/epic_loot, 32)
 		),
 	)
 
-	contraband = list()
-	premium = list()
-	default_price = 0
-	extra_price = 0
+	refill_canister = /obj/item/vending_refill/clothing
+	default_price = PAYCHECK_CREW * 0.7 //Default of
+	extra_price = PAYCHECK_COMMAND
+	payment_department = NO_FREEBIES
+	light_mask = "wardrobe-light-mask"
+	light_color = LIGHT_COLOR_ELECTRIC_GREEN
 
-/obj/machinery/vending/clothing/evil/Initialize(mapload)
+/obj/machinery/vending/evil_clothing/Initialize(mapload)
 	. = ..()
 	onstation = FALSE
