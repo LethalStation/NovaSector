@@ -2,6 +2,9 @@
 
 // .980 grenades
 
+/obj/item/ammo_casing/c980grenade
+	ammo_stack_type = /obj/item/ammo_box/magazine/ammo_stack/c980
+
 /obj/item/ammo_box/magazine/ammo_stack/c980
 	name = ".980 Tydhouer grenades"
 	desc = "A stack of .980 Tydhouer grenades."
@@ -19,6 +22,9 @@
 	casing_y_padding = 9
 
 // 12ga shotgun shells
+
+/obj/item/ammo_casing/shotgun
+	ammo_stack_type = /obj/item/ammo_box/magazine/ammo_stack/s12gauge
 
 /obj/item/ammo_box/magazine/ammo_stack/s12gauge
 	name = "12 gauge shells"
@@ -40,6 +46,9 @@
 
 // .35 sol short
 
+/obj/item/ammo_casing/c35sol
+	ammo_stack_type = /obj/item/ammo_box/magazine/ammo_stack/c35_sol
+
 /obj/item/ammo_box/magazine/ammo_stack/c35_sol
 	name = ".35 Sol Short casings"
 	desc = "A stack of .35 Sol Short cartridges."
@@ -58,6 +67,9 @@
 	casing_y_padding = 6
 
 // .27-54 Cesarzowa
+
+/obj/item/ammo_casing/c27_54cesarzowa
+	ammo_stack_type = /obj/item/ammo_box/magazine/ammo_stack/c27_54cesarzowa
 
 /obj/item/ammo_box/magazine/ammo_stack/c27_54cesarzowa
 	name = ".27-54 Cesarzowa casings"
@@ -78,6 +90,9 @@
 
 // .585 trappiste
 
+/obj/item/ammo_casing/c585trappiste
+	ammo_stack_type = /obj/item/ammo_box/magazine/ammo_stack/c585_trappiste
+
 /obj/item/ammo_box/magazine/ammo_stack/c585_trappiste
 	name = ".585 Trappiste casings"
 	desc = "A stack of .585 Trappiste casings."
@@ -96,6 +111,9 @@
 // Rifle ammo
 
 // .40 sol long
+
+/obj/item/ammo_casing/c40sol
+	ammo_stack_type = /obj/item/ammo_box/magazine/ammo_stack/c40_sol
 
 /obj/item/ammo_box/magazine/ammo_stack/c40_sol
 	name = ".40 Sol Long casings"
@@ -116,6 +134,9 @@
 
 // .310 strilka
 
+/obj/item/ammo_casing/strilka310
+	ammo_stack_type = /obj/item/ammo_box/magazine/ammo_stack/c310_strilka
+
 /obj/item/ammo_box/magazine/ammo_stack/c310_strilka
 	name = ".310 Strilka casings"
 	desc = "A stack of .310 Strilka cartridges."
@@ -133,11 +154,14 @@
 
 // .60 strela
 
+/obj/projectile/bullet/p60strela
+	ammo_stack_type = /obj/item/ammo_box/magazine/ammo_stack/c60_strela
+
 /obj/item/ammo_box/magazine/ammo_stack/c60_strela
 	name = ".60 Strela casings"
 	desc = "A stack of .60 Strela cartridges."
 	caliber = CALIBER_60STRELA
-	ammo_type = /obj/item/ammo_casing/strilka310
+	ammo_type = /obj/projectile/bullet/p60strela
 	max_ammo = 6
 	casing_x_positions = list(
 		-6,
