@@ -3,6 +3,7 @@
 	description = "Scrap an abandoned underground facility for all that it's worth, or die trying."
 	supervisors = "absolutely nobody"
 	outfit = /datum/outfit/job/gakster
+	alt_titles = null
 
 /datum/outfit/job/gakster
 	name = "Scavenger"
