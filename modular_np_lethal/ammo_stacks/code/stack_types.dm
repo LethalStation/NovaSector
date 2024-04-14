@@ -96,7 +96,7 @@
 /obj/item/ammo_box/magazine/ammo_stack/c585_trappiste
 	name = ".585 Trappiste casings"
 	desc = "A stack of .585 Trappiste casings."
-	caliber = CALIBER_CESARZOWA
+	caliber = CALIBER_585TRAPPISTE
 	ammo_type = /obj/item/ammo_casing/c585trappiste
 	max_ammo = 6
 	casing_x_positions = list(

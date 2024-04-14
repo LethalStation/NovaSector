@@ -28,11 +28,15 @@
 	. = ..()
 	check_empty()
 
+/obj/item/ammo_box/magazine/ammo_stack/attackby(obj/item/A, mob/user, params, silent = FALSE, replace_spent = 0)
+	. = ..()
+	check_empty()
+
 /obj/item/ammo_box/magazine/ammo_stack/empty_magazine()
 	. = ..()
 	check_empty()
 
-/obj/item/ammo_box/magazine/ammo_stack/update_icon_state()
+/obj/item/ammo_box/magazine/ammo_stack/Exited(atom/movable/gone, direction)
 	. = ..()
 	check_empty()
 
