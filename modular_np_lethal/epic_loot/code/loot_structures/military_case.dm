@@ -8,9 +8,9 @@
 /obj/structure/maintenance_loot_structure/military_case
 	name = "military storage box"
 	desc = "A military-grade storage chest for general use."
-	icon_state = "guncrate"
+	icon_state = "military_crate"
 	storage_datum_to_use = /datum/storage/maintenance_loot_structure/military_case
-	loot_spawn_dice_string = "1d8-4"
+	loot_spawn_dice_string = "1d10-2"
 	loot_weighted_list = list(
 		/obj/effect/spawner/random/epic_loot/random_other_military_loot = 8,
 		/obj/effect/spawner/random/epic_loot/random_ammunition = 6,
