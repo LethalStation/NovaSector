@@ -78,6 +78,7 @@
 
 /datum/orderable_item/imperial/plasma_battery
 	name = "Plasma Battery"
+	desc = "A rechargeable, detachable battery that serves as a power source for plasma projectors."
 	item_path = /obj/item/ammo_box/magazine/recharge/plasma_battery
 	cost_per_order = 50
 
