@@ -11,6 +11,8 @@
 	caliber = CALIBER_12MMCHINMOKU
 	projectile_type = /obj/projectile/bullet/c12chinmoku
 
+	ammo_stack_type = /obj/item/ammo_box/magazine/ammo_stack/c12chinmoku
+
 /obj/projectile/bullet/c12chinmoku
 	name = "12mm Chinmoku bullet"
 	damage = 40
@@ -111,6 +113,8 @@
 	caliber = CALIBER_8MMMARSIAN
 	projectile_type = /obj/projectile/bullet/c8marsian
 
+	ammo_stack_type = /obj/item/ammo_box/magazine/ammo_stack/c8marsian
+
 /obj/projectile/bullet/c8marsian
 	name = "8mm Marsian bullet"
 	icon_state = "gauss"
@@ -205,6 +209,8 @@
 	pellets = 8
 	variance = 35
 
+	ammo_stack_type = /obj/item/ammo_box/magazine/ammo_stack/s6gauge
+
 /obj/projectile/bullet/s6gauge
 	name = "6 gauge buckshot pellet"
 	damage = 7.5
@@ -219,7 +225,7 @@
 	desc = "A stack of 6 gauge shells."
 	caliber = CALIBER_6GAUGE
 	ammo_type = /obj/item/ammo_casing/s6gauge
-	max_ammo = 6
+	max_ammo = 4
 	casing_x_positions = list(
 		-8,
 		-4,
