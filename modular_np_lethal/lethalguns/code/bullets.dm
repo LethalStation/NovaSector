@@ -238,10 +238,10 @@
 /obj/item/ammo_box/magazine/ammo_stack/s6gauge/prefilled
 	start_empty = FALSE
 
-/obj/item/ammo_box/magazine/ammo_stack/s6gauge/prefilled/special
+/obj/item/ammo_box/magazine/ammo_stack/s6gauge/prefilled/longshot
 	ammo_type = /obj/item/ammo_casing/s6gauge/longshot
 
-/obj/item/ammo_box/magazine/ammo_stack/s6gauge/prefilled/tracer
+/obj/item/ammo_box/magazine/ammo_stack/s6gauge/prefilled/slug
 	ammo_type = /obj/item/ammo_casing/s6gauge/slug
 
 // 6 gauge buckshot but with a spread better made for longer range fighting
