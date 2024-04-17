@@ -6,7 +6,7 @@
 
 // Allow check_woundings_mods to account for piercing damage as well
 
-/obj/item/bodypart/check_woundings_mods(wounding_type, damage, wound_bonus, bare_wound_bonus)
+/obj/item/bodypart/proc/check_woundings_mods(wounding_type, damage, wound_bonus, bare_wound_bonus)
 	SHOULD_CALL_PARENT(TRUE)
 
 	var/armor_ablation = 0
@@ -42,7 +42,7 @@
 
 // Change the clothing take_damage_zone proc to allow use of the vars added for piercing and limb damage multipliers
 
-/obj/item/clothing/proc/take_damage_zone(def_zone, damage_amount, damage_type, armour_penetration)
+/obj/item/clothing/take_damage_zone(def_zone, damage_amount, damage_type, armour_penetration)
 	if(!def_zone || !limb_integrity || (initial(body_parts_covered) in GLOB.bitflags)) // the second check sees if we only cover one bodypart anyway and don't need to bother with this
 		return
 	var/list/covered_limbs = cover_flags2body_zones(body_parts_covered) // what do we actually cover?
