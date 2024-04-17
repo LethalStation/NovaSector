@@ -1,5 +1,5 @@
 /// Checks the armor that the person is wearing when they are attacked and damages it under the correct conditions
-/mob/living/proc/damage_armor(damage = 0, damage_flag = MELEE, damage_type = BRUTE, sharpness = NONE, def_zone = BODY_ZONE_CHEST)
+/mob/living/proc/damage_armor(damage = 0, damage_type = BRUTE, def_zone = BODY_ZONE_CHEST)
 	return FALSE
 
 /mob/living/carbon/human/damage_armor(damage = 0, damage_type = BRUTE, def_zone = BODY_ZONE_CHEST)
@@ -33,7 +33,7 @@
 	// on [/atom/proc/bullet_act] where it's just to pass it to the projectile's on_hit().
 	var/armor_check = check_projectile_armor(def_zone, hitting_projectile, is_silent = TRUE)
 
-	var/flat_reduction = getarmor(def_zone, hitting_projectile.armor_flag) / 4
+	var/flat_reduction = getarmor(def_zone, BULLET) / 4
 	var/armor_damage = ((hitting_projectile.armour_penetration + 100) / 100) * (hitting_projectile.damage - (hitting_projectile.damage - flat_reduction))
 
 	apply_damage(
@@ -62,7 +62,7 @@
 	)
 
 	// If the damage type isn't one of the types that already does clothing damage, then we damage armor
-	if((hitting_projectile.damage_type == BRUTE) && !(hitting_projectile.sharpness = SHARP_EDGED))
+	if((hitting_projectile.damage_type == BRUTE) && !(hitting_projectile.sharpness & SHARP_EDGED))
 		damage_armor(
 			armor_damage,
 			hitting_projectile.damage_type,
