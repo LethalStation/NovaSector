@@ -82,7 +82,7 @@
 
 	projectile_type = /obj/projectile/bullet/c12chinmoku/tracer
 
-/obj/projectile/bullet/c12chinmoku
+/obj/projectile/bullet/c12chinmoku/tracer
 	name = "12mm Chinmoku tracer"
 	icon = 'modular_np_lethal/lethalguns/icons/projectile.dmi'
 	icon_state = "tracer_green"
@@ -135,10 +135,10 @@
 	start_empty = FALSE
 
 /obj/item/ammo_box/magazine/ammo_stack/c8marsian/prefilled/shockwave
-	ammo_type = /obj/item/ammo_casing/c8marsian/special
+	ammo_type = /obj/item/ammo_casing/c8marsian/shockwave
 
 /obj/item/ammo_box/magazine/ammo_stack/c8marsian/prefilled/piercing
-	ammo_type = /obj/item/ammo_casing/c8marsian/tracer
+	ammo_type = /obj/item/ammo_casing/c8marsian/piercing
 
 // Marsian but it flies even faster, but does less damage
 
@@ -152,7 +152,7 @@
 
 	projectile_type = /obj/projectile/bullet/c8marsian/shockwave
 
-/obj/projectile/bullet/c8marsian
+/obj/projectile/bullet/c8marsian/shockwave
 	name = "8mm Marsian shockwave bullet"
 	icon_state = "flight"
 	damage = 40
@@ -171,7 +171,7 @@
 
 	projectile_type = /obj/projectile/bullet/c8marsian/piercing
 
-/obj/projectile/bullet/piercing
+/obj/projectile/bullet/c8marsian/piercing
 	name = "8mm Marsian piercing bullet"
 	icon_state = "redtrac"
 	damage = 50
