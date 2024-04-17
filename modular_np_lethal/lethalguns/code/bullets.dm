@@ -13,15 +13,15 @@
 
 /obj/projectile/bullet/c12chinmoku
 	name = "12mm Chinmoku bullet"
-	damage = 50
+	damage = 40
 	spread = 2
 
 	wound_bonus = 10
 	bare_wound_bonus = 20
 
-	wound_falloff_tile = 1
+	wound_falloff_tile = 2
 	damage_falloff_tile = 3
-	speed = 1.5
+	speed = 1.2
 
 /obj/item/ammo_box/magazine/ammo_stack/c12chinmoku
 	name = "12mm Chinmoku casings"
@@ -63,12 +63,12 @@
 
 /obj/projectile/bullet/c12chinmoku/special
 	name = "12mm Chinmoku 'special' bullet"
-	damage = 50
+	damage = 40
 	armour_penetration = 30
 	spread = 4
 
 	wound_falloff_tile = 1.5
-	damage_falloff_tile = 4
+	damage_falloff_tile = 5
 
 // Chinmoku tracer, the same as regular chinmoku but it looks cool as fuck in the dark
 
