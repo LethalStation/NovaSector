@@ -157,6 +157,7 @@
 	spread = 0
 
 	projectile_damage_multiplier = 1.5
+	recoil = 0.5
 
 /obj/item/gun/ballistic/automatic/suppressed_rifle/marksman/Initialize(mapload)
 	. = ..()
