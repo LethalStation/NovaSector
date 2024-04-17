@@ -102,7 +102,7 @@
 	if(isammocasing(attacking))
 		if(istype(attacking, underbarrel.magazine.ammo_type))
 			underbarrel.attack_self(user)
-			underbarrel.attackby(A, user, params)
+			underbarrel.attackby(attacking, user, params)
 	else
 		..()
 
