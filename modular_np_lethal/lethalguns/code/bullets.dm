@@ -175,6 +175,7 @@
 	name = "8mm Marsian piercing bullet"
 	icon_state = "redtrac"
 	damage = 50
+	armour_penetration = 30
 	spread = 5
 
 	wound_falloff_tile = 1
