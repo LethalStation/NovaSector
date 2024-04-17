@@ -62,7 +62,7 @@
 	)
 
 	// If the damage type isn't one of the types that already does clothing damage, then we damage armor
-	if((hitting_projectile.armor_flag == BULLET) && !(hitting_projectile.sharpness & SHARP_EDGED))
+	if(hitting_projectile.damage_type != BURN)
 		damage_armor(
 			armor_damage,
 			hitting_projectile.armor_flag,
