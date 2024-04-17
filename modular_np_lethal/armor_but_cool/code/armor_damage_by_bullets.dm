@@ -37,7 +37,7 @@
 	var/armor_damage = ((hitting_projectile.armour_penetration + 100) / 100) * (hitting_projectile.damage - (hitting_projectile.damage - flat_reduction))
 
 	apply_damage(
-		damage = max(0, hitting_projectile.damage - flat_reduction)
+		damage = max(0, hitting_projectile.damage - flat_reduction),
 		damagetype = hitting_projectile.damage_type,
 		def_zone = def_zone,
 		blocked = min(ARMOR_MAX_BLOCK, armor_check),  //cap damage reduction at 90%
