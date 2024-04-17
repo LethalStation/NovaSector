@@ -87,9 +87,17 @@
 	icon = 'modular_np_lethal/lethalguns/icons/projectile.dmi'
 	icon_state = "tracer_green"
 
+	light_system = OVERLAY_LIGHT
+	light_range = 1
+	light_power = 1.4
+	light_color = COLOR_VIBRANT_LIME
+
 /obj/projectile/bullet/c12chinmoku/update_overlays()
 	. = ..()
-	. += emissive_appearance(icon, icon_state, src)
+	var/mutable_appearance/emissive_overlay = emissive_appearance(icon, icon_state, src)
+	emissive_overlay.transform = transform
+	emissive_overlay.alpha = alpha
+	. += emissive_overlay
 
 // 8mm Marsian, a high velocity sniper round
 
@@ -195,7 +203,7 @@
 	projectile_type = /obj/projectile/bullet/s6gauge
 
 	pellets = 8
-	variance = 30
+	variance = 35
 
 /obj/projectile/bullet/s6gauge
 	name = "6 gauge buckshot pellet"

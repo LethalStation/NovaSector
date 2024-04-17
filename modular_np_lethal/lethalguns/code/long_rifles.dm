@@ -43,6 +43,7 @@
 	weapon_weight = WEAPON_HEAVY
 
 	pb_knockback = 2
+	recoil = 2
 
 /obj/item/gun/ballistic/marsian_super_rifle/give_manufacturer_examine()
 	AddElement(/datum/element/manufacturer_examine, COMPANY_XHIHAO)
@@ -60,6 +61,9 @@
 
 	return .
 
+/obj/item/gun/ballistic/marsian_super_rifle/starts_empty
+	spawn_magazine_type = /obj/item/ammo_box/magazine/internal/c8marsian/starts_empty
+
 // Magazine fed bolt-action rifle firing 8mm marsian
 
 /obj/item/gun/ballistic/rifle/chokyu
@@ -70,11 +74,11 @@
 	icon_state = "chokyu"
 
 	worn_icon = 'modular_np_lethal/lethalguns/icons/mob_sprites/worn.dmi'
-	worn_icon_state = "yari"
+	worn_icon_state = "evilgun"
 
 	lefthand_file = 'modular_np_lethal/lethalguns/icons/mob_sprites/lefthand.dmi'
 	righthand_file = 'modular_np_lethal/lethalguns/icons/mob_sprites/righthand.dmi'
-	inhand_icon_state = "yari"
+	inhand_icon_state = "evilgun"
 
 	inhand_x_dimension = 32
 	inhand_y_dimension = 32
@@ -125,3 +129,6 @@
 		readily handle most targets."
 
 	return .
+
+/obj/item/gun/ballistic/rifle/chokyu/starts_empty
+	spawnwithmagazine = FALSE

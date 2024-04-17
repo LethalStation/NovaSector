@@ -8,11 +8,11 @@
 	icon_state = "yari"
 
 	worn_icon = 'modular_np_lethal/lethalguns/icons/mob_sprites/worn.dmi'
-	worn_icon_state = "yari"
+	worn_icon_state = "evilgun"
 
 	lefthand_file = 'modular_np_lethal/lethalguns/icons/mob_sprites/lefthand.dmi'
 	righthand_file = 'modular_np_lethal/lethalguns/icons/mob_sprites/righthand.dmi'
-	inhand_icon_state = "yari"
+	inhand_icon_state = "evilgun"
 
 	SET_BASE_PIXEL(-8, 0)
 
@@ -38,7 +38,7 @@
 	can_bayonet = FALSE
 
 	burst_size = 1
-	fire_delay = 0.5 SECONDS
+	fire_delay = 0.3 SECONDS
 	actions_types = list()
 	spread = 7.5
 
@@ -71,6 +71,9 @@
 		sub-sonic and more powerful at extremely short ranges where these operations would be taking place."
 
 	return .
+
+/obj/item/gun/ballistic/automatic/suppressed_rifle/starts_empty
+	spawnwithmagazine = FALSE
 
 // The above rifle but with an underbarrel .980 grenade launcher
 
@@ -106,6 +109,9 @@
 	else
 		..()
 
+/obj/item/gun/ballistic/automatic/suppressed_rifle/grenade_launcher/starts_empty
+	spawnwithmagazine = FALSE
+
 // Grenade launcher for holding .980 grenades in for the rifle
 
 /obj/item/gun/ballistic/revolver/grenadelauncher/tydhouer
@@ -139,10 +145,17 @@
 
 	can_bayonet = FALSE
 
-	burst_size = 3
 	fire_delay = 0.5 SECONDS
-	actions_types = list()
 	spread = 0
+
+	projectile_damage_multiplier = 1.2
+
+/obj/item/gun/ballistic/automatic/suppressed_rifle/marksman/Initialize(mapload)
+	. = ..()
+	AddComponent(/datum/component/scope, range_modifier = 2)
 
 /obj/item/gun/ballistic/automatic/suppressed_rifle/marksman/give_autofire()
 	return
+
+/obj/item/gun/ballistic/automatic/suppressed_rifle/marksman/starts_empty
+	spawnwithmagazine = FALSE

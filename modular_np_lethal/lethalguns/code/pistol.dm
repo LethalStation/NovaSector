@@ -40,6 +40,9 @@
 
 	return .
 
+/obj/item/gun/ballistic/automatic/pistol/weevil/starts_empty
+	spawnwithmagazine = FALSE
+
 // What if the sindano fired CIN ammo?
 
 /obj/item/gun/ballistic/automatic/seiba_smg
@@ -96,3 +99,6 @@
 		thanks to the specs of the .27-54 cartridge."
 
 	return .
+
+/obj/item/gun/ballistic/automatic/seiba_smg/starts_empty
+	spawnwithmagazine = FALSE

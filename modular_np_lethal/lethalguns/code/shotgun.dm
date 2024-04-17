@@ -38,14 +38,14 @@
 
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/s6gauge
 
-/obj/item/gun/ballistic/shotgun/riot/sol/give_manufacturer_examine()
+/obj/item/gun/ballistic/shotgun/ramu/give_manufacturer_examine()
 	AddElement(/datum/element/manufacturer_examine, COMPANY_XHIHAO)
 
-/obj/item/gun/ballistic/shotgun/riot/sol/examine(mob/user)
+/obj/item/gun/ballistic/shotgun/ramu/examine(mob/user)
 	. = ..()
 	. += span_notice("You can <b>examine closer</b> to learn a little more about this weapon.")
 
-/obj/item/gun/ballistic/shotgun/riot/sol/examine_more(mob/user)
+/obj/item/gun/ballistic/shotgun/ramu/examine_more(mob/user)
 	. = ..()
 
 	. += "The Ramu was the marsian solution to a uniquely marsian problem. \
@@ -57,6 +57,9 @@
 
 	return .
 
+/obj/item/gun/ballistic/shotgun/ramu/starts_empty
+	spawn_magazine_type = /obj/item/ammo_box/magazine/internal/s6gauge/starts_empty
+
 // Drum fed semi-automatic shotgun firing 12ga
 
 /obj/item/gun/ballistic/automatic/nomi_shotgun
@@ -67,11 +70,11 @@
 	icon_state = "nomi"
 
 	worn_icon = 'modular_np_lethal/lethalguns/icons/mob_sprites/worn.dmi'
-	worn_icon_state = "nomi"
+	worn_icon_state = "evilgun"
 
 	lefthand_file = 'modular_np_lethal/lethalguns/icons/mob_sprites/lefthand.dmi'
 	righthand_file = 'modular_np_lethal/lethalguns/icons/mob_sprites/righthand.dmi'
-	inhand_icon_state = "nomi"
+	inhand_icon_state = "evilgun"
 
 	SET_BASE_PIXEL(-8, 0)
 
@@ -111,3 +114,6 @@
 		to a not-so-elegant problem."
 
 	return .
+
+/obj/item/gun/ballistic/automatic/nomi_shotgun/starts_empty
+	spawnwithmagazine = FALSE
