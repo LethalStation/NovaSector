@@ -26,6 +26,7 @@
 			"products" = list(
 				/obj/item/ammo_box/magazine/ammo_stack/c980/prefilled = INFINITY,
 				/obj/item/ammo_box/magazine/ammo_stack/s12gauge/prefilled/buckshot = INFINITY,
+				/obj/item/ammo_box/magazine/ammo_stack/s12gauge/prefilled = INFINITY,
 				/obj/item/ammo_box/magazine/ammo_stack/c35_sol/prefilled = INFINITY,
 				/obj/item/ammo_box/magazine/ammo_stack/c27_54cesarzowa/prefilled = INFINITY,
 				/obj/item/ammo_box/magazine/ammo_stack/c585_trappiste/prefilled = INFINITY,
@@ -35,6 +36,7 @@
 				/obj/item/ammo_box/magazine/ammo_stack/c12chinmoku/prefilled = INFINITY,
 				/obj/item/ammo_box/magazine/ammo_stack/c8marsian/prefilled = INFINITY,
 				/obj/item/ammo_box/magazine/ammo_stack/s6gauge/prefilled = INFINITY,
+				/obj/item/ammo_box/magazine/ammo_stack/s6gauge/prefilled/slug = INFINITY,
 			),
 		),
 	)
