@@ -1,8 +1,8 @@
 /obj/structure/epic_loot_crafting_bench
-	name = "crafting bench"
-	desc = "A crafting bench fitted with tools, securing mechanisms, and a steady surface for turning random scrap into tools of war."
-	icon = 'modular_np_lethal/deepmaint_stuff/icons/crafting_bench.dmi'
-	icon_state = "crafting_bench_empty"
+	name = "trade station debug basetype"
+	desc = "GOOOOOD MORNING VIETNAM! This is not a test, this is rock and roll."
+	icon = 'modular_np_lethal/deepmaint_stuff/icons/trade_machine.dmi'
+	icon_state = "debug"
 
 	anchored = TRUE
 	density = TRUE
