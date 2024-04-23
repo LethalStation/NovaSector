@@ -1,4 +1,4 @@
-/obj/structure/epic_loot_crafting_bench/war
+/obj/structure/epic_loot_crafting_bench/magazine
 	name = "ammu-nation station"
 	desc = "Not a link to a trade network like the other machines, instead being an online \
 		netpage that strangely deals in tags and body parts for magazines and ammo."
