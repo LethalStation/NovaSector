@@ -57,6 +57,8 @@
 	dir = 1
 	},
 /obj/structure/curtain/bounty,
+/obj/effect/landmark/start,
+/obj/effect/landmark/latejoin,
 /turf/open/indestructible/dark/smooth_large,
 /area/gakster_location)
 "fr" = (
@@ -120,6 +122,7 @@
 "pT" = (
 /obj/structure/drain,
 /obj/machinery/shower/directional/west,
+/obj/effect/landmark/start,
 /turf/open/indestructible/dark/smooth_large,
 /area/gakster_location)
 "qA" = (
@@ -132,6 +135,7 @@
 	dir = 8
 	},
 /obj/structure/curtain,
+/obj/effect/landmark/start,
 /turf/open/indestructible/dark/smooth_large,
 /area/gakster_location)
 "re" = (
@@ -240,6 +244,7 @@
 /obj/structure/chair/plastic{
 	dir = 8
 	},
+/obj/effect/landmark/start,
 /turf/open/indestructible/stone,
 /area/gakster_location)
 "De" = (
@@ -257,6 +262,7 @@
 "DB" = (
 /obj/machinery/shower/directional/east,
 /obj/structure/drain,
+/obj/effect/landmark/start,
 /turf/open/indestructible/dark/smooth_large,
 /area/gakster_location)
 "DU" = (
@@ -274,6 +280,7 @@
 /area/gakster_location)
 "Gt" = (
 /obj/structure/chair/plastic,
+/obj/effect/landmark/start,
 /turf/open/indestructible/stone,
 /area/gakster_location)
 "GY" = (
@@ -281,6 +288,7 @@
 /obj/structure/toilet{
 	dir = 4
 	},
+/obj/effect/landmark/start,
 /turf/open/indestructible/dark/smooth_large,
 /area/gakster_location)
 "Ha" = (
@@ -352,6 +360,7 @@
 /obj/structure/chair/plastic{
 	dir = 4
 	},
+/obj/effect/landmark/start,
 /turf/open/indestructible/stone,
 /area/gakster_location)
 "Od" = (
@@ -415,6 +424,8 @@
 /obj/structure/bed,
 /obj/effect/spawner/random/bedsheet/any,
 /obj/structure/curtain/bounty,
+/obj/effect/landmark/start,
+/obj/effect/landmark/latejoin,
 /turf/open/indestructible/dark/smooth_large,
 /area/gakster_location)
 "Vi" = (
@@ -430,6 +441,7 @@
 	},
 /obj/structure/curtain/bounty,
 /obj/effect/turf_decal/bot_red,
+/obj/effect/landmark/start,
 /turf/open/indestructible/dark/smooth_large,
 /area/gakster_location)
 "Zu" = (
