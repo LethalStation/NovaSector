@@ -13,15 +13,12 @@
 	/// What recipes are we allowed to choose from?
 	var/list/allowed_choices = list(
 		// Grenades
-		/datum/crafting_bench_recipe_real/concussion_grenade,
 		/datum/crafting_bench_recipe_real/pipe_bomb,
 		/datum/crafting_bench_recipe_real/stingbang,
 		/datum/crafting_bench_recipe_real/flashbang,
 		// Gun stuff
 		/datum/crafting_bench_recipe_real/suppressor,
 		/datum/crafting_bench_recipe_real/eland,
-		/datum/crafting_bench_recipe_real/bobr,
-		/datum/crafting_bench_recipe_real/projector,
 		/datum/crafting_bench_recipe_real/sindano,
 		/datum/crafting_bench_recipe_real/shotgun,
 		/datum/crafting_bench_recipe_real/sakhno,
@@ -31,8 +28,6 @@
 		/datum/crafting_bench_recipe_real/nvg,
 		/datum/crafting_bench_recipe_real/thermals,
 		// Armor
-		/datum/crafting_bench_recipe_real/flak_jacket,
-		/datum/crafting_bench_recipe_real/flak_helmet,
 		/datum/crafting_bench_recipe_real/soft_vest,
 		/datum/crafting_bench_recipe_real/un_helmet,
 		/datum/crafting_bench_recipe_real/sacrificial_vest,
