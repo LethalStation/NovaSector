@@ -152,7 +152,7 @@
 	amount_to_make = 3
 
 /datum/crafting_bench_recipe_real/c40sol_match
-	recipe_name = ".40 Sol Long match casings
+	recipe_name = ".40 Sol Long match casings"
 	recipe_requirements = list(
 		/obj/item/organ/internal/eyes = 1,
 	)
