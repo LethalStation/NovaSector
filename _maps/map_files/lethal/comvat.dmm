@@ -1354,6 +1354,10 @@
 /obj/effect/spawner/random/epic_loot/random_other_military_loot,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
+"tM" = (
+/obj/effect/landmark/blow_up_interlink_latejoin_markers,
+/turf/closed/indestructible/rock,
+/area/gakster_location)
 "tQ" = (
 /obj/structure/chair/office/light{
 	dir = 8
@@ -49115,7 +49119,7 @@ fr
 fr
 fr
 fr
-fr
+tM
 fr
 fr
 UP
