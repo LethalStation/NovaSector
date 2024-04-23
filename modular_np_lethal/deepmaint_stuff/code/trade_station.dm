@@ -227,8 +227,9 @@
 		return FALSE
 
 	use_or_delete_recipe_requirements(things_to_use, recipe_to_follow)
+	var/obj/newly_created_thing
 	for(var/iterator in 1 to recipe_to_follow.amount_to_make)
-		var/obj/newly_created_thing = new recipe_to_follow.resulting_item(drop_location())
+		newly_created_thing = new recipe_to_follow.resulting_item(drop_location())
 	playsound(src, pick(construction_sounds), 50, TRUE)
 
 	if(!newly_created_thing)
