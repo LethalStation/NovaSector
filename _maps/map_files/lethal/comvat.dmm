@@ -791,7 +791,7 @@
 /area/gakster_location/war)
 "yu" = (
 /obj/machinery/door/poddoor/shutters/indestructible{
-	id = 'SUPER_WAR"
+	id = "SUPER_WAR"
 	},
 /turf/open/floor/plating,
 /area/gakster_location/war)
@@ -1085,7 +1085,7 @@
 /area/gakster_location)
 "Gv" = (
 /obj/machinery/door/poddoor/shutters/indestructible{
-	id = 'SUPER_WAR"
+	id = "SUPER_WAR"
 	},
 /turf/closed/wall,
 /area/gakster_location/war)
