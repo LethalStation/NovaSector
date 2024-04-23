@@ -99,6 +99,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/vending/wallmed/epic_loot, 32)
 			"name" = "Weapons",
 			"icon" = "hammer",
 			"products" = list(
+				/obj/item/flashlight/flare = INFINITY,
 				/obj/item/lead_pipe = INFINITY,
 				/obj/item/knife/combat/survival = INFINITY,
 				/obj/item/switchblade = INFINITY,
