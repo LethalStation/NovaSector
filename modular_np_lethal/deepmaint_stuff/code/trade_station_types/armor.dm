@@ -2,7 +2,7 @@
 	name = "armor trade station"
 	desc = "A direct connection to an underworld merchant known as either 'outfitter' or 'pac-3', \
 		who will exchange goods for various pieces of wearable equipment and gear."
-	icon_state = "trade_gear"
+	icon_state = "trade_armor"
 
 	allowed_choices = list(
 		// Glasses
@@ -39,7 +39,7 @@
 		/obj/item/epic_loot/signal_amp = 1,
 		/obj/item/epic_loot/current_converter = 1,
 	)
-	resulting_item = /obj/item/clothing/glasses/thermal
+	resulting_item = /obj/item/clothing/glasses/night
 
 /datum/crafting_bench_recipe_real/thermals
 	recipe_name = "thermal vision goggles"
