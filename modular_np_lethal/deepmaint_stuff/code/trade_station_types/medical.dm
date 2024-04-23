@@ -72,6 +72,6 @@
 	recipe_name = "advanced satchel medical kit"
 	recipe_requirements = list(
 		/obj/item/storage/backpack/duffelbag/deforest_medkit = 1,
-		/obj/item/card/id = 3,
+		/obj/item/card/id/advanced = 3,
 	)
 	resulting_item = /obj/item/storage/backpack/duffelbag/deforest_medkit/stocked/super
