@@ -216,7 +216,7 @@
 	create_thing_from_requirements(things_to_use, selected_recipe, user)
 
 /// Passes the list of found ingredients + the recipe to use_or_delete_recipe_requirements, then spawns the given recipe's result
-/obj/structure/epic_loot_crafting_bench/proc/create_thing_from_requirements(list/things_to_use, datum/crafting_bench_recipe/recipe_to_follow, mob/living/user)
+/obj/structure/epic_loot_crafting_bench/proc/create_thing_from_requirements(list/things_to_use, datum/crafting_bench_recipe_real/recipe_to_follow, mob/living/user)
 
 	if(!recipe_to_follow)
 		message_admins("[src] just tried to complete a recipe without having a recipe!")
@@ -227,7 +227,8 @@
 		return FALSE
 
 	use_or_delete_recipe_requirements(things_to_use, recipe_to_follow)
-	var/obj/newly_created_thing = new recipe_to_follow.resulting_item(drop_location())
+	for(var/iterator in 1 to recipe_to_follow.amount_to_make)
+		var/obj/newly_created_thing = new recipe_to_follow.resulting_item(drop_location())
 	playsound(src, pick(construction_sounds), 50, TRUE)
 
 	if(!newly_created_thing)
@@ -236,10 +237,9 @@
 
 	clear_recipe()
 	update_appearance()
-	return newly_created_thing
 
 /// Takes the given list, things_to_use, compares it to recipe_to_follow's requirements, then either uses items from a stack, or deletes them otherwise. Returns custom material of forge items in the end.
-/obj/structure/epic_loot_crafting_bench/proc/use_or_delete_recipe_requirements(list/things_to_use, datum/crafting_bench_recipe/recipe_to_follow)
+/obj/structure/epic_loot_crafting_bench/proc/use_or_delete_recipe_requirements(list/things_to_use, datum/crafting_bench_recipe_real/recipe_to_follow)
 	for(var/obj/requirement_item as anything in things_to_use)
 		if(isstack(requirement_item))
 			var/stack_type

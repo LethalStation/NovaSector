@@ -6,30 +6,46 @@
 
 	allowed_choices = list(
 		// Grenades
-		/datum/crafting_bench_recipe_real/concussion_grenade,
+		/datum/crafting_bench_recipe_real/offensive_impact,
+		/datum/crafting_bench_recipe_real/defensive_impact,
 		/datum/crafting_bench_recipe_real/pipe_bomb,
 		/datum/crafting_bench_recipe_real/stingbang,
 		/datum/crafting_bench_recipe_real/flashbang,
 		// Gun stuff
 		/datum/crafting_bench_recipe_real/suppressor,
 		/datum/crafting_bench_recipe_real/eland,
-		/datum/crafting_bench_recipe_real/bobr,
-		/datum/crafting_bench_recipe_real/projector,
+		/datum/crafting_bench_recipe_real/signalis_rifle,
+		/datum/crafting_bench_recipe_real/super_shotgun,
+		/datum/crafting_bench_recipe_real/seiba,
 		/datum/crafting_bench_recipe_real/sindano,
 		/datum/crafting_bench_recipe_real/shotgun,
 		/datum/crafting_bench_recipe_real/sakhno,
 		/datum/crafting_bench_recipe_real/boxer,
+		/datum/crafting_bench_recipe_real/weevil,
+		/datum/crafting_bench_recipe_real/suppressed_rifle,
+		/datum/crafting_bench_recipe_real/auto_shotgun,
 	)
 
 // Grenades
 
-/datum/crafting_bench_recipe_real/concussion_grenade
-	recipe_name = "concussion grenade"
+/datum/crafting_bench_recipe_real/offensive_impact
+	recipe_name = "offensive impact grenade"
 	recipe_requirements = list(
 		/obj/item/epic_loot/grenade_fuze = 1,
 		/obj/item/epic_loot/plasma_explosive = 1,
 	)
-	resulting_item = /obj/item/grenade/syndieminibomb/concussion
+	resulting_item = /obj/item/grenade/syndieminibomb/concussion/impact
+	amount_to_make = 2
+
+/datum/crafting_bench_recipe_real/defensive_impact
+	recipe_name = "defensive impact grenade"
+	recipe_requirements = list(
+		/obj/item/epic_loot/grenade_fuze = 1,
+		/obj/item/epic_loot/plasma_explosive = 1,
+		/obj/item/epic_loot/nail_box = 1,
+	)
+	resulting_item = /obj/item/grenade/frag/impact
+	amount_to_make = 2
 
 /datum/crafting_bench_recipe_real/pipe_bomb
 	recipe_name = "improvised explosive"
@@ -38,6 +54,7 @@
 		/obj/item/epic_loot/water_filter = 1,
 	)
 	resulting_item = /obj/item/grenade/iedcasing/spawned
+	amount_to_make = 2
 
 /datum/crafting_bench_recipe_real/stingbang
 	recipe_name = "stingbang"
@@ -46,6 +63,7 @@
 		/obj/item/epic_loot/nail_box = 1,
 	)
 	resulting_item = /obj/item/grenade/stingbang
+	amount_to_make = 2
 
 /datum/crafting_bench_recipe_real/flashbang
 	recipe_name = "flashbang"
@@ -53,6 +71,7 @@
 		/obj/item/epic_loot/thermometer = 1,
 	)
 	resulting_item = /obj/item/grenade/flashbang
+	amount_to_make = 2
 
 // Gun stuff
 
@@ -70,26 +89,26 @@
 	)
 	resulting_item = /obj/item/gun/ballistic/revolver/sol
 
-/datum/crafting_bench_recipe_real/bobr
-	recipe_name = "12ga revolver"
+/datum/crafting_bench_recipe_real/signalis_rifle
+	recipe_name = "fukiya rifle"
 	recipe_requirements = list(
 		/obj/item/epic_loot/display = 1,
 	)
-	resulting_item = /obj/item/gun/ballistic/revolver/shotgun_revolver
+	resulting_item = /obj/item/gun/ballistic/marsian_super_rifle
 
-/datum/crafting_bench_recipe_real/projector
-	recipe_name = "plasma projector"
+/datum/crafting_bench_recipe_real/seiba
+	recipe_name = "seiba submachinegun"
 	recipe_requirements = list(
 		/obj/item/epic_loot/display_broken = 2,
 	)
-	resulting_item = /obj/item/gun/ballistic/automatic/pistol/plasma_thrower
+	resulting_item = /obj/item/gun/ballistic/automatic/seiba_smg
 
 /datum/crafting_bench_recipe_real/sindano
 	recipe_name = "sindano submachinegun"
 	recipe_requirements = list(
 		/obj/item/epic_loot/graphics = 1,
 	)
-	resulting_item = /obj/item/gun/ballistic/automatic/sol_smg
+	resulting_item = /obj/item/gun/ballistic/automatic/sol_smg/evil
 
 /datum/crafting_bench_recipe_real/shotgun
 	recipe_name = "renoster shotgun"
@@ -97,7 +116,7 @@
 		/obj/item/epic_loot/military_circuit = 1,
 		/obj/item/epic_loot/civilian_circuit = 1,
 	)
-	resulting_item = /obj/item/gun/ballistic/shotgun/riot/sol
+	resulting_item = /obj/item/gun/ballistic/shotgun/riot/sol/evil/thunderdome
 
 /datum/crafting_bench_recipe_real/sakhno
 	recipe_name = "sakhno M2442 rifle"
@@ -113,3 +132,33 @@
 		/obj/item/epic_loot/disk_drive = 1,
 	)
 	resulting_item = /obj/item/gun/ballistic/automatic/xhihao_smg
+
+// Guns that require killing your fellow man to attain
+
+/datum/crafting_bench_recipe_real/weevil
+	recipe_name = "zomushi pistol"
+	recipe_requirements = list(
+		/obj/item/organ/internal/eyes = 1,
+	)
+	resulting_item = /obj/item/gun/ballistic/automatic/pistol/weevil
+
+/datum/crafting_bench_recipe_real/super_shotgun
+	recipe_name = "ramu 6ga shotgun"
+	recipe_requirements = list(
+		/obj/item/organ/internal/stomach = 1,
+	)
+	resulting_item = /obj/item/gun/ballistic/shotgun/ramu
+
+/datum/crafting_bench_recipe_real/suppressed_rifle
+	recipe_name = "yari suppressed rifle"
+	recipe_requirements = list(
+		/obj/item/organ/internal/lungs = 2,
+	)
+	resulting_item = /obj/item/gun/ballistic/automatic/suppressed_rifle
+
+/datum/crafting_bench_recipe_real/auto_shotgun
+	recipe_name = "nomi repeating shotgun"
+	recipe_requirements = list(
+		/obj/item/organ/internal/liver = 2,
+	)
+	resulting_item = /obj/item/gun/ballistic/automatic/nomi_shotgun

@@ -10,10 +10,13 @@
 		/datum/crafting_bench_recipe_real/nvg,
 		/datum/crafting_bench_recipe_real/thermals,
 		// Armor
-		/datum/crafting_bench_recipe_real/flak_jacket,
-		/datum/crafting_bench_recipe_real/flak_helmet,
+		/datum/crafting_bench_recipe_real/paper_vest,
+		/datum/crafting_bench_recipe_real/koranda_vest,
 		/datum/crafting_bench_recipe_real/soft_vest,
 		/datum/crafting_bench_recipe_real/un_helmet,
+		/datum/crafting_bench_recipe_real/kulon_vest,
+		/datum/crafting_bench_recipe_real/kulon_vest_super,
+		/datum/crafting_bench_recipe_real/kulon_helmet,
 		/datum/crafting_bench_recipe_real/sacrificial_vest,
 		/datum/crafting_bench_recipe_real/sacrificial_helmet,
 		// Headsets
@@ -49,47 +52,70 @@
 
 // Armor
 
-/datum/crafting_bench_recipe_real/flak_jacket
-	recipe_name = "flak jacket"
+/datum/crafting_bench_recipe_real/paper_vest
+	recipe_name = "type I 'Kami' vest"
 	recipe_requirements = list(
 		/obj/item/epic_loot/aramid = 1,
 	)
-	resulting_item = /obj/item/clothing/suit/frontier_colonist_flak
+	resulting_item = /obj/item/clothing/suit/armor/lethal_paper
 
-/datum/crafting_bench_recipe_real/flak_helmet
-	recipe_name = "soft helmet"
+/datum/crafting_bench_recipe_real/koranda_vest
+	recipe_name = "type II 'Koranda' vest"
 	recipe_requirements = list(
 		/obj/item/epic_loot/aramid = 1,
+		/obj/item/organ/internal/appendix = 1,
 	)
-	resulting_item = /obj/item/clothing/head/frontier_colonist_helmet
+	resulting_item = /obj/item/clothing/suit/armor/lethal_koranda
 
 /datum/crafting_bench_recipe_real/soft_vest
-	recipe_name = "soft armor vest"
+	recipe_name = "type II 'Touvou' vest"
 	recipe_requirements = list(
 		/obj/item/epic_loot/ripstop = 1,
 		/obj/item/epic_loot/cordura = 1,
 	)
-	resulting_item = /obj/item/clothing/suit/armor/sf_peacekeeper/debranded
+	resulting_item = /obj/item/clothing/suit/armor/sf_peacekeeper
 
 /datum/crafting_bench_recipe_real/un_helmet
-	recipe_name = "ballistic helmet"
+	recipe_name = "type II 'Kastrol' helmet"
 	recipe_requirements = list(
 		/obj/item/epic_loot/electric_motor = 1,
 		/obj/item/epic_loot/cordura = 1,
 	)
-	resulting_item = /obj/item/clothing/head/helmet/sf_peacekeeper/debranded
+	resulting_item = /obj/item/clothing/head/helmet/sf_peacekeeper
 
-/datum/crafting_bench_recipe_real/sacrificial_vest
-	recipe_name = "sacrificial armor vest"
+/datum/crafting_bench_recipe_real/kulon_vest
+	recipe_name = "type III 'Kinu-Kuroba' vest"
 	recipe_requirements = list(
 		/obj/item/epic_loot/shuttle_gyro = 1,
+	)
+	resulting_item = /obj/item/clothing/suit/armor/lethal_kora_kulon
+
+/datum/crafting_bench_recipe_real/kulon_vest_super
+	recipe_name = "type III 'Kinu-Kuroba' full armor kit"
+	recipe_requirements = list(
+		/obj/item/clothing/suit/armor/lethal_kora_kulon = 1,
+		/obj/item/organ/internal/eyes = 2,
+	)
+	resulting_item = /obj/item/clothing/suit/armor/lethal_kora_kulon/full_set
+
+/datum/crafting_bench_recipe_real/kulon_helmet
+	recipe_name = "type III 'Robusuta' helmet"
+	recipe_requirements = list(
+		/obj/item/epic_loot/shuttle_battery = 1,
+	)
+	resulting_item = /obj/item/clothing/head/helmet/lethal_kulon_helmet/spawns_with_shield
+
+/datum/crafting_bench_recipe_real/sacrificial_vest
+	recipe_name = "type IV 'Val' vest"
+	recipe_requirements = list(
+		/obj/item/organ/internal/heart = 2,
 	)
 	resulting_item = /obj/item/clothing/suit/armor/sf_sacrificial
 
 /datum/crafting_bench_recipe_real/sacrificial_helmet
-	recipe_name = "sacrificial helmet"
+	recipe_name = "type IV 'Val' helmet"
 	recipe_requirements = list(
-		/obj/item/epic_loot/shuttle_battery = 1,
+		/obj/item/organ/internal/stomach = 2,
 	)
 	resulting_item = /obj/item/clothing/head/helmet/sf_sacrificial/spawns_with_shield
 
@@ -105,6 +131,6 @@
 /datum/crafting_bench_recipe_real/bowman
 	recipe_name = "bowman headset"
 	recipe_requirements = list(
-		/obj/item/epic_loot/phased_array = 2,
+		/obj/item/epic_loot/phased_array = 1,
 	)
 	resulting_item = /obj/item/radio/headset/headset_sec/alt

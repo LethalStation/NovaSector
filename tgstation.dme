@@ -8314,6 +8314,7 @@
 #include "modular_np_lethal\deepmaint_stuff\code\trade_station_recipe_base.dm"
 #include "modular_np_lethal\deepmaint_stuff\code\trade_station_types\armor.dm"
 #include "modular_np_lethal\deepmaint_stuff\code\trade_station_types\gear.dm"
+#include "modular_np_lethal\deepmaint_stuff\code\trade_station_types\magazine_machine.dm"
 #include "modular_np_lethal\deepmaint_stuff\code\trade_station_types\medical.dm"
 #include "modular_np_lethal\deepmaint_stuff\code\trade_station_types\weapons.dm"
 #include "modular_np_lethal\epic_loot\code\_basetype.dm"
