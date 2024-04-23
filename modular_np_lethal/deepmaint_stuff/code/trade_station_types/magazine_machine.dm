@@ -178,7 +178,7 @@
 	amount_to_make = 3
 
 /datum/crafting_bench_recipe_real/c35sol_ripper
-	recipe_name = ".35 Sol Short ripper casings
+	recipe_name = ".35 Sol Short ripper casings"
 	recipe_requirements = list(
 		/obj/item/organ/internal/eyes = 1,
 	)
