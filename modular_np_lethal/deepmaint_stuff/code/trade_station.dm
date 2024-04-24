@@ -100,7 +100,6 @@
 		recipe_names_to_path[recipe_to_take_from.recipe_name] = recipe
 		qdel(recipe_to_take_from)
 
-
 /obj/structure/epic_loot_crafting_bench/examine(mob/user)
 	. = ..()
 
@@ -130,6 +129,10 @@
 	. = ..()
 
 	. += span_notice("This station trades for the following items:")
+
+/obj/structure/epic_loot_crafting_bench/update_overlays()
+	. = ..()
+	. += emissive_appearance(icon, "light_mask", src)
 
 /obj/structure/epic_loot_crafting_bench/attack_hand(mob/living/user, list/modifiers)
 	. = ..()

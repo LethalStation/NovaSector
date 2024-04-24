@@ -37,7 +37,7 @@
 	. += span_notice("<b>1</b> silver chainlet + <b>1</b> gold chainlet = <b>1</b> documents pouch")
 	. += span_notice("<b>1</b> sealed diary = <b>1</b> keycard holder")
 	. += span_notice("<b>1</b> lungs = <b>1</b> ballistic shield")
-	. += span_notice("<b>1</b> ID cards = <b>1</b> black keycard")
+	. += span_notice("<b>9</b> ID cards = <b>1</b> black keycard")
 
 	return .
 
