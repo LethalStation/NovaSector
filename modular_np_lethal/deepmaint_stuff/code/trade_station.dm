@@ -104,6 +104,8 @@
 /obj/structure/epic_loot_crafting_bench/examine(mob/user)
 	. = ..()
 
+	. += span_engradio("You can <b>examine closer</b> to get a list of <b>everything</b> this station trades for.")
+
 	if(!selected_recipe)
 		return
 
@@ -123,6 +125,11 @@
 		. += span_notice("<b>[selected_recipe.recipe_requirements[requirement_item]]</b> - [initial(requirement_item.name)]")
 
 	return .
+
+/obj/structure/epic_loot_crafting_bench/examine_more(mob/user)
+	. = ..()
+
+	. += span_notice("This station trades for the following items:")
 
 /obj/structure/epic_loot_crafting_bench/attack_hand(mob/living/user, list/modifiers)
 	. = ..()

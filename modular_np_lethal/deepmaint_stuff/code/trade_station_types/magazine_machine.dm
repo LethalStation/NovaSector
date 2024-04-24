@@ -30,6 +30,17 @@
 		/datum/crafting_bench_recipe_real/c585_hp,
 	)
 
+/obj/structure/epic_loot_crafting_bench/magazine/examine_more(mob/user)
+	. = ..()
+
+	. += span_notice("<b>1-3</b> ID cards = <b>3</b> magazines")
+	. += span_notice("<b>1</b> eyes = <b>1</b> special ammo stack")
+	. += span_notice("<b>1</b> heart = <b>1</b> special ammo stack type 2")
+	. += span_notice("<b>1</b> ears = <b>8</b> 12ga express")
+	. += span_notice("<b>1</b> heart + <b>1</b> box of nails = <b>8</b> 12ga flechette")
+
+	return .
+
 // 8mm mars
 
 /datum/crafting_bench_recipe_real/c8mars_magazine
