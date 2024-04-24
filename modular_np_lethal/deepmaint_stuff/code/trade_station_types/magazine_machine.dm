@@ -4,6 +4,8 @@
 		netpage that strangely deals in tags and body parts for magazines and ammo."
 	icon_state = "magazine_maker"
 
+	light_color = LIGHT_COLOR_PURPLE
+
 	allowed_choices = list(
 		/datum/crafting_bench_recipe_real/c8mars_magazine,
 		/datum/crafting_bench_recipe_real/c8mars_piercing,

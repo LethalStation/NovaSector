@@ -4,6 +4,8 @@
 		medical supplies and possibly even implants."
 	icon_state = "trade_med"
 
+	light_color = LIGHT_COLOR_GREEN
+
 	allowed_choices = list(
 		/datum/crafting_bench_recipe_real/medpen_kit,
 		/datum/crafting_bench_recipe_real/pocket_medkit,

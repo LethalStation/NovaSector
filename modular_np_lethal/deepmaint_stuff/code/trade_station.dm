@@ -8,6 +8,9 @@
 	density = TRUE
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 
+	light_power = 1
+	light_range = 1
+
 	/// What the currently picked recipe is
 	var/datum/crafting_bench_recipe_real/selected_recipe
 	/// What recipes are we allowed to choose from?

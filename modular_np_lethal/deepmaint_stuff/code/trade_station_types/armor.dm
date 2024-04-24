@@ -4,6 +4,8 @@
 		who will exchange goods for various pieces of wearable equipment and gear."
 	icon_state = "trade_armor"
 
+	light_color = LIGHT_COLOR_INTENSE_RED
+
 	allowed_choices = list(
 		// Glasses
 		/datum/crafting_bench_recipe_real/coolglasses,

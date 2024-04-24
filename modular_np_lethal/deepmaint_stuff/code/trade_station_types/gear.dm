@@ -4,6 +4,8 @@
 		who will exchange goods for various pieces of important equipment."
 	icon_state = "trade_gear"
 
+	light_color = LIGHT_COLOR_BLUE
+
 	allowed_choices = list(
 		/datum/crafting_bench_recipe_real/binoculars,
 		/datum/crafting_bench_recipe_real/duffelpack,

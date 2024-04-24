@@ -4,6 +4,8 @@
 		who will exchange goods for many different types of weapons of war."
 	icon_state = "trade_war"
 
+	light_color = LIGHT_COLOR_YELLOW
+
 	allowed_choices = list(
 		// Grenades
 		/datum/crafting_bench_recipe_real/offensive_impact,
