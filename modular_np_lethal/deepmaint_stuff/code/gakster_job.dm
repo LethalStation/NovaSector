@@ -2,8 +2,8 @@
 	title = "Gakster"
 	description = "Loot, shoot, scoot, run home and then wake up to do it all over again."
 	faction = FACTION_STATION
-	total_positions = 0
-	spawn_positions = 0
+	total_positions = -1
+	spawn_positions = -1
 	exp_granted_type = EXP_TYPE_CREW
 	config_tag = "GAKSTER"
 
@@ -16,6 +16,7 @@
 
 	display_order = JOB_DISPLAY_ORDER_ASSISTANT
 	bounty_types = CIV_JOB_BASIC
+	department_for_prefs = DEPARTMENT_ASSISTANT
 
 	family_heirlooms = list(/obj/item/lead_pipe)
 
