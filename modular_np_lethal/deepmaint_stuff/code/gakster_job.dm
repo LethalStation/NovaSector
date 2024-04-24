@@ -46,5 +46,32 @@
 	duffelbag = /obj/item/storage/backpack/industrial/frontier_colonist
 	messenger = /obj/item/storage/backpack/industrial/frontier_colonist/messenger
 
+/datum/outfit/plasmaman/gakster
+	name = "Gakster Plasmaman"
+
+	id_trim = /datum/id_trim/job/assistant/gakster
+
+	uniform = /obj/item/clothing/under/plasmaman/bitrunner
+	gloves = /obj/item/clothing/gloves/color/plasmaman/black
+	head = /obj/item/clothing/head/helmet/space/plasmaman/bitrunner
+	r_hand= /obj/item/tank/internals/plasmaman/belt/full
+	internals_slot = ITEM_SLOT_HANDS
+
+	box = null
+	backpack_contents = list(
+		/obj/item/reagent_containers/hypospray/medipen/deforest/demoneye = 1,
+	)
+	belt = null
+	ears = null
+
+	shoes = /obj/item/clothing/shoes/jackboots/frontier_colonist
+	l_pocket = /obj/item/crowbar/red
+	r_pocket = /obj/item/flashlight/flare
+
+	backpack = /obj/item/storage/backpack/industrial/frontier_colonist
+	satchel = /obj/item/storage/backpack/industrial/frontier_colonist/satchel
+	duffelbag = /obj/item/storage/backpack/industrial/frontier_colonist
+	messenger = /obj/item/storage/backpack/industrial/frontier_colonist/messenger
+
 /datum/id_trim/job/assistant/gakster
 	assignment = "Gakster"
