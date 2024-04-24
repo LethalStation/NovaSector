@@ -10,7 +10,7 @@
 	outfit = /datum/outfit/job/gakster
 	plasmaman_outfit = /datum/outfit/plasmaman/gakster
 
-	paycheck = PAYCHECK_LOWER
+	paycheck = PAYCHECK_ZERO
 
 	liver_traits = list(TRAIT_ENGINEER_METABOLISM, TRAIT_ROYAL_METABOLISM, TRAIT_MAINTENANCE_METABOLISM)
 
