@@ -4,6 +4,7 @@
 	icon = 'icons/obj/antags/gang/cell_phone.dmi'
 	icon_state = "phone-off"
 	actions_types = list(/datum/action/item_action/call_link)
+	w_class = WEIGHT_CLASS_SMALL
 	/// The MODlink datum we operate.
 	var/datum/mod_link/mod_link
 	/// Initial frequency of the MODlink.
