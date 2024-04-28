@@ -2092,10 +2092,6 @@
 /obj/machinery/vending/wallmed/epic_loot/directional/south,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
-"ui" = (
-/obj/structure/lattice,
-/turf/closed/wall,
-/area/gakster_location/war)
 "uj" = (
 /obj/structure/sink/kitchen/directional/north,
 /turf/open/floor/iron/dark/smooth_large,
@@ -2166,11 +2162,6 @@
 /obj/structure/window/reinforced/shuttle,
 /turf/open/indestructible/dark/smooth_large,
 /area/gakster_location/filtre_spawn)
-"uP" = (
-/obj/structure/lattice,
-/obj/structure/lattice/catwalk,
-/turf/open/openspace,
-/area/gakster_location/outside)
 "uT" = (
 /obj/structure/table,
 /obj/effect/spawner/random/trash/garbage,
@@ -2762,7 +2753,6 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "zS" = (
-/obj/structure/lattice/catwalk,
 /obj/structure/lattice/catwalk,
 /obj/effect/mob_spawn/corpse/human/scientist,
 /turf/open/openspace,
@@ -4637,11 +4627,6 @@
 /obj/machinery/light/dim/directional/north,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
-"Rg" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/lattice,
-/turf/open/openspace,
-/area/gakster_location/outside)
 "Rj" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/random/decoration/statue,
@@ -17569,7 +17554,7 @@ vr
 vr
 DT
 DT
-Rg
+DT
 EH
 vr
 vr
@@ -24167,7 +24152,7 @@ DT
 EH
 EH
 EH
-uP
+DT
 vr
 vr
 DT
@@ -35460,7 +35445,7 @@ vr
 vr
 vr
 EH
-ui
+NT
 NT
 NT
 NT
