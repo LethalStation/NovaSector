@@ -2,7 +2,7 @@
 	name = "\improper MODlink transmitter"
 	desc = "An intricate piece of machinery that creates a holographic video call with another MODlink-compatible device."
 	icon = 'icons/obj/antags/gang/cell_phone.dmi'
-	icon_state = "phone-off"
+	icon_state = "phone_off"
 	actions_types = list(/datum/action/item_action/call_link)
 	w_class = WEIGHT_CLASS_SMALL
 	/// The MODlink datum we operate.
@@ -70,7 +70,7 @@
 /obj/item/gakster_phone/proc/make_link_visual()
 	var/mob/living/user = mod_link.get_user_callback.Invoke()
 	user.update_worn_neck()
-	icon_state = "phone-on"
+	icon_state = "phone_on"
 	return make_link_visual_generic(mod_link, PROC_REF(on_overlay_change))
 
 /obj/item/gakster_phone/proc/get_link_visual(atom/movable/visuals)
@@ -80,7 +80,7 @@
 	var/mob/living/user = mod_link.get_user_callback.Invoke()
 	if(!QDELETED(user))
 		user.update_worn_neck()
-	icon_state = "phone-off"
+	icon_state = "phone_off"
 	return delete_link_visual_generic(mod_link)
 
 /obj/item/gakster_phone/Hear(message, atom/movable/speaker, message_language, raw_message, radio_freq, list/spans, list/message_mods, message_range)
