@@ -8382,6 +8382,8 @@
 #include "modular_np_lethal\lethalguns\code\shotgun.dm"
 #include "modular_np_lethal\lethalguns\code\shotgun_un_nerf.dm"
 #include "modular_np_lethal\lethalguns\code\suppressed.dm"
+#include "modular_np_lethal\lethalguns\code\cargo\sol_defense.dm"
+#include "modular_np_lethal\lethalguns\code\cargo\vitezstvi_ammo.dm"
 #include "modular_np_lethal\loadout_items\injectors.dm"
 #include "modular_np_lethal\loadout_items\mech_beacon.dm"
 #include "modular_np_lethal\loadout_items\melee.dm"
