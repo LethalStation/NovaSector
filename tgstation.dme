@@ -453,6 +453,7 @@
 #include "code\__DEFINES\~nova_defines\projectiles.dm"
 #include "code\__DEFINES\~nova_defines\projectiles_lethalstation.dm"
 #include "code\__DEFINES\~nova_defines\quirks.dm"
+#include "code\__DEFINES\~nova_defines\random_lethalstation_defines.dm"
 #include "code\__DEFINES\~nova_defines\reagents.dm"
 #include "code\__DEFINES\~nova_defines\research.dm"
 #include "code\__DEFINES\~nova_defines\research_categories.dm"
@@ -8405,4 +8406,8 @@
 #include "modular_np_lethal\medical_stuff\code\injector_buff.dm"
 #include "modular_np_lethal\medical_stuff\code\storage.dm"
 #include "modular_np_lethal\medical_stuff\code\synth_wound_healing.dm"
+#include "modular_np_lethal\ships_r_us\code\buyable_shuttle_template.dm"
+#include "modular_np_lethal\ships_r_us\code\orderconsole.dm"
+#include "modular_np_lethal\ships_r_us\code\shuttle_parts.dm"
+#include "modular_np_lethal\ships_r_us\code\station_buyable_ships\ferries.dm"
 // END_INCLUDE
