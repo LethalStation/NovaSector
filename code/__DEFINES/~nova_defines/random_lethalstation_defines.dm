@@ -6,4 +6,5 @@
 // Ship "type" defines
 #define PERSONAL_SHIP_TYPE_DEBUG "Debug"
 #define PERSONAL_SHIP_TYPE_FERRY "Ferry"
-#define PERSONAL_SHIP_TYPE_MINING "Mining"
+#define PERSONAL_SHIP_TYPE_MINING "Supply"
+#define PERSONAL_SHIP_TYPE_DIY "Incomplete"

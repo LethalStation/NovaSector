@@ -8410,5 +8410,6 @@
 #include "modular_np_lethal\ships_r_us\code\orderconsole.dm"
 #include "modular_np_lethal\ships_r_us\code\shuttle_parts.dm"
 #include "modular_np_lethal\ships_r_us\code\station_buyable_ships\ferries.dm"
+#include "modular_np_lethal\ships_r_us\code\station_buyable_ships\incomplete.dm"
 #include "modular_np_lethal\ships_r_us\code\station_buyable_ships\mining.dm"
 // END_INCLUDE
