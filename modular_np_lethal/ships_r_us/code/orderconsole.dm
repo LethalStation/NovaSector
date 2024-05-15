@@ -37,7 +37,7 @@
 	AddComponent(/datum/component/payment, 0, SSeconomy.get_dep_account(ACCOUNT_CMD), PAYMENT_CLINICAL)
 	return INITIALIZE_HINT_LATELOAD
 
-/obj/machinery/computer/personal_shuttle_order/LateInitialize()
+/obj/machinery/computer/personal_shuttle_order/post_machine_initialize()
 	. = ..()
 	try_and_fill_shopping_list()
 	try_and_find_a_dock()
