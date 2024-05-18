@@ -27,10 +27,10 @@
 /area/shuttle/personally_bought/private_liner)
 "bg" = (
 /obj/structure/rack/shelf,
-/obj/item/storage/medkit/combat_surgeon/stocked,
-/obj/item/storage/medkit/frontier/stocked,
 /obj/effect/turf_decal/bot_white,
 /obj/structure/extinguisher_cabinet/directional/south,
+/obj/item/storage/backpack/duffelbag/deforest_medkit/stocked,
+/obj/item/storage/medkit/robotic_repair/stocked,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/private_liner)
 "bl" = (
@@ -38,8 +38,8 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/personally_bought/private_liner)
 "bQ" = (
-/obj/machinery/suit_storage_unit/industrial,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/machinery/suit_storage_unit/industrial/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/private_liner)
 "bU" = (
@@ -83,6 +83,7 @@
 "dP" = (
 /obj/structure/table/reinforced,
 /obj/machinery/button/door/personal_shuttle_windows/directional/west,
+/obj/machinery/chem_dispenser/frontier_appliance,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/private_liner)
 "ea" = (
@@ -90,10 +91,10 @@
 /turf/closed/wall/mineral/plastitanium,
 /area/shuttle/personally_bought/private_liner)
 "eb" = (
-/obj/effect/spawner/random/structure/tank_holder,
 /obj/effect/turf_decal/bot_white,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/closet/emcloset/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/private_liner)
 "fb" = (
@@ -107,9 +108,6 @@
 /obj/structure/sign/poster/contraband/mothic_rations/directional/west,
 /obj/structure/closet/crate/cardboard/mothic,
 /obj/item/storage/box/mothic_rations,
-/obj/item/coffee_cartridge/fancy,
-/obj/item/coffee_cartridge/fancy,
-/obj/item/coffee_cartridge/fancy,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/private_liner)
@@ -210,11 +208,13 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/private_liner)
 "qV" = (
 /obj/structure/cable,
-/obj/structure/closet/firecloset/wall/personal_shuttle/directional/east,
 /obj/effect/turf_decal/bot,
 /obj/machinery/light/warm/directional/east,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -312,12 +312,8 @@
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/personally_bought/private_liner)
 "vJ" = (
-/obj/machinery/power/terminal{
-	dir = 4
-	},
-/obj/structure/closet/crate/large/import,
 /obj/structure/cable,
-/obj/item/flatpacked_machine/fuel_generator,
+/obj/structure/closet/secure_closet/personal_shuttle,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/private_liner)
 "vM" = (
@@ -340,10 +336,10 @@
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/private_liner)
 "wI" = (
-/obj/structure/closet/emcloset/wall/personal_shuttle/directional/north,
 /obj/effect/turf_decal/bot,
 /obj/machinery/airalarm/directional/west,
 /obj/effect/mapping_helpers/airalarm/all_access,
+/obj/structure/closet/emcloset/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/private_liner)
 "yv" = (
@@ -354,8 +350,8 @@
 /area/shuttle/personally_bought/private_liner)
 "zu" = (
 /obj/structure/table/reinforced,
-/obj/machinery/coffeemaker,
 /obj/structure/extinguisher_cabinet/directional/south,
+/obj/machinery/biogenerator/foodricator,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/private_liner)
 "zT" = (
@@ -490,12 +486,12 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/personally_bought/private_liner)
 "JC" = (
-/obj/machinery/vending/cigarette,
 /obj/effect/turf_decal/bot_white,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/private_liner)
 "JH" = (
-/obj/structure/chair/comfy/shuttle,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/private_liner)
 "Kc" = (
@@ -526,16 +522,12 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/personally_bought/private_liner)
 "KO" = (
-/obj/structure/closet/crate/cardboard,
-/obj/item/storage/box/colonial_rations,
-/obj/item/storage/box/colonial_rations,
-/obj/item/plate,
-/obj/item/plate,
-/obj/item/storage/box/utensils,
-/obj/item/storage/box/utensils,
-/obj/item/storage/box/utensils,
-/obj/item/storage/box/utensils,
 /obj/effect/turf_decal/bot_white,
+/obj/structure/closet/crate/cargo,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/flatpacked_machine,
+/obj/item/circuitboard/machine/techfab,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/private_liner)
 "KY" = (
@@ -549,12 +541,12 @@
 /area/shuttle/personally_bought/private_liner)
 "LQ" = (
 /obj/structure/table/reinforced,
-/obj/machinery/microwave,
+/obj/machinery/microwave/frontier_printed,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/private_liner)
 "LV" = (
-/obj/machinery/vending/cola/black,
 /obj/effect/turf_decal/bot_white,
+/obj/structure/closet/firecloset/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/private_liner)
 "Mx" = (
@@ -616,16 +608,13 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/personally_bought/private_liner)
 "Po" = (
-/obj/structure/closet/crate/engineering/electrical,
-/obj/item/stack/sheet/mineral/plasma/thirty,
-/obj/item/flatpacked_machine/rtg,
-/obj/item/flatpacked_machine/rtg,
 /obj/effect/turf_decal/bot_white,
 /obj/machinery/airalarm/directional/north,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /obj/machinery/light/cold/directional/north,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/closet/crate/engineering/electrical/personal_shuttle_backup_power,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/private_liner)
 "Py" = (
@@ -639,9 +628,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/meter/layer4,
-/obj/structure/closet/secure_closet/wall/personal_shuttle/directional/west,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/iron/dark/smooth_large,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/personally_bought/private_liner)
+"Qy" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/shuttle/personally_bought/private_liner)
 "QV" = (
 /obj/structure/fluff/metalpole/end{
@@ -702,9 +695,9 @@
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/private_liner)
 "Xu" = (
-/obj/machinery/power/smes/battery_pack/large/precharged,
 /obj/structure/cable,
 /obj/effect/turf_decal/bot_white,
+/obj/machinery/power/micro_reactor/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/private_liner)
 "Xy" = (
@@ -715,7 +708,6 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/private_liner)
 "YJ" = (
-/obj/structure/closet/emcloset/wall/personal_shuttle/directional/north,
 /obj/effect/turf_decal/bot,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -795,7 +787,7 @@ Kk
 DI
 Kk
 Po
-ZM
+Qy
 Xu
 Kk
 "}

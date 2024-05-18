@@ -44,6 +44,8 @@
 /obj/item/stack/sheet/glass/fifty,
 /obj/item/stack/sheet/iron/fifty,
 /obj/effect/mapping_helpers/airalarm/all_access,
+/obj/item/flatpacked_machine,
+/obj/item/circuitboard/machine/techfab,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/house_boat)
 "iv" = (
@@ -57,7 +59,7 @@
 "ms" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/bot_white,
-/obj/machinery/power/smes/battery_pack/large/precharged,
+/obj/machinery/power/micro_reactor/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/house_boat)
 "nP" = (
@@ -94,9 +96,9 @@
 /turf/open/floor/plating/airless,
 /area/shuttle/personally_bought/house_boat)
 "pS" = (
-/obj/machinery/suit_storage_unit/industrial,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/bot_white,
+/obj/machinery/suit_storage_unit/industrial/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/house_boat)
 "rW" = (
@@ -108,11 +110,12 @@
 /area/shuttle/personally_bought/house_boat)
 "tC" = (
 /obj/structure/table/reinforced,
-/obj/machinery/microwave,
+/obj/machinery/microwave/frontier_printed,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/house_boat)
 "tE" = (
 /obj/structure/table/reinforced,
+/obj/machinery/biogenerator/foodricator,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/house_boat)
 "tG" = (
@@ -120,7 +123,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
-/obj/structure/closet/firecloset/wall/personal_shuttle/directional/west,
+/obj/structure/closet/firecloset/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/house_boat)
 "uM" = (
@@ -245,7 +248,7 @@
 /area/shuttle/personally_bought/house_boat)
 "Ef" = (
 /obj/structure/table/reinforced,
-/obj/machinery/coffeemaker,
+/obj/machinery/chem_dispenser/frontier_appliance,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/house_boat)
 "Em" = (
@@ -309,11 +312,8 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/house_boat)
 "Im" = (
-/obj/structure/closet/crate/engineering/electrical,
 /obj/effect/turf_decal/bot_white,
-/obj/item/stack/sheet/mineral/plasma/thirty,
-/obj/item/flatpacked_machine/rtg,
-/obj/item/flatpacked_machine/rtg,
+/obj/structure/closet/crate/engineering/electrical/personal_shuttle_backup_power,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/house_boat)
 "In" = (
@@ -376,12 +376,12 @@
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/house_boat)
 "KV" = (
+/obj/structure/cable,
+/obj/machinery/light/cold/directional/south,
 /obj/machinery/power/terminal{
 	dir = 4
 	},
-/obj/structure/cable,
-/obj/machinery/light/cold/directional/south,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/shuttle/personally_bought/house_boat)
 "LH" = (
 /obj/structure/railing/eva_handhold/directional/south,
@@ -396,7 +396,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/meter/layer4,
 /obj/effect/turf_decal/bot,
-/obj/structure/closet/secure_closet/wall/personal_shuttle/directional/east,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/house_boat)
 "Md" = (
@@ -410,9 +409,6 @@
 "Ow" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/machinery/light_switch/directional/north,
-/obj/structure/chair/plastic{
-	dir = 8
-	},
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/house_boat)
 "Pp" = (
@@ -420,8 +416,7 @@
 /area/shuttle/personally_bought/house_boat)
 "PY" = (
 /obj/structure/cable,
-/obj/structure/closet/crate/large/import,
-/obj/item/flatpacked_machine/fuel_generator,
+/obj/structure/closet/secure_closet/personal_shuttle,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/house_boat)
 "Qm" = (
@@ -491,7 +486,7 @@
 	dir = 4
 	},
 /obj/machinery/light/warm/directional/west,
-/obj/structure/closet/emcloset/wall/personal_shuttle/directional/west,
+/obj/structure/closet/emcloset/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/house_boat)
 "UW" = (
@@ -507,17 +502,10 @@
 /obj/structure/closet/crate/cardboard/mothic,
 /obj/item/storage/box/mothic_rations,
 /obj/structure/sign/poster/contraband/mothic_rations/directional/north,
-/obj/item/coffee_cartridge/fancy,
-/obj/item/coffee_cartridge/fancy,
-/obj/item/coffee_cartridge/fancy,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/house_boat)
 "Wi" = (
-/obj/machinery/power/terminal{
-	dir = 4
-	},
-/obj/structure/cable,
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/house_boat)
 "Xs" = (

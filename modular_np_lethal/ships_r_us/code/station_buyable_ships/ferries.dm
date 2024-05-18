@@ -47,7 +47,7 @@
 		in a VIP transport shuttle, would you?"
 	credit_cost = CARGO_CRATE_VALUE * 12
 	suffix = "manzil"
-	width = 15
+	width = 23
 	height = 11
 	personal_shuttle_size = PERSONAL_SHIP_MEDIUM
 

@@ -134,39 +134,52 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/button/door/personal_shuttle_bay_four
 
 // Emergency Equipment lockers
 
-/obj/structure/closet/emcloset/wall/personal_shuttle
+/obj/structure/closet/emcloset/personal_shuttle
 
-/obj/structure/closet/emcloset/wall/personal_shuttle/PopulateContents()
+/obj/structure/closet/emcloset/personal_shuttle/PopulateContents()
 	new /obj/item/storage/toolbox/emergency(src)
 	new /obj/item/storage/medkit/civil_defense/stocked(src)
+	new /obj/item/storage/medkit/civil_defense/stocked(src)
+	new /obj/item/storage/medkit/frontier/stocked(src)
+	new /obj/item/storage/medkit/robotic_repair/stocked(src)
 	new /obj/item/radio(src)
 	new /obj/item/radio(src)
 	new /obj/item/folded_navigation_gigabeacon(src)
+	new /obj/item/flatpacked_machine/gps_beacon(src)
+	new /obj/item/crowbar/large/doorforcer(src)
 
-MAPPING_DIRECTIONAL_HELPERS(/obj/structure/closet/emcloset/wall/personal_shuttle, 32)
+/obj/structure/closet/firecloset/personal_shuttle
 
-/obj/structure/closet/firecloset/wall/personal_shuttle
-
-/obj/structure/closet/firecloset/wall/personal_shuttle/PopulateContents()
-	new /obj/item/clothing/mask/gas/alt(src)
-	new /obj/item/clothing/mask/gas/alt(src)
+/obj/structure/closet/firecloset/personal_shuttle/PopulateContents()
+	new /obj/item/clothing/mask/gas/atmos/frontier_colonist(src)
+	new /obj/item/clothing/mask/gas/atmos/frontier_colonist(src)
 	new /obj/item/tank/internals/emergency_oxygen/engi(src)
 	new /obj/item/tank/internals/emergency_oxygen/engi(src)
+	new /obj/item/flatpacked_machine/co2_cracker(src)
 	new /obj/item/extinguisher/advanced(src)
+	new /obj/item/holosign_creator/atmos(src)
 
-MAPPING_DIRECTIONAL_HELPERS(/obj/structure/closet/firecloset/wall/personal_shuttle, 32)
-
-/obj/structure/closet/secure_closet/wall/personal_shuttle
+/obj/structure/closet/secure_closet/personal_shuttle
 	name = "damage control locker"
 
-/obj/structure/closet/secure_closet/wall/personal_shuttle/PopulateContents()
+/obj/structure/closet/secure_closet/personal_shuttle/PopulateContents()
+	new /obj/item/stack/sheet/plastic_wall_panel/ten(src)
 	new /obj/item/storage/inflatable(src)
 	new /obj/item/oxygen_candle/super(src)
+	new /obj/item/grenade/chem_grenade/smart_metal_foam(src)
 	new /obj/item/door_seal(src)
 	new /obj/item/door_seal(src)
 	new /obj/item/door_seal(src)
 
-MAPPING_DIRECTIONAL_HELPERS(/obj/structure/closet/secure_closet/wall/personal_shuttle, 32)
+/obj/structure/closet/crate/engineering/electrical/personal_shuttle_backup_power
+	name = "emergency power storage"
+
+/obj/structure/closet/crate/engineering/electrical/personal_shuttle_backup_power/PopulateContents()
+	new /obj/item/flatpacked_machine/fuel_generator(src)
+	new /obj/item/stack/sheet/mineral/plasma/thirty(src)
+	new /obj/item/flatpacked_machine/station_battery(src)
+	new /obj/item/flatpacked_machine/rtg(src)
+	new /obj/item/flatpacked_machine/rtg(src)
 
 // Big oxygen candle lmao
 
@@ -178,3 +191,15 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/closet/secure_closet/wall/personal_sh
 /obj/item/oxygen_candle/super/Initialize(mapload)
 	. = ..()
 	transform = transform.Scale(1.5, 1.5)
+
+// Suit storage unit for a free emergency eva suit
+
+/obj/machinery/suit_storage_unit/industrial/personal_shuttle
+	mask_type = /obj/item/clothing/mask/gas/atmos/frontier_colonist
+	mod_type = /obj/item/mod/control/pre_equipped/frontier_colonist
+	storage_type = /obj/item/tank/internals/oxygen/yellow
+
+// Micro reactor but it's not insane
+
+/obj/machinery/power/micro_reactor/personal_shuttle
+	power_gen = 40 KILO WATTS

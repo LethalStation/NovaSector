@@ -5,15 +5,10 @@
 /obj/structure/fans/tiny/forcefield,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
-"aE" = (
-/obj/structure/closet/firecloset/wall/personal_shuttle/directional/east,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/personally_bought/mining_hub)
 "bp" = (
-/obj/machinery/power/smes/battery_pack/large/precharged,
-/obj/structure/cable,
 /obj/effect/turf_decal/bot_white,
+/obj/machinery/power/micro_reactor/personal_shuttle,
+/obj/structure/cable,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "bN" = (
@@ -95,9 +90,9 @@
 /area/shuttle/personally_bought/mining_hub)
 "dW" = (
 /obj/effect/turf_decal/bot_white,
-/obj/structure/tank_dispenser,
 /obj/structure/extinguisher_cabinet/directional/north,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/machinery/suit_storage_unit/industrial/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "ed" = (
@@ -114,9 +109,8 @@
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "ew" = (
-/obj/structure/cable,
-/obj/structure/table/reinforced,
-/obj/machinery/cell_charger,
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/firecloset/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "eL" = (
@@ -184,12 +178,12 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
+/obj/structure/cable,
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "hJ" = (
 /obj/structure/cable,
-/obj/structure/closet/crate/large/import,
-/obj/item/flatpacked_machine/fuel_generator,
+/obj/structure/closet/crate/engineering/electrical/personal_shuttle_backup_power,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/mining_hub)
 "il" = (
@@ -289,6 +283,10 @@
 /obj/effect/turf_decal/tile/dark/anticorner/contrasted,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/closet/crate/science,
+/obj/item/circuitboard/machine/mechfab,
+/obj/item/flatpacked_machine/ore_silo,
+/obj/item/circuitboard/machine/circuit_imprinter/department/science,
 /turf/open/floor/iron/smooth,
 /area/shuttle/personally_bought/mining_hub)
 "ko" = (
@@ -339,8 +337,8 @@
 /area/shuttle/personally_bought/mining_hub)
 "lw" = (
 /obj/structure/table/reinforced,
-/obj/machinery/microwave,
 /obj/structure/extinguisher_cabinet/directional/north,
+/obj/machinery/microwave/frontier_printed,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "lR" = (
@@ -390,20 +388,16 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "nJ" = (
-/obj/effect/spawner/random/structure/tank_holder,
 /obj/effect/turf_decal/bot_white,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/personally_bought/mining_hub)
-"nN" = (
-/obj/effect/turf_decal/bot,
-/obj/structure/closet/firecloset/wall/personal_shuttle/directional/north,
+/obj/machinery/biogenerator/medstation/directional/west,
+/obj/machinery/vending/deforest_medvend,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "og" = (
 /obj/machinery/button/door/personal_shuttle_windows/directional/north,
 /obj/structure/table/reinforced,
-/obj/machinery/coffeemaker,
+/obj/machinery/biogenerator/foodricator,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "oA" = (
@@ -461,9 +455,6 @@
 /obj/structure/closet/crate/cardboard/mothic,
 /obj/item/storage/box/mothic_rations,
 /obj/item/storage/box/mothic_rations,
-/obj/item/coffee_cartridge/fancy,
-/obj/item/coffee_cartridge/fancy,
-/obj/item/coffee_cartridge/fancy,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
@@ -479,10 +470,10 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "qE" = (
-/obj/machinery/power/smes/battery_pack/large/precharged,
-/obj/structure/cable,
 /obj/effect/turf_decal/bot_white,
 /obj/structure/extinguisher_cabinet/directional/south,
+/obj/machinery/power/micro_reactor/personal_shuttle,
+/obj/structure/cable,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "rf" = (
@@ -533,6 +524,7 @@
 "tF" = (
 /obj/structure/rack/shelf,
 /obj/effect/turf_decal/bot_white,
+/obj/item/storage/medkit/robotic_repair/preemo/stocked,
 /obj/item/storage/box/bodybags,
 /obj/item/clothing/gloves/latex/nitrile,
 /obj/item/clothing/gloves/latex/nitrile,
@@ -593,12 +585,12 @@
 /area/shuttle/personally_bought/mining_hub)
 "wb" = (
 /obj/effect/turf_decal/bot,
-/obj/structure/closet/secure_closet/wall/personal_shuttle/directional/south,
 /obj/structure/extinguisher_cabinet/directional/west,
 /obj/machinery/light/red/dim/directional/south,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
+/obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "wt" = (
@@ -846,11 +838,6 @@
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
-"CZ" = (
-/obj/structure/cable,
-/obj/machinery/power/terminal,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/mining_hub)
 "Dc" = (
 /obj/effect/turf_decal/delivery,
 /obj/structure/fans/tiny/forcefield,
@@ -891,13 +878,12 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "Er" = (
-/obj/machinery/power/terminal,
 /obj/structure/cable,
-/turf/open/floor/catwalk_floor/iron_dark,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/shuttle/personally_bought/mining_hub)
 "ED" = (
-/obj/machinery/suit_storage_unit/industrial,
 /obj/effect/turf_decal/bot_white,
+/obj/machinery/suit_storage_unit/industrial/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "EO" = (
@@ -913,7 +899,6 @@
 /area/shuttle/personally_bought/mining_hub)
 "Fc" = (
 /obj/effect/turf_decal/bot,
-/obj/structure/closet/firecloset/wall/personal_shuttle/directional/west,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -970,11 +955,8 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "Hk" = (
-/obj/structure/closet/crate/engineering/electrical,
 /obj/effect/turf_decal/bot_white,
-/obj/item/stack/sheet/mineral/plasma/thirty,
-/obj/item/flatpacked_machine/rtg,
-/obj/item/flatpacked_machine/rtg,
+/obj/structure/closet/secure_closet/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "Hq" = (
@@ -1012,6 +994,7 @@
 /obj/effect/turf_decal/bot_white,
 /obj/machinery/light/cold/directional/north,
 /obj/machinery/light_switch/directional/north,
+/obj/item/circuitboard/machine/techfab,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "IF" = (
@@ -1090,8 +1073,8 @@
 /area/shuttle/personally_bought/mining_hub)
 "Ma" = (
 /obj/effect/turf_decal/bot_white,
-/obj/machinery/suit_storage_unit/industrial,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/machinery/suit_storage_unit/industrial/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "Mf" = (
@@ -1176,9 +1159,9 @@
 /area/shuttle/personally_bought/mining_hub)
 "Ol" = (
 /obj/structure/rack/shelf,
-/obj/item/storage/medkit/combat_surgeon/stocked,
-/obj/item/storage/medkit/frontier/stocked,
 /obj/effect/turf_decal/bot_white,
+/obj/item/storage/backpack/duffelbag/deforest_surgical/stocked,
+/obj/item/storage/backpack/duffelbag/deforest_medkit/stocked,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "Ov" = (
@@ -1244,7 +1227,6 @@
 /area/shuttle/personally_bought/mining_hub)
 "PG" = (
 /obj/effect/turf_decal/bot,
-/obj/structure/closet/secure_closet/wall/personal_shuttle/directional/north,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark/smooth_large,
@@ -1289,7 +1271,7 @@
 /area/shuttle/personally_bought/mining_hub)
 "QJ" = (
 /obj/effect/turf_decal/bot,
-/obj/structure/closet/emcloset/wall/personal_shuttle/directional/north,
+/obj/structure/closet/emcloset/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "QN" = (
@@ -1371,12 +1353,12 @@
 /turf/open/floor/iron/smooth,
 /area/shuttle/personally_bought/mining_hub)
 "TM" = (
-/obj/structure/closet/secure_closet/wall/personal_shuttle/directional/south,
 /obj/effect/turf_decal/bot,
 /obj/machinery/light/red/dim/directional/south,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
+/obj/structure/closet/secure_closet/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "Ur" = (
@@ -1385,10 +1367,8 @@
 /area/shuttle/personally_bought/mining_hub)
 "UC" = (
 /obj/machinery/button/door/personal_shuttle_windows/directional/south,
-/obj/machinery/stasissleeper{
-	dir = 8
-	},
 /obj/effect/turf_decal/bot_white,
+/obj/machinery/safe_afk_pod,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "UK" = (
@@ -1403,7 +1383,6 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/closet/emcloset/wall/personal_shuttle/directional/east,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "Wy" = (
@@ -1471,9 +1450,9 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "YB" = (
-/obj/structure/closet/firecloset/wall/personal_shuttle/directional/west,
 /obj/effect/turf_decal/bot,
 /obj/machinery/light/cold/directional/west,
+/obj/structure/closet/firecloset/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "YG" = (
@@ -1514,16 +1493,8 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/personally_bought/mining_hub)
 "ZL" = (
-/obj/structure/closet/crate/cardboard,
-/obj/item/plate,
-/obj/item/plate,
-/obj/item/storage/box/colonial_rations,
-/obj/item/storage/box/colonial_rations,
-/obj/item/storage/box/utensils,
-/obj/item/storage/box/utensils,
-/obj/item/storage/box/utensils,
-/obj/item/knife/combat/survival,
-/obj/effect/turf_decal/bot_white,
+/obj/structure/table/reinforced,
+/obj/machinery/chem_dispenser/frontier_appliance,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 
@@ -1572,7 +1543,7 @@ mb
 mb
 Hk
 hJ
-CZ
+Er
 bp
 mb
 mb
@@ -1609,7 +1580,7 @@ AT
 Iu
 Bb
 hk
-ew
+Yu
 bN
 ql
 ql
@@ -1648,7 +1619,7 @@ AW
 AT
 AT
 AT
-nN
+QJ
 dw
 Oi
 Dc
@@ -1684,7 +1655,7 @@ za
 AT
 AT
 AT
-QJ
+ew
 jB
 pe
 MV
@@ -1803,7 +1774,7 @@ xW
 AT
 ed
 tC
-aE
+QJ
 Ra
 ka
 Mf

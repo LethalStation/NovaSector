@@ -46,6 +46,11 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/people_mover)
+"gV" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/firecloset/personal_shuttle,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/personally_bought/people_mover)
 "hR" = (
 /obj/structure/railing/eva_handhold/directional/south,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
@@ -87,11 +92,6 @@
 /obj/structure/marker_beacon/burgundy,
 /turf/closed/wall/mineral/plastitanium,
 /area/shuttle/personally_bought/people_mover)
-"mr" = (
-/obj/effect/turf_decal/bot,
-/obj/structure/closet/firecloset/wall/personal_shuttle/directional/west,
-/turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/personally_bought/people_mover)
 "np" = (
 /obj/structure/marker_beacon/burgundy,
 /turf/closed/wall/mineral/titanium,
@@ -109,10 +109,6 @@
 /turf/open/floor/plating/airless,
 /area/shuttle/personally_bought/people_mover)
 "or" = (
-/obj/machinery/power/terminal{
-	dir = 4
-	},
-/obj/structure/cable,
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/people_mover)
 "ow" = (
@@ -249,7 +245,7 @@
 	},
 /obj/structure/cable,
 /obj/machinery/light/cold/directional/south,
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/shuttle/personally_bought/people_mover)
 "xN" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
@@ -289,7 +285,7 @@
 "Es" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/bot_white,
-/obj/machinery/power/smes/battery_pack/large/precharged,
+/obj/machinery/power/micro_reactor/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/people_mover)
 "EW" = (
@@ -320,11 +316,8 @@
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/personally_bought/people_mover)
 "Gc" = (
-/obj/structure/closet/crate/engineering/electrical,
 /obj/effect/turf_decal/bot_white,
-/obj/item/stack/sheet/mineral/plasma/thirty,
-/obj/item/flatpacked_machine/rtg,
-/obj/item/flatpacked_machine/rtg,
+/obj/structure/closet/crate/engineering/electrical/personal_shuttle_backup_power,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/people_mover)
 "Gg" = (
@@ -332,9 +325,9 @@
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/personally_bought/people_mover)
 "GF" = (
-/obj/machinery/suit_storage_unit/industrial,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/bot_white,
+/obj/machinery/suit_storage_unit/industrial/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/people_mover)
 "GK" = (
@@ -386,9 +379,7 @@
 /area/shuttle/personally_bought/people_mover)
 "Lj" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/turf_decal/bot,
-/obj/structure/closet/secure_closet/wall/personal_shuttle/directional/east,
-/turf/open/floor/iron/dark/smooth_large,
+/turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/people_mover)
 "Lt" = (
 /obj/structure/railing/eva_handhold/directional/north,
@@ -418,8 +409,7 @@
 /area/shuttle/personally_bought/people_mover)
 "NL" = (
 /obj/structure/cable,
-/obj/structure/closet/crate/large/import,
-/obj/item/flatpacked_machine/fuel_generator,
+/obj/structure/closet/secure_closet/personal_shuttle,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/people_mover)
 "Ok" = (
@@ -444,7 +434,7 @@
 /area/shuttle/personally_bought/people_mover)
 "Qw" = (
 /obj/effect/turf_decal/bot,
-/obj/structure/closet/emcloset/wall/personal_shuttle/directional/west,
+/obj/structure/closet/emcloset/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/people_mover)
 "QF" = (
@@ -477,6 +467,8 @@
 /obj/item/stack/sheet/glass/fifty,
 /obj/item/stack/sheet/iron/fifty,
 /obj/effect/mapping_helpers/airalarm/all_access,
+/obj/item/flatpacked_machine,
+/obj/item/circuitboard/machine/techfab,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/people_mover)
 "Wc" = (
@@ -612,7 +604,7 @@ zg
 MT
 zg
 Fw
-mr
+gV
 qy
 Qw
 Fw

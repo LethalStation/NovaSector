@@ -1,11 +1,11 @@
-/datum/map_template/shuttle/personal_buyable/ferries
-	personal_shuttle_type = PERSONAL_SHIP_TYPE_FERRY
-	port_id = "ferry"
+/datum/map_template/shuttle/personal_buyable/incomplete
+	personal_shuttle_type = PERSONAL_SHIP_TYPE_DIY
+	port_id = "diy"
 
-// Little people mover
+// Small incomplete ship for finishing yourself
 
-/datum/map_template/shuttle/personal_buyable/ferries/people_mover
-	name = "SF Hafila"
+/datum/map_template/shuttle/personal_buyable/incomplete/people_mover
+	name = "SF Khar-Habka"
 	description = "A common shuttle used for ferrying crew short distances. \
 		Has seating for six plus the pilot, as well as basic ship supplies. \
 		Powered by two large power cells, with an onboard SOFIE generator \
