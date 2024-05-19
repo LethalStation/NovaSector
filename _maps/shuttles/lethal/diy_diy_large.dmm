@@ -415,8 +415,7 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/personally_bought/do_it_yourself_large)
 "Ar" = (
-/obj/structure/grille,
-/obj/structure/cable,
+/obj/effect/spawner/structure/electrified_grille,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/do_it_yourself_large)
 "Ax" = (
