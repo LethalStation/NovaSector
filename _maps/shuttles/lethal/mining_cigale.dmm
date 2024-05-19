@@ -897,13 +897,6 @@
 	},
 /turf/open/floor/iron/white/small,
 /area/shuttle/personally_bought/mining_hub)
-"Fc" = (
-/obj/effect/turf_decal/bot,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/personally_bought/mining_hub)
 "Fs" = (
 /obj/structure/chair/plastic,
 /obj/structure/cable,
@@ -1116,16 +1109,11 @@
 /turf/open/floor/iron/smooth,
 /area/shuttle/personally_bought/mining_hub)
 "Nu" = (
-/obj/structure/closet/secure_closet/wall{
-	pixel_x = 32;
-	name = "damage control locker"
-	},
-/obj/effect/turf_decal/bot,
 /obj/machinery/light/warm/directional/east,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/smooth_large,
+/turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "NN" = (
 /obj/structure/fluff/metalpole/anchor{
@@ -1229,12 +1217,6 @@
 	dir = 8
 	},
 /turf/open/floor/iron/smooth,
-/area/shuttle/personally_bought/mining_hub)
-"PG" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "PH" = (
 /obj/effect/turf_decal/bot_white,
@@ -1374,13 +1356,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/airlock/atmos,
-/turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/personally_bought/mining_hub)
-"VF" = (
-/obj/effect/turf_decal/bot,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "Wy" = (
@@ -1614,7 +1589,7 @@ BE
 AT
 AT
 AT
-PG
+Bb
 AW
 AT
 AT
@@ -1850,7 +1825,7 @@ bX
 DJ
 DJ
 DJ
-Fc
+DJ
 Fs
 Eg
 Bb
@@ -1870,7 +1845,7 @@ mh
 zJ
 Px
 DJ
-VF
+ka
 ka
 bN
 BR

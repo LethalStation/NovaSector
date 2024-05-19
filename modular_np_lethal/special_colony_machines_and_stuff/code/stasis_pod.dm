@@ -151,7 +151,7 @@
 
 		return TRUE
 
-	if(!state_open)
+	if(state_open)
 		return FALSE
 
 	pryer.visible_message(
