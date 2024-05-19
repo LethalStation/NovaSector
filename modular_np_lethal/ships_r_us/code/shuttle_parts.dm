@@ -45,7 +45,7 @@
 
 /obj/machinery/computer/shuttle/personally_bought/Initialize(mapload, obj/item/circuitboard/C)
 	. = ..()
-	AddComponent(/datum/component/gps, PERSONAL_SHIP_GPS_TAG)
+	AddComponent(/datum/component/gps, shuttle_gps_tag)
 
 /obj/machinery/computer/shuttle/personally_bought/mothership
 	name = "Mothership Control Console"
