@@ -367,6 +367,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
+/obj/machinery/light/cold/directional/south,
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/do_it_yourself_small)
 

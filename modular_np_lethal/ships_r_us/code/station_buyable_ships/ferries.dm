@@ -46,7 +46,7 @@
 		Has half of the power storage capacity of other ships, but you wouldn't go exploring \
 		in a VIP transport shuttle, would you?"
 	credit_cost = CARGO_CRATE_VALUE * 12
-	suffix = "manzil"
+	suffix = "khasun"
 	width = 23
 	height = 11
 	personal_shuttle_size = PERSONAL_SHIP_MEDIUM

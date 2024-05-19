@@ -37,7 +37,7 @@
 // Big sized incomplete ship
 
 /datum/map_template/shuttle/personal_buyable/incomplete/large
-	name = "SF Khar-Hiktar"
+	name = "SF Khar-Milkia"
 	description = "A large shuttle that comes without most of it's interior. \
 		A popular choice among those who are more of the handy-do-it-yourself type \
 		when it comes to high tech shuttle construction."

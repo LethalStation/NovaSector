@@ -242,9 +242,6 @@
 /obj/effect/turf_decal/tile/neutral/diagonal_centre,
 /turf/open/floor/iron/dark/diagonal,
 /area/shuttle/personally_bought/people_mover)
-"xw" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/template_noop)
 "xz" = (
 /obj/machinery/power/terminal{
 	dir = 4
@@ -274,13 +271,6 @@
 /obj/machinery/button/door/personal_shuttle_windows/directional/east,
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/people_mover)
-"BA" = (
-/obj/structure/fluff/metalpole/end{
-	dir = 4;
-	pixel_x = 32
-	},
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/template_noop)
 "BK" = (
 /obj/structure/railing/eva_handhold/directional/north,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
@@ -686,9 +676,9 @@ Sd
 sa
 pl
 Fw
-xw
-BA
-xw
+Fw
+LJ
+Fw
 Fw
 Fw
 Tw

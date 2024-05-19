@@ -709,12 +709,6 @@
 /obj/machinery/door/airlock/atmos,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/private_liner)
-"YJ" = (
-/obj/effect/turf_decal/bot,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/personally_bought/private_liner)
 "YM" = (
 /obj/structure/closet/secure_closet/personal,
 /obj/effect/turf_decal/bot_white,
@@ -892,7 +886,7 @@ DN
 Kk
 KG
 Kk
-YJ
+tZ
 Xf
 fh
 dc
