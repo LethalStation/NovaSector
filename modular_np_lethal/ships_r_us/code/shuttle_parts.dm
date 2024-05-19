@@ -29,6 +29,40 @@
 		"THROW" = 0,
 	)
 
+/obj/docking_port/mobile/personally_bought/canDock(obj/docking_port/stationary/stationary_dock)
+	if(!istype(stationary_dock))
+		return SHUTTLE_NOT_A_DOCKING_PORT
+
+	if(stationary_dock.override_can_dock_checks)
+		return SHUTTLE_CAN_DOCK
+
+	/*
+	if(dwidth > stationary_dock.dwidth)
+		return SHUTTLE_DWIDTH_TOO_LARGE
+
+	if(width-dwidth > stationary_dock.width-stationary_dock.dwidth)
+		return SHUTTLE_WIDTH_TOO_LARGE
+
+	if(dheight > stationary_dock.dheight)
+		return SHUTTLE_DHEIGHT_TOO_LARGE
+
+	if(height-dheight > stationary_dock.height-stationary_dock.dheight)
+		return SHUTTLE_HEIGHT_TOO_LARGE
+	*/
+
+	//check the dock isn't occupied
+	var/currently_docked = stationary_dock.get_docked()
+	if(currently_docked)
+		// by someone other than us
+		if(currently_docked != src)
+			return SHUTTLE_SOMEONE_ELSE_DOCKED
+		else
+		// This isn't an error, per se, but we can't let the shuttle code
+		// attempt to move us where we currently are, it will get weird.
+			return SHUTTLE_ALREADY_DOCKED
+
+	return SHUTTLE_CAN_DOCK
+
 /obj/item/circuitboard/computer/personally_bought
 	name = "Personal Ship Console"
 	greyscale_colors = CIRCUIT_COLOR_GENERIC
