@@ -29,7 +29,6 @@
 /obj/effect/turf_decal/bot_red,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "cl" = (
@@ -128,16 +127,6 @@
 /obj/machinery/recharger,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
-"go" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 4
-	},
-/obj/structure/cable,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 8
-	},
-/turf/open/floor/iron/smooth_large,
-/area/shuttle/personally_bought/mining_hub)
 "gy" = (
 /obj/structure/rack/shelf,
 /obj/item/storage/toolbox/emergency,
@@ -217,10 +206,12 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "it" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
+/obj/effect/turf_decal/delivery/white,
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
 	},
-/turf/open/floor/iron/smooth_large,
+/turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "iN" = (
 /obj/machinery/button/door/personal_shuttle_bay_one/directional/north,
@@ -244,15 +235,13 @@
 /turf/open/floor/iron/freezer,
 /area/shuttle/personally_bought/mining_hub)
 "jB" = (
-/obj/effect/turf_decal/box/white/corners{
-	dir = 4
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/secure_safe/directional/south,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
 	},
-/obj/effect/turf_decal/box/white/corners{
-	dir = 1
-	},
-/obj/machinery/light/cold/directional/east,
-/obj/machinery/airalarm/directional/east,
-/turf/open/floor/iron/dark/small,
+/turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "jC" = (
 /obj/structure/marker_beacon/bronze,
@@ -423,11 +412,7 @@
 /area/shuttle/personally_bought/mining_hub)
 "pe" = (
 /obj/machinery/button/door/personal_shuttle_bay_three/directional/south,
-/obj/effect/turf_decal/box/white/corners,
-/obj/effect/turf_decal/box/white/corners{
-	dir = 8
-	},
-/turf/open/floor/iron/dark/small,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/personally_bought/mining_hub)
 "pq" = (
 /obj/structure/marker_beacon/burgundy,
@@ -477,11 +462,14 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "rf" = (
-/obj/machinery/computer/crew,
 /obj/effect/turf_decal/bot_white,
 /obj/machinery/airalarm/directional/north,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /obj/machinery/digital_clock/directional/west,
+/obj/structure/rack/shelf,
+/obj/item/storage/toolbox/emergency,
+/obj/item/binoculars,
+/obj/item/trench_tool,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "rq" = (
@@ -665,12 +653,10 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/obj/structure/chair/plastic{
-	dir = 4
-	},
 /obj/effect/turf_decal/tile/dark/half/contrasted{
 	dir = 1
 	},
+/obj/machinery/suit_storage_unit/industrial/personal_shuttle,
 /turf/open/floor/iron/smooth,
 /area/shuttle/personally_bought/mining_hub)
 "za" = (
@@ -759,6 +745,7 @@
 /obj/structure/rack,
 /obj/item/multitool,
 /obj/item/crowbar/large/emergency,
+/obj/effect/turf_decal/bot_white,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "AD" = (
@@ -967,11 +954,11 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "HK" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "HS" = (
@@ -1074,7 +1061,7 @@
 "Ma" = (
 /obj/effect/turf_decal/bot_white,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/obj/machinery/suit_storage_unit/industrial/personal_shuttle,
+/obj/structure/closet/secure_closet/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "Mf" = (
@@ -1098,6 +1085,7 @@
 /area/shuttle/personally_bought/mining_hub)
 "Mw" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/light/cold/directional/east,
 /turf/open/floor/iron/smooth,
 /area/shuttle/personally_bought/mining_hub)
 "MV" = (
@@ -1232,13 +1220,8 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "PH" = (
-/obj/structure/rack/shelf,
-/obj/item/storage/toolbox/emergency,
-/obj/item/binoculars,
-/obj/item/trench_tool,
 /obj/effect/turf_decal/bot_white,
-/obj/structure/secure_safe/directional/north,
-/turf/open/floor/iron/dark/smooth_large,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/personally_bought/mining_hub)
 "PT" = (
 /obj/structure/chair/plastic{
@@ -1274,10 +1257,6 @@
 /obj/structure/closet/emcloset/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
-"QN" = (
-/obj/structure/marker_beacon/burgundy,
-/turf/closed/wall/mineral/titanium,
-/area/space)
 "QY" = (
 /obj/machinery/power/shuttle_engine/heater{
 	dir = 8
@@ -1428,6 +1407,8 @@
 /obj/effect/turf_decal/box/white/corners{
 	dir = 4
 	},
+/obj/machinery/airalarm/directional/east,
+/obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/iron/dark/small,
 /area/shuttle/personally_bought/mining_hub)
 "Yd" = (
@@ -1656,7 +1637,7 @@ AT
 AT
 AT
 ew
-jB
+AT
 pe
 MV
 "}
@@ -1675,7 +1656,7 @@ AT
 AT
 AT
 AT
-AT
+ko
 wI
 "}
 (11,1,1) = {"
@@ -1691,10 +1672,10 @@ Zk
 AT
 AT
 Yd
-ED
-AT
-YW
-xW
+tC
+qp
+Rf
+GD
 "}
 (12,1,1) = {"
 xW
@@ -1711,8 +1692,8 @@ YB
 tC
 KV
 AT
-xW
-xW
+AT
+YW
 "}
 (13,1,1) = {"
 xW
@@ -1856,7 +1837,7 @@ Eg
 Bb
 qp
 Rf
-GD
+it
 "}
 (21,1,1) = {"
 ZH
@@ -1941,7 +1922,7 @@ nD
 AT
 rf
 fm
-DJ
+jB
 AT
 jN
 tO
@@ -1949,7 +1930,7 @@ UC
 MV
 "}
 (26,1,1) = {"
-QN
+Zl
 AT
 es
 tU
@@ -1976,8 +1957,8 @@ AT
 AT
 AT
 PH
-it
-go
+ul
+OF
 AT
 AT
 AT
@@ -1992,31 +1973,13 @@ cu
 YW
 xW
 xW
-YW
-AT
-ul
-OF
-AT
-xW
-jC
-py
-xW
-"}
-(29,1,1) = {"
-xW
-xW
-xW
-xW
-xW
-xW
-xW
 xW
 YW
 ug
 Pk
 YW
 xW
-xW
-xW
+jC
+py
 xW
 "}

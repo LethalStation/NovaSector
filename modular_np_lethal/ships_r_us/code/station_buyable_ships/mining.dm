@@ -11,7 +11,7 @@
 		and maintenance bays, as well as crew quarters."
 	credit_cost = CARGO_CRATE_VALUE * 16
 	suffix = "cigale"
-	width = 29
+	width = 28
 	height = 16
 	personal_shuttle_size = PERSONAL_SHIP_LARGE
 
