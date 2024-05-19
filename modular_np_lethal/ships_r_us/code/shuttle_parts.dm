@@ -40,14 +40,20 @@
 	circuit = /obj/item/circuitboard/computer/personally_bought
 	shuttleId = "shuttle_personal"
 	possible_destinations = "whiteship_away;whiteship_home;whiteship_z4;whiteship_waystation;whiteship_lavaland;personal_ship_custom"
-
-#define PERSONAL_SHIP_GPS_TAG "Shuttle Homing Beacon"
+	/// What our GPS tag name is
+	var/shuttle_gps_tag = "Shuttle Homing Beacon"
 
 /obj/machinery/computer/shuttle/personally_bought/Initialize(mapload, obj/item/circuitboard/C)
 	. = ..()
 	AddComponent(/datum/component/gps, PERSONAL_SHIP_GPS_TAG)
 
-#undef PERSONAL_SHIP_GPS_TAG
+/obj/machinery/computer/shuttle/personally_bought/mothership
+	name = "Mothership Control Console"
+	desc = "Used to control the ship its currently in, ideally."
+	circuit = /obj/item/circuitboard/computer/personally_bought
+	shuttleId = "shuttle_personal"
+	possible_destinations = "whiteship_away;whiteship_home;whiteship_z4;whiteship_waystation;whiteship_lavaland;personal_ship_custom"
+	shuttle_gps_tag = "Mothership Homing Beacon"
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/personally_bought
 	name = "Personal Ship Navigation Computer"
@@ -57,6 +63,15 @@
 	shuttlePortId = "personal_ship_custom"
 	jump_to_ports = list("whiteship_away" = 1, "whiteship_home" = 1, "whiteship_z4" = 1, "whiteship_waystation" = 1)
 	designate_time = 5 SECONDS
+
+/obj/machinery/computer/camera_advanced/shuttle_docker/personally_bought/mothership
+	name = "Moterhship Navigation Computer"
+	desc = "Used to designate a precise transit location for the ship its currently in, ideally."
+	shuttleId = "shuttle_personal"
+	lock_override = NONE
+	shuttlePortId = "personal_ship_custom"
+	jump_to_ports = list("whiteship_away" = 1, "whiteship_home" = 1, "whiteship_z4" = 1, "whiteship_waystation" = 1)
+	designate_time = 10 SECONDS
 
 // Decorative parts for the ships
 

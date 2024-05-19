@@ -159,14 +159,10 @@
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/house_boat)
 "yR" = (
-/obj/structure/fluff/metalpole/end{
-	dir = 4;
-	pixel_x = 32
-	},
 /obj/machinery/porta_turret/centcom_shuttle/weak{
 	dir = 4
 	},
-/turf/closed/wall/mineral/titanium/nodiagonal,
+/turf/closed/wall/mineral/titanium,
 /area/shuttle/personally_bought/house_boat)
 "yZ" = (
 /obj/machinery/power/shuttle_engine/heater{
@@ -253,7 +249,11 @@
 /area/shuttle/personally_bought/house_boat)
 "Em" = (
 /obj/structure/marker_beacon/bronze,
-/turf/closed/wall/mineral/titanium,
+/obj/structure/fluff/metalpole/end{
+	dir = 4;
+	pixel_x = 32
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/personally_bought/house_boat)
 "Ev" = (
 /obj/structure/fluff/metalpole/end{
@@ -309,6 +309,7 @@
 	dir = 1
 	},
 /obj/docking_port/mobile/personally_bought,
+/obj/structure/fans/tiny,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/house_boat)
 "Im" = (

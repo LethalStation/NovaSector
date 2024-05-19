@@ -114,10 +114,6 @@
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/do_it_yourself_medium)
 "yR" = (
-/obj/structure/fluff/metalpole/end{
-	dir = 4;
-	pixel_x = 32
-	},
 /obj/machinery/porta_turret/centcom_shuttle/weak{
 	dir = 4
 	},
@@ -197,6 +193,10 @@
 /area/shuttle/personally_bought/do_it_yourself_medium)
 "Em" = (
 /obj/structure/marker_beacon/bronze,
+/obj/structure/fluff/metalpole/end{
+	dir = 4;
+	pixel_x = 32
+	},
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/personally_bought/do_it_yourself_medium)
 "Ev" = (
@@ -247,6 +247,7 @@
 	dir = 1
 	},
 /obj/docking_port/mobile/personally_bought,
+/obj/structure/fans/tiny,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/do_it_yourself_medium)
 "Im" = (

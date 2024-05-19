@@ -101,7 +101,9 @@
 "eo" = (
 /obj/machinery/button/door/personal_shuttle_bay_three/directional/south,
 /obj/effect/turf_decal/box/white/corners,
-/turf/open/floor/iron/dark/small,
+/obj/effect/turf_decal/tile/neutral/diagonal_centre,
+/obj/effect/turf_decal/tile/neutral/diagonal_edge,
+/turf/open/floor/iron/dark/diagonal,
 /area/shuttle/personally_bought/mining_hub)
 "es" = (
 /obj/structure/sign/poster/contraband/mothic_rations/directional/north,
@@ -245,11 +247,17 @@
 /obj/machinery/light/cold/directional/east,
 /obj/machinery/airalarm/directional/east,
 /obj/effect/mapping_helpers/airalarm/all_access,
-/turf/open/floor/iron/dark/small,
+/obj/effect/turf_decal/tile/neutral/diagonal_centre,
+/obj/effect/turf_decal/tile/neutral/diagonal_edge,
+/turf/open/floor/iron/dark/diagonal,
 /area/shuttle/personally_bought/mining_hub)
 "jC" = (
 /obj/structure/marker_beacon/bronze,
-/turf/closed/wall/mineral/titanium,
+/obj/structure/fluff/metalpole/end{
+	dir = 4;
+	pixel_x = 32
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/personally_bought/mining_hub)
 "jN" = (
 /obj/structure/bed/pod,
@@ -395,7 +403,9 @@
 /area/shuttle/personally_bought/mining_hub)
 "oA" = (
 /obj/effect/turf_decal/box/white/corners,
-/turf/open/floor/iron/dark/small,
+/obj/effect/turf_decal/tile/neutral/diagonal_centre,
+/obj/effect/turf_decal/tile/neutral/diagonal_edge,
+/turf/open/floor/iron/dark/diagonal,
 /area/shuttle/personally_bought/mining_hub)
 "oT" = (
 /obj/effect/turf_decal/delivery,
@@ -420,21 +430,19 @@
 /obj/effect/turf_decal/box/white/corners{
 	dir = 8
 	},
-/turf/open/floor/iron/dark/small,
+/obj/effect/turf_decal/tile/neutral/diagonal_centre,
+/obj/effect/turf_decal/tile/neutral/diagonal_edge,
+/turf/open/floor/iron/dark/diagonal,
 /area/shuttle/personally_bought/mining_hub)
 "pq" = (
 /obj/structure/marker_beacon/burgundy,
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/personally_bought/mining_hub)
 "py" = (
-/obj/structure/fluff/metalpole/end{
-	dir = 4;
-	pixel_x = 32
-	},
 /obj/machinery/porta_turret/centcom_shuttle/weak{
 	dir = 4
 	},
-/turf/closed/wall/mineral/titanium/nodiagonal,
+/turf/closed/wall/mineral/titanium,
 /area/shuttle/personally_bought/mining_hub)
 "pH" = (
 /obj/effect/turf_decal/tile/dark{
@@ -452,7 +460,9 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "ql" = (
-/turf/open/floor/iron/dark/small,
+/obj/effect/turf_decal/tile/neutral/diagonal_centre,
+/obj/effect/turf_decal/tile/neutral/diagonal_edge,
+/turf/open/floor/iron/dark/diagonal,
 /area/shuttle/personally_bought/mining_hub)
 "qp" = (
 /obj/effect/turf_decal/delivery/white,
@@ -506,6 +516,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
 /turf/open/floor/plating/airless,
 /area/shuttle/personally_bought/mining_hub)
 "sI" = (
@@ -555,15 +566,6 @@
 "uw" = (
 /obj/structure/marker_beacon/burgundy,
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/personally_bought/mining_hub)
-"uF" = (
-/obj/machinery/power/shuttle_engine/heater{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plating/airless,
 /area/shuttle/personally_bought/mining_hub)
 "uQ" = (
 /obj/structure/cable,
@@ -629,6 +631,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
 /turf/open/floor/plating/airless,
 /area/shuttle/personally_bought/mining_hub)
 "xN" = (
@@ -911,7 +914,9 @@
 /obj/effect/turf_decal/box/white/corners{
 	dir = 8
 	},
-/turf/open/floor/iron/dark/small,
+/obj/effect/turf_decal/tile/neutral/diagonal_centre,
+/obj/effect/turf_decal/tile/neutral/diagonal_edge,
+/turf/open/floor/iron/dark/diagonal,
 /area/shuttle/personally_bought/mining_hub)
 "FM" = (
 /obj/structure/fake_stairs/directional/south,
@@ -920,7 +925,9 @@
 "FY" = (
 /obj/machinery/light/cold/directional/west,
 /obj/structure/extinguisher_cabinet/directional/west,
-/turf/open/floor/iron/dark/small,
+/obj/effect/turf_decal/tile/neutral/diagonal_centre,
+/obj/effect/turf_decal/tile/neutral/diagonal_edge,
+/turf/open/floor/iron/dark/diagonal,
 /area/shuttle/personally_bought/mining_hub)
 "Gp" = (
 /obj/machinery/power/shuttle_engine/heater{
@@ -948,6 +955,7 @@
 	dir = 1
 	},
 /obj/docking_port/mobile/personally_bought,
+/obj/structure/fans/tiny,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "Hk" = (
@@ -1302,7 +1310,9 @@
 /obj/effect/turf_decal/box/white/corners{
 	dir = 1
 	},
-/turf/open/floor/iron/dark/small,
+/obj/effect/turf_decal/tile/neutral/diagonal_centre,
+/obj/effect/turf_decal/tile/neutral/diagonal_edge,
+/turf/open/floor/iron/dark/diagonal,
 /area/shuttle/personally_bought/mining_hub)
 "Sc" = (
 /obj/effect/turf_decal/tile/dark/half/contrasted{
@@ -1419,7 +1429,9 @@
 /obj/effect/turf_decal/box/white/corners{
 	dir = 4
 	},
-/turf/open/floor/iron/dark/small,
+/obj/effect/turf_decal/tile/neutral/diagonal_centre,
+/obj/effect/turf_decal/tile/neutral/diagonal_edge,
+/turf/open/floor/iron/dark/diagonal,
 /area/shuttle/personally_bought/mining_hub)
 "Yd" = (
 /obj/structure/rack/shelf,
@@ -1512,14 +1524,14 @@ uw
 NU
 il
 sv
-uF
-mb
-Gp
-Gp
-Gp
 Gp
 mb
-uF
+Gp
+Gp
+Gp
+Gp
+mb
+Gp
 xs
 cq
 NU
