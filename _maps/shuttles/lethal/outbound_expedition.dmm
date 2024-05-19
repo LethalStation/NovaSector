@@ -44,6 +44,11 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/mothership)
+"bA" = (
+/obj/structure/cable,
+/obj/effect/landmark/start/scientist,
+/turf/open/floor/iron/white/small,
+/area/shuttle/personally_bought/mothership)
 "cq" = (
 /obj/machinery/vending/cola/black,
 /obj/effect/turf_decal/bot_white,
@@ -98,6 +103,7 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/landmark/start/head_of_personnel,
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "da" = (
@@ -137,6 +143,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
+/obj/effect/landmark/start/lawyer,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "dZ" = (
@@ -191,6 +198,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/item/radio/intercom/directional/east,
+/obj/effect/landmark/start/atmospheric_technician,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/shuttle/personally_bought/mothership)
 "gl" = (
@@ -204,6 +212,7 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+/obj/effect/landmark/start/research_director,
 /turf/open/floor/iron/white/small,
 /area/shuttle/personally_bought/mothership)
 "gr" = (
@@ -231,6 +240,7 @@
 /obj/machinery/power/terminal{
 	dir = 4
 	},
+/obj/effect/landmark/start/station_engineer,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/shuttle/personally_bought/mothership)
 "hd" = (
@@ -311,6 +321,7 @@
 /obj/machinery/airalarm/directional/north,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /obj/effect/turf_decal/bot_white,
+/obj/effect/landmark/start/psychologist,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "jl" = (
@@ -334,6 +345,7 @@
 /obj/structure/curtain/bounty,
 /obj/structure/secure_safe/directional/east,
 /obj/structure/extinguisher_cabinet/directional/south,
+/obj/effect/landmark/start/librarian,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "jv" = (
@@ -344,7 +356,10 @@
 "jL" = (
 /obj/item/radio/intercom/directional/north,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/floor/iron/smooth_large,
+/obj/effect/landmark/start/cyborg,
+/obj/machinery/recharge_station,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "jR" = (
 /obj/effect/turf_decal/stripes/red/line{
@@ -374,6 +389,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
+/obj/effect/landmark/start/assistant,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "kl" = (
@@ -430,6 +446,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
+/obj/effect/landmark/start/assistant,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "lu" = (
@@ -456,6 +473,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
+/obj/effect/landmark/start/janitor,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "mO" = (
@@ -463,7 +481,21 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/bot_white,
+/obj/effect/landmark/start/chaplain,
 /turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/personally_bought/mothership)
+"nd" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/landmark/start/chemist,
+/turf/open/floor/iron/white/small,
+/area/shuttle/personally_bought/mothership)
+"nk" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/landmark/start/mime,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/shuttle/personally_bought/mothership)
 "nm" = (
 /obj/structure/rack/shelf,
@@ -483,6 +515,13 @@
 	port_direction = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/personally_bought/mothership)
+"nM" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/landmark/start/cook,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/shuttle/personally_bought/mothership)
 "nN" = (
 /obj/machinery/computer/operating{
@@ -580,6 +619,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/landmark/start/science_guard,
 /turf/open/floor/iron/white/small,
 /area/shuttle/personally_bought/mothership)
 "qi" = (
@@ -589,6 +629,7 @@
 /obj/structure/curtain/bounty,
 /obj/structure/secure_safe/directional/west,
 /obj/machinery/newscaster/directional/south,
+/obj/effect/landmark/start/detective,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "qm" = (
@@ -656,6 +697,11 @@
 	},
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/personally_bought/mothership)
+"sg" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/landmark/start/shaft_miner,
+/turf/open/floor/iron/smooth_large,
+/area/shuttle/personally_bought/mothership)
 "tp" = (
 /obj/structure/table/optable,
 /obj/machinery/cell_charger_multi/wall_mounted/directional/east,
@@ -694,6 +740,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/bot_white,
+/obj/effect/landmark/start/cargo_technician,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "uw" = (
@@ -740,6 +787,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/bot_white,
+/obj/effect/landmark/start/customs_agent,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "vn" = (
@@ -772,16 +820,13 @@
 /area/shuttle/personally_bought/mothership)
 "vL" = (
 /obj/effect/turf_decal/bot_white,
-/obj/effect/spawner/random/structure/tank_holder,
-/obj/structure/railing{
-	dir = 8
-	},
 /obj/machinery/light/red/dim/directional/east,
 /obj/structure/extinguisher_cabinet/directional/south,
 /obj/machinery/camera/autoname/directional/east,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
+/obj/machinery/recharge_station,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "wb" = (
@@ -821,7 +866,14 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+/obj/effect/landmark/start/quartermaster,
 /turf/open/floor/iron/smooth,
+/area/shuttle/personally_bought/mothership)
+"xr" = (
+/obj/structure/cable,
+/obj/machinery/power/terminal,
+/obj/effect/landmark/start/station_engineer,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/shuttle/personally_bought/mothership)
 "xC" = (
 /obj/structure/cable,
@@ -889,6 +941,7 @@
 /obj/structure/bed/pod,
 /obj/structure/curtain/bounty,
 /obj/structure/secure_safe/directional/east,
+/obj/effect/landmark/start/head_of_security,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "zl" = (
@@ -907,6 +960,7 @@
 "zG" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/structure/cable,
+/obj/effect/landmark/start/captain,
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "zT" = (
@@ -922,6 +976,7 @@
 /obj/machinery/light/cold/directional/north,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/effect/turf_decal/bot_white,
+/obj/effect/landmark/start/bouncer,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "An" = (
@@ -955,6 +1010,13 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
+/area/shuttle/personally_bought/mothership)
+"Br" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/landmark/start/clown,
+/turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "By" = (
 /obj/effect/turf_decal/stripes/red/line{
@@ -997,6 +1059,13 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/mothership)
+"Cq" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/item/beacon,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/personally_bought/mothership)
 "CB" = (
 /obj/machinery/computer/crew{
 	dir = 4
@@ -1038,16 +1107,13 @@
 /area/shuttle/personally_bought/mothership)
 "Dt" = (
 /obj/effect/turf_decal/bot_white,
-/obj/effect/spawner/random/structure/tank_holder,
-/obj/structure/railing{
-	dir = 8
-	},
 /obj/machinery/light/red/dim/directional/east,
 /obj/structure/extinguisher_cabinet/directional/north,
 /obj/machinery/camera/autoname/directional/east,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
+/obj/machinery/recharge_station,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "DC" = (
@@ -1099,6 +1165,7 @@
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/personally_bought/mothership)
 "En" = (
+/obj/effect/landmark/start/chief_medical_officer,
 /turf/open/floor/iron/white/small,
 /area/shuttle/personally_bought/mothership)
 "EH" = (
@@ -1106,6 +1173,11 @@
 	pixel_y = -32
 	},
 /turf/closed/wall/mineral/titanium/nodiagonal,
+/area/shuttle/personally_bought/mothership)
+"EI" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/landmark/start/shaft_miner,
+/turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "EP" = (
 /obj/effect/turf_decal/bot_white,
@@ -1192,6 +1264,19 @@
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
+"GU" = (
+/obj/effect/turf_decal/tile/neutral/diagonal_centre,
+/obj/effect/turf_decal/tile/neutral/diagonal_edge,
+/obj/item/beacon,
+/turf/open/floor/iron/dark/diagonal,
+/area/shuttle/personally_bought/mothership)
+"GY" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/effect/landmark/start/roboticist,
+/turf/open/floor/iron/white/small,
+/area/shuttle/personally_bought/mothership)
 "Ha" = (
 /obj/effect/turf_decal/tile/neutral/diagonal_centre,
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
@@ -1242,6 +1327,7 @@
 /obj/structure/chair/comfy/shuttle,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/effect/turf_decal/bot_white,
+/obj/effect/landmark/start/orderly,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "HT" = (
@@ -1255,6 +1341,13 @@
 /obj/effect/turf_decal/bot_white,
 /obj/item/radio/intercom/directional/east,
 /turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/personally_bought/mothership)
+"In" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/landmark/start/paramedic,
+/turf/open/floor/iron/white/small,
 /area/shuttle/personally_bought/mothership)
 "Ix" = (
 /obj/machinery/iv_drip/saline,
@@ -1338,6 +1431,7 @@
 /obj/structure/curtain,
 /obj/effect/turf_decal/bot_white,
 /obj/machinery/newscaster/directional/south,
+/obj/effect/landmark/start/warden,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "LH" = (
@@ -1398,12 +1492,17 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
+/obj/effect/landmark/start/bartender,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "MU" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
+	},
+/obj/effect/landmark/start/blueshield,
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
 	},
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/mothership)
@@ -1422,6 +1521,14 @@
 "Nd" = (
 /obj/structure/closet/firecloset/personal_shuttle,
 /obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/personally_bought/mothership)
+"Ni" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/obj/effect/turf_decal/bot_white,
+/obj/effect/landmark/start/bitrunner,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "Nm" = (
@@ -1467,17 +1574,20 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /obj/effect/turf_decal/bot_white,
+/obj/effect/landmark/start/geneticist,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "Oa" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/landmark/start/station_engineer,
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "Oq" = (
 /obj/item/radio/intercom/directional/west,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/landmark/start/corrections_officer,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/shuttle/personally_bought/mothership)
 "Ot" = (
@@ -1491,7 +1601,10 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
-/turf/open/floor/iron/smooth_large,
+/obj/effect/landmark/start/cyborg,
+/obj/machinery/recharge_station,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "OA" = (
 /obj/structure/bed/pod{
@@ -1499,16 +1612,16 @@
 	},
 /obj/structure/curtain/bounty,
 /obj/structure/secure_safe/directional/west,
+/obj/effect/landmark/start/security_officer,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "OB" = (
 /obj/effect/turf_decal/bot_white,
 /obj/item/radio/intercom/directional/north,
 /obj/machinery/light/red/dim/directional/north,
-/obj/effect/spawner/random/structure/tank_holder,
-/obj/structure/railing,
 /obj/machinery/camera/autoname/directional/north,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/machinery/recharge_station,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "OO" = (
@@ -1615,7 +1728,14 @@
 "RV" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/meter/layer2,
+/obj/effect/landmark/start/atmospheric_technician,
 /turf/open/floor/iron/smooth_large,
+/area/shuttle/personally_bought/mothership)
+"Sl" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/landmark/start/coroner,
+/turf/open/floor/iron/white/small,
 /area/shuttle/personally_bought/mothership)
 "Sm" = (
 /obj/structure/cable,
@@ -1638,6 +1758,7 @@
 	dir = 8
 	},
 /obj/item/radio/intercom/command/directional/south,
+/obj/effect/landmark/start/chief_engineer,
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "Tw" = (
@@ -1728,6 +1849,7 @@
 /obj/structure/chair/comfy/shuttle,
 /obj/machinery/camera/autoname/directional/west,
 /obj/effect/turf_decal/bot_white,
+/obj/effect/landmark/start/botanist,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "Wd" = (
@@ -1747,6 +1869,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
+/obj/effect/landmark/start/engineering_guard,
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "Xa" = (
@@ -1755,6 +1878,7 @@
 /obj/machinery/airalarm/directional/east,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/landmark/start/nanotrasen_consultant,
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "Xs" = (
@@ -1782,6 +1906,10 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/diagonal,
+/area/shuttle/personally_bought/mothership)
+"XZ" = (
+/obj/effect/landmark/start/medical_doctor,
+/turf/open/floor/iron/white/small,
 /area/shuttle/personally_bought/mothership)
 "Yu" = (
 /obj/effect/turf_decal/tile/neutral/diagonal_centre,
@@ -1826,6 +1954,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
+/obj/effect/landmark/start/barber,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "ZK" = (
@@ -1928,7 +2057,7 @@ Wz
 en
 tL
 dJ
-Nr
+xr
 uZ
 Iy
 EH
@@ -2024,7 +2153,7 @@ gl
 tL
 tL
 Mu
-be
+Br
 LH
 tL
 tL
@@ -2044,7 +2173,7 @@ ws
 lq
 tL
 rA
-hZ
+nM
 US
 gw
 tL
@@ -2063,8 +2192,8 @@ CU
 ws
 qc
 ws
-qc
-hZ
+nk
+Cq
 jv
 rH
 Oq
@@ -2247,7 +2376,7 @@ hZ
 tv
 Kp
 tv
-tv
+sg
 iX
 lJ
 Nm
@@ -2264,7 +2393,7 @@ DN
 tL
 wT
 hZ
-ub
+Ni
 tL
 wY
 eB
@@ -2288,7 +2417,7 @@ ub
 tL
 tL
 Kq
-qy
+GU
 qy
 OY
 aa
@@ -2326,7 +2455,7 @@ gs
 hZ
 Nw
 GQ
-Nw
+EI
 Nw
 Cn
 lJ
@@ -2427,7 +2556,7 @@ bg
 tL
 tL
 cr
-En
+XZ
 vv
 En
 Cm
@@ -2466,10 +2595,10 @@ HI
 uX
 bs
 Sm
-Sm
-Sm
+nd
+In
 ku
-ku
+Sl
 hd
 Hu
 aa
@@ -2550,7 +2679,7 @@ Sm
 Sm
 Sm
 ku
-hd
+bA
 dN
 aa
 aa
@@ -2569,7 +2698,7 @@ DN
 gp
 if
 Ux
-tt
+GY
 lH
 dN
 aa

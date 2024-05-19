@@ -60,7 +60,7 @@
 "dw" = (
 /obj/structure/cable,
 /obj/machinery/button/door/personal_shuttle_bay_three/directional/south,
-/turf/open/floor/catwalk_floor/iron_dark,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/shuttle/personally_bought/do_it_yourself_large)
 "eo" = (
 /obj/structure/table/reinforced,
@@ -304,7 +304,7 @@
 "tO" = (
 /obj/effect/turf_decal/bot_white,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/obj/machinery/suit_storage_unit/industrial/personal_shuttle,
+/obj/machinery/recharge_station,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/do_it_yourself_large)
 "uf" = (
