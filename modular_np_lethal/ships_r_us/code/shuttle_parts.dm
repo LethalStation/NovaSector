@@ -29,6 +29,40 @@
 		"THROW" = 0,
 	)
 
+/obj/docking_port/mobile/personally_bought/canDock(obj/docking_port/stationary/stationary_dock)
+	if(!istype(stationary_dock))
+		return SHUTTLE_NOT_A_DOCKING_PORT
+
+	if(stationary_dock.override_can_dock_checks)
+		return SHUTTLE_CAN_DOCK
+
+	/*
+	if(dwidth > stationary_dock.dwidth)
+		return SHUTTLE_DWIDTH_TOO_LARGE
+
+	if(width-dwidth > stationary_dock.width-stationary_dock.dwidth)
+		return SHUTTLE_WIDTH_TOO_LARGE
+
+	if(dheight > stationary_dock.dheight)
+		return SHUTTLE_DHEIGHT_TOO_LARGE
+
+	if(height-dheight > stationary_dock.height-stationary_dock.dheight)
+		return SHUTTLE_HEIGHT_TOO_LARGE
+	*/
+
+	//check the dock isn't occupied
+	var/currently_docked = stationary_dock.get_docked()
+	if(currently_docked)
+		// by someone other than us
+		if(currently_docked != src)
+			return SHUTTLE_SOMEONE_ELSE_DOCKED
+		else
+		// This isn't an error, per se, but we can't let the shuttle code
+		// attempt to move us where we currently are, it will get weird.
+			return SHUTTLE_ALREADY_DOCKED
+
+	return SHUTTLE_CAN_DOCK
+
 /obj/item/circuitboard/computer/personally_bought
 	name = "Personal Ship Console"
 	greyscale_colors = CIRCUIT_COLOR_GENERIC
@@ -40,14 +74,20 @@
 	circuit = /obj/item/circuitboard/computer/personally_bought
 	shuttleId = "shuttle_personal"
 	possible_destinations = "whiteship_away;whiteship_home;whiteship_z4;whiteship_waystation;whiteship_lavaland;personal_ship_custom"
-
-#define PERSONAL_SHIP_GPS_TAG "Shuttle Homing Beacon"
+	/// What our GPS tag name is
+	var/shuttle_gps_tag = "Shuttle Homing Beacon"
 
 /obj/machinery/computer/shuttle/personally_bought/Initialize(mapload, obj/item/circuitboard/C)
 	. = ..()
-	AddComponent(/datum/component/gps, PERSONAL_SHIP_GPS_TAG)
+	AddComponent(/datum/component/gps, shuttle_gps_tag)
 
-#undef PERSONAL_SHIP_GPS_TAG
+/obj/machinery/computer/shuttle/personally_bought/mothership
+	name = "Mothership Control Console"
+	desc = "Used to control the ship its currently in, ideally."
+	circuit = /obj/item/circuitboard/computer/personally_bought
+	shuttleId = "shuttle_personal"
+	possible_destinations = "whiteship_away;mothership_home;whiteship_z4;whiteship_waystation;whiteship_lavaland;personal_ship_custom"
+	shuttle_gps_tag = "Mothership Homing Beacon"
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/personally_bought
 	name = "Personal Ship Navigation Computer"
@@ -57,6 +97,15 @@
 	shuttlePortId = "personal_ship_custom"
 	jump_to_ports = list("whiteship_away" = 1, "whiteship_home" = 1, "whiteship_z4" = 1, "whiteship_waystation" = 1)
 	designate_time = 5 SECONDS
+
+/obj/machinery/computer/camera_advanced/shuttle_docker/personally_bought/mothership
+	name = "Moterhship Navigation Computer"
+	desc = "Used to designate a precise transit location for the ship its currently in, ideally."
+	shuttleId = "shuttle_personal"
+	lock_override = NONE
+	shuttlePortId = "personal_ship_custom"
+	jump_to_ports = list("whiteship_away" = 1, "mothership_home" = 1, "whiteship_z4" = 1, "whiteship_waystation" = 1)
+	designate_time = 10 SECONDS
 
 // Decorative parts for the ships
 
