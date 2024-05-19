@@ -187,6 +187,7 @@
 	valid_shuttle_templates = list(
 		/datum/map_template/shuttle/personal_buyable/ferries,
 		/datum/map_template/shuttle/personal_buyable/mining,
+		/datum/map_template/shuttle/personal_buyable/incomplete,
 	)
 
 /obj/item/circuitboard/computer/personal_shuttle_order/station

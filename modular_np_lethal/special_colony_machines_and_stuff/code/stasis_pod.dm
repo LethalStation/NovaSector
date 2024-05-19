@@ -8,7 +8,7 @@
 	icon_state = "safepod"
 	base_icon_state = "safepod"
 	max_integrity = 300
-	obj_flags = BLOCKS_CONSTRUCTION | NO_DECONSTRUCTION
+	obj_flags = BLOCKS_CONSTRUCTION
 	circuit = null
 	state_open = TRUE
 	/// The contents of the gas to be distributed to an occupant. Set in Initialize()
@@ -18,6 +18,12 @@
 	. = ..()
 	RegisterSignal(src, COMSIG_MACHINERY_POWER_LOST, PROC_REF(on_power_loss))
 	refresh_air()
+
+/obj/machinery/safe_afk_pod/default_deconstruction_screwdriver(mob/user, icon_state_open, icon_state_closed, obj/item/screwdriver)
+	return NONE
+
+/obj/machinery/safe_afk_pod/default_deconstruction_crowbar(obj/item/crowbar, ignore_panel, custom_deconstruct)
+	return NONE
 
 /obj/machinery/safe_afk_pod/Destroy()
 	if(air_contents)
@@ -135,7 +141,7 @@
 	add_healing(occupant)
 
 /obj/machinery/safe_afk_pod/default_pry_open(obj/item/crowbar, mob/living/pryer)
-	if(isnull(occupant) || !iscarbon(occupant))
+	if(isnull(occupant))
 		if(!state_open)
 			if(panel_open)
 				return FALSE
@@ -145,6 +151,9 @@
 
 		return TRUE
 
+	if(!state_open)
+		return FALSE
+
 	pryer.visible_message(
 		span_danger("[pryer] starts prying open [src]!"),
 		span_notice("You start to pry open [src]."),
@@ -152,9 +161,8 @@
 	)
 	playsound(src, 'sound/machines/airlock_alien_prying.ogg', 100, TRUE)
 
-	if(do_after(pryer, 15 SECONDS, src))
-		if(!state_open)
-			open_machine()
+	if(do_after(pryer, 10 SECONDS, src))
+		open_machine()
 
 	return TRUE
 

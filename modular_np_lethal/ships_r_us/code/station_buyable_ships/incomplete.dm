@@ -4,52 +4,32 @@
 
 // Small incomplete ship for finishing yourself
 
-/datum/map_template/shuttle/personal_buyable/incomplete/people_mover
+/datum/map_template/shuttle/personal_buyable/incomplete/small
 	name = "SF Khar-Habka"
-	description = "A common shuttle used for ferrying crew short distances. \
-		Has seating for six plus the pilot, as well as basic ship supplies. \
-		Powered by two large power cells, with an onboard SOFIE generator \
-		as backup in case those cells run dry."
-	credit_cost = CARGO_CRATE_VALUE * 8
-	suffix = "hafila"
+	description = "A small-sized shuttle that comes without most of it's interior. \
+		A popular choice among those who are more of the handy-do-it-yourself type \
+		when it comes to high tech shuttle construction."
+	credit_cost = CARGO_CRATE_VALUE * 6
+	suffix = "diy_small"
 	width = 15
 	height = 11
-	personal_shuttle_size = PERSONAL_SHIP_MEDIUM
+	personal_shuttle_size = PERSONAL_SHIP_SMALL
 
-/area/shuttle/personally_bought/people_mover
-	name = "SF Hafila"
+/area/shuttle/personally_bought/do_it_yourself_small
+	name = "SF Khar-Habka"
 
 // Personal ship with some commodities
 
-/datum/map_template/shuttle/personal_buyable/ferries/house_boat
-	name = "SF Manzil"
-	description = "A common personal shuttle used often by solo spacers. \
-		An upgraded version of the SF Hafila, sharing \
-		its general shape and power plant. The bonus is that instead of \
-		six seats for ferrying crew, there is a small suite and kitchen for life \
-		in the void."
+/datum/map_template/shuttle/personal_buyable/incomplete/medium
+	name = "SF Khar-Hiktar"
+	description = "A medium-sized shuttle that comes without most of it's interior. \
+		A popular choice among those who are more of the handy-do-it-yourself type \
+		when it comes to high tech shuttle construction."
 	credit_cost = CARGO_CRATE_VALUE * 10
-	suffix = "manzil"
+	suffix = "diy_medium"
 	width = 15
 	height = 11
 	personal_shuttle_size = PERSONAL_SHIP_MEDIUM
 
-/area/shuttle/personally_bought/house_boat
-	name = "SF Manzil"
-
-// Basically, a private jet
-
-/datum/map_template/shuttle/personal_buyable/ferries/private_liner
-	name = "SF Khasun"
-	description = "The SolFed VIP transport standard. \
-		Room enough for one man of the hour and his two insanely bored bodyguards. \
-		Has half of the power storage capacity of other ships, but you wouldn't go exploring \
-		in a VIP transport shuttle, would you?"
-	credit_cost = CARGO_CRATE_VALUE * 12
-	suffix = "manzil"
-	width = 15
-	height = 11
-	personal_shuttle_size = PERSONAL_SHIP_MEDIUM
-
-/area/shuttle/personally_bought/private_liner
-	name = "SF Khasun"
+/area/shuttle/personally_bought/do_it_yourself_medium
+	name = "SF Khar-Hiktar"
