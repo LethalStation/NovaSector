@@ -33,12 +33,10 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "cl" = (
-/obj/structure/bed/pod{
+/obj/structure/chair/plastic{
 	dir = 1
 	},
-/obj/structure/curtain/bounty,
-/obj/structure/secure_safe/directional/west,
-/turf/open/floor/iron/dark/smooth_large,
+/turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "cm" = (
 /obj/structure/table/reinforced,
@@ -116,9 +114,13 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "eL" = (
+/obj/structure/secure_safe/directional/west,
+/obj/structure/bed/pod{
+	dir = 1
+	},
+/obj/structure/curtain/bounty,
 /obj/effect/turf_decal/bot_white,
 /obj/machinery/digital_clock/directional/south,
-/obj/structure/closet/secure_closet/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "fm" = (
@@ -202,12 +204,16 @@
 /turf/open/floor/iron/smooth,
 /area/shuttle/personally_bought/mining_hub)
 "ip" = (
+/obj/structure/secure_safe/directional/west,
+/obj/structure/bed/pod{
+	dir = 1
+	},
+/obj/structure/curtain/bounty,
 /obj/effect/turf_decal/bot_white,
 /obj/structure/extinguisher_cabinet/directional/north,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
-/obj/structure/closet/firecloset/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "it" = (
@@ -231,12 +237,10 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "ju" = (
+/obj/structure/sink/kitchen/directional/south,
 /obj/effect/turf_decal/bot_red,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 1
-	},
-/obj/structure/sink/kitchen/directional/north,
 /turf/open/floor/iron/freezer,
 /area/shuttle/personally_bought/mining_hub)
 "jB" = (
@@ -463,9 +467,6 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/docking_port/mobile/personally_bought{
-	dir = 2
-	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "qE" = (
@@ -831,8 +832,10 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "CM" = (
+/obj/structure/secure_safe/directional/east,
+/obj/structure/bed/pod,
+/obj/structure/curtain/bounty,
 /obj/effect/turf_decal/bot_white,
-/obj/structure/tank_dispenser,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "Dc" = (
@@ -869,6 +872,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/smooth,
 /area/shuttle/personally_bought/mining_hub)
+"Eg" = (
+/obj/structure/table/reinforced,
+/obj/item/toy/cards/deck,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/personally_bought/mining_hub)
 "Er" = (
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_smooth,
@@ -897,12 +905,11 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "Fs" = (
-/obj/effect/turf_decal/delivery/white,
-/obj/machinery/door/airlock/external,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 1
-	},
-/turf/open/floor/iron/dark/smooth_large,
+/obj/structure/chair/plastic,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "Fu" = (
 /obj/effect/turf_decal/box/white/corners{
@@ -938,6 +945,15 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/mining_hub)
+"GD" = (
+/obj/effect/turf_decal/delivery/white,
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/docking_port/mobile/personally_bought,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/personally_bought/mining_hub)
 "Hk" = (
 /obj/effect/turf_decal/bot_white,
 /obj/structure/closet/secure_closet/personal_shuttle,
@@ -959,12 +975,9 @@
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "HS" = (
+/obj/structure/table/reinforced,
 /obj/machinery/light/warm/directional/west,
-/obj/structure/bed/pod{
-	dir = 1
-	},
-/obj/structure/curtain/bounty,
-/obj/structure/secure_safe/directional/west,
+/obj/machinery/newscaster/directional/west,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "Ir" = (
@@ -1228,13 +1241,11 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "PT" = (
-/obj/structure/bed/pod{
-	dir = 1
+/obj/structure/chair/plastic{
+	dir = 4
 	},
-/obj/structure/curtain/bounty,
-/obj/structure/secure_safe/directional/west,
-/obj/machinery/newscaster/directional/north,
-/turf/open/floor/iron/dark/smooth_large,
+/obj/machinery/digital_clock/directional/west,
+/turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "PZ" = (
 /obj/effect/turf_decal/delivery,
@@ -1263,6 +1274,10 @@
 /obj/structure/closet/emcloset/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
+"QN" = (
+/obj/structure/marker_beacon/burgundy,
+/turf/closed/wall/mineral/titanium,
+/area/space)
 "QY" = (
 /obj/machinery/power/shuttle_engine/heater{
 	dir = 8
@@ -1320,12 +1335,15 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "Tw" = (
+/obj/structure/secure_safe/directional/east,
+/obj/structure/bed/pod,
+/obj/structure/curtain/bounty,
 /obj/effect/turf_decal/bot_white,
 /obj/machinery/light/warm/directional/east,
+/obj/machinery/newscaster/directional/north,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
-/obj/structure/closet/emcloset/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "TE" = (
@@ -1365,8 +1383,6 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/digital_clock/directional/east,
-/obj/structure/closet/emcloset/personal_shuttle,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mining_hub)
 "Wy" = (
@@ -1807,8 +1823,8 @@ AT
 wI
 "}
 (19,1,1) = {"
-AT
-ko
+ZH
+Ir
 AT
 ip
 eL
@@ -1821,13 +1837,13 @@ PT
 HS
 cl
 AT
-Ir
+ko
 MV
 "}
 (20,1,1) = {"
-qp
-Rf
-Fs
+AT
+ju
+bX
 Bb
 Bb
 bX
@@ -1835,17 +1851,17 @@ DJ
 DJ
 DJ
 Fc
-DJ
-uf
+Fs
+Eg
 Bb
-bX
-ju
-AT
+qp
+Rf
+GD
 "}
 (21,1,1) = {"
+ZH
+Kh
 AT
-BR
-bN
 Tw
 CM
 AT
@@ -1856,8 +1872,8 @@ Px
 DJ
 VF
 ka
-AT
-Kh
+bN
+BR
 MV
 "}
 (22,1,1) = {"
@@ -1933,7 +1949,7 @@ UC
 MV
 "}
 (26,1,1) = {"
-Zl
+QN
 AT
 es
 tU
