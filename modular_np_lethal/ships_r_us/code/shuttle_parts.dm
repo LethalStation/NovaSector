@@ -99,7 +99,7 @@
 	designate_time = 5 SECONDS
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/personally_bought/mothership
-	name = "Moterhship Navigation Computer"
+	name = "Mothership Navigation Computer"
 	desc = "Used to designate a precise transit location for the ship its currently in, ideally."
 	shuttleId = "shuttle_personal"
 	lock_override = NONE
