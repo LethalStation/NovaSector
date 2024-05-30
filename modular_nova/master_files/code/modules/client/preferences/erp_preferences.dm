@@ -172,6 +172,11 @@
 /datum/preference/choiced/erp_status/apply_to_human(mob/living/carbon/human/target, value, datum/preferences/preferences)
 	return FALSE
 
+/datum/preference/choiced/erp_sexuality
+	category = PREFERENCE_CATEGORY_GAME_PREFERENCES
+	savefile_identifier = PREFERENCE_PLAYER
+	savefile_key = "erp_sexuality_pref"
+
 /datum/preference/choiced/erp_sexuality/init_possible_values()
 	return list("Gay", "Straight", "None") // For simplicity's sake we only have 3 options.
 
