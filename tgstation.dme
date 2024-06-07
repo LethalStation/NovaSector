@@ -8452,7 +8452,6 @@
 #include "modular_np_lethal\magic_quirk\code\spells\lesser_shift.dm"
 #include "modular_np_lethal\medical_stuff\code\injector_buff.dm"
 #include "modular_np_lethal\medical_stuff\code\storage.dm"
-#include "modular_np_lethal\medical_stuff\code\synth_wound_healing.dm"
 #include "modular_np_lethal\ships_r_us\code\buyable_shuttle_template.dm"
 #include "modular_np_lethal\ships_r_us\code\orderconsole.dm"
 #include "modular_np_lethal\ships_r_us\code\shuttle_parts.dm"
