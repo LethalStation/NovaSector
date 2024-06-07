@@ -24,10 +24,6 @@
 	max_integrity = 375
 	limb_integrity = 375
 
-/obj/item/clothing/suit/armor/lethal_kora_kulon/examine(mob/user)
-	. = ..()
-	. += span_notice("In a pinch, it can be <b>repaired</b> with <b>premium robotic repair spray</b>.")
-
 /obj/item/clothing/suit/armor/lethal_kora_kulon/examine_more(mob/user)
 	. = ..()
 
@@ -71,10 +67,6 @@
 	resistance_flags = FIRE_PROOF
 	/// Holds the faceshield for quick reference
 	var/obj/item/sacrificial_face_shield/face_shield
-
-/obj/item/clothing/head/helmet/lethal_kulon_helmet/examine(mob/user)
-	. = ..()
-	. += span_notice("In a pinch, it can be <b>repaired</b> with <b>premium robotic repair spray</b>.")
 
 /obj/item/clothing/head/helmet/lethal_kulon_helmet/attackby(obj/item/attacking_item, mob/user, params)
 	. = ..()

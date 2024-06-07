@@ -15,10 +15,6 @@
 	limb_integrity = 300
 	slowdown = 0.25
 
-/obj/item/clothing/suit/armor/lethal_koranda/examine(mob/user)
-	. = ..()
-	. += span_notice("In a pinch, it can be <b>repaired</b> with <b>premium robotic repair spray</b>.")
-
 /obj/item/clothing/suit/armor/lethal_koranda/examine_more(mob/user)
 	. = ..()
 
