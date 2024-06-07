@@ -51,3 +51,6 @@ GLOBAL_LIST_EMPTY(ckey_to_storage_box)
 	else
 		. += span_engradio("This secure container is inaccessible to you.")
 	return .
+
+/obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/secure_container/PopulateContents()
+	return
