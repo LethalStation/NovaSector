@@ -30,6 +30,15 @@
 	. = ..()
 	ADD_TRAIT(spawned, TRAIT_NODISMEMBER, JOB_TRAIT)
 	ADD_TRAIT(spawned, TRAIT_VIRUSIMMUNE, JOB_TRAIT)
+	make_secure_container(player_client.key)
+
+/// Spawns the secure container and links it to the mob's ckey
+/datum/job/gakster/proc/make_secure_container(mob/living/carbon/human/spawned_mob, player_ckey)
+	if(!player_key)
+		message_admins("[spawned_mob] tried to spawn a ckey linked secure container, but the proc got no ckey!")
+		return
+	var/obj/new_secure_container = new /obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/secure_container(get_turf(spawned_mob), player_ckey)
+	spawned_mob.put_in_hands(new_secure_container)
 
 /datum/outfit/job/gakster
 	name = "Gakster"
