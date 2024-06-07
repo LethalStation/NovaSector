@@ -34,7 +34,7 @@
 
 /// Spawns the secure container and links it to the mob's ckey
 /datum/job/gakster/proc/make_secure_container(mob/living/carbon/human/spawned_mob, player_ckey)
-	if(!player_key)
+	if(!player_ckey)
 		message_admins("[spawned_mob] tried to spawn a ckey linked secure container, but the proc got no ckey!")
 		return
 	var/obj/new_secure_container = new /obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/secure_container(get_turf(spawned_mob), player_ckey)

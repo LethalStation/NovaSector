@@ -41,7 +41,7 @@ GLOBAL_LIST_EMPTY(ckey_to_storage_box)
 	else if(GLOB.ckey_to_storage_box[storage_linked_ckey])
 		atom_storage.set_real_location(GLOB.ckey_to_storage_box[storage_linked_ckey])
 	else
-		message("Peep the horror in secure container code, because it broke. Control-F this exact line to see why!")
+		message_admins("Peep the horror in secure container code, because it broke. Control-F this exact line to see why!")
 
 /obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/secure_container/examine(mob/user)
 	. = ..()
