@@ -13,7 +13,7 @@ GLOBAL_LIST_EMPTY(ckey_to_storage_box)
 	var/linked_ckey
 
 /datum/storage/stash_storage/open_storage(mob/to_show)
-	if(to_show.mind.key != linked_ckey)
+	if(to_show.client.ckey != linked_ckey)
 		parent.balloon_alert(to_show, "you cannot access this!")
 		return FALSE
 
@@ -46,7 +46,7 @@ GLOBAL_LIST_EMPTY(ckey_to_storage_box)
 /obj/item/storage/toolbox/guncase/nova/pistol/trappiste_small_case/secure_container/examine(mob/user)
 	. = ..()
 	var/datum/storage/stash_storage/our_storage = atom_storage
-	if(user.client.key == our_storage.linked_ckey)
+	if(user.client.ckey == our_storage.linked_ckey)
 		. += span_engradio("This secure container is linked to you, and only you can open it.")
 	else
 		. += span_engradio("This secure container is inaccessible to you.")
