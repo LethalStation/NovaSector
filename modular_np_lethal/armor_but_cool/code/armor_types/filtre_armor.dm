@@ -51,10 +51,6 @@
 	if(!isinhands)
 		. += emissive_appearance(icon_file, "[icon_state]-emissive", src, alpha = src.alpha)
 
-/obj/item/clothing/suit/armor/lethal_filtre/examine(mob/user)
-	. = ..()
-	. += span_notice("In a pinch, it can be <b>repaired</b> with <b>premium robotic repair spray</b>.")
-
 /obj/item/clothing/suit/armor/lethal_filtre/examine_more(mob/user)
 	. = ..()
 
@@ -108,10 +104,6 @@
 	. = ..()
 	if(!isinhands)
 		. += emissive_appearance(icon_file, "[icon_state]-emissive", src, alpha = src.alpha)
-
-/obj/item/clothing/head/helmet/lethal_filtre_helmet/examine(mob/user)
-	. = ..()
-	. += span_notice("In a pinch, it can be <b>repaired</b> with <b>premium robotic repair spray</b>.")
 
 /obj/item/clothing/head/helmet/lethal_filtre_helmet/examine_more(mob/user)
 	. = ..()

@@ -22,10 +22,6 @@
 	max_integrity = 300
 	limb_integrity = 300
 
-/obj/item/clothing/suit/armor/lethal_paper/examine(mob/user)
-	. = ..()
-	. += span_notice("In a pinch, it can be <b>repaired</b> with <b>premium robotic repair spray</b>.")
-
 /obj/item/clothing/suit/armor/lethal_paper/examine_more(mob/user)
 	. = ..()
 
