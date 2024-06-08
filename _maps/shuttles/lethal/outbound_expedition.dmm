@@ -201,6 +201,10 @@
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
+"eA" = (
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/personally_bought/mothership)
 "eB" = (
 /obj/effect/turf_decal/tile/neutral/diagonal_centre,
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
@@ -687,6 +691,20 @@
 /obj/effect/turf_decal/box/white/corners{
 	dir = 4
 	},
+/obj/structure/closet/crate/secure/radiation,
+/obj/item/mod/control/pre_equipped/engineering,
+/obj/item/mod/control/pre_equipped/engineering,
+/obj/item/mod/control/pre_equipped/engineering,
+/obj/item/mod/control/pre_equipped/engineering,
+/obj/item/mod/control/pre_equipped/engineering,
+/obj/item/mod/control/pre_equipped/engineering,
+/obj/item/mod/control/pre_equipped/engineering,
+/obj/item/mod/control/pre_equipped/engineering,
+/obj/item/mod/control/pre_equipped/engineering,
+/obj/item/mod/control/pre_equipped/engineering,
+/obj/item/mod/control/pre_equipped/atmospheric,
+/obj/item/mod/control/pre_equipped/atmospheric,
+/obj/item/mod/control/pre_equipped/atmospheric,
 /turf/open/floor/iron/dark/diagonal,
 /area/shuttle/personally_bought/mothership)
 "qy" = (
@@ -746,6 +764,31 @@
 	pixel_y = 32
 	},
 /turf/closed/wall/mineral/titanium/nodiagonal,
+/area/shuttle/personally_bought/mothership)
+"tc" = (
+/obj/effect/turf_decal/tile/neutral/diagonal_centre,
+/obj/effect/turf_decal/tile/neutral/diagonal_edge,
+/obj/effect/turf_decal/box/white/corners{
+	dir = 4
+	},
+/obj/structure/closet/crate/secure/radiation,
+/obj/item/mod/control/pre_equipped/security,
+/obj/item/mod/control/pre_equipped/security,
+/obj/item/mod/control/pre_equipped/security,
+/obj/item/mod/control/pre_equipped/security,
+/obj/item/mod/control/pre_equipped/security,
+/obj/item/mod/control/pre_equipped/security,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/turf/open/floor/iron/dark/diagonal,
 /area/shuttle/personally_bought/mothership)
 "tp" = (
 /obj/structure/table/optable,
@@ -859,6 +902,29 @@
 /obj/structure/window/reinforced/plasma/spawner/directional/west,
 /turf/open/floor/iron/smooth,
 /area/shuttle/personally_bought/mothership)
+"vu" = (
+/obj/effect/turf_decal/tile/neutral/diagonal_centre,
+/obj/effect/turf_decal/tile/neutral/diagonal_edge,
+/obj/effect/turf_decal/box/white/corners,
+/obj/structure/closet/crate/secure/radiation,
+/obj/item/mod/control/pre_equipped/medical,
+/obj/item/mod/control/pre_equipped/medical,
+/obj/item/mod/control/pre_equipped/medical,
+/obj/item/mod/control/pre_equipped/medical,
+/obj/item/mod/control/pre_equipped/medical,
+/obj/item/mod/control/pre_equipped/medical,
+/obj/item/mod/control/pre_equipped/mining,
+/obj/item/mod/control/pre_equipped/mining,
+/obj/item/mod/control/pre_equipped/mining,
+/obj/item/mod/control/pre_equipped/mining,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/turf/open/floor/iron/dark/diagonal,
+/area/shuttle/personally_bought/mothership)
 "vv" = (
 /obj/structure/window/reinforced/plasma/spawner/directional/south,
 /obj/machinery/sleeper{
@@ -883,8 +949,10 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "wb" = (
-/obj/structure/closet/emcloset/personal_shuttle,
 /obj/effect/turf_decal/bot_white,
+/obj/machinery/biogenerator/organic_printer{
+	biomass = 5000
+	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "ws" = (
@@ -1169,6 +1237,7 @@
 /obj/structure/table/reinforced,
 /obj/machinery/recharger,
 /obj/item/card/id/departmental_budget/sci,
+/obj/item/mod/control/pre_equipped/research,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "Dt" = (
@@ -1310,6 +1379,7 @@
 	dir = 4
 	},
 /obj/item/card/id/departmental_budget/eng,
+/obj/item/mod/control/pre_equipped/advanced,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "GI" = (
@@ -1876,6 +1946,7 @@
 /obj/item/storage/backpack/duffelbag/deforest_surgical/stocked,
 /obj/item/storage/backpack/duffelbag/deforest_medkit/stocked,
 /obj/item/card/id/departmental_budget/med,
+/obj/item/mod/control/pre_equipped/rescue,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "Tr" = (
@@ -1949,7 +2020,9 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "US" = (
-/obj/machinery/biogenerator/foodricator,
+/obj/machinery/biogenerator/foodricator{
+	biomass = 1000
+	},
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
@@ -1984,11 +2057,10 @@
 /area/shuttle/personally_bought/mothership)
 "VK" = (
 /obj/structure/cable,
-/obj/structure/closet/crate/cardboard/mothic,
-/obj/item/storage/box/mothic_rations,
-/obj/item/storage/box/mothic_rations,
-/obj/item/storage/box/mothic_rations,
 /obj/effect/turf_decal/bot_white,
+/obj/machinery/biogenerator/organic_printer{
+	biomass = 5000
+	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "VU" = (
@@ -2553,7 +2625,7 @@ yB
 HT
 qm
 ND
-oQ
+vu
 OY
 aa
 aa
@@ -2590,7 +2662,7 @@ wT
 kd
 ub
 tL
-wY
+eA
 dR
 qy
 YE
@@ -2631,7 +2703,7 @@ hZ
 vb
 tL
 wY
-qm
+tc
 Jc
 oQ
 OY
