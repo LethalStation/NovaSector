@@ -49,11 +49,12 @@
 /obj/machinery/power/smes/battery_pack/large/precharged,
 /obj/structure/cable,
 /obj/structure/extinguisher_cabinet/directional/south,
-/turf/open/floor/plating,
+/obj/machinery/light/cold/directional/south,
+/turf/open/floor/iron/dark/smooth_large,
 /area/station/cargo/miningdock)
 "cL" = (
-/obj/machinery/light/cold/directional/north,
-/turf/open/floor/plating,
+/obj/machinery/gravity_generator/main,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/station/cargo/miningdock)
 "dw" = (
 /obj/structure/closet/emcloset/personal_shuttle,
@@ -63,7 +64,7 @@
 "dI" = (
 /obj/docking_port/stationary{
 	dir = 4;
-	dwidth = 4;
+	dwidth = 5;
 	height = 7;
 	name = "Cargo Bay";
 	shuttle_id = "cargo_home";
@@ -72,24 +73,17 @@
 /turf/open/space/basic,
 /area/space)
 "eT" = (
-/obj/structure/window/reinforced/spawner/directional/west,
-/turf/open/floor/iron/smooth_edge{
-	dir = 8
-	},
+/obj/machinery/light/blacklight/directional/west,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/station/cargo/miningdock)
 "fL" = (
 /obj/machinery/power/smes/battery_pack/large/precharged,
 /obj/structure/cable,
-/turf/open/floor/plating,
+/turf/open/floor/iron/dark/smooth_large,
 /area/station/cargo/miningdock)
 "gS" = (
-/obj/structure/window/reinforced/spawner/directional/east,
-/obj/machinery/computer/personal_shuttle_order/station{
-	dir = 8
-	},
-/turf/open/floor/iron/smooth_edge{
-	dir = 4
-	},
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
 /area/station/cargo/miningdock)
 "hc" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/middle,
@@ -107,7 +101,7 @@
 /area/space)
 "ie" = (
 /obj/structure/cable,
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/station/cargo/miningdock)
 "io" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
@@ -157,7 +151,7 @@
 /area/station/cargo/miningdock)
 "qk" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/turf/open/floor/plating,
+/turf/open/floor/iron/smooth,
 /area/station/cargo/miningdock)
 "qG" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/middle{
@@ -439,13 +433,8 @@
 	},
 /area/station/cargo/miningdock)
 "Ri" = (
-/obj/structure/window/reinforced/spawner/directional/west,
-/obj/machinery/computer/personal_shuttle_order/station{
-	dir = 4
-	},
-/turf/open/floor/iron/smooth_edge{
-	dir = 8
-	},
+/obj/machinery/light/blacklight/directional/east,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/station/cargo/miningdock)
 "RB" = (
 /obj/structure/plasticflaps,
@@ -466,7 +455,7 @@
 "SH" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
-/turf/open/floor/plating,
+/turf/open/floor/iron/dark/smooth_large,
 /area/station/cargo/miningdock)
 "TG" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
@@ -480,6 +469,11 @@
 /obj/machinery/light/cold/directional/south,
 /obj/structure/extinguisher_cabinet/directional/south,
 /turf/open/floor/iron/smooth_large,
+/area/station/cargo/miningdock)
+"VA" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light/cold/directional/north,
+/turf/open/floor/catwalk_floor/iron_smooth,
 /area/station/cargo/miningdock)
 "VC" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -496,7 +490,7 @@
 "Wy" = (
 /obj/machinery/power/micro_reactor,
 /obj/structure/cable,
-/turf/open/floor/plating,
+/turf/open/floor/iron/dark/smooth_large,
 /area/station/cargo/miningdock)
 "Xd" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -25353,7 +25347,7 @@ oX
 oX
 oX
 oX
-oX
+AO
 oX
 oX
 oX
@@ -25610,10 +25604,10 @@ oX
 oX
 oX
 oX
-oX
-oX
-oX
-oX
+AO
+AO
+AO
+AO
 AO
 AO
 YP
@@ -25867,14 +25861,14 @@ oX
 oX
 oX
 oX
-oX
-oX
-oX
-oX
+AO
+ww
+eT
+ww
 AO
 Wy
 ie
-SH
+VC
 fL
 AO
 oX
@@ -26124,14 +26118,14 @@ oX
 oX
 oX
 oX
-oX
-oX
-oX
-oX
 AO
+jq
+jq
 cL
+hc
+ww
 qk
-SH
+VC
 cH
 AO
 oX
@@ -26381,14 +26375,14 @@ oX
 oX
 oX
 oX
-oX
-oX
-oX
-oX
+AO
+ww
+Ri
+ww
 AO
 Wy
 ie
-SH
+VC
 fL
 AO
 oX
@@ -26413,7 +26407,7 @@ oX
 oX
 oX
 AO
-RR
+VA
 At
 AO
 oX
@@ -26638,10 +26632,10 @@ oX
 oX
 oX
 oX
-oX
-oX
-oX
-oX
+AO
+AO
+AO
+AO
 AO
 AO
 AO
@@ -26671,7 +26665,7 @@ oX
 AO
 AO
 BC
-AO
+gS
 AO
 AO
 oX
@@ -32807,8 +32801,8 @@ oX
 oX
 AO
 YP
-Ri
-eT
+qG
+qG
 Ys
 qG
 AO
@@ -33355,8 +33349,8 @@ AO
 Yl
 KG
 AO
-YP
-gS
+qG
+qG
 AO
 oX
 oX
