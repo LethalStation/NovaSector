@@ -190,7 +190,9 @@
 /obj/structure/cable,
 /obj/machinery/light/cold/directional/south,
 /obj/structure/extinguisher_cabinet/directional/south,
-/turf/open/floor/iron/smooth,
+/obj/machinery/recharge_station,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "eq" = (
 /obj/machinery/computer/rdservercontrol{
@@ -1061,7 +1063,9 @@
 "Aw" = (
 /obj/structure/cable,
 /obj/machinery/light/cold/directional/north,
-/turf/open/floor/iron/smooth,
+/obj/machinery/recharge_station,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "AY" = (
 /obj/structure/fluff/metalpole/end{
@@ -1752,7 +1756,8 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "OV" = (
-/obj/structure/table/reinforced,
+/obj/machinery/recharge_station,
+/obj/effect/turf_decal/bot_white,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "OY" = (
