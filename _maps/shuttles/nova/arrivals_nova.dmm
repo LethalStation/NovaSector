@@ -5,8 +5,10 @@
 	},
 /area/shuttle/arrival)
 "b" = (
-/obj/machinery/computer/shuttle/arrivals,
 /obj/machinery/light/directional/north,
+/obj/effect/portal/permanent/one_way{
+	id = "shuttle_exit"
+	},
 /turf/open/floor/iron/shuttle/arrivals,
 /area/shuttle/arrival)
 "c" = (
