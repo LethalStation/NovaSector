@@ -49,6 +49,28 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/personally_bought/mothership)
+"bA" = (
+/obj/effect/turf_decal/tile/neutral/diagonal_centre,
+/obj/effect/turf_decal/tile/neutral/diagonal_edge,
+/obj/effect/turf_decal/box/white/corners{
+	dir = 4
+	},
+/obj/structure/closet/crate/secure/radiation,
+/obj/item/mod/control/pre_equipped/engineering,
+/obj/item/mod/control/pre_equipped/engineering,
+/obj/item/mod/control/pre_equipped/engineering,
+/obj/item/mod/control/pre_equipped/engineering,
+/obj/item/mod/control/pre_equipped/engineering,
+/obj/item/mod/control/pre_equipped/engineering,
+/obj/item/mod/control/pre_equipped/engineering,
+/obj/item/mod/control/pre_equipped/engineering,
+/obj/item/mod/control/pre_equipped/engineering,
+/obj/item/mod/control/pre_equipped/engineering,
+/obj/item/mod/control/pre_equipped/atmospheric,
+/obj/item/mod/control/pre_equipped/atmospheric,
+/obj/item/mod/control/pre_equipped/atmospheric,
+/turf/open/floor/iron/dark/diagonal,
+/area/shuttle/personally_bought/mothership)
 "co" = (
 /obj/effect/turf_decal/tile/neutral/diagonal_centre,
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
@@ -177,6 +199,10 @@
 /obj/effect/landmark/start/lawyer,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
+"dW" = (
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/personally_bought/mothership)
 "dZ" = (
 /obj/machinery/power/shuttle_engine/propulsion{
 	dir = 8
@@ -198,10 +224,6 @@
 /obj/machinery/computer/rdservercontrol{
 	dir = 4
 	},
-/obj/effect/turf_decal/bot_white,
-/turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/personally_bought/mothership)
-"eA" = (
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
@@ -230,6 +252,17 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white/small,
+/area/shuttle/personally_bought/mothership)
+"fk" = (
+/obj/machinery/porta_turret/centcom_shuttle/weak{
+	dir = 10
+	},
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/personally_bought/mothership)
+"fP" = (
+/obj/structure/railing/eva_handhold/directional/south,
+/obj/machinery/porta_turret/centcom_shuttle/weak,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/personally_bought/mothership)
 "fR" = (
 /obj/structure/closet/crate/mod,
@@ -638,6 +671,29 @@
 /obj/effect/turf_decal/box/white/corners,
 /turf/open/floor/iron/dark/diagonal,
 /area/shuttle/personally_bought/mothership)
+"pq" = (
+/obj/effect/turf_decal/tile/neutral/diagonal_centre,
+/obj/effect/turf_decal/tile/neutral/diagonal_edge,
+/obj/effect/turf_decal/box/white/corners,
+/obj/structure/closet/crate/secure/radiation,
+/obj/item/mod/control/pre_equipped/medical,
+/obj/item/mod/control/pre_equipped/medical,
+/obj/item/mod/control/pre_equipped/medical,
+/obj/item/mod/control/pre_equipped/medical,
+/obj/item/mod/control/pre_equipped/medical,
+/obj/item/mod/control/pre_equipped/medical,
+/obj/item/mod/control/pre_equipped/mining,
+/obj/item/mod/control/pre_equipped/mining,
+/obj/item/mod/control/pre_equipped/mining,
+/obj/item/mod/control/pre_equipped/mining,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/turf/open/floor/iron/dark/diagonal,
+/area/shuttle/personally_bought/mothership)
 "pz" = (
 /obj/structure/closet/secure_closet/personal_shuttle,
 /obj/effect/turf_decal/bot_white,
@@ -692,19 +748,22 @@
 	dir = 4
 	},
 /obj/structure/closet/crate/secure/radiation,
-/obj/item/mod/control/pre_equipped/engineering,
-/obj/item/mod/control/pre_equipped/engineering,
-/obj/item/mod/control/pre_equipped/engineering,
-/obj/item/mod/control/pre_equipped/engineering,
-/obj/item/mod/control/pre_equipped/engineering,
-/obj/item/mod/control/pre_equipped/engineering,
-/obj/item/mod/control/pre_equipped/engineering,
-/obj/item/mod/control/pre_equipped/engineering,
-/obj/item/mod/control/pre_equipped/engineering,
-/obj/item/mod/control/pre_equipped/engineering,
-/obj/item/mod/control/pre_equipped/atmospheric,
-/obj/item/mod/control/pre_equipped/atmospheric,
-/obj/item/mod/control/pre_equipped/atmospheric,
+/obj/item/mod/control/pre_equipped/security,
+/obj/item/mod/control/pre_equipped/security,
+/obj/item/mod/control/pre_equipped/security,
+/obj/item/mod/control/pre_equipped/security,
+/obj/item/mod/control/pre_equipped/security,
+/obj/item/mod/control/pre_equipped/security,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
+/obj/item/mod/control/pre_equipped/standard,
 /turf/open/floor/iron/dark/diagonal,
 /area/shuttle/personally_bought/mothership)
 "qy" = (
@@ -764,31 +823,6 @@
 	pixel_y = 32
 	},
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/shuttle/personally_bought/mothership)
-"tc" = (
-/obj/effect/turf_decal/tile/neutral/diagonal_centre,
-/obj/effect/turf_decal/tile/neutral/diagonal_edge,
-/obj/effect/turf_decal/box/white/corners{
-	dir = 4
-	},
-/obj/structure/closet/crate/secure/radiation,
-/obj/item/mod/control/pre_equipped/security,
-/obj/item/mod/control/pre_equipped/security,
-/obj/item/mod/control/pre_equipped/security,
-/obj/item/mod/control/pre_equipped/security,
-/obj/item/mod/control/pre_equipped/security,
-/obj/item/mod/control/pre_equipped/security,
-/obj/item/mod/control/pre_equipped/standard,
-/obj/item/mod/control/pre_equipped/standard,
-/obj/item/mod/control/pre_equipped/standard,
-/obj/item/mod/control/pre_equipped/standard,
-/obj/item/mod/control/pre_equipped/standard,
-/obj/item/mod/control/pre_equipped/standard,
-/obj/item/mod/control/pre_equipped/standard,
-/obj/item/mod/control/pre_equipped/standard,
-/obj/item/mod/control/pre_equipped/standard,
-/obj/item/mod/control/pre_equipped/standard,
-/turf/open/floor/iron/dark/diagonal,
 /area/shuttle/personally_bought/mothership)
 "tp" = (
 /obj/structure/table/optable,
@@ -901,29 +935,6 @@
 "vt" = (
 /obj/structure/window/reinforced/plasma/spawner/directional/west,
 /turf/open/floor/iron/smooth,
-/area/shuttle/personally_bought/mothership)
-"vu" = (
-/obj/effect/turf_decal/tile/neutral/diagonal_centre,
-/obj/effect/turf_decal/tile/neutral/diagonal_edge,
-/obj/effect/turf_decal/box/white/corners,
-/obj/structure/closet/crate/secure/radiation,
-/obj/item/mod/control/pre_equipped/medical,
-/obj/item/mod/control/pre_equipped/medical,
-/obj/item/mod/control/pre_equipped/medical,
-/obj/item/mod/control/pre_equipped/medical,
-/obj/item/mod/control/pre_equipped/medical,
-/obj/item/mod/control/pre_equipped/medical,
-/obj/item/mod/control/pre_equipped/mining,
-/obj/item/mod/control/pre_equipped/mining,
-/obj/item/mod/control/pre_equipped/mining,
-/obj/item/mod/control/pre_equipped/mining,
-/obj/item/mod/control/pre_equipped/standard,
-/obj/item/mod/control/pre_equipped/standard,
-/obj/item/mod/control/pre_equipped/standard,
-/obj/item/mod/control/pre_equipped/standard,
-/obj/item/mod/control/pre_equipped/standard,
-/obj/item/mod/control/pre_equipped/standard,
-/turf/open/floor/iron/dark/diagonal,
 /area/shuttle/personally_bought/mothership)
 "vv" = (
 /obj/structure/window/reinforced/plasma/spawner/directional/south,
@@ -1332,6 +1343,12 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
+"FH" = (
+/obj/machinery/porta_turret/centcom_shuttle/weak{
+	dir = 6
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/shuttle/personally_bought/mothership)
 "FQ" = (
 /obj/structure/fluff/metalpole/end{
 	dir = 8
@@ -1361,6 +1378,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/freezer,
 /area/shuttle/personally_bought/mothership)
+"FX" = (
+/obj/machinery/porta_turret/centcom_shuttle/weak{
+	dir = 1
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/shuttle/personally_bought/mothership)
 "FY" = (
 /obj/effect/turf_decal/bot_red,
 /obj/machinery/holopad,
@@ -1389,6 +1412,16 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/personally_bought/mothership)
+"GL" = (
+/obj/structure/fluff/metalpole/end{
+	dir = 4;
+	pixel_x = 32
+	},
+/obj/machinery/porta_turret/centcom_shuttle/weak{
+	dir = 4
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/personally_bought/mothership)
 "GQ" = (
 /obj/effect/turf_decal/delivery/white,
@@ -2071,6 +2104,16 @@
 /obj/effect/landmark/start/botanist,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
+"VY" = (
+/obj/structure/fluff/metalpole/end{
+	dir = 4;
+	pixel_x = 32
+	},
+/obj/machinery/porta_turret/centcom_shuttle/weak{
+	dir = 6
+	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/shuttle/personally_bought/mothership)
 "Wd" = (
 /obj/structure/fluff/metalpole/end{
 	dir = 1;
@@ -2509,7 +2552,7 @@ tL
 tL
 tL
 tL
-Ee
+fk
 aa
 "}
 (15,1,1) = {"
@@ -2590,7 +2633,7 @@ tL
 vs
 vs
 vs
-HB
+GL
 "}
 (19,1,1) = {"
 rR
@@ -2623,9 +2666,9 @@ be
 hW
 yB
 HT
-qm
+bA
 ND
-vu
+pq
 OY
 aa
 aa
@@ -2662,7 +2705,7 @@ wT
 kd
 ub
 tL
-eA
+dW
 dR
 qy
 YE
@@ -2703,7 +2746,7 @@ hZ
 vb
 tL
 wY
-tc
+qm
 Jc
 oQ
 OY
@@ -2773,7 +2816,7 @@ aa
 aa
 "}
 (28,1,1) = {"
-tL
+FX
 tL
 jX
 da
@@ -2788,7 +2831,7 @@ tL
 tL
 tL
 tL
-Nv
+fP
 aa
 aa
 "}
@@ -2908,7 +2951,7 @@ tL
 tL
 tL
 tL
-Nv
+fP
 aa
 aa
 "}
@@ -3023,7 +3066,7 @@ kA
 tL
 tL
 aa
-HB
+GL
 nR
 aa
 tL
@@ -3047,7 +3090,7 @@ aa
 aa
 aa
 nR
-HB
+VY
 aa
 aa
 aa
@@ -3061,7 +3104,7 @@ HB
 tL
 GI
 tL
-tL
+FH
 aa
 aa
 aa
