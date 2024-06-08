@@ -35,7 +35,7 @@
 
 /obj/structure/cargo_shuttle_beacon/Initialize(mapload)
 	. = ..()
-	COOLDOWN_START(src, roundstart_lockout_timer, 30 MINUTES)
+	COOLDOWN_START(src, roundstart_lockout_timer, 10 MINUTES)
 
 /obj/structure/cargo_shuttle_beacon/examine(mob/user)
 	. = ..()
@@ -55,7 +55,7 @@
 
 	if(!COOLDOWN_FINISHED(src, roundstart_lockout_timer))
 		var/time_left = DisplayTimeText(COOLDOWN_TIMELEFT(src, roundstart_lockout_timer), 1)
-		to_chat(user, span_warning("The beacon is calculating a shuttle route through the nearby dust storms, this will take approximately <b>[time_left]</b>."))
+		to_chat(user, span_warning("A hyperspace route to this sector of space is being calculated, this will take approximately <b>[time_left]</b>."))
 		return
 
 	if(anchored)
