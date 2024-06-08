@@ -134,10 +134,10 @@
 	name = "gas miner beacon"
 	desc = "Once a gas miner type is selected, delivers a gas miner to the target location."
 
-	allowed_areas = list(
+	/* allowed_areas = list( /// LETHAL EDIT REMOVAL - FUCK YOU BALTIMORE
 		/area/station/engineering/atmos,
 		/area/station/engineering/atmospherics_engine,
-	)
+	) */
 
 	selectable_atoms = list(
 		/obj/machinery/atmospherics/miner/carbon_dioxide,
@@ -148,4 +148,4 @@
 	)
 
 	area_string = "atmospherics"
-	supply_pod_stay = TRUE
+	// supply_pod_stay = TRUE /// LETHAL EDIT REMOVAL - FUCK YOU BALTIMORE
