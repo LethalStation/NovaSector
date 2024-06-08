@@ -765,6 +765,7 @@
 /obj/machinery/computer/shuttle/personally_bought/mothership{
 	dir = 1
 	},
+/obj/machinery/button/door/personal_shuttle_bay_one/directional/west,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "qQ" = (
@@ -1008,6 +1009,7 @@
 /obj/machinery/camera/autoname/directional/south,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/button/door/personal_shuttle_windows/directional/south,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/shuttle/personally_bought/mothership)
 "xH" = (
@@ -2047,7 +2049,7 @@
 /area/shuttle/personally_bought/mothership)
 "Vx" = (
 /obj/machinery/suit_storage_unit/industrial/personal_shuttle,
-/obj/machinery/button/door/personal_shuttle_bay_two/directional/east,
+/obj/machinery/button/door/personal_shuttle_windows/directional/east,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/mothership)
 "VH" = (
