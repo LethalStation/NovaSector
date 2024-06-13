@@ -32,13 +32,13 @@
 
 	if (istype(inserted_item, /obj/item/extinguisher_refill))
 		if (extinguishes_left == extinguishes_max)
-			to_chat(thing, span_notice("The inbuilt extinguisher is full and doesn't need refilling."))
+			to_chat(user, span_notice("The inbuilt extinguisher is full and doesn't need refilling."))
 			return COMPONENT_NO_AFTERATTACK
 		else
 			extinguishes_left = extinguishes_max
 			var/obj/item/parent_item = parent
-			to_chat(thing, span_notice("You refill the [parent_item.name]'s environmental extinguisher back up to [extinguishes_max] charges, using up the cartridge."))
-			qdel(hitby)
+			to_chat(user, span_notice("You refill the [parent_item.name]'s environmental extinguisher back up to [extinguishes_max] charges, using up the cartridge."))
+			qdel(inserted_item)
 			return COMPONENT_NO_AFTERATTACK
 
 /datum/component/plasmoid_environment_safe/proc/on_examine(obj/item/source, mob/examiner, list/examine_list)
