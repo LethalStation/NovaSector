@@ -8483,5 +8483,7 @@
 #include "modular_np_lethal\money_rework\code\atmflatpacked.dm"
 #include "modular_np_lethal\money_rework\code\money.dm"
 #include "modular_np_lethal\money_rework\code\moneyspawners.dm"
+#include "modular_np_lethal\plasmoid_rework\code\plasmoid_lore.dm"
+#include "modular_np_lethal\plasmoid_rework\code\plasmoid.dm"
 
 // END_INCLUDE
