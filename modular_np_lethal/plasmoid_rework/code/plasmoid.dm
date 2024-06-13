@@ -23,6 +23,14 @@
 /datum/species/plasmaman/spec_life(mob/living/carbon/human/us, seconds_per_tick, times_fired)
 	. = ..()
 
+	if (us.fire_stacks)
+		// check to see if our underlayer has our custom envirosuit component
+		var/obj/item/clothing/under/underlayer = us.w_uniform
+		if (underlayer)
+			var/datum/component/plasmoid_environment_safe/enviro = underlayer.GetComponent(/datum/component/plasmoid_environment_safe)
+			if (enviro && enviro.Extinguish(us))
+				internal_fire = FALSE
+
 	if (innate_fixation && (us.health < us.maxHealth))
 		var/base_plasma_healing = innate_fixation.CanHeal(internal_disease) * seconds_per_tick
 		var/digesting_plasma = us.reagents.has_reagent(/datum/reagent/toxin/plasma, needs_metabolizing = TRUE)
