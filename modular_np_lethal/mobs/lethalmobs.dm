@@ -7,6 +7,9 @@
 	loot = list(/obj/effect/mob_spawn/corpse/human/gakstermob)
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/gakstermob
 
+/mob/living/basic/trooper/gakster/Initialize(mapload)
+	AddComponent(/datum/component/regenerator, regeneration_delay = 30 SECONDS, brute_per_second = 8, outline_colour = COLOR_SOFT_RED)
+
 /mob/living/basic/trooper/gakster/melee
 	desc = "A gakster with a combat knife and very little to lose."
 	loot = list(/obj/effect/mob_spawn/corpse/human/gakstermob, /obj/item/knife/combat)
