@@ -35,6 +35,7 @@
 	outfit = /datum/outfit/razor
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
+	mob_name = "178 Razor"
 
 /datum/outfit/razor
 	name = "\improper Corpse of 178 Razor"
@@ -52,6 +53,7 @@
 	outfit = /datum/outfit/fathomer
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
+	mob_name = "201 Fathomer"
 
 /datum/outfit/fathomer
 	name = "\improper Corpse of 201 Fathomer"
@@ -69,6 +71,7 @@
 	outfit = /datum/outfit/chauchat
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
+	mob_name = "253 Chauchat"
 
 /datum/outfit/chauchat
 	name = "\improper Corpse of 253 Chauchat"
@@ -87,6 +90,7 @@
 	outfit = /datum/outfit/prophet
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
+	mob_name = "287 Prophet"
 
 /datum/outfit/prophet
 	name = "\improper Corpse of 287 Prophet"
