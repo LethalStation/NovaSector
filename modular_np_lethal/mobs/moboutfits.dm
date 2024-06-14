@@ -1,6 +1,6 @@
 /obj/effect/mob_spawn/corpse/human/gakstermob
 	name = "\improper Gakster Corpse"
-	outfit = /datum/outfit/gakercorpse
+	outfit = /datum/outfit/gakstermob
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
 
@@ -30,13 +30,13 @@
 	head = /obj/item/clothing/head/helmet/sf_peacekeeper
 	back = /obj/item/storage/backpack/industrial/frontier_colonist/satchel
 
-/obj/effect/mob_spawn/corpse/human/216razor
+/obj/effect/mob_spawn/corpse/human/razor
 	name = "\improper Corpse of 216 Razor"
-	outfit = /datum/outfit/216razor
+	outfit = /datum/outfit/razor
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
 
-/datum/outfit/216razor
+/datum/outfit/razor
 	name = "\improper Corpse of 216 Razor"
 	uniform = /obj/item/clothing/under/syndicate
 	suit = /obj/item/clothing/suit/armor/lethal_kora_kulon
@@ -47,13 +47,13 @@
 	head = /obj/item/clothing/head/helmet/lethal_kulon_helmet/spawns_with_shield
 	back = /obj/item/storage/backpack/industrial/frontier_colonist
 
-/obj/effect/mob_spawn/corpse/human/391fathomer
+/obj/effect/mob_spawn/corpse/human/fathomer
 	name = "\improper Corpse of 391 Fathomer"
-	outfit = /datum/outfit/391fathomer
+	outfit = /datum/outfit/fathomer
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
 
-/datum/outfit/391fathomer
+/datum/outfit/fathomer
 	name = "\improper Corpse of 391 Fathomer"
 	uniform = /obj/item/clothing/under/syndicate
 	suit = /obj/item/clothing/suit/armor/sf_sacrificial
@@ -64,13 +64,13 @@
 	head = /obj/item/clothing/head/helmet/sf_sacrificial/spawns_with_shield
 	back = /obj/item/storage/backpack/industrial/frontier_colonist
 
-/obj/effect/mob_spawn/corpse/human/612chauchat
+/obj/effect/mob_spawn/corpse/human/chauchat
 	name = "\improper Corpse of 612 Chauchat"
-	outfit = /datum/outfit/612chauchat
+	outfit = /datum/outfit/chauchat
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
 
-/datum/outfit/612chauchat
+/datum/outfit/chauchat
 	name = "\improper Corpse of 612 Chauchat"
 	uniform = /obj/item/clothing/under/syndicate/combat
 	suit = /obj/item/clothing/suit/armor/lethal_kora_kulon/full_set
@@ -78,17 +78,17 @@
 	gloves = /obj/item/clothing/gloves/frontier_colonist
 	ears = /obj/item/radio/headset/syndicate/alt
 	mask = /obj/item/clothing/mask/gas/sechailer/swat
-	head = /obj/item/clothing/head/helmet/toggleable/riot
+	head = /obj/item/clothing/head/helmet/lethal_kulon_helmet/spawns_with_shield
 	back = /obj/item/storage/backpack/industrial/frontier_colonist
 	glasses = /obj/item/clothing/glasses/night
 
-/obj/effect/mob_spawn/corpse/human/907prophet
+/obj/effect/mob_spawn/corpse/human/prophet
 	name = "\improper Corpse of 907 Prophet"
-	outfit = /datum/outfit/907prophet
+	outfit = /datum/outfit/prophet
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
 
-/datum/outfit/907prophet
+/datum/outfit/prophet
 	name = "\improper Corpse of 907 Prophet"
 	uniform = /obj/item/clothing/under/syndicate/combat
 	suit = /obj/item/clothing/suit/armor/lethal_slick
