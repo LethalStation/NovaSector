@@ -68,10 +68,10 @@
 
 /// BOSS MOBS
 
-// 216 Razor : Drops Kiboko, handful of incendiary .980 rounds, and type three armor
+// 178 Razor : Drops Kiboko, handful of incendiary .980 rounds, and type three armor
 
 /mob/living/basic/trooper/gakster/ranged/razor
-	name = "216 Razor"
+	name = "178 Razor"
 	desc = "A well-respected gakster whose primary claim to fame is their overwhelming love for pyrotechnics and incendiary weaponry."
 	maxHealth = 450
 	health = 450
@@ -83,9 +83,9 @@
 	burst_shots = 1
 	ranged_cooldown = 5 SECONDS
 
-// 391 Fathomer : Drops Ramu 6 gauge shotgun, a bunch of 6g longshot ammo, and sacrificial armor
+// 201 Fathomer : Drops Ramu 6 gauge shotgun, a bunch of 6g longshot ammo, and sacrificial armor
 /mob/living/basic/trooper/gakster/ranged/fathomer
-	name = "391 Fathomer"
+	name = "201 Fathomer"
 	desc = "Armed with a Ramu 6 gauge shotgun, this gakster is notorious for their potency in close quarters combat."
 	maxHealth = 450
 	health = 450
@@ -97,9 +97,9 @@
 	burst_shots = 1
 	ranged_cooldown = 1.3 SECONDS
 
-// 612 Chauchat : Drops a Seiba & ballistic shield alongside ammunition and a full set of type 3 armor + helmet
+// 253 Chauchat : Drops a Seiba & ballistic shield alongside ammunition and a full set of type 3 armor + helmet
 /mob/living/basic/trooper/gakster/ranged/chauchat
-	name = "612 Chauchat"
+	name = "253 Chauchat"
 	desc = "With an ever-imposing ballistic shield and a lightweight submachinegun, this gakster seems prepared to take on nearly any foe."
 	maxHealth = 600
 	health = 600
@@ -119,9 +119,9 @@
 		return BULLET_ACT_BLOCK
 	return ..()
 
-// 907 Prophet : Drops double energy sword and type five armor - IMMUNE TO RANGED ATTACKS
+// 287 Prophet : Drops double energy sword and type five armor - IMMUNE TO RANGED ATTACKS
 /mob/living/basic/trooper/gakster/melee/prophet
-	name = "907 Prophet"
+	name = "287 Prophet"
 	desc = "A near-mythical triple-digit gakster wielding a rare double-bladed energy sword and clad in the heaviest of armor. Are you certain whatever you're doing is worth it?"
 	maxHealth = 300
 	health = 300

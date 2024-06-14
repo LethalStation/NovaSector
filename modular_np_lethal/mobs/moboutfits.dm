@@ -31,13 +31,13 @@
 	back = /obj/item/storage/backpack/industrial/frontier_colonist/satchel
 
 /obj/effect/mob_spawn/corpse/human/razor
-	name = "\improper Corpse of 216 Razor"
+	name = "\improper Corpse of 178 Razor"
 	outfit = /datum/outfit/razor
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
 
 /datum/outfit/razor
-	name = "\improper Corpse of 216 Razor"
+	name = "\improper Corpse of 178 Razor"
 	uniform = /obj/item/clothing/under/syndicate
 	suit = /obj/item/clothing/suit/armor/lethal_kora_kulon
 	shoes = /obj/item/clothing/shoes/jackboots/frontier_colonist
@@ -48,13 +48,13 @@
 	back = /obj/item/storage/backpack/industrial/frontier_colonist
 
 /obj/effect/mob_spawn/corpse/human/fathomer
-	name = "\improper Corpse of 391 Fathomer"
+	name = "\improper Corpse of 201 Fathomer"
 	outfit = /datum/outfit/fathomer
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
 
 /datum/outfit/fathomer
-	name = "\improper Corpse of 391 Fathomer"
+	name = "\improper Corpse of 201 Fathomer"
 	uniform = /obj/item/clothing/under/syndicate
 	suit = /obj/item/clothing/suit/armor/sf_sacrificial
 	shoes = /obj/item/clothing/shoes/jackboots/frontier_colonist
@@ -65,13 +65,13 @@
 	back = /obj/item/storage/backpack/industrial/frontier_colonist
 
 /obj/effect/mob_spawn/corpse/human/chauchat
-	name = "\improper Corpse of 612 Chauchat"
+	name = "\improper Corpse of 253 Chauchat"
 	outfit = /datum/outfit/chauchat
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
 
 /datum/outfit/chauchat
-	name = "\improper Corpse of 612 Chauchat"
+	name = "\improper Corpse of 253 Chauchat"
 	uniform = /obj/item/clothing/under/syndicate/combat
 	suit = /obj/item/clothing/suit/armor/lethal_kora_kulon/full_set
 	shoes = /obj/item/clothing/shoes/jackboots/frontier_colonist
@@ -83,13 +83,13 @@
 	glasses = /obj/item/clothing/glasses/night
 
 /obj/effect/mob_spawn/corpse/human/prophet
-	name = "\improper Corpse of 907 Prophet"
+	name = "\improper Corpse of 287 Prophet"
 	outfit = /datum/outfit/prophet
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
 
 /datum/outfit/prophet
-	name = "\improper Corpse of 907 Prophet"
+	name = "\improper Corpse of 287 Prophet"
 	uniform = /obj/item/clothing/under/syndicate/combat
 	suit = /obj/item/clothing/suit/armor/lethal_slick
 	shoes = /obj/item/clothing/shoes/jackboots/frontier_colonist
