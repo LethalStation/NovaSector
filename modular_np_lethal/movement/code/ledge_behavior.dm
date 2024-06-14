@@ -60,6 +60,7 @@
 					return TRUE
 		else
 			to_chat(src, span_userdanger("You find nothing to cling to, and fall..."))
+			playsound(src, 'modular_np_lethal/movement/sound/body-falling.mp3', 50)
 
 	return FALSE
 /// Set the pixel offsets to make it look like we're hanging onto a ledge.
