@@ -129,8 +129,8 @@
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/prophet
 	melee_damage_lower = 40
 	melee_damage_upper = 40
-	attack_verb_continuous = list("attacks", "slashes", "stabs", "slices", "tears", "lacerates", "rips", "dices", "cuts")
-	attack_verb_simple = list("attack", "slash", "stab", "slice", "tear", "lacerate", "rip", "dice", "cut")
+	attack_verb_continuous = "eviscerates"
+	attack_verb_simple = "eviscerate"
 	attack_sound = 'sound/weapons/blade1.ogg'
 	r_hand = /obj/item/dualsaber/basicmob
 	armour_penetration = 35
