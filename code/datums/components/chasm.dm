@@ -164,6 +164,49 @@
 		falling_atoms -= falling_ref
 		return
 
+	// LETHAL EDIT: turns chasms into 'lethal ledges' l4d style
+	if (isliving(dropped_thing))
+		var/mob/living/falling_mob = dropped_thing
+		if (falling_mob.stat == CONSCIOUS && !falling_mob.IsSleeping() && !falling_mob.IsUnconscious())
+			//if we're awake, we get a second shot at clinging on, IF there's another turf nearby.
+			var/turf/the_chasm = get_turf(falling_mob)
+			var/list/nearby_turfs = the_chasm.reachableAdjacentTurfs(falling_mob, null, FALSE)
+			var/list/safe_turfs = list()
+
+			for (var/turf/turf_to_check as anything in nearby_turfs)
+				if (!istype(turf_to_check, /turf/open/chasm))
+					safe_turfs += turf_to_check
+
+			if (LAZYLEN(safe_turfs) >= 1)
+				var/turf/salvation = pick(safe_turfs)
+				falling_mob.setDir(get_dir(falling_mob, salvation))
+				falling_mob.Immobilize(20 SECONDS)
+				falling_mob.visible_message(span_boldwarning("Scrabbling wildly, [falling_mob] only barely manages to avoid falling down into [parent], clinging to the edge of [salvation] for dear life!"), span_userdanger("Scrabbling wildly, you grip onto the ledge of [salvation] for dear life, hanging precariously over <i>certain death</i>!"))
+				// TODO: do we also want to make them drop their stuff in their hands?
+				ADD_TRAIT(falling_mob, TRAIT_MOVE_FLYING, "chasm trait") // temporary so they don't fall down again
+				if (do_after(dropped_thing, 20 SECONDS, salvation))
+					falling_mob.forceMove(salvation) // ONLY A HERO CAN SAVE US, I'M NOT GONNA STAND HERE AND WAAAAIITTT
+					falling_mob.visible_message(span_warning("[falling_mob] clambers up and onto [salvation], exhausted."), span_userdanger("With a final burst of strength, you haul yourself up and over onto [salvation], and promptly collapse into an exhausted heap."))
+					falling_mob.StaminaKnockdown(120, paralyze_amount = 5 SECONDS)
+					REMOVE_TRAIT(falling_mob, TRAIT_MOVE_FLYING, "chasm trait")
+					falling_atoms -= falling_ref
+					return
+				else
+					REMOVE_TRAIT(falling_mob, TRAIT_MOVE_FLYING, "chasm trait")
+					if (!falling_mob.pulledby)
+						falling_mob.forceMove(the_chasm)
+						falling_mob.visible_message(span_warning("A look of horror briefly crosses [falling_mob]'s features as their grip loosens, then they are gone, sailing down into the abyss..."), span_userdanger("Your gut lurches in horror as your grip works its way loose, and then you are falling... <i>falling...</i>"))
+					else // save them if they're being pulled by something or someone
+						falling_mob.visible_message(span_notice("[falling_mob.pulledby] pulls [falling_mob] away from the ledge and into safety!"), span_boldnotice("[falling_mob.pulledby] drags you to safety, and you collapse into a heap, exhausted!"))
+						falling_mob.StaminaKnockdown(120, paralyze_amount = 5 SECONDS)
+						falling_mob.SetImmobilized(0)
+						falling_atoms -= falling_ref
+						return
+
+			else
+				to_chat(falling_mob, span_userdanger("You find nothing to cling to, and careen into the abyss..."))
+
+	// LETHAL EDIT END
 	// send to oblivion
 	dropped_thing.visible_message(span_boldwarning("[dropped_thing] falls into [parent]!"), span_userdanger("[oblivion_message]"))
 	if (isliving(dropped_thing))
