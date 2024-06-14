@@ -83,7 +83,7 @@
 	casingtype = /obj/item/ammo_casing/c980grenade/shrapnel/phosphor
 	projectilesound = 'modular_nova/modules/modular_weapons/sounds/grenade_launcher.ogg'
 	burst_shots = 1
-	ranged_cooldown = 5 SECONDS
+	ranged_cooldown = 2.5 SECONDS
 
 // 201 Fathomer : Drops Ramu 6 gauge shotgun, a bunch of 6g longshot ammo, and sacrificial armor
 /mob/living/basic/trooper/gakster/ranged/fathomer
