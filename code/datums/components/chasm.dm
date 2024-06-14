@@ -180,7 +180,7 @@
 			if (LAZYLEN(safe_turfs) >= 1)
 				var/turf/salvation = pick(safe_turfs)
 				falling_mob.setDir(get_dir(falling_mob, salvation))
-				falling_mob.Immobilize(20 SECONDS)
+				falling_mob.Immobilize(18 SECONDS) // you get 2 seconds of leeway at the end of the channel to decide if you want to live or die
 				falling_mob.visible_message(span_boldwarning("Scrabbling wildly, [falling_mob] only barely manages to avoid falling down into [parent], clinging to the edge of [salvation] for dear life!"), span_userdanger("Scrabbling wildly, you grip onto the ledge of [salvation] for dear life, hanging precariously over <i>certain death</i>!"))
 				// TODO: do we also want to make them drop their stuff in their hands?
 				ADD_TRAIT(falling_mob, TRAIT_MOVE_FLYING, "chasm trait") // temporary so they don't fall down again
