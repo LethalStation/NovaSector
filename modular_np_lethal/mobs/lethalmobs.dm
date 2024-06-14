@@ -52,12 +52,14 @@
 /mob/living/basic/trooper/gakster/melee/filtre
 	name = "Blue Company Filtre"
 	desc = "A filtre with a combat knife and nerves of steel."
+	faction = list(ROLE_DEATHSQUAD)
 	loot = list(/obj/effect/mob_spawn/corpse/human/filtremob, /obj/item/knife/combat)
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/filtremob
 
 /mob/living/basic/trooper/gakster/ranged/filtre
 	name = "Blue Company Filtre"
 	desc = "A filtre wielding a Yari 12mm suppressed rifle. They seem decently upset!"
+	faction = list(ROLE_DEATHSQUAD)
 	loot = list(/obj/effect/mob_spawn/corpse/human/filtremob, /obj/item/gun/ballistic/automatic/suppressed_rifle, /obj/item/ammo_box/magazine/c12chinmoku/standard)
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/filtremob
 	r_hand = /obj/item/gun/ballistic/automatic/suppressed_rifle
