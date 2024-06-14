@@ -78,7 +78,7 @@
 	loot = list(/obj/effect/mob_spawn/corpse/human/razor, /obj/item/gun/ballistic/automatic/sol_grenade_launcher/evil, /obj/item/ammo_box/magazine/ammo_stack/c980/prefilled/fire)
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/razor
 	r_hand = /obj/item/gun/ballistic/automatic/sol_grenade_launcher/evil
-	casingtype = /obj/item/ammo_casing/c27_54cesarzowa
+	casingtype = /obj/item/ammo_casing/c980grenade/shrapnel/phosphor
 	projectilesound = 'modular_nova/modules/modular_weapons/sounds/grenade_launcher.ogg'
 	burst_shots = 1
 	ranged_cooldown = 5 SECONDS
@@ -107,7 +107,7 @@
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/chauchat
 	r_hand = /obj/item/shield/ballistic
 	l_hand = /obj/item/gun/ballistic/automatic/seiba_smg
-	casingtype = /obj/item/ammo_casing/s6gauge/longshot
+	casingtype = /obj/item/ammo_casing/c27_54cesarzowa
 	projectilesound = 'modular_np_lethal/lethalguns/sound/seiba/seiba.wav'
 	burst_shots = 3
 	ranged_cooldown = 0.4 SECONDS
