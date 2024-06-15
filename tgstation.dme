@@ -8439,6 +8439,7 @@
 #include "modular_np_lethal\lethalguns\code\gun_pickup_sounds.dm"
 #include "modular_np_lethal\lethalguns\code\long_rifles.dm"
 #include "modular_np_lethal\lethalguns\code\magazines.dm"
+#include "modular_np_lethal\lethalguns\code\minigun.dm"
 #include "modular_np_lethal\lethalguns\code\motion_detector.dm"
 #include "modular_np_lethal\lethalguns\code\pistol.dm"
 #include "modular_np_lethal\lethalguns\code\shotgun.dm"
