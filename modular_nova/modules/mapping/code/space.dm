@@ -17,12 +17,12 @@
 	name = "Space-Ruin The Twin-Nexus Hotel"
 	description = "An interstellar hotel, where the weary spaceman can rest their head and relax, assured that the residental staff will not murder them in their sleep. Probably."
 
-/datum/map_template/ruin/space/nova/des_two
+/*/datum/map_template/ruin/space/nova/des_two
 	id = "des_two"
 	suffix = "des_two.dmm"
 	name = "Space-Ruin DS-2"
 	description = "If DS-1 was so good..."
-	always_place = TRUE
+	always_place = TRUE*/
 
 /datum/map_template/ruin/space/nova/derelictferry
 	id = "derelictferry"
