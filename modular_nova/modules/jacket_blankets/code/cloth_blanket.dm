@@ -25,8 +25,10 @@
 
 /datum/component/cloth_blanket/proc/coverup(mob/living/sleeper)
 	var/obj/item/parent_cloth = parent_weakref?.resolve()
+	rotation_degree = sleeper.lying_prev
+
 	parent_cloth.layer = ABOVE_MOB_LAYER
-	parent_cloth.pixel_x = sleeper.lying_angle & EAST ? sleeper.pixel_x + 3 : sleeper.pixel_x - 3 // making sure the jacket doesn't cover the sleeper's face
+	parent_cloth.pixel_x = rotation_degree & EAST ? sleeper.pixel_x + 2 : sleeper.pixel_x - 2 // making sure the jacket doesn't cover the sleeper's face
 	parent_cloth.pixel_y = sleeper.pixel_y
 	parent_cloth.balloon_alert(sleeper, "covered")
 
@@ -36,7 +38,6 @@
 	RegisterSignal(sleeper, COMSIG_LIVING_SET_BODY_POSITION, PROC_REF(smooth_clothes))
 	RegisterSignal(sleeper, COMSIG_QDELETING, PROC_REF(smooth_clothes))
 
-	rotation_degree = sleeper.lying_angle
 	parent_cloth.transform = turn(parent_cloth.transform, rotation_degree) // rotating the sprite to match the direction of the sleeper
 
 // cleaning the signals and rotating the clothes back to original state
