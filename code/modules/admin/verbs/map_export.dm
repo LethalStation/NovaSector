@@ -1,4 +1,4 @@
-ADMIN_VERB(map_export, R_DEBUG, "Map Export", "Select a part of the map by coordinates and download it.", ADMIN_CATEGORY_DEBUG)
+ADMIN_VERB(map_export, R_DEBUG, "Map Export - Lethal", "Select a part of the map by coordinates and download it.", ADMIN_CATEGORY_DEBUG)
 	var/user_x = user.mob.x
 	var/user_y = user.mob.y
 	var/user_z = user.mob.z
@@ -251,8 +251,8 @@ GLOBAL_LIST_INIT(save_file_chars, list(
 				if(save_flag & SAVE_MOBS)
 					for(var/mob/living/thing in pull_from)
 						CHECK_TICK
-						if(istype(thing, /mob/living/carbon)) //Ignore people, but not animals
-							continue
+						//if(istype(thing, /mob/living/carbon)) //Ignore people, but not animals
+							//continue
 						var/metadata = generate_tgm_metadata(thing)
 						current_header += "[empty ? "" : ",\n"][thing.type][metadata]"
 						empty = FALSE
