@@ -142,8 +142,8 @@
 /obj/item/card/id/Destroy()
 	if (registered_account)
 		registered_account.bank_cards -= src
-//	if (my_store) // LETHAL EDIT REMOVAL
-//		QDEL_NULL(my_store)
+	//if (my_store) // LETHAL EDIT REMOVAL
+		//QDEL_NULL(my_store)
 	return ..()
 
 /obj/item/card/id/get_id_examine_strings(mob/user)
