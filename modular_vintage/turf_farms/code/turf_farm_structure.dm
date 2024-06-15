@@ -2,7 +2,7 @@
 	name = "farmable land"
 	desc = "A pile of the floor that happens to be prepared for farming on."
 	icon = 'modular_vintage/turf_farms/icons/turf_overlay.dmi'
-	icon_state = null
+	icon_state = "farm_overlay_horizontal"
 	gender = PLURAL
 	circuit = null
 	density = FALSE
@@ -13,14 +13,6 @@
 	maxnutri = 30
 	self_sustaining = TRUE
 	pixel_z = 0
-	var/random_icons_list = list(
-		"farm_overlay_horizontal",
-		"farm_overlay_vertical",
-	)
-
-/obj/machinery/hydroponics/turf_farm/Initialize(mapload)
-	. = ..()
-	icon_state = pick(random_icons_list)
 
 /obj/machinery/hydroponics/turf_farm/update_status_light_overlays()
 	return

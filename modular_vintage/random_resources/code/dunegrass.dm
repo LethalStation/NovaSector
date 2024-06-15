@@ -9,7 +9,7 @@
 		/obj/item/dunegrass,
 	)
 	harvest_with_hands = TRUE
-	harvest_amount_high = 4
+	harvest_amount_high = 3
 	harvest_amount_low = 1
 	harvest_verb = "cut"
 	opacity = TRUE
@@ -25,6 +25,11 @@
 		COMSIG_ATOM_ENTERED = PROC_REF(on_entered),
 	)
 	AddElement(/datum/element/connect_loc, loc_connections)
+	AddComponent(/datum/component/seethrough, get_seethrough_map())
+
+///Return a see_through_map, examples in seethrough.dm
+/obj/structure/flora/dunegrass/proc/get_seethrough_map()
+	return SEE_THROUGH_MAP_DEFAULT_TWO_TALL
 
 /obj/structure/flora/dunegrass/proc/on_entered(datum/source, atom/movable/AM)
 	SIGNAL_HANDLER
@@ -35,8 +40,9 @@
 // Harvestable dunegrass item
 
 /obj/item/dunegrass
-	name = "dunegrass clump"
+	name = "cut dunegrass"
 	desc = "A clump of cut dunegrass, ready to be used for all sorts of activities."
 	icon = 'modular_vintage/random_resources/icons/harvested_plants.dmi'
 	icon_state = "dunegrass_clump"
 	resistance_flags = FLAMMABLE
+	w_class = WEIGHT_CLASS_SMALL
