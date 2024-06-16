@@ -830,6 +830,7 @@
 	dir = 4
 	},
 /obj/machinery/light/dim/directional/west,
+/obj/machinery/vending/wallmed/epic_loot/directional/west,
 /turf/open/indestructible/plating,
 /area/gakster_location/hideout_real)
 "fQ" = (
@@ -2022,6 +2023,13 @@
 	},
 /turf/open/indestructible/plating,
 /area/gakster_location/inborn_spawn)
+"nW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/computer/order_console/gakster{
+	dir = 8
+	},
+/turf/open/indestructible/stone,
+/area/gakster_location/hideout_real)
 "nX" = (
 /obj/structure/marker_beacon/burgundy,
 /obj/structure/lattice,
@@ -2255,6 +2263,11 @@
 	},
 /obj/effect/landmark/latejoin,
 /turf/open/floor/iron/dark/diagonal,
+/area/gakster_location/hideout_real)
+"pr" = (
+/obj/machinery/light/red/dim/directional/west,
+/obj/machinery/vending/wallmed/epic_loot/directional/west,
+/turf/open/indestructible/dark/smooth_large,
 /area/gakster_location/hideout_real)
 "ps" = (
 /obj/machinery/vending/wallmed/epic_loot/evil/directional/north,
@@ -3672,6 +3685,7 @@
 "yP" = (
 /obj/structure/closet/crate/large,
 /obj/machinery/light/dim/directional/west,
+/obj/machinery/vending/wallmed/epic_loot/directional/west,
 /turf/open/indestructible/plating,
 /area/gakster_location/hideout_real)
 "yR" = (
@@ -4466,6 +4480,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/hoteltile,
 /area/gakster_location/hideout_real)
+"DO" = (
+/obj/machinery/computer/order_console/gakster{
+	dir = 8
+	},
+/turf/open/indestructible/stone,
+/area/gakster_location/hideout_real)
 "DQ" = (
 /obj/structure/maintenance_loot_structure/military_case/random,
 /obj/structure/maintenance_loot_structure/wall_jacket/random/directional/west,
@@ -4598,6 +4618,11 @@
 /obj/structure/lattice,
 /turf/open/openspace,
 /area/gakster_location/outside)
+"EI" = (
+/obj/machinery/light/red/dim/directional/east,
+/obj/machinery/vending/wallmed/epic_loot/directional/east,
+/turf/open/indestructible/dark/smooth_large,
+/area/gakster_location/hideout_real)
 "EJ" = (
 /obj/structure/bookcase/random,
 /obj/machinery/light/warm/dim/directional/north,
@@ -6440,6 +6465,12 @@
 /obj/machinery/light/dim/directional/north,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
+"Rg" = (
+/obj/machinery/computer/order_console/gakster{
+	dir = 4
+	},
+/turf/open/indestructible/stone,
+/area/gakster_location/hideout_real)
 "Ri" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/light/red/dim/directional/north,
@@ -6535,6 +6566,11 @@
 /obj/machinery/light/dim/directional/south,
 /turf/open/openspace,
 /area/gakster_location/outside)
+"RN" = (
+/obj/machinery/light/red/dim/directional/south,
+/obj/machinery/vending/wallmed/epic_loot/directional/south,
+/turf/open/indestructible/dark/smooth_large,
+/area/gakster_location/hideout_real)
 "RR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/weather/snow/corner{
@@ -6905,6 +6941,13 @@
 /obj/structure/closet/crate,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
+"UG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/computer/order_console/gakster{
+	dir = 4
+	},
+/turf/open/indestructible/stone,
+/area/gakster_location/hideout_real)
 "UH" = (
 /obj/effect/decal/cleanable/blood/gibs/core,
 /turf/open/floor/iron/dark/smooth_large,
@@ -50060,7 +50103,7 @@ Cl
 KC
 tY
 lj
-Cf
+nW
 lj
 Nr
 KC
@@ -50160,11 +50203,11 @@ Ea
 Ns
 dE
 KC
+pL
+vY
 KC
-KC
-KC
-KC
-KC
+vy
+ZJ
 KC
 ca
 Kk
@@ -50176,7 +50219,7 @@ el
 kr
 yY
 uZ
-el
+pr
 Sw
 gp
 Hy
@@ -50262,11 +50305,11 @@ wq
 wi
 in
 KC
+ZJ
+vy
 KC
-KC
-KC
-KC
-KC
+vY
+pL
 KC
 qA
 HD
@@ -50366,7 +50409,7 @@ yY
 KC
 ca
 Yg
-yY
+Rg
 Yg
 oA
 KC
@@ -50978,7 +51021,7 @@ yY
 KC
 ca
 lj
-yY
+DO
 lj
 oA
 KC
@@ -51078,11 +51121,11 @@ wq
 wi
 in
 KC
+pL
+vY
 KC
-KC
-KC
-KC
-KC
+vy
+ZJ
 KC
 qA
 HD
@@ -51180,11 +51223,11 @@ Ea
 Me
 rR
 KC
+ZJ
+vy
 KC
-KC
-KC
-KC
-KC
+vY
+pL
 KC
 ca
 Kk
@@ -51196,7 +51239,7 @@ re
 FN
 Cf
 zy
-re
+EI
 AD
 De
 aR
@@ -51284,7 +51327,7 @@ Cl
 KC
 tY
 Yg
-Cf
+UG
 Yg
 Nr
 KC
@@ -52623,7 +52666,7 @@ YN
 YN
 bY
 Mc
-Lp
+RN
 KC
 Ea
 Ea
@@ -52710,7 +52753,7 @@ el
 Sw
 Sw
 Sw
-el
+pr
 ZY
 ZY
 ZY
