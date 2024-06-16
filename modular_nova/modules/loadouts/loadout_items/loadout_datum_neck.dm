@@ -84,12 +84,6 @@ GLOBAL_LIST_INIT(loadout_necks, generate_loadout_items(/datum/loadout_item/neck)
 	name = "Striped Green Scarf"
 	item_path = /obj/item/clothing/neck/large_scarf/green
 
-/* Lethalstation removal
-/datum/loadout_item/neck/scarf_zebra
-	name = "Zebra Scarf"
-	item_path = /obj/item/clothing/neck/scarf/zebra
-*/
-
 /datum/loadout_item/neck/scarf_infinity
 	name = "Infinity Scarf"
 	item_path = /obj/item/clothing/neck/infinity_scarf
@@ -235,56 +229,6 @@ GLOBAL_LIST_INIT(loadout_necks, generate_loadout_items(/datum/loadout_item/neck)
 	name = "Mantle"
 	item_path = /obj/item/clothing/neck/mantle
 
-/datum/loadout_item/neck/mantle_qm
-	name = "Quartermaster's Mantle"
-	item_path = /obj/item/clothing/neck/mantle/qm
-	restricted_roles = list(JOB_QUARTERMASTER)
-
-/datum/loadout_item/neck/mantle_hop
-	name = "Head of Personnel's Mantle"
-	item_path = /obj/item/clothing/neck/mantle/hopmantle
-	restricted_roles = list(JOB_HEAD_OF_PERSONNEL)
-
-/datum/loadout_item/neck/mantle_cmo
-	name = "Chief Medical Officer's Mantle"
-	item_path = /obj/item/clothing/neck/mantle/cmomantle
-	restricted_roles = list(JOB_CHIEF_MEDICAL_OFFICER)
-
-/datum/loadout_item/neck/mantle_rd
-	name = "Research Director's Mantle"
-	item_path = /obj/item/clothing/neck/mantle/rdmantle
-	restricted_roles = list(JOB_RESEARCH_DIRECTOR)
-
-/datum/loadout_item/neck/mantle_ce
-	name = "Chief Engineer's Mantle"
-	item_path = /obj/item/clothing/neck/mantle/cemantle
-	restricted_roles = list(JOB_CHIEF_ENGINEER)
-
-/datum/loadout_item/neck/mantle_hos
-	name = "Head of Security's Mantle"
-	item_path = /obj/item/clothing/neck/mantle/hosmantle
-	restricted_roles = list(JOB_HEAD_OF_SECURITY)
-
-/datum/loadout_item/neck/mantle_bs
-	name = "Blueshield's Mantle"
-	item_path = /obj/item/clothing/neck/mantle/bsmantle
-	restricted_roles = list(JOB_BLUESHIELD)
-
-/datum/loadout_item/neck/mantle_cap
-	name = "Captain's Mantle"
-	item_path = /obj/item/clothing/neck/mantle/capmantle
-	restricted_roles = list(JOB_CAPTAIN)
-
-/datum/loadout_item/neck/mantle_chap
-	name = "Bishop's Cloak"
-	item_path = /obj/item/clothing/neck/chaplain
-	restricted_roles = list(JOB_CHAPLAIN)
-
-/datum/loadout_item/neck/mantle_bchap
-	name = "Bishop's Cloak (Black)"
-	item_path = /obj/item/clothing/neck/chaplain/black
-	restricted_roles = list(JOB_CHAPLAIN)
-
 /*
 *	MISC
 */
@@ -304,11 +248,6 @@ GLOBAL_LIST_INIT(loadout_necks, generate_loadout_items(/datum/loadout_item/neck)
 /datum/loadout_item/neck/imperial_police_cloak
 	name = "Imperial Police Cloak"
 	item_path = /obj/item/clothing/neck/cloak/colonial/nri_police
-
-/datum/loadout_item/neck/tarkon_gauntlet
-	name = "Tarkon Confidante Gauntlet"
-	item_path = /obj/item/clothing/neck/security_cape/tarkon
-	blacklisted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_BLUESHIELD, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_CHIEF_MEDICAL_OFFICER, JOB_CHIEF_ENGINEER, JOB_SECURITY_OFFICER, JOB_DETECTIVE, JOB_WARDEN, JOB_BLUESHIELD, JOB_CORRECTIONS_OFFICER)
 
 /*
 *	DONATOR

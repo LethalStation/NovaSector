@@ -110,40 +110,6 @@ GLOBAL_LIST_INIT(loadout_shoes, generate_loadout_items(/datum/loadout_item/shoes
 	name = "Colorable Sneakers"
 	item_path = /obj/item/clothing/shoes/sneakers
 
-/* Lethalstation removal
-/datum/loadout_item/shoes/black_sneakers
-	name = "Black Sneakers"
-	item_path = /obj/item/clothing/shoes/sneakers/black
-
-/datum/loadout_item/shoes/blue_sneakers
-	name = "Blue Sneakers"
-	item_path = /obj/item/clothing/shoes/sneakers/blue
-
-/datum/loadout_item/shoes/brown_sneakers
-	name = "Brown Sneakers"
-	item_path = /obj/item/clothing/shoes/sneakers/brown
-
-/datum/loadout_item/shoes/green_sneakers
-	name = "Green Sneakers"
-	item_path = /obj/item/clothing/shoes/sneakers/green
-
-/datum/loadout_item/shoes/purple_sneakers
-	name = "Purple Sneakers"
-	item_path = /obj/item/clothing/shoes/sneakers/purple
-
-/datum/loadout_item/shoes/orange_sneakers
-	name = "Orange Sneakers"
-	item_path = /obj/item/clothing/shoes/sneakers/orange
-
-/datum/loadout_item/shoes/yellow_sneakers
-	name = "Yellow Sneakers"
-	item_path = /obj/item/clothing/shoes/sneakers/yellow
-
-/datum/loadout_item/shoes/white_sneakers
-	name = "White Sneakers"
-	item_path = /obj/item/clothing/shoes/sneakers/white
-*/
-
 /*
 *	LEG WRAPS
 */
@@ -232,33 +198,6 @@ GLOBAL_LIST_INIT(loadout_shoes, generate_loadout_items(/datum/loadout_item/shoes
 /datum/loadout_item/shoes/jingleshoes
 	name = "Jester Shoes"
 	item_path = /obj/item/clothing/shoes/jester_shoes
-
-/*
-*	SEASONAL
-*/
-
-/datum/loadout_item/shoes/christmas
-	name = "Red Christmas Boots"
-	item_path = /obj/item/clothing/shoes/winterboots/christmas
-
-/datum/loadout_item/shoes/christmas/green
-	name = "Green Christmas Boots"
-	item_path = /obj/item/clothing/shoes/winterboots/christmas/green
-
-
-/*
-*	JOB-RESTRICTED
-*/
-
-/datum/loadout_item/shoes/jester
-	name = "Clown's Jester Shoes"
-	item_path = /obj/item/clothing/shoes/clown_shoes/jester
-	restricted_roles = list(JOB_CLOWN)
-
-/datum/loadout_item/shoes/clown_shoes/pink
-	name = "Pink Clown Shoes"
-	item_path = /obj/item/clothing/shoes/clown_shoes/pink
-	restricted_roles = list(JOB_CLOWN)
 
 /*
 *	DONATOR

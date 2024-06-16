@@ -72,36 +72,6 @@ GLOBAL_LIST_INIT(loadout_miscunders, generate_loadout_items(/datum/loadout_item/
 	name = "Refitted Shoredress Wetsuit"
 	item_path = /obj/item/clothing/under/akula_wetsuit/refit
 
-/datum/loadout_item/under/jumpsuit/impcap
-	name = "Captain's Naval Jumpsuit"
-	item_path = /obj/item/clothing/under/rank/captain/nova/imperial
-	restricted_roles = list(JOB_CAPTAIN, JOB_NT_REP)
-
-/datum/loadout_item/under/jumpsuit/imphop
-	name = "Head of Personnel's Naval Jumpsuit"
-	item_path = /obj/item/clothing/under/rank/civilian/head_of_personnel/nova/imperial
-	restricted_roles = list(JOB_HEAD_OF_PERSONNEL, JOB_NT_REP)
-
-/datum/loadout_item/under/jumpsuit/imphos
-	name = "Head of Security's Naval Uniform"
-	item_path = /obj/item/clothing/under/rank/security/head_of_security/nova/imperial
-	restricted_roles = list(JOB_HEAD_OF_SECURITY)
-
-/datum/loadout_item/under/jumpsuit/impcmo
-	name = "Chief Medical Officer's Naval Uniform"
-	item_path = /obj/item/clothing/under/rank/medical/chief_medical_officer/nova/imperial
-	restricted_roles = list(JOB_CHIEF_MEDICAL_OFFICER)
-
-/datum/loadout_item/under/jumpsuit/impce
-	name = "Chief Engineer's Naval Uniform"
-	item_path = /obj/item/clothing/under/rank/engineering/chief_engineer/nova/imperial
-	restricted_roles = list(JOB_CHIEF_ENGINEER)
-
-/datum/loadout_item/under/jumpsuit/imprd
-	name = "Research Director's Naval Uniform"
-	item_path = /obj/item/clothing/under/rank/rnd/research_director/nova/imperial
-	restricted_roles = list(JOB_RESEARCH_DIRECTOR)
-
 /datum/loadout_item/under/jumpsuit/impcommand
 	name = "Light Grey Officer's Naval Jumpsuit"
 	item_path = /obj/item/clothing/under/rank/captain/nova/imperial/generic
@@ -117,46 +87,6 @@ GLOBAL_LIST_INIT(loadout_miscunders, generate_loadout_items(/datum/loadout_item/
 /datum/loadout_item/under/jumpsuit/impcomtrous
 	name = "Grey Officer's Naval Jumpsuit (Trousers)"
 	item_path = /obj/item/clothing/under/rank/captain/nova/imperial/generic/pants
-
-/datum/loadout_item/under/jumpsuit/security_dress
-	name = "Security Battle Dress"
-	item_path = /obj/item/clothing/under/rank/security/peacekeeper/dress
-	restricted_roles = list(JOB_SECURITY_OFFICER, JOB_WARDEN, JOB_HEAD_OF_SECURITY)
-
-/datum/loadout_item/under/jumpsuit/security_trousers
-	name = "Security Trousers"
-	item_path = /obj/item/clothing/under/rank/security/peacekeeper/trousers
-	restricted_roles = list(JOB_SECURITY_OFFICER, JOB_WARDEN, JOB_HEAD_OF_SECURITY)
-
-/datum/loadout_item/under/jumpsuit/security_shorts
-	name = "Security Shorts"
-	item_path = /obj/item/clothing/under/rank/security/peacekeeper/trousers/shorts
-	restricted_roles = list(JOB_SECURITY_OFFICER, JOB_WARDEN, JOB_HEAD_OF_SECURITY)
-
-/datum/loadout_item/under/jumpsuit/security_jumpskirt
-	name = "Security Jumpskirt"
-	item_path = /obj/item/clothing/under/rank/security/officer/skirt
-	restricted_roles = list(JOB_SECURITY_OFFICER, JOB_WARDEN, JOB_HEAD_OF_SECURITY)
-
-/datum/loadout_item/under/jumpsuit/security_plain_skirt
-	name = "Security Plain Skirt"
-	item_path = /obj/item/clothing/under/rank/security/peacekeeper/plain_skirt
-	restricted_roles = list(JOB_SECURITY_OFFICER, JOB_WARDEN, JOB_HEAD_OF_SECURITY)
-
-/datum/loadout_item/under/jumpsuit/security_miniskirt
-	name = "Security Miniskirt"
-	item_path = /obj/item/clothing/under/rank/security/peacekeeper/miniskirt
-	restricted_roles = list(JOB_SECURITY_OFFICER, JOB_WARDEN, JOB_HEAD_OF_SECURITY)
-
-/datum/loadout_item/under/jumpsuit/security_jumpsuit
-	name = "Security Jumpsuit"
-	item_path = /obj/item/clothing/under/rank/security/peacekeeper/jumpsuit
-	restricted_roles = list(JOB_SECURITY_OFFICER, JOB_WARDEN, JOB_HEAD_OF_SECURITY)
-
-/datum/loadout_item/under/jumpsuit/security_peacekeeper
-	name = "Security Peacekeeper Uniform"
-	item_path = /obj/item/clothing/under/rank/security/peacekeeper
-	restricted_roles = list(JOB_SECURITY_OFFICER, JOB_WARDEN, JOB_HEAD_OF_SECURITY)
 
 /datum/loadout_item/under/jumpsuit/imperial_police_uniform
 	name = "Imperial Police Uniform"
@@ -214,11 +144,6 @@ GLOBAL_LIST_INIT(loadout_miscunders, generate_loadout_items(/datum/loadout_item/
 	name = "Cargo Technician's Shortskirt"
 	item_path = /obj/item/clothing/under/rank/cargo/tech/skirt/alt
 
-/datum/loadout_item/under/jumpsuit/cargo/qm
-	name = "Quartermaster's Uniform"
-	item_path = /obj/item/clothing/under/rank/cargo/qm
-	restricted_roles = list(JOB_QUARTERMASTER)
-
 /datum/loadout_item/under/jumpsuit/utility
 	name = "Utility Uniform"
 	item_path = /obj/item/clothing/under/misc/nova/utility
@@ -239,72 +164,11 @@ GLOBAL_LIST_INIT(loadout_miscunders, generate_loadout_items(/datum/loadout_item/
 	name = "Supply Utility Uniform"
 	item_path = /obj/item/clothing/under/rank/cargo/tech/nova/utility
 
-/datum/loadout_item/under/jumpsuit/utility_sec
-	name = "Security Utility Uniform"
-	item_path = /obj/item/clothing/under/rank/security/nova/utility
-	restricted_roles = list(JOB_SECURITY_OFFICER, JOB_DETECTIVE, JOB_WARDEN, JOB_BLUESHIELD, JOB_HEAD_OF_SECURITY, JOB_CORRECTIONS_OFFICER) //i dunno about the blueshield, they're a weird combo of sec and command, thats why they arent in the loadout pr im making
-
-/datum/loadout_item/under/jumpsuit/utility_com
-	name = "Command Utility Uniform"
-	item_path = /obj/item/clothing/under/rank/captain/nova/utility
-	restricted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_BLUESHIELD, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_CHIEF_MEDICAL_OFFICER, JOB_CHIEF_ENGINEER)
-
-/datum/loadout_item/under/jumpsuit/tarkon
-	name = "Tarkon Deck Jumpsuit"
-	item_path = /obj/item/clothing/under/tarkon
-	blacklisted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_BLUESHIELD, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_CHIEF_MEDICAL_OFFICER, JOB_CHIEF_ENGINEER, JOB_SECURITY_OFFICER, JOB_DETECTIVE, JOB_WARDEN, JOB_BLUESHIELD, JOB_CORRECTIONS_OFFICER)
-
-/datum/loadout_item/under/jumpsuit/tarkon/sci
-	name = "Tarkon Science Jumpsuit"
-	item_path = /obj/item/clothing/under/tarkon/sci
-	blacklisted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_BLUESHIELD, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_CHIEF_MEDICAL_OFFICER, JOB_CHIEF_ENGINEER, JOB_SECURITY_OFFICER, JOB_DETECTIVE, JOB_WARDEN, JOB_BLUESHIELD, JOB_CORRECTIONS_OFFICER)
-
-/datum/loadout_item/under/jumpsuit/tarkon/eng
-	name = "Tarkon Engineer Jumpsuit"
-	item_path = /obj/item/clothing/under/tarkon/eng
-	blacklisted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_BLUESHIELD, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_CHIEF_MEDICAL_OFFICER, JOB_CHIEF_ENGINEER, JOB_SECURITY_OFFICER, JOB_DETECTIVE, JOB_WARDEN, JOB_BLUESHIELD, JOB_CORRECTIONS_OFFICER)
-
-/datum/loadout_item/under/jumpsuit/tarkon/med
-	name = "Tarkon Medical Jumpsuit"
-	item_path = /obj/item/clothing/under/tarkon/med
-	blacklisted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_BLUESHIELD, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_CHIEF_MEDICAL_OFFICER, JOB_CHIEF_ENGINEER, JOB_SECURITY_OFFICER, JOB_DETECTIVE, JOB_WARDEN, JOB_BLUESHIELD, JOB_CORRECTIONS_OFFICER)
-
-/datum/loadout_item/under/jumpsuit/tarkon/cargo
-	name = "Tarkon Cargo Jumpsuit"
-	item_path = /obj/item/clothing/under/tarkon/cargo
-	blacklisted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_BLUESHIELD, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_CHIEF_MEDICAL_OFFICER, JOB_CHIEF_ENGINEER, JOB_SECURITY_OFFICER, JOB_DETECTIVE, JOB_WARDEN, JOB_BLUESHIELD, JOB_CORRECTIONS_OFFICER)
-
-/datum/loadout_item/under/jumpsuit/tarkon/sec
-	name = "Tarkon Guard Jumpsuit"
-	item_path = /obj/item/clothing/under/tarkon/sec
-	blacklisted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_BLUESHIELD, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_CHIEF_MEDICAL_OFFICER, JOB_CHIEF_ENGINEER, JOB_SECURITY_OFFICER, JOB_DETECTIVE, JOB_WARDEN, JOB_BLUESHIELD, JOB_CORRECTIONS_OFFICER)
-
-/datum/loadout_item/under/jumpsuit/tarkon/com
-	name = "Tarkon Command Jumpsuit"
-	item_path = /obj/item/clothing/under/tarkon/com
-	blacklisted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_BLUESHIELD, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_CHIEF_MEDICAL_OFFICER, JOB_CHIEF_ENGINEER, JOB_SECURITY_OFFICER, JOB_DETECTIVE, JOB_WARDEN, JOB_BLUESHIELD, JOB_CORRECTIONS_OFFICER)
-
 /*
  *	MISC UNDERSUITS
  */
 
 /datum/loadout_item/under/miscellaneous
-
-/datum/loadout_item/under/miscellaneous/christmas
-	name = "Christmas Suit"
-	item_path = /obj/item/clothing/under/costume/nova/christmas
-
-/datum/loadout_item/under/miscellaneous/christmas/green
-	name = "Green Christmas Suit"
-	item_path = /obj/item/clothing/under/costume/nova/christmas/green
-
-/datum/loadout_item/under/miscellaneous/christmas/female
-	name = "Revealing Christmas Suit"
-	item_path = /obj/item/clothing/under/costume/nova/christmas/croptop
-
-/datum/loadout_item/under/miscellaneous/christmas/female/green
-	name = "Revealing Green Christmas Suit"
-	item_path = /obj/item/clothing/under/costume/nova/christmas/croptop/green
 
 /datum/loadout_item/under/miscellaneous/buttondown
 	name = "Recolorable Buttondown Shirt with Slacks"
@@ -669,20 +533,6 @@ GLOBAL_LIST_INIT(loadout_miscunders, generate_loadout_items(/datum/loadout_item/
 	name = "Gladiator Uniform"
 	item_path = /obj/item/clothing/under/costume/gladiator
 
-/* Lethalstation removal
-/datum/loadout_item/under/miscellaneous/griffon
-	name = "Griffon Uniform"
-	item_path = /obj/item/clothing/under/costume/griffin
-
-/datum/loadout_item/under/miscellaneous/owl
-	name = "Owl Uniform"
-	item_path = /obj/item/clothing/under/costume/owl
-
-/datum/loadout_item/under/miscellaneous/villain
-	name = "Villain Suit"
-	item_path = /obj/item/clothing/under/costume/villain
-*/
-
 /datum/loadout_item/under/miscellaneous/sweater
 	name = "Cableknit Sweater" //Different than the Suit item ("Sweater")!!
 	item_path = /obj/item/clothing/under/sweater
@@ -742,16 +592,6 @@ GLOBAL_LIST_INIT(loadout_miscunders, generate_loadout_items(/datum/loadout_item/
 /datum/loadout_item/under/miscellaneous/cargo_skirtle
 	name = "Cargo Skirtleneck"
 	item_path = /obj/item/clothing/under/rank/cargo/tech/nova/turtleneck/skirt
-
-/datum/loadout_item/under/miscellaneous/qm_skirtle
-	name = "Quartermaster's Skirtleneck"
-	item_path = /obj/item/clothing/under/rank/cargo/qm/nova/turtleneck/skirt
-	restricted_roles = list(JOB_QUARTERMASTER)
-
-/datum/loadout_item/under/miscellaneous/qm_gorka
-	name = "Quartermaster's Gorka Uniform"
-	item_path = /obj/item/clothing/under/rank/cargo/qm/nova/gorka
-	restricted_roles = list(JOB_QUARTERMASTER)
 
 /datum/loadout_item/under/miscellaneous/eve
 	name = "Collection of Leaves"
@@ -1056,35 +896,6 @@ GLOBAL_LIST_INIT(loadout_miscunders, generate_loadout_items(/datum/loadout_item/
 	name = "Green Pencilskirt"
 	item_path = /obj/item/clothing/under/suit/nova/pencil/green
 
-/datum/loadout_item/under/formal/azulea_oldblood
-	name = " Oldblood's Royal regalia"
-	item_path = /obj/item/clothing/under/rank/azulean/old_blood
-	restricted_roles = list(JOB_CAPTAIN, JOB_NT_REP)
-	restricted_species = list(SPECIES_AKULA)
-
-/datum/loadout_item/under/formal/azulea_oldblood/skirt
-	name = " Oldblood's Royal regalia (Skirt)"
-	item_path = /obj/item/clothing/under/rank/azulean/old_blood/skirt
-	restricted_roles = list(JOB_CAPTAIN, JOB_NT_REP)
-	restricted_species = list(SPECIES_AKULA)
-
-/datum/loadout_item/under/formal/azulea_upstart
-	name = "Upstart's Noble Getup"
-	item_path = /obj/item/clothing/under/rank/azulean/upstart
-	restricted_roles = list(JOB_CAPTAIN, JOB_NT_REP)
-	restricted_species = list(SPECIES_AKULA)
-
-/datum/loadout_item/under/formal/azulea_upstart/skirt
-	name = "Upstart's Noble Getup (Skirt)"
-	item_path = /obj/item/clothing/under/rank/azulean/upstart/skirt
-	restricted_roles = list(JOB_CAPTAIN, JOB_NT_REP)
-	restricted_species = list(SPECIES_AKULA)
-
 /// DONATOR
 /datum/loadout_item/under/donator
 	donator_only = TRUE
-
-/datum/loadout_item/under/donator/captain_black
-	name  = "Captains Black Uniform"
-	item_path = /obj/item/clothing/under/rank/captain/nova/black
-	restricted_roles = list(JOB_CAPTAIN)

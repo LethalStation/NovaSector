@@ -1,7 +1,3 @@
-/datum/loadout_item/suit/ntrauma
-	name = "Trauma Team Softsuit"
-	item_path = /obj/item/clothing/suit/space/ntrauma
-
 /datum/loadout_item/suit/frontier_flak
 	name = "Frontier Flak Jacket"
 	item_path = /obj/item/clothing/suit/frontier_colonist_flak

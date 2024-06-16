@@ -64,24 +64,6 @@ GLOBAL_LIST_INIT(loadout_exosuits, generate_loadout_items(/datum/loadout_item/su
 	name = "Recolorable Formal Suit Jacket"
 	item_path = /obj/item/clothing/suit/toggle/lawyer/greyscale
 
-/* Lethalstation removal
-/datum/loadout_item/suit/black_suit_jacket
-	name = "Black Formal Suit Jacket"
-	item_path = /obj/item/clothing/suit/toggle/lawyer/black
-
-/datum/loadout_item/suit/blue_suit_jacket
-	name = "Blue Formal Suit Jacket"
-	item_path = /obj/item/clothing/suit/toggle/lawyer
-
-/datum/loadout_item/suit/purple_suit_jacket
-	name = "Purple Formal Suit Jacket"
-	item_path = /obj/item/clothing/suit/toggle/lawyer/purple
-
-/datum/loadout_item/suit/white_suit_jacket
-	name = "White Formal Suit Jacket"
-	item_path = /obj/item/clothing/suit/toggle/lawyer/white
-*/
-
 /datum/loadout_item/suit/suitblackbetter
 	name = "Light Black Formal Suit Jacket"
 	item_path = /obj/item/clothing/suit/toggle/lawyer/black/better
@@ -214,94 +196,6 @@ GLOBAL_LIST_INIT(loadout_exosuits, generate_loadout_items(/datum/loadout_item/su
 /datum/loadout_item/suit/varsity
 	name = "Varsity Jacket"
 	item_path = /obj/item/clothing/suit/varsity
-
-/*
-*	COSTUMES
-*/
-
-/* Lethalstation removal
-/datum/loadout_item/suit/owl
-	name = "Owl Cloak"
-	item_path = /obj/item/clothing/suit/toggle/owlwings
-
-/datum/loadout_item/suit/griffin
-	name = "Griffon Cloak"
-	item_path = /obj/item/clothing/suit/toggle/owlwings/griffinwings
-*/
-
-/datum/loadout_item/suit/syndi
-	name = "Black And Red Space Suit Replica"
-	item_path = /obj/item/clothing/suit/syndicatefake
-
-/* Lethalstation removal
-/datum/loadout_item/suit/bee
-	name = "Bee Outfit"
-	item_path = /obj/item/clothing/suit/hooded/bee_costume
-*/
-
-/datum/loadout_item/suit/plague_doctor
-	name = "Plague Doctor Suit"
-	item_path = /obj/item/clothing/suit/bio_suit/plaguedoctorsuit
-
-/* Lethalstation removal
-/datum/loadout_item/suit/snowman
-	name = "Snowman Outfit"
-	item_path = /obj/item/clothing/suit/costume/snowman
-
-/datum/loadout_item/suit/chicken
-	name = "Chicken Suit"
-	item_path = /obj/item/clothing/suit/costume/chickensuit
-
-/datum/loadout_item/suit/monkey
-	name = "Monkey Suit"
-	item_path = /obj/item/clothing/suit/costume/monkeysuit
-
-/datum/loadout_item/suit/cardborg
-	name = "Cardborg Suit"
-	item_path = /obj/item/clothing/suit/costume/cardborg
-
-/datum/loadout_item/suit/xenos
-	name = "Xenos Suit"
-	item_path = /obj/item/clothing/suit/costume/xenos
-
-/datum/loadout_item/suit/ian_costume
-	name = "Corgi Costume"
-	item_path = /obj/item/clothing/suit/hooded/ian_costume
-
-/datum/loadout_item/suit/carp_costume
-	name = "Carp Costume"
-	item_path = /obj/item/clothing/suit/hooded/carp_costume
-
-/datum/loadout_item/suit/shark_costume
-	name = "Shark Costume"
-	item_path = /obj/item/clothing/suit/hooded/shark_costume
-
-/datum/loadout_item/suit/shork_costume
-	name = "Shork Costume"
-	item_path = /obj/item/clothing/suit/hooded/shork_costume
-*/
-
-/datum/loadout_item/suit/wizard
-	name = "Wizard Robe"
-	item_path = /obj/item/clothing/suit/wizrobe/fake
-
-/datum/loadout_item/suit/witch
-	name = "Witch Robe"
-	item_path = /obj/item/clothing/suit/wizrobe/marisa/fake
-
-/* Lethalstation removal
-/*
-*	SEASONAL
-*/
-
-/datum/loadout_item/suit/winter_coat/christmas
-	name = "Christmas Coat"
-	item_path = /obj/item/clothing/suit/hooded/wintercoat/nova/christmas
-
-/datum/loadout_item/suit/winter_coat/christmas/green
-	name = "Green Christmas Coat"
-	item_path = /obj/item/clothing/suit/hooded/wintercoat/nova/christmas/green
-*/
 
 /*
 *	MISC
@@ -476,11 +370,6 @@ GLOBAL_LIST_INIT(loadout_exosuits, generate_loadout_items(/datum/loadout_item/su
 	name = "Flak Jacket"
 	item_path = /obj/item/clothing/suit/flakjack
 
-/datum/loadout_item/suit/deckard
-	name = "Runner Coat"
-	item_path = /obj/item/clothing/suit/toggle/deckard
-	restricted_roles = list(JOB_DETECTIVE)
-
 /datum/loadout_item/suit/bltrench
 	name = "Black Trenchcoat"
 	item_path = /obj/item/clothing/suit/trenchblack
@@ -520,56 +409,6 @@ GLOBAL_LIST_INIT(loadout_exosuits, generate_loadout_items(/datum/loadout_item/su
 /datum/loadout_item/suit/hoodie/greyscale_trim_alt
 	name = "Greyscale Trimmed Hoodie (Alt)"
 	item_path = /obj/item/clothing/suit/toggle/jacket/hoodie/trim/alt
-
-/* Lethalstation removal
-/datum/loadout_item/suit/hoodie/black
-	name = "Black Hoodie"
-	item_path = /obj/item/clothing/suit/toggle/jacket/hoodie/black
-
-/datum/loadout_item/suit/hoodie/red
-	name = "Red Hoodie"
-	item_path = /obj/item/clothing/suit/toggle/jacket/hoodie/red
-
-/datum/loadout_item/suit/hoodie/blue
-	name = "Blue Hoodie"
-	item_path = /obj/item/clothing/suit/toggle/jacket/hoodie/blue
-
-/datum/loadout_item/suit/hoodie/green
-	name = "Green Hoodie"
-	item_path = /obj/item/clothing/suit/toggle/jacket/hoodie/green
-
-/datum/loadout_item/suit/hoodie/orange
-	name = "Orange Hoodie"
-	item_path = /obj/item/clothing/suit/toggle/jacket/hoodie/orange
-
-/datum/loadout_item/suit/hoodie/yellow
-	name = "Yellow Hoodie"
-	item_path = /obj/item/clothing/suit/toggle/jacket/hoodie/yellow
-
-/datum/loadout_item/suit/hoodie/grey
-	name = "Grey Hoodie"
-	item_path = /obj/item/clothing/suit/toggle/jacket/hoodie/grey
-*/
-
-/datum/loadout_item/suit/hoodie/nt
-	name = "NT Hoodie"
-	item_path = /obj/item/clothing/suit/toggle/jacket/hoodie/branded
-
-/datum/loadout_item/suit/hoodie/smw
-	name = "SMW Hoodie"
-	item_path = /obj/item/clothing/suit/toggle/jacket/hoodie/branded/smw
-
-/datum/loadout_item/suit/hoodie/nrti
-	name = "NRTI Hoodie"
-	item_path = /obj/item/clothing/suit/toggle/jacket/hoodie/branded/nrti
-
-/datum/loadout_item/suit/hoodie/cti
-	name = "CTI Hoodie"
-	item_path = /obj/item/clothing/suit/toggle/jacket/hoodie/branded/cti
-
-/datum/loadout_item/suit/hoodie/mu
-	name = "Mojave University Hoodie"
-	item_path = /obj/item/clothing/suit/toggle/jacket/hoodie/branded/mu
 
 /*
 *	JOB-LOCKED
@@ -616,42 +455,6 @@ GLOBAL_LIST_INIT(loadout_exosuits, generate_loadout_items(/datum/loadout_item/su
 	name = "Mining Winter Coat"
 	item_path = /obj/item/clothing/suit/hooded/wintercoat/miner
 
-// JACKETS
-/datum/loadout_item/suit/navybluejacketofficer
-	name = "Security Officer's Navy Blue Formal Jacket"
-	item_path = /obj/item/clothing/suit/jacket/officer/blue
-	restricted_roles = list(JOB_WARDEN, JOB_DETECTIVE, JOB_SECURITY_OFFICER, JOB_HEAD_OF_SECURITY, JOB_CORRECTIONS_OFFICER)
-
-/datum/loadout_item/suit/navybluejacketwarden
-	name = "Warden's Navy Blue Formal Jacket"
-	item_path = /obj/item/clothing/suit/jacket/warden/blue
-	restricted_roles = list(JOB_WARDEN)
-
-/datum/loadout_item/suit/navybluejackethos
-	name = "Head of Security's Navy Blue Formal Jacket"
-	item_path = /obj/item/clothing/suit/jacket/hos/blue
-	restricted_roles = list(JOB_HEAD_OF_SECURITY)
-
-/datum/loadout_item/suit/security_jacket
-	name = "Security Jacket"
-	item_path = /obj/item/clothing/suit/toggle/jacket/sec
-	restricted_roles = list(JOB_WARDEN, JOB_DETECTIVE, JOB_SECURITY_OFFICER, JOB_HEAD_OF_SECURITY) //Not giving this one to COs because it's actually better than the one they spawn with
-
-/datum/loadout_item/suit/brit
-	name = "High Vis Armored Vest"
-	item_path = /obj/item/clothing/suit/armor/vest/peacekeeper/brit
-	restricted_roles = list(JOB_HEAD_OF_SECURITY, JOB_SECURITY_OFFICER, JOB_WARDEN, JOB_DETECTIVE, JOB_CORRECTIONS_OFFICER)
-
-/datum/loadout_item/suit/british_jacket
-	name = "Peacekeeper Officer Coat"
-	item_path = /obj/item/clothing/suit/british_officer
-	restricted_roles = list(JOB_WARDEN, JOB_DETECTIVE, JOB_SECURITY_OFFICER, JOB_HEAD_OF_SECURITY, JOB_CORRECTIONS_OFFICER)
-
-/datum/loadout_item/suit/peacekeeper_jacket
-	name = "Peacekeeper Jacket"
-	item_path = /obj/item/clothing/suit/armor/vest/peacekeeper/jacket
-	restricted_roles = list(JOB_WARDEN, JOB_DETECTIVE, JOB_SECURITY_OFFICER, JOB_HEAD_OF_SECURITY, JOB_CORRECTIONS_OFFICER)
-
 /datum/loadout_item/suit/peacekeeper_jacket/badge
 	name = "Badged Peacekeeper Jacket"
 	item_path = /obj/item/clothing/suit/armor/vest/peacekeeper/jacket/badge
@@ -679,11 +482,6 @@ GLOBAL_LIST_INIT(loadout_exosuits, generate_loadout_items(/datum/loadout_item/su
 /datum/loadout_item/suit/cargo_gorka_jacket
 	name = "Cargo Gorka Jacket"
 	item_path = /obj/item/clothing/suit/toggle/cargo_tech
-
-/datum/loadout_item/suit/qm_jacket
-	name = "Quartermaster's Overcoat"
-	item_path = /obj/item/clothing/suit/jacket/quartermaster
-	restricted_roles = list(JOB_QUARTERMASTER)
 
 // LABCOATS
 /datum/loadout_item/suit/labcoat_highvis
@@ -772,7 +570,7 @@ GLOBAL_LIST_INIT(loadout_exosuits, generate_loadout_items(/datum/loadout_item/su
 /datum/loadout_item/suit/crop_jacket
 	name = "Colourable Crop-Top Jacket"
 	item_path = /obj/item/clothing/suit/crop_jacket
-	
+
 /datum/loadout_item/suit/sleeveless_crop_jacket
 	name = "Colourable Sleeveless Crop-Top Jacket"
 	item_path = /obj/item/clothing/suit/crop_jacket/sleeveless
