@@ -1080,125 +1080,44 @@
 
 // Floor props
 
-/obj/structure/prop/urban/misc/floorprops
-	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
-	icon_state = "solidgrate1"
-
-/obj/structure/prop/urban/misc/floorprops/grate
+/obj/structure/prop/floor/grate
 	name = "solid metal grate"
 	desc = "A metal grate."
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
 	icon_state = "solidgrate1"
 
-/obj/structure/prop/urban/misc/floorprops/grate2
+/obj/structure/prop/floor/grate2
 	name = "solid metal grate"
 	desc = "A metal grate."
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
 	icon_state = "solidgrate5"
 
-/obj/structure/prop/urban/misc/floorprops/grate3
+/obj/structure/prop/floor/grate3
 	name = "solid metal grate"
 	desc = "A metal grate."
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
 	icon_state = "zhalfgrate1"
 
-/obj/structure/prop/urban/misc/floorprops/floorglass
+/obj/structure/prop/floor/floorglass
 	name = "reinforced glass floor"
 	desc = "A heavily reinforced glass floor panel, this looks almost indestructible."
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
 	icon_state = "solidgrate2"
 
-/obj/structure/prop/urban/misc/floorprops/floorglass2
+/obj/structure/prop/floor/floorglass2
 	name = "reinforced glass floor"
 	desc = "A heavily reinforced glass floor panel, this looks almost indestructible."
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
 	icon_state = "solidgrate3"
 	layer = 2.1
 
-/obj/structure/prop/urban/misc/floorprops/floorglass3
+/obj/structure/prop/floor/floorglass3
 	name = "reinforced glass floor"
 	desc = "A heavily reinforced glass floor panel, this looks almost indestructible."
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
 	icon_state = "solidgrate4"
 
-// Graffiti
-
-/obj/structure/prop/urban/misc/graffiti
-	name = "graffiti"
-	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/64x96-urbanrandomprops.dmi'
-	icon_state = "zgraffiti4"
-	bound_height = 64
-	bound_width = 96
-	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
-
-/obj/structure/prop/urban/misc/graffiti/graffiti1
-	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/64x96-urbanrandomprops.dmi'
-	icon_state = "zgraffiti1"
-
-/obj/structure/prop/urban/misc/graffiti/graffiti2
-	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/64x96-urbanrandomprops.dmi'
-	icon_state = "zgraffiti2"
-
-/obj/structure/prop/urban/misc/graffiti/graffiti3
-	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/64x96-urbanrandomprops.dmi'
-	icon_state = "zgraffiti3"
-
-/obj/structure/prop/urban/misc/graffiti/graffiti4
-	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/64x96-urbanrandomprops.dmi'
-	icon_state = "zgraffiti4"
-
-/obj/structure/prop/urban/misc/graffiti/graffiti5
-	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/64x96-urbanrandomprops.dmi'
-	icon_state = "zgraffiti5"
-
-/obj/structure/prop/urban/misc/graffiti/graffiti6
-	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/64x96-urbanrandomprops.dmi'
-	icon_state = "zgraffiti6"
-
-/obj/structure/prop/urban/misc/graffiti/graffiti7
-	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/64x96-urbanrandomprops.dmi'
-	icon_state = "zgraffiti7"
-
-// Wall Blood
-
-/obj/structure/prop/urban/misc/blood
-	name = "blood"
-	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/64x96-urbanrandomprops.dmi'
-	icon_state = "wallblood_floorblood"
-
-/obj/structure/prop/urban/misc/blood/blood1
-	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/64x96-urbanrandomprops.dmi'
-	icon_state = "wallblood_floorblood"
-
-/obj/structure/prop/urban/misc/blood/blood2
-	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/64x96-urbanrandomprops.dmi'
-	icon_state = "wall_blood_1"
-
-/obj/structure/prop/urban/misc/blood/blood3
-	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/64x96-urbanrandomprops.dmi'
-	icon_state = "wall_blood_2"
-
 // Fire
-
-/obj/structure/prop/urban/misc/fire/fire1
-	name = "fire"
-	desc = "It's hot, smoking even."
-	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/64x96-urbanrandomprops.dmi'
-	icon_state = "zfire_smoke"
-	layer = 5
-	light_on = TRUE
-	light_power = 2
-	light_range = 3
-
-/obj/structure/prop/urban/misc/fire/fire2
-	name = "fire"
-	desc = "It's hot, smoking even."
-	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/64x96-urbanrandomprops.dmi'
-	icon_state = "zfire_smoke2"
-	layer = 5
-	light_on = TRUE
-	light_power = 2
-	light_range = 3
 
 /obj/structure/prop/urban/misc/fire/firebarrel
 	name = "barrel"
@@ -1413,13 +1332,6 @@
 
 /obj/structure/prop/urban/misc/machinery/screens/bluemultimonitorbig_on
 	icon_state = "bluemultimonitorbig_on"
-
-// Egg
-/obj/structure/prop/urban/misc/machinery/screens/wallegg_off
-	icon_state = "wallegg_off"
-
-/obj/structure/prop/urban/misc/machinery/screens/wallegg_on
-	icon_state = "wallegg_on"
 
 /obj/structure/prop/urban/misc/fake/pipes
 	name = "disposal pipe"
