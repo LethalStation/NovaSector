@@ -193,7 +193,7 @@
 									"TARGET SPOTTED!!",
 									"GET 'EM!!",
 									"YOUR TIME HAS COME!!",
-									"MY MAIN PLAIN IS TO BLOW UP!!",
+									"MY MAIN PLAN IS TO BLOW UP!!",
 								), speech_chance = 100, subtract_chance = 5, minimum_chance = 15)
 
 /mob/living/basic/trooper/gakster/filtre
