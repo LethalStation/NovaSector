@@ -4,12 +4,69 @@
 	maxHealth = 150
 	health = 150
 	faction = list(ROLE_SYNDICATE)
+	ai_controller = /datum/ai_controller/basic_controller/trooper/gakster
 	loot = list(/obj/effect/mob_spawn/corpse/human/gakstermob)
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/gakstermob
 
 /mob/living/basic/trooper/gakster/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/regenerator, regeneration_delay = 30 SECONDS, brute_per_second = 8, outline_colour = COLOR_SOFT_RED)
+
+/mob/living/basic/trooper/gakster/melee_attack(mob/living/target, list/modifiers, ignore_cooldown)
+	. = ..()
+	if (!. || !isliving(target))
+		return
+	taunt_target_melee()
+
+/mob/living/basic/trooper/gakster/proc/taunt_target_melee()
+	var/static/list/melee_taunts = list(
+		"Eat this, bastard!",
+		"Sit the fuck down!",
+		"You like that?!",
+		"Get fucked!",
+		"You ain't shit!",
+		"Gimme a hug!",
+		"Bitch!",
+		"Fuck off!",
+		"Die already!",
+		"Get bent!",
+		"Die, bitch!",
+		"Die!",
+		"Motherfucker!",
+		"Stop struggling!",
+		"Hold still!",
+		"Stop moving, dammit!",
+		"Fuck you!",
+	)
+	if(prob(25))
+		say(language = /datum/language/gutter, message = pick(melee_taunts))
+
+/mob/living/basic/trooper/gakster/apply_damage(damage, damagetype, def_zone, blocked, forced, spread_damage, wound_bonus, bare_wound_bonus, sharpness, attack_direction, attacking_item)
+	. = ..()
+	taunt_pain()
+
+/mob/living/basic/trooper/gakster/proc/taunt_pain()
+	var/static/list/pain_taunts = list(
+		"FUCK!",
+		"-Agh, shit!",
+		"Ow, fuck!",
+		"-Dammit!",
+		"Ough-",
+		"Fuck-",
+		"Ough, shit-",
+		"Bastard-",
+		"-fuck!",
+		"-owh, my arm!",
+		"Agh-",
+		"Shit-",
+		"Fucker!",
+		"Can't feel a thing!",
+		"Try harder!",
+		"Stop resisting!",
+		"Fuck you!",
+	)
+	if(prob(40))
+		say(language = /datum/language/gutter, message = pick(pain_taunts))
 
 /mob/living/basic/trooper/gakster/melee
 	desc = "A gakster with a combat knife and very little to lose."
@@ -22,10 +79,28 @@
 	attack_vis_effect = ATTACK_EFFECT_SLASH
 	r_hand = /obj/item/knife/combat
 
+/mob/living/basic/trooper/gakster/Initialize(mapload)
+	. = ..()
+	AddComponent(/datum/component/aggro_speech, speech_list = list(
+		"Enemy identified!",
+		"Target spotted!",
+		"Hostile on scope!",
+		"Shit, enemy!",
+		"Shit!",
+		"Fuck!",
+		"Hostile!",
+		"Get out of here, Gakster!",
+		"Oh, shit!",
+		"Drop dead!",
+		"Enemy!",
+		"Hostile spotted!",
+		"Enemy spotted!",
+	), speech_chance = 90, subtract_chance = 5, minimum_chance = 15)
+
 /mob/living/basic/trooper/gakster/ranged
 	desc = "A gakster armed with a Seiba .27-54 submachinegun. They look pretty angry."
 	loot = list(/obj/effect/mob_spawn/corpse/human/gakstermob, /obj/item/gun/ballistic/automatic/seiba_smg, /obj/item/ammo_box/magazine/miecz)
-	ai_controller = /datum/ai_controller/basic_controller/trooper/ranged
+	ai_controller = /datum/ai_controller/basic_controller/trooper/gakster/ranged
 	r_hand = /obj/item/gun/ballistic/automatic/seiba_smg
 	var/casingtype = /obj/item/ammo_casing/c27_54cesarzowa
 	var/projectilesound = 'modular_np_lethal/lethalguns/sound/seiba/seiba.wav'
@@ -34,6 +109,21 @@
 
 /mob/living/basic/trooper/gakster/ranged/Initialize(mapload)
 	. = ..()
+	AddComponent(/datum/component/aggro_speech, speech_list = list(
+		"Enemy identified!",
+		"Target spotted!",
+		"Hostile on scope!",
+		"Shit, enemy!",
+		"Shit!",
+		"Fuck!",
+		"Hostile!",
+		"Get out of here, Gakster!",
+		"Oh, shit!",
+		"Drop dead!",
+		"Enemy!",
+		"Hostile spotted!",
+		"Enemy spotted!",
+	), speech_chance = 95, subtract_chance = 5, minimum_chance = 15,)
 	AddComponent(\
 		/datum/component/ranged_attacks,\
 		casing_type = casingtype,\
@@ -43,6 +133,68 @@
 	)
 	if (ranged_cooldown <= 1 SECONDS)
 		AddComponent(/datum/component/ranged_mob_full_auto)
+
+/mob/living/basic/trooper/gakster/ranged/RangedAttack(atom/A, modifiers)
+	. = ..()
+	taunt_target_ranged()
+
+/mob/living/basic/trooper/gakster/ranged/proc/taunt_target_ranged()
+	var/static/list/ranged_taunts = list(
+		"Get fucked!",
+		"Opening fire!",
+		"Hostile identified!",
+		"Get the fuck down!",
+		"On your knees!",
+		"I'll make this quick!",
+		"Hey, get over here!",
+		"Bitch!",
+		"Motherfucker!",
+		"Get bent!",
+		"Die, bitch!",
+		"Die!",
+		"Firing!",
+		"Shoot 'em!",
+		"Fucker!",
+		"Bastard!",
+	)
+	if(prob(25))
+		say(language = /datum/language/gutter, message = pick(ranged_taunts))
+
+/mob/living/basic/trooper/gakster/suicide
+	name = "Gakster Suicide Bomber"
+	desc = "Oh, fuck, this dude's definitely Yellow Company."
+	mob_spawner = /obj/effect/mob_spawn/corpse/human/gakstersuicide
+	loot = list(/obj/effect/gibspawner/human)
+	speed = 1.2
+	melee_damage_lower = 0
+	melee_damage_upper = 0
+	attack_verb_continuous = "explodes"
+	attack_verb_simple = "explode"
+	l_hand = /obj/item/grenade/c4
+	r_hand = /obj/item/grenade/c4
+
+/mob/living/basic/trooper/gakster/suicide/melee_attack(mob/living/target, list/modifiers, ignore_cooldown)
+	. = ..()
+	explosion(src, 1, 2, 3, 4)
+	gib()
+
+/mob/living/basic/trooper/gakster/suicide/Initialize(mapload)
+	. = ..()
+	AddComponent(/datum/component/aggro_speech, speech_list = list(
+									"COME HERE!!",
+									"AAAAAAAAAA!!",
+									"FOR GLORY!!",
+									"DIIIIEEEE!!",
+									"CHECK THIS SHIT!!",
+									"I'M GONNA BLOW UP!!",
+									"BOOM TIME!!",
+									"BOOM-BOOM!!",
+									"TIME TO DIE!!",
+									"TARGET SPOTTED!!",
+									"GET 'EM!!",
+									"YOUR TIME HAS COME!!",
+									"MY MAIN PLAIN IS TO BLOW UP!!",
+								), speech_chance = 100, subtract_chance = 5, minimum_chance = 15)
 
 /mob/living/basic/trooper/gakster/filtre
 	name = "Blue Company Filtre"
@@ -118,7 +270,7 @@
 	burst_shots = 3
 	ranged_cooldown = 0.4 SECONDS
 
-// 287 Prophet : Drops double energy sword and type five armor - IMMUNE TO RANGED ATTACKS - NO THEY ARENT FUCK YOU!!!
+// 287 Prophet : Drops double energy sword and type five armor
 /mob/living/basic/trooper/gakster/melee/prophet
 	name = "287 Prophet"
 	desc = "A near-mythical triple-digit gakster wielding a rare double-bladed energy sword and clad in the heaviest of armor. Are you certain whatever you're doing is worth it?"
