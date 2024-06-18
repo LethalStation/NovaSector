@@ -11,6 +11,21 @@
 /mob/living/basic/trooper/gakster/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/regenerator, regeneration_delay = 30 SECONDS, brute_per_second = 8, outline_colour = COLOR_SOFT_RED)
+	AddComponent(/datum/component/aggro_speech, speech_list = list(
+		"Enemy identified!",
+		"Target spotted!",
+		"Hostile on scope!",
+		"Shit, enemy!",
+		"Shit!",
+		"Fuck!",
+		"Hostile!",
+		"Get out of here, Gakster!",
+		"Oh, shit!",
+		"Drop dead!",
+		"Enemy!",
+		"Hostile spotted!",
+		"Enemy spotted!",
+	), speech_chance = 95, subtract_chance = 5, minimum_chance = 15)
 
 /mob/living/basic/trooper/gakster/melee_attack(mob/living/target, list/modifiers, ignore_cooldown)
 	. = ..()
@@ -79,24 +94,6 @@
 	attack_vis_effect = ATTACK_EFFECT_SLASH
 	r_hand = /obj/item/knife/combat
 
-/mob/living/basic/trooper/gakster/Initialize(mapload)
-	. = ..()
-	AddComponent(/datum/component/aggro_speech, speech_list = list(
-		"Enemy identified!",
-		"Target spotted!",
-		"Hostile on scope!",
-		"Shit, enemy!",
-		"Shit!",
-		"Fuck!",
-		"Hostile!",
-		"Get out of here, Gakster!",
-		"Oh, shit!",
-		"Drop dead!",
-		"Enemy!",
-		"Hostile spotted!",
-		"Enemy spotted!",
-	), speech_chance = 90, subtract_chance = 5, minimum_chance = 15)
-
 /mob/living/basic/trooper/gakster/ranged
 	desc = "A gakster armed with a Seiba .27-54 submachinegun. They look pretty angry."
 	loot = list(/obj/effect/mob_spawn/corpse/human/gakstermob, /obj/item/gun/ballistic/automatic/seiba_smg, /obj/item/ammo_box/magazine/miecz)
@@ -109,21 +106,6 @@
 
 /mob/living/basic/trooper/gakster/ranged/Initialize(mapload)
 	. = ..()
-	AddComponent(/datum/component/aggro_speech, speech_list = list(
-		"Enemy identified!",
-		"Target spotted!",
-		"Hostile on scope!",
-		"Shit, enemy!",
-		"Shit!",
-		"Fuck!",
-		"Hostile!",
-		"Get out of here, Gakster!",
-		"Oh, shit!",
-		"Drop dead!",
-		"Enemy!",
-		"Hostile spotted!",
-		"Enemy spotted!",
-	), speech_chance = 95, subtract_chance = 5, minimum_chance = 15,)
 	AddComponent(\
 		/datum/component/ranged_attacks,\
 		casing_type = casingtype,\
