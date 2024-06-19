@@ -144,8 +144,11 @@
 	if(!on_fire)
 		return TRUE
 
-	var/decay_multiplier = HAS_TRAIT(owner, TRAIT_HUSK) ? 2 : 1 // husks decay twice as fast
-	adjust_stacks(owner.fire_stack_decay_rate * decay_multiplier * seconds_between_ticks)
+	var/decay_multiplier = HAS_TRAIT(owner, TRAIT_HUSK) ? 4 : 1 // LETHAL EDIT: husks burn out four times as fast
+	// LETHAL EDIT START: fire stacks no longer decay above 10 if you're alive and not a husk
+	if (stacks < 10 || HAS_TRAIT(owner, TRAIT_HUSK))
+		adjust_stacks(owner.fire_stack_decay_rate * decay_multiplier * seconds_between_ticks)
+	// LETHAL EDIT END
 
 	if(stacks <= 0)
 		qdel(src)

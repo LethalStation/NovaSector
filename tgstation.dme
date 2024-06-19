@@ -8444,6 +8444,7 @@
 #include "modular_np_lethal\epic_loot\code\loot_structures\toolbox.dm"
 #include "modular_np_lethal\epic_loot\code\loot_structures\wall_jackets.dm"
 #include "modular_np_lethal\epic_loot\code\storage_containers\containers.dm"
+#include "modular_np_lethal\firestacks\code\fire_adjustment.dm"
 #include "modular_np_lethal\genemod_quirk\code\genemod_quirk.dm"
 #include "modular_np_lethal\I_HATE_SYNTH_WOUNDS!!\code\pierce.dm"
 #include "modular_np_lethal\I_HATE_SYNTH_WOUNDS!!\code\robotic_blunt.dm"
