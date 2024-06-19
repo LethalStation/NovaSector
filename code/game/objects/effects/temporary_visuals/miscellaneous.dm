@@ -18,16 +18,16 @@ GLOBAL_LIST_EMPTY(blood_particles)
 
 /obj/effect/temp_visual/dir_setting/bloodsplatter
 	icon = 'icons/effects/blood.dmi'
-	duration = 5
+	duration = 0.5 SECONDS
 	randomdir = FALSE
 	layer = ABOVE_MOB_LAYER
-	plane = GAME_PLANE
 	alpha = 175
 	var/splatter_type = "splatter"
 
 /obj/effect/temp_visual/dir_setting/bloodsplatter/Initialize(mapload, angle)
 	var/x_component = sin(angle) * -15
 	var/y_component = cos(angle) * -15
+	particles = new /particles/splatter
 	particles.velocity = list(x_component, y_component)
 
 	. = ..()
