@@ -299,3 +299,4 @@
 		While not as protective as any type of helmet, the sensors suite has a variety of \
 		modern HUDs useful for all types of operations."
 	icon_state = "filtre_helmet_runner"
+	flags_inv = null
