@@ -7,6 +7,8 @@
 	ai_controller = /datum/ai_controller/basic_controller/trooper/gakster
 	loot = list(/obj/effect/mob_spawn/corpse/human/gakstermob)
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/gakstermob
+	move_resist = MOVE_FORCE_NORMAL
+	speed = 0.8
 
 /mob/living/basic/trooper/gakster/Initialize(mapload)
 	. = ..()
@@ -26,6 +28,8 @@
 		"Hostile spotted!",
 		"Enemy spotted!",
 	), speech_chance = 95, subtract_chance = 5, minimum_chance = 15)
+	AddElement(/datum/element/ai_retaliate)
+	AddElement(/datum/element/ai_flee_while_injured)
 
 /mob/living/basic/trooper/gakster/melee_attack(mob/living/target, list/modifiers, ignore_cooldown)
 	. = ..()
@@ -53,7 +57,7 @@
 		"Stop moving, dammit!",
 		"Fuck you!",
 	)
-	if(prob(25))
+	if(prob(5))
 		say(language = /datum/language/gutter, message = pick(melee_taunts))
 
 /mob/living/basic/trooper/gakster/apply_damage(damage, damagetype, def_zone, blocked, forced, spread_damage, wound_bonus, bare_wound_bonus, sharpness, attack_direction, attacking_item)
@@ -80,7 +84,7 @@
 		"Stop resisting!",
 		"Fuck you!",
 	)
-	if(prob(40))
+	if(prob(15))
 		say(language = /datum/language/gutter, message = pick(pain_taunts))
 
 /mob/living/basic/trooper/gakster/melee
@@ -93,6 +97,7 @@
 	attack_sound = 'sound/weapons/bladeslice.ogg'
 	attack_vis_effect = ATTACK_EFFECT_SLASH
 	r_hand = /obj/item/knife/combat
+	speed = 0.5
 
 /mob/living/basic/trooper/gakster/ranged
 	desc = "A gakster armed with a Seiba .27-54 submachinegun. They look pretty angry."
@@ -103,6 +108,7 @@
 	var/projectilesound = 'modular_np_lethal/lethalguns/sound/seiba/seiba.wav'
 	var/burst_shots = 3
 	var/ranged_cooldown = 0.4 SECONDS
+	speed = 0.9
 
 /mob/living/basic/trooper/gakster/ranged/Initialize(mapload)
 	. = ..()
@@ -113,6 +119,7 @@
 		cooldown_time = ranged_cooldown,\
 		burst_shots = burst_shots,\
 	)
+	AddElement(/datum/element/ai_flee_while_injured)
 	if (ranged_cooldown <= 1 SECONDS)
 		AddComponent(/datum/component/ranged_mob_full_auto)
 
@@ -139,7 +146,7 @@
 		"Fucker!",
 		"Bastard!",
 	)
-	if(prob(25))
+	if(prob(5))
 		say(language = /datum/language/gutter, message = pick(ranged_taunts))
 
 /mob/living/basic/trooper/gakster/suicide
@@ -186,6 +193,7 @@
 	faction = list(ROLE_DEATHSQUAD)
 	loot = list(/obj/effect/mob_spawn/corpse/human/filtremob)
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/filtremob
+	speed = 1.2
 
 /mob/living/basic/trooper/gakster/melee/filtre
 	name = "Blue Company Filtre"
@@ -205,6 +213,7 @@
 	projectilesound = 'modular_np_lethal/lethalguns/sound/yari/yari.wav'
 	burst_shots = 1
 	ranged_cooldown = 0.5 SECONDS
+	speed = 1.2
 
 /// BOSS MOBS
 
@@ -222,6 +231,7 @@
 	projectilesound = 'modular_nova/modules/modular_weapons/sounds/grenade_launcher.ogg'
 	burst_shots = 1
 	ranged_cooldown = 2.5 SECONDS
+	speed = 1
 
 // 201 Fathomer : Drops Ramu 6 gauge shotgun, a bunch of 6g longshot ammo, and sacrificial armor
 /mob/living/basic/trooper/gakster/ranged/fathomer
@@ -236,6 +246,7 @@
 	projectilesound = 'modular_np_lethal/lethalguns/sound/ramu/ramu.wav'
 	burst_shots = 1
 	ranged_cooldown = 1.3 SECONDS
+	speed = 0.6
 
 // 253 Chauchat : Drops a Seiba & ballistic shield alongside ammunition and a full set of type 3 armor + helmet
 /mob/living/basic/trooper/gakster/ranged/chauchat
@@ -251,6 +262,7 @@
 	projectilesound = 'modular_np_lethal/lethalguns/sound/seiba/seiba.wav'
 	burst_shots = 3
 	ranged_cooldown = 0.4 SECONDS
+	speed = 1.2
 
 // 287 Prophet : Drops double energy sword and type five armor
 /mob/living/basic/trooper/gakster/melee/prophet
@@ -270,3 +282,4 @@
 	light_range = 6
 	light_power = 2.5
 	light_color = COLOR_SOFT_RED
+	speed = 0.3
