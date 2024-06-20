@@ -56,3 +56,9 @@
 	item_path = /obj/item/clothing/suit/armor/lethal_filtre/heavy/honorguard
 	ckeywhitelist = list("Luckydente")
 	restricted_roles = list("Filtre")
+
+/datum/loadout_item/suit/runner
+	name = "Runner-Class type II armor kit"
+	item_path = /obj/item/clothing/suit/armor/lethal_filtre/super_light/runner
+	ckeywhitelist = list("CandleJax")
+	restricted_roles = list("Filtre")

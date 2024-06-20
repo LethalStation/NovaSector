@@ -285,3 +285,17 @@
 		While not as protective as other types of helmets, the sensors suite has a variety of \
 		modern HUDs useful for all types of operations. This one has a fully-enclosed faceplate!"
 	icon_state = "filtre_helmet_dente"
+
+/obj/item/clothing/suit/armor/lethal_filtre/super_light/runner
+	name = "Runner-Class type II armor kit"
+	desc = "A customized armor-coat combo. Features standard filtre armor plating. \
+	A small square, devoid of color, is embossed into the armorpeices' nape. Black Company. \
+	Aside from the backlit vambrace-computer, there's nothing special here."
+	icon_state = "filtre_light_runner"
+
+/obj/item/clothing/head/helmet/lethal_filtre_helmet/light/runner
+	name = "Runner-Class Awareness Suite"
+	desc = "A high tech head-mounted sensor. \
+		While not as protective as any type of helmet, the sensors suite has a variety of \
+		modern HUDs useful for all types of operations."
+	icon_state = "filtre_helmet_runner"

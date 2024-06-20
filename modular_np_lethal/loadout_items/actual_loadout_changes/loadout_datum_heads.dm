@@ -53,3 +53,8 @@
 	ckeywhitelist = list("Luckydente")
 	restricted_roles = list("Filtre")
 
+/datum/loadout_item/head/runner
+	name = "Runner-Class Awareness Suite"
+	item_path = /obj/item/clothing/head/helmet/lethal_filtre_helmet/light/runner
+	ckeywhitelist = list("CandleJax")
+	restricted_roles = list("Filtre")
