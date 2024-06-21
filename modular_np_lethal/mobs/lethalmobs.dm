@@ -15,6 +15,8 @@
 	speed = 0.8
 	// What range do we want this NPC to operate at?
 	var/effective_range = 1
+	// How long do we take before regenerating after no damage? Mostly to avoid cheese.
+	var/regen_delay = 30 SECONDS
 	// A list of our melee taunts
 	var/list/melee_taunts = list(
 		"Eat this, bastard!",
@@ -77,7 +79,7 @@
 
 /mob/living/basic/trooper/gakster/Initialize(mapload)
 	. = ..()
-	AddComponent(/datum/component/regenerator, regeneration_delay = 30 SECONDS, brute_per_second = 8, outline_colour = COLOR_SOFT_RED)
+	AddComponent(/datum/component/regenerator, regeneration_delay = regen_delay, brute_per_second = 8, outline_colour = COLOR_SOFT_RED)
 	AddComponent(/datum/component/aggro_speech, speech_list = list(
 		"Enemy identified!",
 		"Target spotted!",
@@ -247,6 +249,7 @@
 	burst_shots = 1
 	ranged_cooldown = 2.5 SECONDS
 	speed = 1
+	regen_delay = 5 SECONDS
 	effective_range = 5
 	ranged_taunts = list(
 		"Burn.",
@@ -273,6 +276,7 @@
 	r_hand = /obj/item/gun/ballistic/shotgun/ramu
 	casingtype = /obj/item/ammo_casing/s6gauge/longshot
 	projectilesound = 'modular_np_lethal/lethalguns/sound/ramu/ramu.wav'
+	regen_delay = 10 SECONDS
 	burst_shots = 1
 	ranged_cooldown = 1.3 SECONDS
 	speed = 0.6
@@ -305,6 +309,7 @@
 	ranged_cooldown = 0.4 SECONDS
 	speed = 1.1
 	effective_range = 7
+	regen_delay = 5 SECONDS
 	ranged_taunts = list(
 		"You think you can deal with me?",
 		"I'M A FUCKING WALL!!!",
@@ -340,6 +345,7 @@
 	light_power = 2.5
 	light_color = COLOR_SOFT_RED
 	speed = 0.1
+	regen_delay = 10 SECONDS
 	melee_taunts = list(
 		"Regret comes.",
 		"Why do you fight?",
