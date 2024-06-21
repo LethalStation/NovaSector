@@ -869,20 +869,17 @@
 	name = "commercial freezer"
 	desc = "A commercial grade freezer."
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/supermart.dmi'
-	icon_state = "freezerupper"
+	icon_state = "freezermid"
 	density = TRUE
 
 /obj/structure/prop/freezer/supermartfreezer1
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/supermart.dmi'
 	icon_state = "freezerupper"
+	bound_height = 16
 
 /obj/structure/prop/freezer/supermartfreezer2
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/supermart.dmi'
 	icon_state = "freezerlower"
-
-/obj/structure/prop/freezer/supermartfreezer3
-	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/supermart.dmi'
-	icon_state = "freezermid"
 
 /obj/structure/prop/freezer/supermartfreezer4
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/supermart.dmi'
@@ -967,21 +964,21 @@
 	icon_state = "table_cards"
 
 // Chairs
-/obj/structure/chair/urban/chair
+/obj/structure/chair/urban/
 	name = "expensive chair"
 	desc = "An expensive looking chair"
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
 	icon_state = "comfychair_zenithblack"
 
-/obj/structure/chair/urban/chair/red
+/obj/structure/chair/urban/red
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
 	icon_state = "comfychair_zenithred"
 
-/obj/structure/chair/urban/chair/blue
+/obj/structure/chair/urban/blue
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
 	icon_state = "comfychair_zenithblue"
 
-/obj/structure/chair/urban/chair/brown
+/obj/structure/chair/urban/brown
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
 	icon_state = "comfychair_zenithbrown"
 
@@ -991,53 +988,53 @@
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
 	icon_state = "hybrisa"
 
-/obj/structure/bed/urban/prisonbed
+/obj/structure/bed/hybrisa/prisonbed
 	name = "bunk bed"
 	desc = "A sorry looking bunk-bed."
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
 	icon_state = "prisonbed"
 
-/obj/structure/bed/urban/bunkbed1
+/obj/structure/bed/hybrisa/bunkbed1
 	name = "bunk bed"
 	desc = "A comfy looking bunk-bed."
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
 	icon_state = "zbunkbed"
 
-/obj/structure/bed/urban/bunkbed2
+/obj/structure/bed/hybrisa/bunkbed2
 	name = "bunk bed"
 	desc = "A comfy looking bunk-bed."
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
 	icon_state = "zbunkbed2"
 
-/obj/structure/bed/urban/bunkbed3
+/obj/structure/bed/hybrisa/bunkbed3
 	name = "bunk bed"
 	desc = "A comfy looking bunk-bed."
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
 	icon_state = "zbunkbed3"
 
-/obj/structure/bed/urban/bunkbed4
+/obj/structure/bed/hybrisa/bunkbed4
 	name = "bunk bed"
 	desc = "A comfy looking bunk-bed."
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
 	icon_state = "zbunkbed4"
 
-/obj/structure/bed/urban/hospitalbeds
+/obj/structure/bed/hybrisa/hospitalbeds
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
 	icon_state = "hospital"
 
-/obj/structure/bed/urban/hospitalbeds/hospitalbed1
+/obj/structure/bed/hybrisa/hospitalbeds/hospitalbed1
 	name = "hospital bed"
 	desc = "A mattress seated on a rectangular metallic frame with wheels. This is used to support a lying person in a comfortable manner."
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
 	icon_state = "bigrollerempty2_up"
 
-/obj/structure/bed/urban/hospitalbeds/hospitalbed2
+/obj/structure/bed/hybrisa/hospitalbeds/hospitalbed2
 	name = "hospital bed"
 	desc = "A mattress seated on a rectangular metallic frame with wheels. This is used to support a lying person in a comfortable manner."
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
 	icon_state = "bigrollerempty_up"
 
-/obj/structure/bed/urban/hospitalbeds/hospitalbed3
+/obj/structure/bed/hybrisa/hospitalbeds/hospitalbed3
 	name = "hospital bed"
 	desc = "A mattress seated on a rectangular metallic frame with wheels. This is used to support a lying person in a comfortable manner."
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
@@ -1048,8 +1045,8 @@
 	desc = "A long refueling hose that connects to various types of dropships."
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/64x96-urbanrandomprops.dmi'
 	icon_state = "fuelline1"
-	bound_height = 64
-	bound_width = 96
+	bound_height = null
+	bound_width = null
 
 
 /obj/structure/prop/refuelinghose2
@@ -1057,8 +1054,8 @@
 	desc = "A long refueling hose that connects to various types of dropships."
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/64x96-urbanrandomprops.dmi'
 	icon_state = "fuelline2"
-	bound_height = 64
-	bound_width = 96
+	bound_height = null
+	bound_width = null
 
 // Pilot body
 
@@ -1109,7 +1106,7 @@
 	desc = "A heavily reinforced glass floor panel, this looks almost indestructible."
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urbanrandomprops.dmi'
 	icon_state = "solidgrate3"
-	layer = 2.1
+	layer = BELOW_OBJ_LAYER
 
 /obj/structure/prop/floor/floorglass3
 	name = "reinforced glass floor"
@@ -1175,11 +1172,8 @@
 	desc = "A slot machine."
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/64x64_urbanrandomprops.dmi'
 	icon_state = "slotmachine"
-	bound_width = 32
-	bound_height = 32
 	anchored = TRUE
 	density = TRUE
-	layer = 3.2
 
 /obj/structure/prop/urban/misc/atm
 	name = "\improper NanoTrasen Automatic Teller Machine"
@@ -1190,7 +1184,6 @@
 	bound_height = 32
 	anchored = TRUE
 	density = TRUE
-	layer = 3.2
 
 /obj/structure/prop/urban/misc/slotmachine_broken
 	name = "slot machine"
@@ -1201,7 +1194,6 @@
 	bound_height = 32
 	anchored = TRUE
 	density = TRUE
-	layer = 3.2
 
 /obj/structure/prop/urban/misc/coffeestuff/coffeemachine1
 	name = "coffee machine"
@@ -1786,7 +1778,7 @@
 	desc = "A phone-box, it doesn't seem to be working, the line must be down."
 	icon_state = "phonebox_closed_light"
 
-/obj/structure/prop/urban/misc/bench
+/obj/structure/chair/pew/bench
 	name = "bench"
 	desc = "A metal frame, with seats that are fitted with synthetic leather, they've faded in time."
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/64x64_urbanrandomprops.dmi'
@@ -1822,6 +1814,7 @@
 	name = "open sign"
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urban64x64_signs.dmi'
 	icon_state = "open_on"
+
 /obj/structure/prop/urban/signs/opensign2
 	name = "open sign"
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urban64x64_signs.dmi'
@@ -1948,7 +1941,7 @@
 
 // Hybrisa Lattice
 
-/obj/structure/prop/urban/lattice_prop
+/obj/structure/lattice/lattice_prop
 	desc = "A support lattice."
 	name = "lattice"
 	icon = 'modular_np_lethal/massive_map_assets/icons/obj/props/urban_lattice.dmi'
@@ -1957,20 +1950,20 @@
 	layer = RIPPLE_LAYER
 	max_integrity = 6000
 
-/obj/structure/prop/urban/lattice_prop/lattice_1
+/obj/structure/lattice/lattice_prop/lattice_1
 	icon_state = "lattice1"
 
-/obj/structure/prop/urban/lattice_prop/lattice_2
+/obj/structure/lattice/lattice_prop/lattice_2
 	icon_state = "lattice2"
 
-/obj/structure/prop/urban/lattice_prop/lattice_3
+/obj/structure/lattice/lattice_prop/lattice_3
 	icon_state = "lattice3"
 
-/obj/structure/prop/urban/lattice_prop/lattice_4
+/obj/structure/lattice/lattice_prop/lattice_4
 	icon_state = "lattice4"
 
-/obj/structure/prop/urban/lattice_prop/lattice_5
+/obj/structure/lattice/lattice_prop/lattice_5
 	icon_state = "lattice5"
 
-/obj/structure/prop/urban/lattice_prop/lattice_6
+/obj/structure/lattice/lattice_prop/lattice_6
 	icon_state = "lattice6"
