@@ -1,78 +1,51 @@
-/// A component that makes a mob talk on aggro
-/datum/component/aggro_speech
-	/// Blackboard key in which target data is stored
-	var/target_key
-	/// If we want to limit emotes to only play at mobs
-	var/living_only
-	/// List of phrases to say
-	var/list/speech_list
-	/// Chance to say something
-	var/speech_chance
-	/// Chance to subtract every time we say something
-	var/subtract_chance
-	/// Minimum chance to say something
-	var/minimum_chance
+#define GAKSTER_CANSEE_RANGE 9
 
-/datum/component/aggro_speech/Initialize(
-	target_key = BB_BASIC_MOB_CURRENT_TARGET,
-	living_only = FALSE,
-	list/speech_list,
-	speech_chance = 30,
-	minimum_chance = 2,
-	subtract_chance = 7,
-)
-	. = ..()
-	if (!isatom(parent))
-		return COMPONENT_INCOMPATIBLE
-	var/atom/atom_parent = parent
-	if (!atom_parent.ai_controller)
-		return COMPONENT_INCOMPATIBLE
+/datum/targeting_strategy/basic/gakster
+	ignore_sight = FALSE
 
-	src.target_key = target_key
-	src.speech_list = speech_list
-	src.speech_chance = speech_chance
-	src.minimum_chance = minimum_chance
-	src.subtract_chance = subtract_chance
+/datum/idle_behavior/idle_random_walk/gakster
+	walk_chance = 75
 
-/datum/component/aggro_speech/RegisterWithParent()
-	. = ..()
-	RegisterSignal(parent, COMSIG_AI_BLACKBOARD_KEY_SET(target_key), PROC_REF(on_target_changed))
-
-/datum/component/aggro_speech/UnregisterFromParent()
-	UnregisterSignal(parent, COMSIG_AI_BLACKBOARD_KEY_SET(target_key))
-	return ..()
-
-/// When we get a new target, see if we want to yell at it
-/datum/component/aggro_speech/proc/on_target_changed(mob/source)
-	SIGNAL_HANDLER
-	var/atom/new_target = source.ai_controller.blackboard[target_key]
-	if (isnull(new_target) || !prob(speech_chance))
+// gakster mob custom retaliate component behavior
+/mob/living/basic/trooper/gakster/proc/gakster_retaliate(mob/living/attacker)
+	if (!istype(attacker))
 		return
-	if (living_only && !isliving(new_target))
-		return
-	speech_chance = max(speech_chance - subtract_chance, minimum_chance)
-	source.say(message = pick(speech_list))
 
-/// gakster mob ai controllers
+	// add them to the retaliate list then move to their location if we don't have a target
+	// we've tried to make them move, so maybe it's just better to check if we can't see them, then maybe we should just flee from them instead?
+	ai_controller.insert_blackboard_key_lazylist(BB_BASIC_MOB_RETALIATE_LIST, attacker)
+	if (!ai_controller.blackboard_key_exists(BB_BASIC_MOB_CURRENT_TARGET))
+		ai_controller.reset_ai_status()
+		if (!can_see(src, attacker, GAKSTER_CANSEE_RANGE)) //oh fuck we can't see them and they shot us
+			ai_controller.set_blackboard_key(BB_BASIC_MOB_FLEE_TARGET, attacker)
+			ai_controller.set_blackboard_key(BB_BASIC_MOB_STOP_FLEEING, FALSE)
+			ai_controller.CancelActions()
+		else // YOU BASTARD!!!
+			ai_controller.set_blackboard_key(BB_BASIC_MOB_CURRENT_TARGET, attacker)
+			ai_controller.set_blackboard_key(BB_BASIC_MOB_STOP_FLEEING, TRUE)
+			ai_controller.CancelActions()
+
+/// basic gakster mob ai controllers
 /datum/ai_controller/basic_controller/trooper/gakster
 	blackboard = list(
-		BB_TARGETING_STRATEGY = /datum/targeting_strategy/basic,
-		BB_AGGRO_RANGE = 9,
-		BB_VISION_RANGE = 9,
+		BB_TARGETING_STRATEGY = /datum/targeting_strategy/basic/gakster,
+		BB_AGGRO_RANGE = GAKSTER_CANSEE_RANGE,
+		BB_VISION_RANGE = GAKSTER_CANSEE_RANGE,
 		BB_EMOTE_KEY = "swear",
 		BB_CURRENT_HUNTING_TARGET = null,
 		BB_TARGET_MINIMUM_STAT = HARD_CRIT,
-		BB_BASIC_MOB_FLEE_DISTANCE = 12,
+		BB_BASIC_MOB_FLEE_DISTANCE = 14,
 		BB_REINFORCEMENTS_EMOTE = "reaches up to their comtac and utters a code phrase.",
 	)
 
-	ai_movement = /datum/ai_movement/jps
-	idle_behavior = /datum/idle_behavior/walk_near_target
+	ai_movement = /datum/ai_movement/jps // souped up pathfinding
+	idle_behavior = /datum/idle_behavior/idle_random_walk/gakster
 	interesting_dist = 20
-	can_idle = FALSE // want them to remain responsive
 
 	planning_subtrees = list(
 		/datum/ai_planning_subtree/flee_target/from_flee_key,
+		/datum/ai_planning_subtree/target_retaliate/gakster/to_flee,
+		/datum/ai_planning_subtree/target_retaliate/gakster,
 		/datum/ai_planning_subtree/find_and_hunt_target/gakster,
 		/datum/ai_planning_subtree/simple_find_target,
 		/datum/ai_planning_subtree/attack_obstacle_in_path/trooper,
@@ -80,15 +53,24 @@
 		/datum/ai_planning_subtree/run_emote,
 	)
 
+// ranged gakster unit controllers
 /datum/ai_controller/basic_controller/trooper/gakster/ranged
 	planning_subtrees = list(
 		/datum/ai_planning_subtree/flee_target/from_flee_key,
+		/datum/ai_planning_subtree/target_retaliate/gakster/to_flee,
+		/datum/ai_planning_subtree/target_retaliate/gakster,
 		/datum/ai_planning_subtree/find_and_hunt_target/gakster,
 		/datum/ai_planning_subtree/simple_find_target,
-		//datum/ai_planning_subtree/ranged_skirmish/gakster,
 		/datum/ai_planning_subtree/basic_ranged_attack_subtree/gakster,
-		/datum/ai_planning_subtree/maintain_distance/cover_minimum_distance/gakster_ranged,
 		/datum/ai_planning_subtree/run_emote,
+	)
+
+// suicide bomber gakster unit controllers
+/datum/ai_controller/basic_controller/trooper/gakster/suicide
+	planning_subtrees = list(
+		/datum/ai_planning_subtree/find_and_hunt_target/gakster/suicide,
+		/datum/ai_planning_subtree/simple_find_target,
+		/datum/ai_planning_subtree/basic_melee_attack_subtree
 	)
 
 /datum/ai_planning_subtree/basic_ranged_attack_subtree/gakster
@@ -96,30 +78,54 @@
 
 /datum/ai_behavior/basic_ranged_attack/gakster
 	action_cooldown = 1 SECONDS
-	required_distance = 7
+	required_distance = 4
 	avoid_friendly_fire = TRUE
 
-/datum/ai_planning_subtree/ranged_skirmish/gakster
-	min_range = 0
+/datum/ai_behavior/basic_ranged_attack/gakster/setup(datum/ai_controller/controller, target_key, targeting_strategy_key, hiding_location_key)
+	. = ..()
+	var/mob/living/basic/trooper/gakster/ranged/gak = controller.pawn
+	if (gak)
+		action_cooldown = gak.ranged_cooldown
+		required_distance = gak.effective_range
 
-/datum/ai_planning_subtree/maintain_distance/cover_minimum_distance/gakster_ranged
-	minimum_distance = 1
-	maximum_distance = 7
-	view_distance = 7
+/datum/ai_planning_subtree/ranged_skirmish/gakster
+	min_range = 2
+
+/datum/ai_planning_subtree/maintain_distance/gakster_ranged
+	minimum_distance = 2
+	maximum_distance = 4
+	view_distance = GAKSTER_CANSEE_RANGE
+
+/datum/ai_planning_subtree/maintain_distance/gakster_ranged/SelectBehaviors(datum/ai_controller/controller, seconds_per_tick)
+	. = ..()
+	var/mob/living/basic/trooper/gakster/gak = controller.pawn
+	if (gak)
+		maximum_distance = gak.effective_range
 
 /datum/ai_behavior/hunt_target/gakster
-	behavior_flags = AI_BEHAVIOR_REQUIRE_MOVEMENT
+	behavior_flags = NONE
 	always_reset_target = TRUE
 
 /datum/ai_behavior/hunt_target/gakster/target_caught(mob/living/hunter, atom/hunted)
 	return
+
+/datum/ai_behavior/hunt_target/gakster/suicide
+
+/datum/ai_behavior/hunt_target/gakster/suicide/target_caught(mob/living/hunter, atom/hunted)
+	var/mob/living/basic/trooper/gakster/suicide/la_bomba = hunter
+	if (la_bomba)
+		la_bomba.combat_mode = TRUE
+		la_bomba.melee_attack(hunted, null, TRUE)
 
 /datum/ai_planning_subtree/find_and_hunt_target/gakster
 	finish_planning = FALSE
 	hunt_targets = list(/mob/living/carbon/human)
 	finding_behavior = /datum/ai_behavior/find_hunt_target/gakster_through_walls
 	hunting_behavior = /datum/ai_behavior/hunt_target/gakster
-	hunt_range = 9
+	hunt_range = GAKSTER_CANSEE_RANGE
+
+/datum/ai_planning_subtree/find_and_hunt_target/gakster/suicide
+	hunting_behavior = /datum/ai_behavior/hunt_target/gakster/suicide
 
 /datum/ai_behavior/find_hunt_target/gakster_through_walls
 
@@ -131,3 +137,19 @@
 			return FALSE
 
 	return get_dist(source, dinner) <= radius
+
+/datum/ai_planning_subtree/target_retaliate/gakster
+	check_faction = TRUE
+	target_key = BB_CURRENT_HUNTING_TARGET
+
+/datum/ai_planning_subtree/target_retaliate/gakster/to_flee
+	target_key = BB_BASIC_MOB_FLEE_TARGET
+
+// hey idea for z-level movement
+// if attacked on stairs, track to the stairs then check the stairs turf for the direction to move up, then move in that direction and immediately retarget
+// then retarget
+// if attacked not near stairs, check the adjacent turfs for open space
+// - then check to see if there's any stars below the open space
+// - if there is, path to the space we were attacked from, then move down and immediately retarget
+
+#undef GAKSTER_CANSEE_RANGE
