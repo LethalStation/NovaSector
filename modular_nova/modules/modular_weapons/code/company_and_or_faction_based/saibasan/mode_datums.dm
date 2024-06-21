@@ -35,7 +35,7 @@
 	applied_gun.update_appearance()
 	applied_gun.chat_color = gun_runetext_color
 	applied_gun.chat_color_darkened = process_chat_color(gun_runetext_color, sat_shift = 0.85, lum_shift = 0.85)
-	applied_gun.muzzle_flash = new (src, gun_muzzleflash_iconstate)
+	applied_gun.muzzle_flash = new(src, gun_muzzleflash_iconstate)
 	applied_gun.muzzle_flash_color = gun_runetext_color
 
 /// Stuff applied to the passed gun when the weapon mode is given to the gun
