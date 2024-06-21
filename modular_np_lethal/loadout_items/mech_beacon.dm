@@ -128,14 +128,14 @@
 	company_source = "Ahkter Frontier Corps Exosuit Support Team"
 	company_message = span_bold("Pilot coordinates received. War Machine inbound.")
 
-/obj/item/choice_beacon/mecha/can_use_beacon(mob/living/user)
+/obj/item/choice_beacon/mecha/filtre/can_use_beacon(mob/living/user)
 	var/area/our_area = get_area(src)
 	if((istype(our_area, /area/gakster_location/hideout_real)) || (istype(our_area, /area/gakster_location/filtre_spawn)))
 		balloon_alert(user, "cannot deploy in hideout")
 		return FALSE
 	return ..()
 
-/obj/item/choice_beacon/mecha/generate_display_names()
+/obj/item/choice_beacon/mecha/filtre/generate_display_names()
 	var/static/list/exosuit_packs
 	if(!exosuit_packs)
 		exosuit_packs = list()

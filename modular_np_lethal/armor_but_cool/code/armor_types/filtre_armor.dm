@@ -1,7 +1,7 @@
 /datum/armor/armor_lethal_filtre
 	melee = ARMOR_LEVEL_MID
 	bullet = BULLET_ARMOR_III
-	laser = ARMOR_LEVEL_MID
+	laser = ARMOR_LEVEL_WEAK
 	energy = ARMOR_LEVEL_WEAK
 	bomb = ARMOR_LEVEL_MID
 	fire = ARMOR_LEVEL_MID + 25
@@ -11,7 +11,7 @@
 /datum/armor/armor_lethal_filtre_super
 	melee = ARMOR_LEVEL_MID + 25
 	bullet = BULLET_ARMOR_IV
-	laser = ARMOR_LEVEL_MID + 25
+	laser = ARMOR_LEVEL_MID
 	energy = ARMOR_LEVEL_WEAK
 	bomb = ARMOR_LEVEL_MID
 	fire = ARMOR_LEVEL_MID + 25
@@ -19,9 +19,9 @@
 	wound = WOUND_ARMOR_HIGH
 
 /datum/armor/armor_lethal_filtre_light
-	melee = ARMOR_LEVEL_MID + 25
+	melee = ARMOR_LEVEL_MID
 	bullet = BULLET_ARMOR_II
-	laser = ARMOR_LEVEL_MID
+	laser = ARMOR_LEVEL_WEAK
 	energy = ARMOR_LEVEL_WEAK
 	bomb = ARMOR_LEVEL_MID
 	fire = ARMOR_LEVEL_MID + 25
@@ -41,8 +41,8 @@
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
 	resistance_flags = FIRE_PROOF
 	body_parts_covered = CHEST|GROIN|ARMS
-	max_integrity = 1000
-	limb_integrity = 800
+	max_integrity = 800
+	limb_integrity = 500
 	slowdown = 0.4
 	equip_delay_self = 10 SECONDS
 
@@ -82,9 +82,9 @@
 	icon_state = "filtre_heavy"
 	armor_type = /datum/armor/armor_lethal_filtre_super
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS
-	slowdown = 1
-	max_integrity = 1000
-	limb_integrity = 700
+	slowdown = 1.2
+	max_integrity = 800
+	limb_integrity = 500
 
 /obj/item/clothing/suit/armor/lethal_filtre/super_light
 	name = "'Sukyana' type II extreme mobility armor kit"
@@ -95,8 +95,8 @@
 	armor_type = /datum/armor/armor_lethal_filtre_light
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS
 	slowdown = 0.4
-	max_integrity = 1000
-	limb_integrity = 700
+	max_integrity = 800
+	limb_integrity = 500
 
 /obj/item/clothing/head/helmet/lethal_filtre_helmet
 	name = "'Firuta' type IV ballistic helmet"
@@ -109,7 +109,7 @@
 	worn_icon = 'modular_np_lethal/armor_but_cool/icons/armor_worn.dmi'
 	inhand_icon_state = "helmet"
 	armor_type = /datum/armor/armor_lethal_filtre_super
-	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR|HIDEFACE|HIDESNOUT
+	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR|HIDESNOUT
 	flags_cover = HEADCOVERSMOUTH|HEADCOVERSEYES|PEPPERPROOF
 	max_integrity = 800
 	limb_integrity = 800
