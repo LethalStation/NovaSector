@@ -42,9 +42,9 @@
 /obj/vehicle/sealed/mecha/marauder/seraph
 	armor_type = /datum/armor/mecha_seraph
 	movedelay = 4
-	internal_damage_threshold = 0
-	internal_damage_probability = 10
-	max_integrity = 1000
+	internal_damage_threshold = 1000000 // hhehehehehehehehehe
+	internal_damage_probability = 0 // im so good at coding
+	max_integrity = 1100
 	wreckage = /obj/structure/mecha_wreckage/seraph
 	force = 40
 	max_equip_by_category = list(

@@ -18,11 +18,11 @@
 	loot = list(
 
 
-		/obj/item/mecha_parts/mecha_equipment/drill/diamonddrill/mechsaw = 0.2, // hehe funny
+		/obj/item/mecha_parts/mecha_equipment/drill/diamonddrill/mechsaw = 0.5, // hehe funny
 		/obj/item/mecha_parts/mecha_equipment/weapon/ballistic/launcher/flashbang/clusterbang/impactlauncher = 1,
 		/obj/item/mecha_parts/mecha_equipment/weapon/ballistic/launcher/flashbang/stringers = 1.5,
 		/obj/item/mecha_parts/mecha_equipment/weapon/ballistic/launcher/flashbang = 1.5,
-		/obj/item/mecha_parts/mecha_equipment/weapon/ballistic/missile_rack = 2,
+		/obj/item/mecha_parts/mecha_equipment/weapon/ballistic/missile_rack = 1,
 		/obj/item/mecha_parts/mecha_equipment/weapon/ballistic/scattershot = 2,
 		/obj/item/mecha_parts/mecha_equipment/weapon/ballistic/lmg = 2,
 		/obj/item/mecha_parts/mecha_equipment/weapon/ballistic/lmg/ac20 = 2,
@@ -30,7 +30,7 @@
 		/obj/item/mecha_parts/mecha_equipment/weapon/energy/laser/lasershot = 2,
 		/obj/item/mecha_parts/mecha_equipment/weapon/energy/laser = 2,
 		/obj/item/mecha_parts/mecha_equipment/weapon/energy/laser/heavy = 2,
-		/obj/item/mecha_parts/mecha_equipment/weapon/energy/laser/trickshot = 2,
+		/obj/item/mecha_parts/mecha_equipment/weapon/energy/laser/trickshot = 1.5,
 	)
 
 
@@ -39,12 +39,12 @@
 	desc = "Automagically transforms into a mech bit of some sort."
 	icon_state = "random_tool"
 	loot = list(
-	/obj/item/mecha_parts/mecha_equipment/repair_droid = 2,
+	/obj/item/mecha_parts/mecha_equipment/repair_droid = 1,
 	/obj/item/mecha_parts/mecha_equipment/radio = 2,
-	/obj/item/mecha_parts/mecha_equipment/teleporter = 2,
 	/obj/item/mecha_parts/mecha_equipment/wormhole_generator = 2,
 	/obj/item/mecha_parts/mecha_equipment/armor/anticcw_armor_booster = 2,
 	/obj/item/mecha_parts/mecha_equipment/armor/antiproj_armor_booster = 2
+	/obj/item/mecha_parts/mecha_equipment/gravcatapult = 2
 
 	)
 
@@ -53,8 +53,8 @@
 	desc = "Automagically transforms into a mech bit of some sort."
 	icon_state = "random_tool"
 	loot = list(
-	/obj/item/mecha_ammo/lmg/ballistic = 2,
-	/obj/item/mecha_ammo/flashbang/nonlethal = 2,
-	/obj/item/mecha_ammo/pep/explosive = 3
+	/obj/item/mecha_ammo/lmg/ballistic = 1,
+	/obj/item/mecha_ammo/flashbang/nonlethal = 1,
+	/obj/item/mecha_ammo/pep/explosive = 1
 
 	)
