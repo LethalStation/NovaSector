@@ -1,3 +1,8 @@
+/obj/effect/mob_spawn/corpse/human/special(mob/living/carbon/human/spawned_human)
+	. = ..()
+	for (var/obj/item/organ/internal/part in spawned_human.organs)
+		part.organ_flags |= ORGAN_UNREMOVABLE
+
 /mob/living/basic/trooper/gakster
 	name = "Gakster"
 	desc = "This assclown looks like they barely know what they're doing."
