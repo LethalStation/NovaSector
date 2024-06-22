@@ -197,7 +197,7 @@
 		shake_camera(user, recoil + 1, recoil)
 	fire_sounds()
 
-	var/firing_angle = Get_Angle(user, pbtarget)
+	var/firing_angle = get_angle_raw(user, pbtarget)
 	muzzle_flash(firing_angle, user)
 
 	if(!suppressed)

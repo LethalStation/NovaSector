@@ -58,7 +58,7 @@
 	INVOKE_ASYNC(src, PROC_REF(on_impact), source, proj)
 
 /datum/element/debris/proc/on_impact(datum/source, obj/projectile/P)
-	var/angle = round(Get_Angle(P.starting, source), 1)
+	var/angle = round(get_angle_raw(P.starting, source), 1)
 	var/x_component = sin(angle) * debris_velocity
 	var/y_component = cos(angle) * debris_velocity
 	var/x_component_smoke = sin(angle) * -15
