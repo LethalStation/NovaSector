@@ -8523,4 +8523,5 @@
 #include "modular_np_lethal\mutations\code\chameleon.dm"
 #include "modular_np_lethal\mutations\code\cryokinesis.dm"
 #include "modular_np_lethal\plum_balance\FUN.dm"
+#include "modular_np_lethal\super_machinegun\code\mounted_machine_gun.dm"
 // END_INCLUDE
