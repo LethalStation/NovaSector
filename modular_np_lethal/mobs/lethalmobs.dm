@@ -1,17 +1,13 @@
-/obj/effect/mob_spawn/corpse/human/special(mob/living/carbon/human/spawned_human)
-	. = ..()
-	QDEL_LIST(spawned_human.organs) // no organs in our corpses since they're currency
-
 /mob/living/basic/trooper/gakster
 	name = "Gakster"
 	desc = "This assclown looks like they barely know what they're doing."
-	maxHealth = 100
-	health = 100
+	maxHealth = 110
+	health = 110
 	faction = list(ROLE_SYNDICATE)
 	ai_controller = /datum/ai_controller/basic_controller/trooper/gakster
 	loot = list(/obj/effect/mob_spawn/corpse/human/gakstermob)
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/gakstermob
-	move_resist = MOVE_FORCE_STRONG
+	move_resist = MOVE_FORCE_NORMAL
 	speed = 0.8
 	// What range do we want this NPC to operate at?
 	var/effective_range = 1
@@ -137,7 +133,7 @@
 	var/casingtype = /obj/item/ammo_casing/c27_54cesarzowa
 	var/projectilesound = 'modular_np_lethal/lethalguns/sound/seiba/seiba.wav'
 	var/burst_shots = 2
-	var/ranged_cooldown = 0.6 SECONDS
+	var/ranged_cooldown = 0.8 SECONDS
 	speed = 0.9
 	effective_range = 4
 
