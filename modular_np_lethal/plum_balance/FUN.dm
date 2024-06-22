@@ -41,9 +41,8 @@
 	bare_wound_bonus = 30
 	demolition_mod = 5
 	/// How much damage we add to things that are weak to this bullet
-	var/anti_materiel_damage_addition = 20 // dente solved racism
-	/// What biotype we look for
-	var/biotype_we_look_for = MOB_ROBOTIC
+	anti_materiel_damage_addition = 20 // how much the gun hates robots
+
 
 //making this not as good as the strela at blowing up big robots. It's still pretty cracked and probably faster with a fully loaded shotgun
 /obj/projectile/bullet/shotgun_breaching

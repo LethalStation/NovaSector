@@ -43,7 +43,7 @@
 	/obj/item/mecha_parts/mecha_equipment/radio = 2,
 	/obj/item/mecha_parts/mecha_equipment/wormhole_generator = 2,
 	/obj/item/mecha_parts/mecha_equipment/armor/anticcw_armor_booster = 2,
-	/obj/item/mecha_parts/mecha_equipment/armor/antiproj_armor_booster = 2
+	/obj/item/mecha_parts/mecha_equipment/armor/antiproj_armor_booster = 2,
 	/obj/item/mecha_parts/mecha_equipment/gravcatapult = 2
 
 	)
