@@ -82,4 +82,3 @@
 	icon_state = "pinata_candle"
 	worn_icon = 'modular_np_lethal/armor_but_cool/icons/armor_worn.dmi'
 	inhand_icon_state = "helmet"
-	alternate_worn_layer = BACK_LAYER
