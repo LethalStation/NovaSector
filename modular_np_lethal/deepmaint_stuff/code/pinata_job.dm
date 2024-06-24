@@ -85,16 +85,6 @@
 
 	squaddie.mind?.adjust_experience(/datum/skill/athletics, 10000000)
 
-	var/list/bodyparts_to_replace = list(
-		/obj/item/bodypart/leg/left/robot/advanced,
-		/obj/item/bodypart/leg/right/robot/advanced,
-		/obj/item/bodypart/arm/left/robot/advanced,
-		/obj/item/bodypart/arm/right/robot/advanced,
-	)
-	for(var/iterated_bodypart in bodyparts_to_replace)
-		var/obj/item/bodypart/new_bodypart = new iterated_bodypart()
-		new_bodypart.replace_limb_evil(squaddie, special = TRUE)
-
 	var/list/implants_to_add = list(
 		/obj/item/organ/internal/ears/cybernetic/whisper,
 		/obj/item/organ/internal/cyberimp/chest/nutriment/plus,

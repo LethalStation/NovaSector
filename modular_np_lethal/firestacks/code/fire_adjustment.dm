@@ -7,6 +7,9 @@
 	fire_stack_decay_rate = -0.35
 
 /datum/status_effect/fire_handler/proc/stacks_notify(pre)
+	if (!owner.on_fire)
+		return
+
 	if (pre < 10 && stacks >= 10)
 		owner.visible_message(span_warning("[owner] erupts into a roaring blaze!"), span_boldwarning("The flames surrounding you erupt into a roaring blaze - <i>RESIST</i> to put them out!"))
 		return

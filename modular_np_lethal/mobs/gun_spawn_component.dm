@@ -13,8 +13,10 @@
 	var/list/spawn_areas
 	// Should we spawn below the item, or randomly in a safe area?
 	var/spawn_in_random_area = FALSE
+	// Should we only act on items listed in our spawn areas?
+	var/same_area = TRUE
 
-/datum/component/spawn_scavenger/Initialize(mob/living/scav, duration = 5 MINUTES, list/spawn_area = null, random_area_spawn = FALSE, delete_after = FALSE)
+/datum/component/spawn_scavenger/Initialize(mob/living/scav, duration = 5 MINUTES, list/spawn_area = null, random_area_spawn = FALSE, delete_after = FALSE, same_area = TRUE)
 	. = ..()
 	if (!isitem(parent))
 		return COMPONENT_INCOMPATIBLE
@@ -25,6 +27,7 @@
 	src.duration = duration
 	src.scavenger = scav
 	src.delete_object = delete_after
+	src.same_area = same_area
 
 	if (random_area_spawn && spawn_area)
 		src.spawn_in_random_area = random_area_spawn
@@ -46,6 +49,11 @@
 	var/atom/movable/atom_parent = parent
 	if (isturf(atom_parent.loc))
 		// we're on the ground, so we should be decaying
+		var/turf/place = atom_parent
+		if (same_area) // check to make sure we're in an allowed area
+			if (!locate(get_area(place)) in spawn_areas)
+				stop_decay_timer()
+				return
 		start_decay_timer()
 	else
 		stop_decay_timer()
@@ -77,7 +85,7 @@
 				return
 
 		// finally, spawn our scav in.
-		var/spawnloc = spawn_in_random_area ? get_safe_random_station_turf(spawn_areas) : atom_parent.drop_location()
+		var/spawnloc = spawn_in_random_area ? get_safe_random_gakster_turf(spawn_areas) : atom_parent.drop_location()
 		if (spawnloc)
 			var/mob/living/new_scav = new scavenger(spawnloc)
 			spawned_ref = WEAKREF(new_scav)
@@ -111,3 +119,39 @@
 		atom_parent.Move(get_turf(our_scav))
 		UnregisterSignal(our_scav, COMSIG_LIVING_DEATH)
 		cleanup()
+
+// Horrible copy-paste of get_safe_random_turf except updated to check for deepmaints exists and players
+
+/proc/get_safe_random_gakster_turf(list/areas_to_pick_from = GLOB.the_station_areas)
+	// Stuff we don't want to spawn within 7 tiles of
+	var/list/blacklisted_objs = list(/obj/structure/deepmaints_entrance/exit)
+	for (var/i in 1 to 5)
+		var/list/turf_list = get_area_turfs(pick(areas_to_pick_from))
+		var/turf/target
+		while (turf_list.len && !target)
+			var/I = rand(1, turf_list.len)
+			var/turf/checked_turf = turf_list[I]
+			var/area/turf_area = get_area(checked_turf)
+			if(!checked_turf.density && (turf_area.area_flags & VALID_TERRITORY) && !isgroundlessturf(checked_turf))
+				var/clear = TRUE
+				for(var/atom/thing in oview(7, checked_turf))
+					// check to make sure we don't spawn in range of any blacklisted objects
+					if (locate(thing) in blacklisted_objs)
+						clear = FALSE
+						break
+					// check to make sure we don't spawn within sight of a living thing with a mind
+					if (istype(thing, /mob/living))
+						var/mob/living/living_thing = thing
+						if (living_thing.mind && living_thing.stat != DEAD)
+							clear = FALSE
+							break
+				for(var/obj/checked_object in checked_turf)
+					if(checked_object.density || locate(checked_object) in blacklisted_objs)
+						clear = FALSE
+						break
+				if(clear)
+					target = checked_turf
+			if (!target)
+				turf_list.Cut(I, I + 1)
+		if (target)
+			return target

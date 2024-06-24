@@ -73,6 +73,16 @@
 
 	var/pb_knockback = 0
 
+	light_system = OVERLAY_LIGHT
+	light_range = 0
+	light_color = COLOR_WHITE
+
+	var/obj/effect/muzzle_flash/muzzle_flash
+	var/muzzle_flash_lum = 2 //muzzle flash brightness
+	var/muzzleflash_iconstate
+	var/muzzle_flash_color = COLOR_VERY_SOFT_YELLOW
+	var/muzzle_effects = TRUE
+
 	/// Cooldown for the visible message sent from gun flipping.
 	COOLDOWN_DECLARE(flip_cooldown)
 
@@ -80,6 +90,8 @@
 	. = ..()
 	if(pin)
 		pin = new pin(src)
+
+	muzzle_flash = new(src, muzzleflash_iconstate)
 
 	add_seclight_point()
 	give_gun_safeties() // NOVA EDIT ADDITION - GUN SAFETIES
@@ -94,6 +106,8 @@
 		QDEL_NULL(chambered)
 	if(isatom(suppressed)) //SUPPRESSED IS USED AS BOTH A TRUE/FALSE AND AS A REF, WHAT THE FUCKKKKKKKKKKKKKKKKK
 		QDEL_NULL(suppressed)
+	if(muzzle_flash)
+		QDEL_NULL(muzzle_flash)
 	return ..()
 
 /obj/item/gun/apply_fantasy_bonuses(bonus)
@@ -182,6 +196,10 @@
 	if(recoil && !tk_firing(user))
 		shake_camera(user, recoil + 1, recoil)
 	fire_sounds()
+
+	var/firing_angle = get_angle_raw(user, pbtarget)
+	muzzle_flash(firing_angle, user)
+
 	if(!suppressed)
 		if(message)
 			if(tk_firing(user))
