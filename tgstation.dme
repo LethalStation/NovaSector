@@ -8482,6 +8482,7 @@
 #include "modular_np_lethal\magic_quirk\code\spells\lesser_fleshmend.dm"
 #include "modular_np_lethal\magic_quirk\code\spells\lesser_shift.dm"
 #include "modular_np_lethal\massive_map_assets\code\hybrisa_props.dm"
+#include "modular_np_lethal\massive_map_assets\code\turfs.dm"
 #include "modular_np_lethal\mechs_buffs\code\mechloot.dm"
 #include "modular_np_lethal\mechs_buffs\code\construction\mech_construction_paths.dm"
 #include "modular_np_lethal\mechs_buffs\code\construction\mech_parts.dm"
