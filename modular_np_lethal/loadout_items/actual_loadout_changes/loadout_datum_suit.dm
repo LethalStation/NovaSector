@@ -21,7 +21,7 @@
 //Custom non-filtre items
 /datum/loadout_item/suit/da_gacket
 	name = "crop-top jacket"
-	item_path = /obj/item/clothing/suit/jacket/jacket
+	item_path = /obj/item/clothing/suit/jacket/gacket
 	ckeywhitelist = list("NikoHyena")
 
 //Custom filtre armors
