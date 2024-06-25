@@ -140,6 +140,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/vending/wallmed/epic_loot, 32)
 			"products" = list(
 				/obj/item/flashlight/flare = INFINITY,
 				/obj/item/gun/ballistic/revolver/sol = INFINITY,
+				/obj/item/gun/ballistic/shotgun/doublebarrel/slugs = INFINITY, // fuck you lobster - dente
 				/obj/item/lead_pipe = INFINITY,
 				/obj/item/knife/combat/survival = INFINITY,
 				/obj/item/crowbar/red = INFINITY,

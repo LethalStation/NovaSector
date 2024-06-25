@@ -31,6 +31,7 @@
 		/obj/item/mecha_parts/mecha_equipment/weapon/energy/laser = 2,
 		/obj/item/mecha_parts/mecha_equipment/weapon/energy/laser/heavy = 2,
 		/obj/item/mecha_parts/mecha_equipment/weapon/energy/laser/trickshot = 1.5,
+		/obj/item/mecha_parts/mecha_equipment/weapon/energy/tesla = 1.5
 	)
 
 

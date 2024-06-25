@@ -32,7 +32,7 @@
 /obj/item/mecha_parts/mecha_equipment/weapon/energy/laser/trickshot
 	equip_cooldown = 30
 	name = "\improper ZE-TRON \"Trickshooter\" laser beam"
-	desc = "A weapon for combat exosuits. A dangerously modfied version of the Flare, does less inital damage with each shit but will gain damage as the beam refractors with each richoete, bounces 3 times.."
+	desc = "A weapon for combat exosuits. A dangerously modfied version of the Flare, does less inital damage with each hit but will gain damage as the beam refractors with each richoete, bounces 3 times.."
 	icon_state = "mecha_ion"
 	energy_drain = 20000
 	projectile = /obj/projectile/bullet/lmg/tricklaser

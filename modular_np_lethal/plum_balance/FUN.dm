@@ -24,7 +24,7 @@
 
 //shield blockchance nerf, .5 -> .4
 /obj/item/shield
-	block_chance = 40
+	block_chance = 50
 
 //mantis AP buff from 20->30
 /obj/item/melee/implantarmblade
@@ -51,3 +51,16 @@
 	hitsound = 'sound/weapons/sonic_jackhammer.ogg'
 	damage = 2 //does shit damage to everything except doors and windows
 	demolition_mod = 200 //one shot to break a window or grille, or two shots to breach an airlock door
+
+
+//more dentechanges in the plum folder, making shields block 50% again but making them break faster. You should be able to just shoot through em
+
+/obj/item/shield/ballistic
+	max_integrity = 45
+
+/obj/item/shield/riot/tele // This one takes up less space, but it also blocks melee better/bullets worse
+	max_integrity = 35
+
+ // GUESS WHO FORGOT TO CHANGE THE BLOCK CHANCE, giving it 10% more then the esword as it takes a belt slot.
+/obj/item/katana
+ block_chance = 35
