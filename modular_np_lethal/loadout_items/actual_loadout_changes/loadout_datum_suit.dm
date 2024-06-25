@@ -14,6 +14,16 @@
 	name = "Expeditionary Corps Armored Vest"
 	item_path = /obj/item/clothing/suit/armor/vest/expeditionary_corps
 
+/datum/loadout_item/suit/kitty_hoodie
+	name = "disconcertingly twee hoodie"
+	item_path = /obj/item/clothing/suit/hooded/lethal_kitty_hoodie
+
+//Custom non-filtre items
+/datum/loadout_item/suit/da_gacket
+	name = "crop-top jacket"
+	item_path = /obj/item/clothing/suit/jacket/gacket
+	ckeywhitelist = list("NikoHyena")
+
 //Custom filtre armors
 /datum/loadout_item/suit/giggler_armor
 	name = "'Armageddon' type V heavy armor kit"
@@ -53,7 +63,7 @@
 
 /datum/loadout_item/suit/honorguard_armor
 	name = "'Kharuul' type IV armor kit'"
-	item_path = /obj/item/clothing/suit/armor/lethal_filtre/heavy/honorguard
+	item_path = /obj/item/clothing/suit/armor/lethal_filtre/honorguard
 	ckeywhitelist = list("Luckydente")
 	restricted_roles = list("Filtre")
 
@@ -62,7 +72,3 @@
 	item_path = /obj/item/clothing/suit/armor/lethal_filtre/super_light/runner
 	ckeywhitelist = list("CandleJax")
 	restricted_roles = list("Filtre")
-
-/datum/loadout_item/suit/kitty_hoodie
-	name = "disconcertingly twee hoodie"
-	item_path = /obj/item/clothing/suit/hooded/lethal_kitty_hoodie

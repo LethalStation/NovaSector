@@ -29,8 +29,8 @@
 /datum/ai_controller/basic_controller/trooper/gakster
 	blackboard = list(
 		BB_TARGETING_STRATEGY = /datum/targeting_strategy/basic/gakster,
-		BB_AGGRO_RANGE = GAKSTER_CANSEE_RANGE,
-		BB_VISION_RANGE = GAKSTER_CANSEE_RANGE,
+		BB_AGGRO_RANGE = 12,
+		BB_VISION_RANGE = 12,
 		BB_EMOTE_KEY = "swear",
 		BB_CURRENT_HUNTING_TARGET = null,
 		BB_TARGET_MINIMUM_STAT = HARD_CRIT,
@@ -41,6 +41,7 @@
 	ai_movement = /datum/ai_movement/jps // souped up pathfinding
 	idle_behavior = /datum/idle_behavior/idle_random_walk/gakster
 	interesting_dist = 20
+	can_idle = FALSE
 
 	planning_subtrees = list(
 		/datum/ai_planning_subtree/flee_target/from_flee_key,
@@ -68,7 +69,6 @@
 // suicide bomber gakster unit controllers
 /datum/ai_controller/basic_controller/trooper/gakster/suicide
 	planning_subtrees = list(
-		/datum/ai_planning_subtree/find_and_hunt_target/gakster/suicide,
 		/datum/ai_planning_subtree/simple_find_target,
 		/datum/ai_planning_subtree/basic_melee_attack_subtree
 	)

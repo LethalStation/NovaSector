@@ -274,8 +274,7 @@
 
 /obj/item/clothing/suit/armor/lethal_filtre/heavy/honorguard
 	name = "'Kharuul' type III armor kit"
-	desc = "A heavy full kit of armor for protecting every part of your body but the head and legs with exceptional plating. \
-		The armor's excessive bulk, however, makes the kit slow to move in. A small price to pay for such superior protection. \
+	desc = "A heavy full kit of armor for protecting every part of your body but the head and legs with exceptional plating. \\
 		This model comes equipped with a specialized sensor suite and radio antenna. This ones designed to specifically fit some kind of reptillan, it's platings made for digi legs."
 	icon_state = "filtre_heavy_dente"
 
