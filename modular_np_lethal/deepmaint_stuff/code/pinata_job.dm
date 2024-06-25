@@ -41,6 +41,10 @@
 	ADD_TRAIT(spawned, TRAIT_STABLEHEART, JOB_TRAIT)
 	ADD_TRAIT(spawned, TRAIT_STABLELIVER, JOB_TRAIT)
 	ADD_TRAIT(spawned, TRAIT_LIMBATTACHMENT, JOB_TRAIT)
+	ADD_TRAIT(spawned, TRAIT_NOSOFTCRIT, JOB_TRAIT)
+	ADD_TRAIT(spawned, TRAIT_NOHARDCRIT, JOB_TRAIT)
+	ADD_TRAIT(spawned, TRAIT_ANALGESIA, JOB_TRAIT)
+	ADD_TRAIT(spawned, TRAIT_NOBLOOD, JOB_TRAIT)
 
 /datum/job/pinata/get_latejoin_spawn_point()
 	var/list/spawn_markers_to_use = list()
