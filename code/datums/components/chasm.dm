@@ -135,7 +135,7 @@
 #undef CHASM_DROPPING
 #undef CHASM_REGISTER_SIGNALS
 
-/datum/component/chasm/proc/drop(atom/movable/dropped_thing)
+/datum/component/chasm/proc/drop(atom/movable/dropped_thing, force = FALSE)
 	var/datum/weakref/falling_ref = WEAKREF(dropped_thing)
 	//Make sure the item is still there after our sleep
 	if(!dropped_thing || !falling_ref?.resolve())
@@ -165,7 +165,7 @@
 		return
 
 	// LETHAL EDIT: turns chasms into 'lethal ledges' l4d style
-	if (isliving(dropped_thing))
+	if (isliving(dropped_thing) && !force)
 		var/mob/living/falling_mob = dropped_thing
 		if (falling_mob.recover_from_ledge(list(/turf/open/chasm))) // handles the whole thing
 			falling_atoms -= falling_ref
