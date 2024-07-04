@@ -38,7 +38,10 @@
 		loaded_projectile.range = firing_launcher.target_range
 	else if(istype(fired_from, /obj/item/gun/ballistic/shotgun/shell_launcher))
 		loaded_projectile.range = 5
-
+	// LETHAL EDIT: gureibu's GL sets range
+	else if(istype(fired_from, /obj/item/gun/ballistic/revolver/grenadelauncher/tydhouer))
+		loaded_projectile.range = get_dist(user, target)
+	// LETHAL EDIT END
 	. = ..()
 
 
@@ -213,7 +216,7 @@
 
 
 /obj/projectile/bullet/incendiary/fire/backblast/short_range
-	range = 2
+	range = 1
 
 
 // .980 tear gas grenade

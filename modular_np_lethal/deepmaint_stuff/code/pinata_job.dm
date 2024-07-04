@@ -35,10 +35,16 @@
 
 /datum/job/pinata/after_spawn(mob/living/spawned, client/player_client)
 	. = ..()
-	ADD_TRAIT(spawned, TRAIT_NODISMEMBER, JOB_TRAIT)
 	ADD_TRAIT(spawned, TRAIT_VIRUSIMMUNE, JOB_TRAIT)
 	ADD_TRAIT(spawned, TRAIT_NO_EXTRACT, JOB_TRAIT)
 	ADD_TRAIT(spawned, TRAIT_CHUNKYFINGERS, JOB_TRAIT)
+	ADD_TRAIT(spawned, TRAIT_STABLEHEART, JOB_TRAIT)
+	ADD_TRAIT(spawned, TRAIT_STABLELIVER, JOB_TRAIT)
+	ADD_TRAIT(spawned, TRAIT_LIMBATTACHMENT, JOB_TRAIT)
+	ADD_TRAIT(spawned, TRAIT_NOSOFTCRIT, JOB_TRAIT)
+	ADD_TRAIT(spawned, TRAIT_NOHARDCRIT, JOB_TRAIT)
+	ADD_TRAIT(spawned, TRAIT_ANALGESIA, JOB_TRAIT)
+	ADD_TRAIT(spawned, TRAIT_NOBLOOD, JOB_TRAIT)
 
 /datum/job/pinata/get_latejoin_spawn_point()
 	var/list/spawn_markers_to_use = list()
@@ -82,16 +88,6 @@
 	radio.freqlock = RADIO_FREQENCY_LOCKED
 
 	squaddie.mind?.adjust_experience(/datum/skill/athletics, 10000000)
-
-	var/list/bodyparts_to_replace = list(
-		/obj/item/bodypart/leg/left/robot/advanced,
-		/obj/item/bodypart/leg/right/robot/advanced,
-		/obj/item/bodypart/arm/left/robot/advanced,
-		/obj/item/bodypart/arm/right/robot/advanced,
-	)
-	for(var/iterated_bodypart in bodyparts_to_replace)
-		var/obj/item/bodypart/new_bodypart = new iterated_bodypart()
-		new_bodypart.replace_limb_evil(squaddie, special = TRUE)
 
 	var/list/implants_to_add = list(
 		/obj/item/organ/internal/ears/cybernetic/whisper,

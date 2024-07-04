@@ -14,6 +14,9 @@
 	inhand_icon_state = "headset"
 	drop_sound = 'sound/items/handling/component_drop.ogg'
 	pickup_sound = 'sound/items/handling/component_pickup.ogg'
+	custom_materials = list(/datum/material/plastic = SMALL_MATERIAL_AMOUNT*8, \
+						/datum/material/silver = SMALL_MATERIAL_AMOUNT*2, \
+						/datum/material/gold = SMALL_MATERIAL_AMOUNT*2,)
 
 /obj/item/epic_loot/vein_finder/afterattack(atom/target, mob/user, proximity_flag)
 	. = ..()
@@ -44,6 +47,8 @@
 	inhand_icon_state = "zippo"
 	drop_sound = 'sound/items/handling/component_drop.ogg'
 	pickup_sound = 'sound/items/handling/component_pickup.ogg'
+	custom_materials = list(/datum/material/plastic = SMALL_MATERIAL_AMOUNT*8, \
+						/datum/material/glass = SMALL_MATERIAL_AMOUNT*2,)
 
 /obj/item/epic_loot/eye_scope/examine_more(mob/user)
 	. = ..()

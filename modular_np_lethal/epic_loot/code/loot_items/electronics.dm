@@ -26,6 +26,8 @@
 	icon_state = "device_fan"
 	drop_sound = 'sound/items/handling/ammobox_drop.ogg'
 	pickup_sound = 'sound/items/handling/ammobox_pickup.ogg'
+	custom_materials = list(/datum/material/plastic = SMALL_MATERIAL_AMOUNT*9, \
+						/datum/material/gold = SMALL_MATERIAL_AMOUNT,)
 
 /obj/item/epic_loot/device_fan/examine_more(mob/user)
 	. = ..()
@@ -45,6 +47,9 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	drop_sound = 'sound/items/handling/ammobox_drop.ogg'
 	pickup_sound = 'sound/items/handling/ammobox_pickup.ogg'
+	custom_materials = list(/datum/material/plastic = SMALL_MATERIAL_AMOUNT*5, \
+						/datum/material/glass = SMALL_MATERIAL_AMOUNT*4, \
+						/datum/material/gold = SMALL_MATERIAL_AMOUNT,)
 
 /obj/item/epic_loot/display/examine_more(mob/user)
 	. = ..()
@@ -64,6 +69,9 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	drop_sound = 'sound/items/handling/ammobox_drop.ogg'
 	pickup_sound = 'sound/items/handling/ammobox_pickup.ogg'
+	custom_materials = list(/datum/material/plastic = SMALL_MATERIAL_AMOUNT*5, \
+						/datum/material/glass = SMALL_MATERIAL_AMOUNT*4, \
+						/datum/material/gold = SMALL_MATERIAL_AMOUNT,)
 
 /obj/item/epic_loot/display_broken/examine_more(mob/user)
 	. = ..()
@@ -83,6 +91,9 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	drop_sound = 'sound/items/handling/ammobox_drop.ogg'
 	pickup_sound = 'sound/items/handling/ammobox_pickup.ogg'
+	custom_materials = list(/datum/material/plastic = SMALL_MATERIAL_AMOUNT*8, \
+						/datum/material/silver = SMALL_MATERIAL_AMOUNT*2, \
+						/datum/material/gold = SMALL_MATERIAL_AMOUNT*2,)
 
 /obj/item/epic_loot/graphics/examine_more(mob/user)
 	. = ..()
@@ -101,6 +112,10 @@
 	icon_state = "circuit_military"
 	drop_sound = 'sound/items/handling/component_drop.ogg'
 	pickup_sound = 'sound/items/handling/component_pickup.ogg'
+	custom_materials = list(/datum/material/plastic = SMALL_MATERIAL_AMOUNT*6, \
+						/datum/material/titanium = SMALL_MATERIAL_AMOUNT*2, \
+						/datum/material/silver = SMALL_MATERIAL_AMOUNT*2, \
+						/datum/material/gold = SMALL_MATERIAL_AMOUNT*2,)
 
 /obj/item/epic_loot/military_circuit/examine_more(mob/user)
 	. = ..()
@@ -119,6 +134,9 @@
 	icon_state = "civilian_circuit"
 	drop_sound = 'sound/items/handling/component_drop.ogg'
 	pickup_sound = 'sound/items/handling/component_pickup.ogg'
+	custom_materials = list(/datum/material/plastic = SMALL_MATERIAL_AMOUNT*6, \
+						/datum/material/silver = SMALL_MATERIAL_AMOUNT*2, \
+						/datum/material/gold = SMALL_MATERIAL_AMOUNT*2,)
 
 /obj/item/epic_loot/civilian_circuit/examine_more(mob/user)
 	. = ..()
@@ -138,6 +156,9 @@
 	inhand_icon_state = "razor"
 	drop_sound = 'sound/items/handling/component_drop.ogg'
 	pickup_sound = 'sound/items/handling/component_pickup.ogg'
+	custom_materials = list(/datum/material/plastic = SMALL_MATERIAL_AMOUNT*3, \
+						/datum/material/silver = SMALL_MATERIAL_AMOUNT, \
+						/datum/material/gold = SMALL_MATERIAL_AMOUNT,)
 
 /obj/item/epic_loot/processor/examine_more(mob/user)
 	. = ..()

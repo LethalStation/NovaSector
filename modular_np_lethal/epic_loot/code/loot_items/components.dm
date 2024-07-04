@@ -90,6 +90,8 @@
 	inhand_icon_state = "rubberducky"
 	drop_sound = 'sound/items/handling/ammobox_drop.ogg'
 	pickup_sound = 'sound/items/handling/ammobox_pickup.ogg'
+	custom_materials = list(/datum/material/iron = SMALL_MATERIAL_AMOUNT*5,\
+							/datum/material/cardboard = SHEET_MATERIAL_AMOUNT,)
 
 /obj/item/epic_loot/nail_box/examine_more(mob/user)
 	. = ..()
@@ -127,6 +129,9 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	drop_sound = 'sound/items/handling/cardboardbox_drop.ogg'
 	pickup_sound = 'sound/items/handling/cardboardbox_pickup.ogg'
+	custom_materials = list(/datum/material/plastic = SMALL_MATERIAL_AMOUNT*8, \
+						/datum/material/iron = SMALL_MATERIAL_AMOUNT*2, \
+						/datum/material/silver = SMALL_MATERIAL_AMOUNT*1,)
 
 /obj/item/epic_loot/electric_motor/examine_more(mob/user)
 	. = ..()
@@ -145,6 +150,9 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	drop_sound = 'sound/items/handling/weldingtool_drop.ogg'
 	pickup_sound = 'sound/items/handling/weldingtool_pickup.ogg'
+	custom_materials = list(/datum/material/plastic = SHEET_MATERIAL_AMOUNT*2, \
+						/datum/material/silver = SHEET_MATERIAL_AMOUNT, \
+						/datum/material/gold = SHEET_MATERIAL_AMOUNT,)
 
 /obj/item/epic_loot/current_converter/examine_more(mob/user)
 	. = ..()
@@ -196,6 +204,12 @@
 	w_class = WEIGHT_CLASS_BULKY
 	drop_sound = 'sound/items/handling/ammobox_drop.ogg'
 	pickup_sound = 'sound/items/handling/ammobox_pickup.ogg'
+	custom_materials = list(
+		/datum/material/plastic = SHEET_MATERIAL_AMOUNT * 3,
+		/datum/material/titanium = SHEET_MATERIAL_AMOUNT * 5,
+		/datum/material/silver = SHEET_MATERIAL_AMOUNT * 4,
+		/datum/material/gold = SHEET_MATERIAL_AMOUNT * 4
+		)
 
 /obj/item/epic_loot/shuttle_gyro/Initialize(mapload)
 	. = ..()
@@ -220,6 +234,9 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	drop_sound = 'sound/items/handling/ammobox_drop.ogg'
 	pickup_sound = 'sound/items/handling/ammobox_pickup.ogg'
+	custom_materials = list(/datum/material/plastic = SHEET_MATERIAL_AMOUNT*2, \
+						/datum/material/silver = SHEET_MATERIAL_AMOUNT, \
+						/datum/material/gold = SHEET_MATERIAL_AMOUNT,)
 
 /obj/item/epic_loot/phased_array/examine_more(mob/user)
 	. = ..()
@@ -238,6 +255,9 @@
 	w_class = WEIGHT_CLASS_BULKY
 	drop_sound = 'sound/items/handling/cardboardbox_drop.ogg'
 	pickup_sound = 'sound/items/handling/cardboardbox_pickup.ogg'
+	custom_materials = list(/datum/material/plastic = SHEET_MATERIAL_AMOUNT*10, \
+						/datum/material/silver = SHEET_MATERIAL_AMOUNT*4, \
+						/datum/material/gold = SHEET_MATERIAL_AMOUNT*4,)
 
 /obj/item/epic_loot/shuttle_battery/Initialize(mapload)
 	. = ..()

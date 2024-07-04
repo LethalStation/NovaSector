@@ -33,7 +33,7 @@
 	name = "energy arm blade"
 	desc = "A long mantis-like blade made entirely of blazing-hot energy. Stylish and EXTRA deadly!"
 	icon_state = "energy_mantis_blade"
-	force = 30
+	force = 40
 	armour_penetration = 10 //Energy isn't as good at going through armor as it is through flesh alone.
 	hitsound = 'sound/weapons/blade1.ogg'
 
@@ -72,7 +72,6 @@
 	var/cutter_bare_wound_bonus = CUTTER_WOUND_BONUS
 	tool_behaviour = TOOL_KNIFE
 	toolspeed = 1
-	item_flags = NEEDS_PERMIT //Beepers gets angry if you get caught with this.
 
 /obj/item/knife/razor_claws/attack_self(mob/user)
 	playsound(get_turf(user), 'sound/items/change_drill.ogg', 50, TRUE)
@@ -110,6 +109,7 @@
 	knife_force = ENHANCED_KNIFE_FORCE
 	knife_wound_bonus = ENHANCED_KNIFE_WOUND_BONUS
 	armour_penetration = ENHANCED_KNIFE_ARMOR_PENETRATION //Let's give them some AP for the trouble.
+	item_flags |= NEEDS_PERMIT
 
 	if(tool_behaviour == TOOL_KNIFE)
 		force = knife_force

@@ -34,8 +34,10 @@
 
 	var/list/dent_decals
 
-/turf/closed/wall/MouseDrop_T(atom/dropping, mob/user, params)
-	..()
+/turf/closed/wall/add_debris_element()
+	AddElement(/datum/element/debris, DEBRIS_SPARKS, -15, 8, 1)
+
+/turf/closed/wall/mouse_drop_receive(atom/dropping, mob/user, params)
 	if(dropping != user)
 		return
 	if(!iscarbon(dropping) && !iscyborg(dropping))

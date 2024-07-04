@@ -80,6 +80,16 @@
 				/obj/item/ammo_box/magazine/ammo_stack/s6gauge/prefilled/flash = INFINITY,
 			),
 		),
+		list(
+			"name" = "Limb Replacement",
+			"icon" = "hand",
+			"products" = list(
+				/obj/item/bodypart/arm/left/robot/advanced = INFINITY,
+				/obj/item/bodypart/arm/right/robot/advanced = INFINITY,
+				/obj/item/bodypart/leg/left/robot/advanced = INFINITY,
+				/obj/item/bodypart/leg/right/robot/advanced = INFINITY,
+			),
+		),
 	)
 	contraband = list()
 	default_price = 0
@@ -98,7 +108,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/vending/wallmed/epic_loot/evil, 32)
 				/obj/item/clothing/head/soft/sec = INFINITY,
 				/obj/item/clothing/head/helmet/lethal_filtre_helmet/light = INFINITY,
 				/obj/item/clothing/head/helmet/lethal_filtre_helmet = INFINITY,
-				//obj/item/clothing/suit/armor/lethal_filtre/super_light = INFINITY,
+				/obj/item/clothing/suit/armor/lethal_filtre/super_light = INFINITY,
 				/obj/item/clothing/suit/armor/lethal_filtre = INFINITY,
 				/obj/item/clothing/suit/armor/lethal_filtre/heavy = INFINITY,
 				/obj/item/clothing/mask/gas/sechailer/half_mask = INFINITY,
@@ -136,6 +146,8 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/vending/wallmed/epic_loot/evil, 32)
 				/obj/item/storage/backpack/industrial/frontier_colonist/messenger = INFINITY,
 				/obj/item/storage/backpack/industrial/frontier_colonist/satchel = INFINITY,
 				/obj/item/shield/ballistic = INFINITY,
+				/obj/item/shield/riot/tele = INFINITY,
+				/obj/item/shield/riot/pointman = INFINITY,
 				/obj/item/motiondetector = INFINITY,
 			),
 		),
@@ -146,9 +158,9 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/vending/wallmed/epic_loot/evil, 32)
 				/obj/item/flashlight/flare = INFINITY,
 				/obj/item/knife/combat = INFINITY,
 				/obj/item/trench_tool = INFINITY,
+				/obj/item/katana = INFINITY,
+				/obj/item/melee/energy/sword = INFINITY,
 				/obj/item/suppressor = INFINITY,
-				/obj/item/grenade/syndieminibomb/concussion/impact = INFINITY,
-				/obj/item/grenade/frag/impact = INFINITY,
 				/obj/item/grenade/smokebomb = INFINITY,
 				/obj/item/grenade/stingbang = INFINITY,
 				/obj/item/gun/energy/modular_laser_rifle = INFINITY,

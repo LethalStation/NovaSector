@@ -45,6 +45,8 @@
 	/// How long it takes to mine this turf without tools, if it's weak.
 	var/hand_mine_speed = 15 SECONDS
 
+/turf/closed/mineral/add_debris_element()
+	AddElement(/datum/element/debris, DEBRIS_ROCK, -10, 5, 1)
 
 /turf/closed/mineral/Initialize(mapload)
 	. = ..()
@@ -552,6 +554,12 @@
 	mineralType = /obj/item/stack/ore/iron
 	scan_state = "rock_Iron"
 
+/turf/closed/mineral/iron/volcanic
+	turf_type = /turf/open/misc/asteroid/basalt/lava_land_surface
+	baseturfs = /turf/open/misc/asteroid/basalt/lava_land_surface
+	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
+	defer_change = TRUE
+
 /turf/closed/mineral/iron/ice
 	icon_state = "icerock_iron"
 	icon = MAP_SWITCH('icons/turf/walls/icerock_wall.dmi', 'icons/turf/mining.dmi')
@@ -566,9 +574,21 @@
 	mineralType = /obj/item/stack/ore/uranium
 	scan_state = "rock_Uranium"
 
+/turf/closed/mineral/uranium/volcanic
+	turf_type = /turf/open/misc/asteroid/basalt/lava_land_surface
+	baseturfs = /turf/open/misc/asteroid/basalt/lava_land_surface
+	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
+	defer_change = TRUE
+
 /turf/closed/mineral/diamond
 	mineralType = /obj/item/stack/ore/diamond
 	scan_state = "rock_Diamond"
+
+/turf/closed/mineral/diamond/volcanic
+	turf_type = /turf/open/misc/asteroid/basalt/lava_land_surface
+	baseturfs = /turf/open/misc/asteroid/basalt/lava_land_surface
+	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
+	defer_change = TRUE
 
 /turf/closed/mineral/diamond/ice
 	icon_state = "icerock_iron"
@@ -594,6 +614,12 @@
 	mineralType = /obj/item/stack/ore/silver
 	scan_state = "rock_Silver"
 
+/turf/closed/mineral/silver/volcanic
+	turf_type = /turf/open/misc/asteroid/basalt/lava_land_surface
+	baseturfs = /turf/open/misc/asteroid/basalt/lava_land_surface
+	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
+	defer_change = TRUE
+
 /turf/closed/mineral/silver/ice/icemoon
 	turf_type = /turf/open/misc/asteroid/snow/ice/icemoon
 	baseturfs = /turf/open/misc/asteroid/snow/ice/icemoon
@@ -603,9 +629,21 @@
 	mineralType = /obj/item/stack/ore/titanium
 	scan_state = "rock_Titanium"
 
+/turf/closed/mineral/titanium/volcanic
+	turf_type = /turf/open/misc/asteroid/basalt/lava_land_surface
+	baseturfs = /turf/open/misc/asteroid/basalt/lava_land_surface
+	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
+	defer_change = TRUE
+
 /turf/closed/mineral/plasma
 	mineralType = /obj/item/stack/ore/plasma
 	scan_state = "rock_Plasma"
+
+/turf/closed/mineral/plasma/volcanic
+	turf_type = /turf/open/misc/asteroid/basalt/lava_land_surface
+	baseturfs = /turf/open/misc/asteroid/basalt/lava_land_surface
+	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
+	defer_change = TRUE
 
 /turf/closed/mineral/plasma/ice
 	icon_state = "icerock_plasma"
@@ -621,6 +659,12 @@
 	mineralType = /obj/item/stack/ore/bananium
 	mineralAmt = 3
 	scan_state = "rock_Bananium"
+
+/turf/closed/mineral/bananium/volcanic
+	turf_type = /turf/open/misc/asteroid/basalt/lava_land_surface
+	baseturfs = /turf/open/misc/asteroid/basalt/lava_land_surface
+	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
+	defer_change = TRUE
 
 /turf/closed/mineral/bscrystal
 	mineralType = /obj/item/stack/ore/bluespace_crystal

@@ -48,6 +48,8 @@
 	inhand_icon_state = "razor"
 	drop_sound = 'sound/items/handling/disk_drop.ogg'
 	pickup_sound = 'sound/items/handling/disk_pickup.ogg'
+	custom_materials = list(/datum/material/plastic = SMALL_MATERIAL_AMOUNT*8, \
+						/datum/material/silver = SMALL_MATERIAL_AMOUNT*2,)
 
 /obj/item/epic_loot/ssd/examine_more(mob/user)
 	. = ..()
@@ -67,6 +69,8 @@
 	drop_sound = 'sound/items/handling/disk_drop.ogg'
 	pickup_sound = 'sound/items/handling/disk_pickup.ogg'
 	w_class = WEIGHT_CLASS_NORMAL
+	custom_materials = list(/datum/material/plastic = SMALL_MATERIAL_AMOUNT*8, \
+						/datum/material/silver = SMALL_MATERIAL_AMOUNT*2,)
 
 /obj/item/epic_loot/hdd/examine_more(mob/user)
 	. = ..()
@@ -140,6 +144,9 @@
 	drop_sound = 'sound/items/handling/cardboardbox_drop.ogg'
 	pickup_sound = 'sound/items/handling/cardboardbox_pickup.ogg'
 	w_class = WEIGHT_CLASS_NORMAL
+	custom_materials = list(
+		/datum/material/plastic = SHEET_MATERIAL_AMOUNT * 3, // for the. container?
+		/datum/material/plasma = SMALL_MATERIAL_AMOUNT * 5) // the part that explodes
 
 /obj/item/epic_loot/plasma_explosive/Initialize(mapload)
 	. = ..()
@@ -199,6 +206,7 @@
 	icon_state = "silver_chain"
 	drop_sound = 'sound/items/handling/disk_drop.ogg'
 	pickup_sound = 'sound/items/handling/disk_pickup.ogg'
+	custom_materials = list(/datum/material/silver = SHEET_MATERIAL_AMOUNT)
 
 /obj/item/epic_loot/silver_chainlet/examine_more(mob/user)
 	. = ..()
@@ -217,6 +225,7 @@
 	icon_state = "gold_chain"
 	drop_sound = 'sound/items/handling/disk_drop.ogg'
 	pickup_sound = 'sound/items/handling/disk_pickup.ogg'
+	custom_materials = list(/datum/material/gold = SHEET_MATERIAL_AMOUNT)
 
 /obj/item/epic_loot/gold_chainlet/examine_more(mob/user)
 	. = ..()

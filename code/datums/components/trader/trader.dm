@@ -223,9 +223,9 @@ Can accept both a type path, and an instance of a datum. Type path has priority.
 ///Calculates the value of money in the hand of the buyer and spends it if it's sufficient
 /datum/component/trader/proc/spend_buyer_offhand_money(mob/customer, the_cost)
 	var/value = 0
-	var/obj/item/holochip/cash = customer.is_holding_item_of_type(/obj/item/holochip)
+	var/obj/item/lethalcash/bundle/cash = customer.is_holding_item_of_type(/obj/item/lethalcash/bundle) // LETHAL EDIT - allows traders to use our currency
 	if(cash)
-		value += cash.credits
+		value += cash.value // LETHAL EDIT
 	if((value >= the_cost) && cash)
 		return cash.spend(the_cost)
 	return FALSE //Purchase unsuccessful
@@ -310,7 +310,7 @@ Can accept both a type path, and an instance of a datum. Type path has priority.
 	playsound(trader, trader_data.sell_sound, 50, TRUE)
 	log_econ("[selling] has been sold to [trader] (typepath used for product info; [typepath_for_product_info]) by [customer] for [cost] cash.")
 	exchange_sold_items(selling, cost, typepath_for_product_info)
-	generate_cash(cost, customer)
+	spawn_lethal_money(cost, customer) //LETHAL EDIT
 	return TRUE
 
 /**
@@ -352,7 +352,7 @@ Can accept both a type path, and an instance of a datum. Type path has priority.
  * * customer - Reference to a mob; The mob we put the holochip in hands of
  */
 /datum/component/trader/proc/generate_cash(value, mob/customer)
-	var/obj/item/holochip/chip = new /obj/item/holochip(get_turf(customer), value)
+	var/obj/item/holochip/chip = new /obj/item/holochip(get_turf(customer), value) // LETHAL EDIT - allows traders to use our currency
 	customer.put_in_hands(chip)
 
 ///Talk about what items are being sold/wanted by the trader and in what quantity or lore

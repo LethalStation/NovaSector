@@ -6,9 +6,9 @@
 	spawn_loot_count = 1
 	spawn_loot_split = TRUE
 	loot = list(
-		/obj/item/lethalcash/c1 = 5,
-		/obj/item/lethalcash/c10 = 3,
-		/obj/item/lethalcash/c20 = 2,
+		/obj/item/lethalcash/bundle/c1 = 5,
+		/obj/item/lethalcash/bundle/c10 = 3,
+		/obj/item/lethalcash/bundle/c20 = 2,
 	)
 
 /obj/effect/spawner/random/entertainment/money_lethal
@@ -17,11 +17,11 @@
 	spawn_loot_count = 1
 	spawn_loot_split = TRUE
 	loot = list(
-		/obj/item/lethalcash/c1 = 10,
-		/obj/item/lethalcash/c10 = 5,
-		/obj/item/lethalcash/c20 = 3,
-		/obj/item/lethalcash/c50 = 2,
-		/obj/item/lethalcash/c100 = 1,
+		/obj/item/lethalcash/bundle/c1 = 10,
+		/obj/item/lethalcash/bundle/c10 = 5,
+		/obj/item/lethalcash/bundle/c20 = 3,
+		/obj/item/lethalcash/bundle/c50 = 2,
+		/obj/item/lethalcash/bundle/c100 = 1,
 	)
 
 /obj/effect/spawner/random/entertainment/money_medium_lethal
@@ -29,11 +29,11 @@
 	icon_state = "cash"
 	spawn_loot_count = 1
 	loot = list(
-		/obj/item/lethalcash/c100 = 25,
-		/obj/item/lethalcash/c200 = 15,
-		/obj/item/lethalcash/c50 = 10,
-		/obj/item/lethalcash/c500 = 5,
-		/obj/item/lethalcash/c1000 = 1,
+		/obj/item/lethalcash/bundle/c100 = 25,
+		/obj/item/lethalcash/bundle/c200 = 15,
+		/obj/item/lethalcash/bundle/c50 = 10,
+		/obj/item/lethalcash/bundle/c500 = 5,
+		/obj/item/lethalcash/bundle/c1000 = 1,
 	)
 
 /obj/effect/spawner/random/entertainment/money_large_lethal
@@ -42,14 +42,14 @@
 	spawn_loot_count = 1
 	spawn_loot_split = TRUE
 	loot = list(
-		/obj/item/lethalcash/c1 = 100,
-		/obj/item/lethalcash/c10 = 80,
-		/obj/item/lethalcash/c20 = 60,
-		/obj/item/lethalcash/c50 = 40,
-		/obj/item/lethalcash/c100 = 30,
-		/obj/item/lethalcash/c200 = 20,
-		/obj/item/lethalcash/c500 = 10,
-		/obj/item/lethalcash/c1000 = 5,
+		/obj/item/lethalcash/bundle/c1 = 100,
+		/obj/item/lethalcash/bundle/c10 = 80,
+		/obj/item/lethalcash/bundle/c20 = 60,
+		/obj/item/lethalcash/bundle/c50 = 40,
+		/obj/item/lethalcash/bundle/c100 = 30,
+		/obj/item/lethalcash/bundle/c200 = 20,
+		/obj/item/lethalcash/bundle/c500 = 10,
+		/obj/item/lethalcash/bundle/c1000 = 5,
 	)
 
 /obj/item/storage/briefcase/secure/syndie/lethal //one of those things people may like to have
@@ -58,4 +58,4 @@
 /obj/item/storage/briefcase/secure/syndie/lethal/PopulateContents()
 	. = ..()
 	for(var/iterator in 1 to 5)
-		new /obj/item/lethalcash/c1000(src)
+		new /obj/item/lethalcash/bundle/c1000(src)

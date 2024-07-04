@@ -33,8 +33,8 @@
 		bundle.update_icon()
 		if(ishuman(user))
 			var/mob/living/carbon/human/H = user
-			H.put_in_hands(bundle)
-		to_chat(user, ("You add [value] credits worth of money to the bundles.<br>It holds [bundle.value] credits now."))
+			H.put_in_active_hand(bundle)
+		to_chat(user, ("You add [value] credits worth of money to the bundle. <br>It holds [bundle.value] credits now."))
 		qdel(src)
 
 
@@ -44,8 +44,14 @@
 
 
 /obj/item/lethalcash/bundle
-	name = "bundle of credits"
 	icon_state = ""
+	desc = "A coin, bill, or collection thereof representing the Solarian Standard Credit, the dominant currency of the Sol system. Owing to the nature of Pluto, \
+			there's a lot of these little fuckers out there. Like it or not, you'll need more of this."
+
+/obj/item/lethalcash/examine(mob/user)
+	. = ..()
+
+	. += span_engradio("This is worth [value] credits.")
 
 /obj/item/lethalcash/bundle/update_icon()
 	. = ..()
@@ -62,7 +68,11 @@
 			M.Translate(rand(-6, 6), rand(-4, 8))
 			banknote.transform = M
 			src.add_overlay(banknote)
-	src.desc = "They are worth [value] credits."
+	if(value == 1)
+		name = "1 credit coin"
+		desc = "A lonely credit coin. Won't you get her some friends?"
+	else
+		name = "[value] credits"
 
 /obj/item/lethalcash/bundle/attack_self()
 	var/amount = input(usr, "How many credits do you want to take? (0 to [src.value])", "Take Money", 20) as num
@@ -74,15 +84,11 @@
 
 	if(!value)
 		qdel(src)
-	if(amount in list(1000,500,200,100,50,20,10,5,1))
-		var/cashtype = text2path("/obj/item/lethalcash/c[amount]")
-		var/obj/cash = new cashtype (usr.loc)
-		usr.put_in_hands(cash)
-	else
-		var/obj/item/lethalcash/bundle/bundle = new (usr.loc)
-		bundle.value = amount
-		bundle.update_icon()
-		usr.put_in_hands(bundle)
+
+	var/obj/item/lethalcash/bundle/bundle = new (usr.loc)
+	bundle.value = amount
+	bundle.update_icon()
+	usr.put_in_hands(bundle)
 
 	src.value -= amount
 	src.update_icon()
@@ -93,70 +99,68 @@
 	. = ..()
 	update_icon()
 
-/obj/item/lethalcash/c1
-	name = "1 credit coin"
-	icon_state = "lethalcash1"
-	desc = "A one-credit coin. Even a Yellow could figure this one out."
+/obj/item/lethalcash/bundle/c1
+	//name = "1 credit coin"
+	//desc = "A one-credit coin. Even a Yellow could figure this one out."
 	value = 1
 
-/obj/item/lethalcash/c5
-	name = "5 credit coin"
-	icon_state = "lethalcash5"
-	desc = "A five-credit coin. Arguably the starting point for restaurant tips."
+/obj/item/lethalcash/bundle/c5
+	//name = "5 credit coin"
+	//desc = "A five-credit coin. Arguably the starting point for restaurant tips."
 	value = 5
 
-/obj/item/lethalcash/c10
-	name = "10 credit coin"
-	icon_state = "lethalcash10"
-	desc = "A ten-credit coin. Pleasantly heavy."
+/obj/item/lethalcash/bundle/c10
+	//name = "10 credit coin"
+	//desc = "A ten-credit coin. Pleasantly heavy."
 	value = 10
 
-/obj/item/lethalcash/c20
-	name = "20 credit bill"
-	icon_state = "lethalcash20"
-	desc = "A twenty-credit bill. Often found stuffed into the bunnysuits of Black Company showgirls."
+/obj/item/lethalcash/bundle/c20
+	//name = "20 credit bill"
+	//desc = "A twenty-credit bill. Often found stuffed into the bunnysuits of Black Company showgirls."
 	value = 20
 
-/obj/item/lethalcash/c50
-	name = "50 credit bill"
-	icon_state = "lethalcash50"
-	desc = "A fifty-credit bill. The least disappointing thing to find in a cache raid."
+/obj/item/lethalcash/bundle/c50
+	//name = "50 credit bill"
+	//desc = "A fifty-credit bill. The least disappointing thing to find in a cache raid."
 	value = 50
 
-/obj/item/lethalcash/c100
-	name = "100 credit bill"
-	icon_state = "lethalcash100"
-	desc = "A one-hundred-credit bill, the lifeblood of interstellar commerce."
+/obj/item/lethalcash/bundle/c100
+	//name = "100 credit bill"
+	//desc = "A one-hundred-credit bill, the lifeblood of interstellar commerce."
 	value = 100
 
-/obj/item/lethalcash/c200
-	name = "200 credit bill"
-	icon_state = "lethalcash200"
-	desc = "A two-hundred-credit bill, depicting a Marsian sunrise."
+/obj/item/lethalcash/bundle/c200
+	//name = "200 credit bill"
+	//desc = "A two-hundred-credit bill, depicting a Marsian sunrise."
 	value = 200
 
-/obj/item/lethalcash/c500
-	name = "500 credit bill"
-	icon_state = "lethalcash500"
-	desc = "A five-hundred-credit bill. More of these come and go from the Spinward Territories than people."
+/obj/item/lethalcash/bundle/c500
+	//name = "500 credit bill"
+	//desc = "A five-hundred-credit bill. More of these come and go from the Spinward Territories than people."
 	value = 500
 
-/obj/item/lethalcash/c1000
-	name = "1000 credit bill"
-	icon_state = "lethalcash1000"
-	desc = "A crumpled one-thousand-credit bill. The preferred foodstuff of government."
+/obj/item/lethalcash/bundle/c1000
+	//name = "1000 credit bill"
+	//desc = "A crumpled one-thousand-credit bill. The preferred foodstuff of government."
 	value = 1000
 
 
-/proc/spawn_lethal_money(sum, spawnloc, mob/living/carbon/human/H) //there's a little weirdness with the way it generates single bills but this works pretty good
-	if(sum in list(1000,500,200,100,50,20,10,5,1))
-		var/cashtype = text2path("/obj/item/lethalcash/c[sum]")
-		var/obj/cash = new cashtype (spawnloc)
-		usr.put_in_hands(cash)
+/proc/spawn_lethal_money(sum, spawnloc, mob/living/carbon/human/H) //there's a little weirdness between selling and generating cash but i'm fine with that
+	var/obj/item/lethalcash/bundle/fundle = new (spawnloc)
+	fundle.value = sum
+	fundle.update_icon()
+	usr.put_in_hands(fundle)
+
+/obj/item/lethalcash/bundle/proc/spend(amount, pay_anyway = FALSE)
+	if(value >= amount)
+		//message_admins("[value] is greater than or equal to [amount]")
+		value -= amount
+		if(value == 0)
+			qdel(src)
+		update_appearance()
+		return amount
+	else if(pay_anyway)
+		qdel(src)
+		return value
 	else
-		var/obj/item/lethalcash/bundle/fundle = new (spawnloc)
-		fundle.value = sum
-		fundle.update_icon()
-		usr.put_in_hands(fundle)
-		if(istype(H) && !H.get_active_hand())
-			H.put_in_hands(fundle)
+		return 0

@@ -3,26 +3,32 @@
 // it all prints out of the same machine, not like it matters that much, might as well make it easy.
 
 /obj/item/mecha_ammo/lmg/ballistic
-	name = "Ballistic ammo box"
+	name = "ballistic ammo box"
 	desc = "A box of linked ammunition, designed for all ballistic weapons."
 	icon_state = "lmg"
-	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT*2)
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT*6,)
 	rounds = 300
 	ammo_type = MECHA_AMMO_LMG
 
 /obj/item/mecha_ammo/flashbang/nonlethal
-	name = "Non-lethal ammo box"
-	desc = "A box of non-lethal ammunition, flashbangs, stingbangs and pepperspray"
+	name = "non-lethal ammo box"
+	desc = "A box of non-lethal mech-compatible ammunition; flashbangs, stingbangs and pepperspray."
 	icon_state = "flashbang"
-	custom_materials = list(/datum/material/iron=SHEET_MATERIAL_AMOUNT*2,/datum/material/gold=SMALL_MATERIAL_AMOUNT*5)
+	custom_materials = list(
+		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 4,
+		/datum/material/silver = SHEET_MATERIAL_AMOUNT,
+		/datum/material/gold = SHEET_MATERIAL_AMOUNT)
 	rounds = 6
 	ammo_type = MECHA_AMMO_FLASHBANG
 
 /obj/item/mecha_ammo/pep/explosive
-	name = "Explosive ammo box"
+	name = "explosive ammo box"
 	desc = "A box of large explosives, for explosive weapons."
 	icon_state = "missile_br"
-	custom_materials = list(/datum/material/iron=SHEET_MATERIAL_AMOUNT*4,/datum/material/gold=SMALL_MATERIAL_AMOUNT*5)
+	custom_materials = list(
+		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 4,
+		/datum/material/plasma = SHEET_MATERIAL_AMOUNT, // because it goes boom
+		/datum/material/gold = SHEET_MATERIAL_AMOUNT)
 	rounds = 6
 	direct_load = TRUE
 	load_audio = 'sound/weapons/gun/general/mag_bullet_insert.ogg'

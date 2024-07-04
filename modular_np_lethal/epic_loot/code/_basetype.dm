@@ -6,7 +6,7 @@
 	layer = BELOW_OBJ_LAYER
 	obj_flags = CAN_BE_HIT
 	pass_flags_self = LETPASSTHROW|LETPASSCLICKS
-	max_integrity = 100
+	max_integrity = 200
 
 	/// What storage datum we use
 	var/storage_datum_to_use = /datum/storage/maintenance_loot_structure
@@ -24,7 +24,7 @@
 
 /obj/structure/maintenance_loot_structure/examine(mob/user)
 	. = ..()
-	. += span_engradio("If it's <b>empty</b>, perhaps you should check it again at a <b>later</b> time?")
+	. += span_engradio("It might have other things you're looking for <b>at a later time</b>?")
 	return .
 
 // Since it doesn't want to play nice for whatever reason
@@ -36,14 +36,15 @@
 
 /// Fills random contents into this structure's inventory, starting a loop to respawn loot if the container is empty later
 /obj/structure/maintenance_loot_structure/proc/make_contents()
-	var/refill_check_time = 10 MINUTES
-	if(!length(contents))
-		spawn_loot()
-		refill_check_time = 30 MINUTES
+	var/refill_check_time = rand(7 MINUTES, 15 MINUTES)
+	spawn_loot()
 	addtimer(CALLBACK(src, PROC_REF(make_contents)), refill_check_time)
 
 /// Spawns a random amount of loot into the structure, random numbers based on the amount of storage slots inside it
 /obj/structure/maintenance_loot_structure/proc/spawn_loot()
+	if(length(contents))
+		for(var/obj/thing in contents)
+			qdel(thing)
 	var/random_loot_amount = roll(loot_spawn_dice_string)
 	for(var/loot_spawn in 1 to random_loot_amount)
 		var/obj/new_loot = pick_weight(loot_weighted_list)
@@ -52,7 +53,7 @@
 
 /datum/storage/maintenance_loot_structure
 	max_slots = 9
-	max_specific_storage = WEIGHT_CLASS_BULKY
+	max_specific_storage = WEIGHT_CLASS_GIGANTIC
 	max_total_storage = WEIGHT_CLASS_BULKY * 6
 	numerical_stacking = FALSE
 	rustle_sound = FALSE

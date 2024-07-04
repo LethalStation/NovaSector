@@ -39,8 +39,8 @@
 	. += span_notice("<b>1</b> electric motor = <b>1</b> type II 'Kastrol' helmet")
 	. += span_notice("<b>1</b> shuttle gyroscope = <b>1</b> type II 'Muur' vest")
 	. += span_notice("<b>1</b> shuttle battery = <b>1</b> type II 'Muur' helmet")
-	. += span_notice("<b>2</b> hearts = <b>1</b> CIN surplus vest")
-	. += span_notice("<b>2</b> stomachs = <b>1</b> CIN surplus helmet")
+	. += span_notice("<b>1</b> graphics processor = <b>1</b> CIN surplus vest")
+	. += span_notice("<b>1</b> broken display = <b>1</b> CIN surplus helmet")
 	. += span_notice("<b>1</b> fuel conditioner = <b>1</b> frontier headset")
 	. += span_notice("<b>1</b> phased array element = <b>1</b> bowman headset")
 	return .
