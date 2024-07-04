@@ -33,7 +33,7 @@
 		bundle.update_icon()
 		if(ishuman(user))
 			var/mob/living/carbon/human/H = user
-			H.put_in_hands(bundle)
+			H.put_in_active_hand(bundle)
 		to_chat(user, ("You add [value] credits worth of money to the bundle. <br>It holds [bundle.value] credits now."))
 		qdel(src)
 
@@ -58,7 +58,6 @@
 	cut_overlays()
 	var/sum = src.value
 	var/num = 0
-	var/singles = TRUE
 	var/list/denominations = list(1000,500,200,100,50,20,10,5,1)
 	for(var/i in denominations)
 		while(sum >= i && num < 50)
@@ -66,21 +65,12 @@
 			num++
 			var/image/banknote = image('modular_np_lethal/money_rework/icons/lethalmoney.dmi', "lethalcash[i]")
 			var/matrix/M = matrix()
-			//M.Translate(rand(-6, 6), rand(-4, 8))
-			//banknote.transform = M
-			//src.add_overlay(banknote)
-			if (num >= 2)
-				singles = FALSE
-				M.Translate(rand(-6, 6), rand(-4, 8))
-				banknote.transform = M
-				src.add_overlay(banknote)
-	if(singles == TRUE)
-		if (value <= 10)
-			name = "[value] credit coin"
-			icon_state = "lethalcash[value]"
-		else
-			name = "[value] credit bill"
-			icon_state = "lethalcash[value]"
+			M.Translate(rand(-6, 6), rand(-4, 8))
+			banknote.transform = M
+			src.add_overlay(banknote)
+	if(value == 1)
+		name = "1 credit coin"
+		desc = "A lonely credit coin. Won't you get her some friends?"
 	else
 		name = "[value] credits"
 
@@ -155,13 +145,11 @@
 	value = 1000
 
 
-/proc/spawn_lethal_money(sum, spawnloc, mob/living/carbon/human/H) //there's a little weirdness with the way it generates single bills but this works pretty good
+/proc/spawn_lethal_money(sum, spawnloc, mob/living/carbon/human/H) //there's a little weirdness between selling and generating cash but i'm fine with that
 	var/obj/item/lethalcash/bundle/fundle = new (spawnloc)
 	fundle.value = sum
 	fundle.update_icon()
 	usr.put_in_hands(fundle)
-	if(istype(H) && !H.get_active_hand())
-		H.put_in_hands(fundle)
 
 /obj/item/lethalcash/bundle/proc/spend(amount, pay_anyway = FALSE)
 	if(value >= amount)
