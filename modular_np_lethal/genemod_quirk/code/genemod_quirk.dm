@@ -3,8 +3,9 @@
 	desc = "Some aspect of your physiology has been modified from your race's ordinary baseline, granting you a mutation of your choice."
 	gain_text = span_notice("Your body feels unusual...")
 	lose_text = span_notice("Normality returns in a flash.")
+	medical_record_text = "Subject has innately modified genetic information."
 	value = 10
-	icon = FA_ICON_DNA
+	icon = FA_ICON_FLASK
 	var/datum/mutation/human/added_mutation = NONE
 
 /datum/quirk/genemodded/add_unique(client/client_source)

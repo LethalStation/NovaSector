@@ -250,6 +250,9 @@
 		/datum/job/telecomms_specialist = /obj/item/organ/internal/ears/cybernetic/xray,
 		/datum/job/gakster = /obj/item/organ/internal/cyberimp/sensory_enhancer,
 		/datum/job/filtre = /obj/item/organ/internal/cyberimp/sensory_enhancer,
+		/datum/job/pentola = /obj/item/organ/internal/cyberimp/sensory_enhancer,
+		/datum/job/pinata = /obj/item/organ/internal/cyberimp/sensory_enhancer,
+		/datum/job/genin = /obj/item/organ/internal/cyberimp/sensory_enhancer,
 		// NOVA EDIT END
 	)
 
