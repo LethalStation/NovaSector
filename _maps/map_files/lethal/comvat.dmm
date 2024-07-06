@@ -2528,6 +2528,10 @@
 /obj/item/emergency_bed,
 /turf/open/floor/mineral/titanium/white,
 /area/gakster_location/hideout_real)
+"nn" = (
+/obj/machinery/computer/cryopod/directional/north,
+/turf/closed/indestructible/rock/snow/ice/ore,
+/area/gakster_location/hideout_real)
 "no" = (
 /turf/closed/wall,
 /area/gakster_location/war)
@@ -4767,6 +4771,10 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
+"zP" = (
+/obj/machinery/computer/cryopod/directional/north,
+/turf/open/floor/mineral/titanium/white,
+/area/gakster_location/filtre_spawn)
 "zR" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/gakster_location/hideout_real)
@@ -7102,6 +7110,10 @@
 /obj/effect/spawner/random/epic_loot/mech_ammo,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
+"My" = (
+/obj/machinery/computer/cryopod/directional/north,
+/turf/closed/indestructible/opshuttle,
+/area/gakster_location/ninja_hideout)
 "Mz" = (
 /obj/machinery/light/red/dim/directional/south,
 /obj/effect/decal/cleanable/dirt,
@@ -8918,6 +8930,10 @@
 /obj/machinery/light/dim/directional/north,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/gakster_location/war)
+"VZ" = (
+/obj/machinery/cryopod/prison/directional/east,
+/turf/open/floor/mineral/titanium/white,
+/area/gakster_location/hideout_real)
 "Wa" = (
 /obj/machinery/light/dim/directional/east,
 /turf/open/floor/catwalk_floor/iron_smooth,
@@ -51989,7 +52005,7 @@ mv
 mv
 mv
 WU
-FU
+zP
 FU
 WU
 mv
@@ -57789,7 +57805,7 @@ mv
 mv
 mv
 WI
-WI
+My
 ZQ
 ZQ
 ZQ
@@ -58077,7 +58093,7 @@ SC
 Ya
 dM
 OC
-gg
+VZ
 gg
 Au
 jH
@@ -58384,7 +58400,7 @@ Ya
 iW
 iq
 iq
-iq
+nn
 MK
 Kl
 EZ
