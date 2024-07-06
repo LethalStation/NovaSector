@@ -149,7 +149,7 @@ GLOBAL_LIST_EMPTY(deepmaints_exits)
 	var/obj/destination
 	if(HAS_TRAIT(user, TRAIT_EXTRACT_TO_FILTRE_SHIP))
 		destination = pick(GLOB.deepmaints_entrances_filtre)
-	if(HAS_TRAIT(user, TRAIT_EXTRACT_TO_NINJA_HIDEOUT))
+	else if(HAS_TRAIT(user, TRAIT_EXTRACT_TO_NINJA_HIDEOUT))
 		destination = pick(GLOB.deepmaints_entrances_ninja)
 	else
 		destination = pick(GLOB.deepmaints_entrances)
