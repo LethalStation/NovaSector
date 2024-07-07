@@ -3638,10 +3638,6 @@
 	},
 /turf/open/indestructible/stone,
 /area/gakster_location/hideout_real)
-"tE" = (
-/obj/structure/deepmaints_entrance/inborn,
-/turf/open/misc/asteroid/snow/standard_air,
-/area/gakster_location/inborn_spawn)
 "tG" = (
 /obj/structure/table,
 /obj/machinery/light/dim/directional/east{
@@ -56497,7 +56493,7 @@ mv
 mv
 mv
 YG
-tE
+xP
 YG
 mv
 mv
