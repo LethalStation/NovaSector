@@ -77,7 +77,7 @@
 	icon_state = "rebar"
 	damage = 70
 	speed = 0.3
-	armour_penetration = 10
+	armour_penetration = 30
 	wound_bonus = -20
 	bare_wound_bonus = 20
 	embedding = list(embed_chance=60, fall_chance=2, jostle_chance=2, ignore_throwspeed_threshold=TRUE, pain_stam_pct=0.4, pain_mult=3, jostle_pain_mult=2, rip_time=10)
@@ -96,3 +96,18 @@
 	anti_armour_damage = 80 //Doesn't (probably) kill borgs in one shot, but it will hurt
 	random_crits_enabled = FALSE //yeah, no
 
+/obj/projectile/bullet/pellet/stingball/mechball
+	name = "stingball pellet"
+	damage = 3
+	stamina = 4
+	ricochets_max = 4
+	range = 20
+	ricochet_chance = 66
+	ricochet_decay_chance = 1
+	ricochet_decay_damage = 0.9
+	ricochet_auto_aim_angle = 10
+	ricochet_auto_aim_range = 2
+	ricochet_incidence_leeway = 0
+	embed_falloff_tile = -2
+	shrapnel_type = /obj/item/shrapnel/stingball
+	embedding = list(embed_chance=50, fall_chance=2, jostle_chance=7, ignore_throwspeed_threshold=TRUE, pain_stam_pct=0.7, pain_mult=3, jostle_pain_mult=3, rip_time=15)

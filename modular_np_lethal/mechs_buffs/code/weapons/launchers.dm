@@ -16,11 +16,11 @@
 	name = "\improper IPS-7 impact gernade launcher"
 	desc = "A weapon for combat exosuits. Launches primed impact gernades. You monster."
 	projectiles = 6
-	projectiles_cache = 0
-	projectiles_cache_max = 0
+	projectiles_cache = 6
+	projectiles_cache_max = 12
 	disabledreload = TRUE
 	projectile = /obj/item/grenade/frag/impact
-	equip_cooldown = 90
+	equip_cooldown = 80
 	ammo_type = MECHA_AMMO_MISSILE_PEP
 
 
@@ -28,18 +28,18 @@
 
 
 
-// Untouched launchers, just changing their ammo to the generic 'Explosive.'
+// cut the amount in half, since they explode on contact
 
 /obj/item/mecha_parts/mecha_equipment/weapon/ballistic/missile_rack
-	name = "\improper SRM-8 missile rack"
+	name = "\improper SRM-4 missile rack"
 	desc = "A weapon for combat exosuits. Launches short range missiles."
 	icon_state = "mecha_missilerack"
 	projectile = /obj/projectile/bullet/rocket/srm
 	fire_sound = 'sound/weapons/gun/general/rocket_launch.ogg'
-	projectiles = 8
+	projectiles = 4
 	projectiles_cache = 0
 	projectiles_cache_max = 0
-	disabledreload = TRUE
-	equip_cooldown = 60
+	disabledreload = FALSE
+	equip_cooldown = 80
 	harmful = TRUE
 	ammo_type = MECHA_AMMO_MISSILE_PEP

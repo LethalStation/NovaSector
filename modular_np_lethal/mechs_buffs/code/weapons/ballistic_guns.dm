@@ -75,3 +75,18 @@
 	randomspread = 0
 	harmful = TRUE
 	ammo_type = MECHA_AMMO_LMG
+
+/obj/item/mecha_parts/mecha_equipment/weapon/ballistic/stingballs
+	name = "\improper LBD 300 \"Stinger\""
+	desc = "A weapon for combat exosuits. Shoots a burst of stingballs. Shoots Non-lethal Ammo"
+	icon_state = "mecha_scatter"
+	equip_cooldown = 15
+	projectile = /obj/projectile/bullet/pellet/stingball/mechball
+	projectiles = 80
+	projectiles_cache = 80
+	projectiles_cache_max = 200
+	projectiles_per_shot = 8
+	projectile_delay = 0.8
+	variance = 10
+	harmful = FALSE
+	ammo_type = MECHA_AMMO_FLASHBANG
