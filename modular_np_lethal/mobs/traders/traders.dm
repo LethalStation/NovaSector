@@ -37,6 +37,7 @@
 	gender = MALE
 	ranged_attack_casing = /obj/item/ammo_casing/c40sol
 	held_weapon_visual = /obj/item/gun/ballistic/automatic/sol_rifle/evil
+	faction = list(ROLE_DEATHSQUAD, ROLE_SYNDICATE)
 
 	ai_controller = /datum/ai_controller/basic_controller/trader/jumpscare
 
