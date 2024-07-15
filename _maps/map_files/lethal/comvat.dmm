@@ -1735,10 +1735,7 @@
 /turf/open/indestructible/dark/smooth_large,
 /area/gakster_location/hideout_real)
 "jf" = (
-/mob/living/simple_animal/hostile/true_changeling{
-	name = "???"
-	},
-/obj/effect/decal/cleanable/blood,
+/mob/living/simple_animal/hostile/trog,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "jg" = (
@@ -2640,6 +2637,7 @@
 /area/gakster_location/hideout_real)
 "nQ" = (
 /obj/effect/decal/cleanable/blood/splatter,
+/mob/living/simple_animal/hostile/trog,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "nS" = (
@@ -3203,9 +3201,7 @@
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "re" = (
-/mob/living/simple_animal/hostile/true_changeling{
-	name = "???"
-	},
+/mob/living/basic/migo,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "rf" = (
@@ -5522,6 +5518,10 @@
 	},
 /turf/open/indestructible/plating,
 /area/gakster_location/hideout_real)
+"DB" = (
+/mob/living/simple_animal/hostile/vatbeast,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "DC" = (
 /obj/item/chair/stool/bar,
 /turf/open/floor/wood,
@@ -5718,6 +5718,11 @@
 "EL" = (
 /obj/structure/fluff/tram_rail/electric,
 /turf/open/floor/plating,
+/area/gakster_location/war)
+"EM" = (
+/obj/structure/lattice,
+/mob/living/basic/migo,
+/turf/open/openspace,
 /area/gakster_location/war)
 "EO" = (
 /obj/machinery/light/cold/dim/directional/north,
@@ -6263,6 +6268,11 @@
 /obj/effect/spawner/random/trash/mess,
 /turf/open/indestructible/hoteltile,
 /area/gakster_location/hideout_real)
+"HP" = (
+/obj/effect/decal/cleanable/blood/footprints,
+/mob/living/simple_animal/hostile/trog,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "HQ" = (
 /obj/structure/rack/shelf,
 /obj/effect/spawner/random/epic_loot/random_tools,
@@ -7468,10 +7478,6 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "NZ" = (
-/mob/living/simple_animal/hostile/true_changeling{
-	name = "???";
-	health = 750
-	},
 /obj/effect/decal/cleanable/blood/gibs/up,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
@@ -7532,6 +7538,10 @@
 	},
 /turf/open/indestructible/kitchen,
 /area/gakster_location/hideout_real)
+"Oo" = (
+/mob/living/simple_animal/hostile/ooze/gelatinous,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "Op" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -37289,7 +37299,7 @@ zW
 zW
 Bo
 Bo
-Bo
+jf
 Rr
 Bo
 Bo
@@ -37385,9 +37395,9 @@ no
 iU
 Bo
 Bo
-zW
-re
+EM
 Bo
+jf
 Bo
 JY
 qW
@@ -37587,10 +37597,10 @@ sI
 sI
 no
 zZ
-Bo
+DB
 Bo
 Ok
-ng
+HP
 ng
 tl
 Bo
@@ -37598,7 +37608,7 @@ Bo
 nQ
 Bo
 Bo
-re
+Bo
 Fu
 zW
 PD
@@ -37792,7 +37802,7 @@ sI
 no
 gR
 Bo
-Bo
+Oo
 no
 no
 no
@@ -37893,7 +37903,7 @@ sI
 sI
 no
 gR
-jf
+Ok
 Bo
 no
 Bo
