@@ -3290,6 +3290,11 @@
 /obj/effect/turf_decal/arrows/red,
 /turf/open/indestructible/stone,
 /area/gakster_location/hideout_real)
+"rC" = (
+/obj/structure/ladder,
+/obj/structure/lattice/catwalk,
+/turf/open/chasm,
+/area/gakster_location/outside)
 "rD" = (
 /obj/effect/spawner/random/trash,
 /turf/open/indestructible/plating,
@@ -3880,6 +3885,10 @@
 /obj/machinery/processor,
 /turf/open/indestructible/kitchen,
 /area/gakster_location/hideout_real)
+"uZ" = (
+/obj/structure/lattice/catwalk,
+/turf/open/chasm,
+/area/gakster_location/outside)
 "va" = (
 /obj/structure/table,
 /obj/effect/spawner/random/epic_loot/random_provisions,
@@ -5326,6 +5335,10 @@
 /obj/effect/spawner/random/trash,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/gakster_location/war)
+"CK" = (
+/obj/structure/lattice,
+/turf/open/chasm,
+/area/gakster_location/outside)
 "CL" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -7288,6 +7301,12 @@
 	},
 /turf/open/indestructible/dark/smooth_large,
 /area/gakster_location/hideout_real)
+"Nb" = (
+/obj/structure/lattice/catwalk{
+	pixel_y = -3
+	},
+/turf/open/openspace,
+/area/gakster_location/outside)
 "Ne" = (
 /obj/effect/decal/cleanable/oil,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -8803,6 +8822,12 @@
 	},
 /turf/open/indestructible/plating,
 /area/gakster_location/hideout_real)
+"Ve" = (
+/obj/structure/lattice/catwalk{
+	pixel_y = -3
+	},
+/turf/open/chasm,
+/area/gakster_location/outside)
 "Vf" = (
 /obj/machinery/light/dim/directional/west,
 /turf/open/floor/iron/freezer,
@@ -13987,7 +14012,7 @@ bU
 bU
 bU
 bU
-bU
+uZ
 bU
 bU
 bU
@@ -14089,7 +14114,7 @@ bU
 bU
 bU
 bU
-bU
+uZ
 bU
 bU
 bU
@@ -14191,7 +14216,7 @@ bU
 bU
 bU
 bU
-bU
+uZ
 bU
 bU
 bU
@@ -14293,7 +14318,7 @@ bU
 bU
 bU
 bU
-bU
+uZ
 bU
 bU
 bU
@@ -14395,7 +14420,7 @@ bU
 bU
 bU
 bU
-bU
+uZ
 bU
 bU
 bU
@@ -14497,7 +14522,7 @@ bU
 bU
 bU
 bU
-bU
+uZ
 bU
 bU
 bU
@@ -14970,11 +14995,11 @@ bU
 bU
 bU
 bU
-bU
-bU
-bU
-bU
-bU
+CK
+CK
+CK
+uZ
+CK
 bU
 bU
 bU
@@ -16977,7 +17002,7 @@ bU
 bU
 bU
 bU
-bU
+CK
 bU
 bU
 bU
@@ -17079,8 +17104,8 @@ bU
 bU
 bU
 bU
-bU
-bU
+CK
+CK
 bU
 bU
 bU
@@ -17181,11 +17206,11 @@ bU
 bU
 bU
 bU
-bU
-bU
-bU
-bU
-bU
+rC
+CK
+CK
+CK
+CK
 bU
 bU
 bU
@@ -17283,7 +17308,7 @@ bU
 bU
 bU
 bU
-bU
+uZ
 bU
 bU
 bU
@@ -17385,7 +17410,7 @@ bU
 bU
 bU
 bU
-bU
+uZ
 bU
 bU
 bU
@@ -17487,7 +17512,7 @@ bU
 bU
 bU
 bU
-bU
+uZ
 bU
 bU
 bU
@@ -18662,7 +18687,7 @@ bU
 bU
 bU
 bU
-bU
+Ve
 bU
 bU
 bU
@@ -18763,8 +18788,8 @@ bU
 bU
 bU
 bU
-bU
-bU
+CK
+Ve
 bU
 bU
 bU
@@ -18860,13 +18885,13 @@ bU
 bU
 bU
 bU
-bU
-bU
-bU
-bU
-bU
-bU
-bU
+CK
+CK
+CK
+CK
+CK
+CK
+Ve
 bU
 bU
 bU
@@ -18968,10 +18993,10 @@ bU
 bU
 bU
 bU
-bU
-bU
-bU
-bU
+Ve
+CK
+CK
+CK
 bU
 bU
 bU
@@ -19070,7 +19095,7 @@ bU
 bU
 bU
 bU
-bU
+Ve
 bU
 bU
 bU
@@ -19172,7 +19197,7 @@ bU
 bU
 bU
 bU
-bU
+Ve
 bU
 bU
 bU
@@ -27280,7 +27305,7 @@ xw
 xw
 xw
 xw
-Fp
+Nb
 xw
 xw
 xw
