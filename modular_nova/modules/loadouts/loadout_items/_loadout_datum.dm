@@ -116,6 +116,12 @@ GLOBAL_LIST_EMPTY(all_loadout_datums)
 			else
 				stack_trace("[type] on_equip_item(): Could not locate backpack item (path: [item_path]) in [equipper]'s contents to set greyscaling!")
 
+	if (isplasmaman(equipper))
+		var/obj/item/equipped_item = locate(item_path) in equipper.get_all_gear()
+		if (istype(equipped_item, /obj/item/clothing/under))
+			// make sure any loadout item is envirosuit-capable
+			equipped_item.AddComponent(/datum/component/plasmoid_environment_safe)
+
 	if(can_be_named && !visuals_only)
 		var/obj/item/equipped_item = locate(item_path) in equipper.get_all_gear()
 		if(equipped_item)

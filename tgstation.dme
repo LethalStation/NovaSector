@@ -8573,5 +8573,8 @@
 #include "modular_np_lethal\ninja_stuff\code\ninja_gear.dm"
 #include "modular_np_lethal\ninja_stuff\code\ninja_job.dm"
 #include "modular_np_lethal\ninja_stuff\code\resupply_ninja.dm"
+#include "modular_np_lethal\plasmoid_rework\code\plasmoid.dm"
+#include "modular_np_lethal\plasmoid_rework\code\plasmoid_lore.dm"
+#include "modular_np_lethal\plasmoid_rework\code\plasmoid_safe_component.dm"
 #include "modular_np_lethal\plum_balance\FUN.dm"
 // END_INCLUDE
