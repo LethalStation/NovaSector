@@ -971,6 +971,18 @@
 	name = "Replica Parade Jacket (Worn)"
 	json_config = 'modular_nova/modules/GAGS/json_configs/suits/r_parade_jacket/r_parade_jacket_worn.json'
 
+
+// ISEURIAN CHOKHA
+/datum/greyscale_config/chokha
+	name = "Chokha"
+	icon_file = 'modular_nova/modules/GAGS/icons/chokha.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/chokha/chokha.json'
+
+/datum/greyscale_config/chokha/worn
+	name = "Chokha (Worn)"
+	icon_file = 'modular_nova/modules/GAGS/icons/chokha_worn.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/chokha/chokha_worn.json'
+
 //BIG JACKET
 /datum/greyscale_config/big_jacket
 	name = "Alpha Atelier pilot jacket"
@@ -1863,3 +1875,16 @@ TREK
 /datum/greyscale_config/loincloth_alt/worn
 	name = "Shorter Loincloth (Worn)"
 	json_config = 'modular_nova/modules/GAGS/json_configs/primitive_catgirl_clothing/loincloth_alt_worn.json'
+
+/*
+*	DONKSOFT TURRET
+*/
+
+/datum/greyscale_config/turret
+	name = "Donksoft Turret (Deployed)"
+	icon_file = 'modular_nova/modules/magfed_turret/icons/turrets/cargo.dmi'
+	json_config = 'modular_nova/modules/GAGS/json_configs/turret/turret.json'
+
+/datum/greyscale_config/turret/toolbox
+	name = "Donksoft Turret"
+	json_config = 'modular_nova/modules/GAGS/json_configs/turret/turret_toolbox.json'

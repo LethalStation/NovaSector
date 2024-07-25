@@ -1103,6 +1103,7 @@
 /obj/item/seeds/bamboo,
 /obj/item/seeds/ambrosia,
 /obj/item/seeds/grass,
+/obj/item/seeds/honeysuckle,
 /turf/open/misc/dirt/icemoon,
 /area/ruin/unpowered/primitive_catgirl_den)
 "wF" = (
@@ -2112,7 +2113,7 @@
 /area/ruin/unpowered/primitive_catgirl_den)
 "XJ" = (
 /obj/effect/turf_decal/weather/snow/corner,
-/obj/machinery/smartfridge/drying_rack,
+/obj/machinery/smartfridge/drying/rack,
 /turf/open/misc/dirt/icemoon,
 /area/ruin/unpowered/primitive_catgirl_den)
 "XK" = (

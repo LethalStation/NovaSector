@@ -80,5 +80,9 @@ map ouroboros
 	votable
 endmap
 
+map serenitystation
+	votable
+endmap
+
 map sector_nine_warehouse
 endmap
