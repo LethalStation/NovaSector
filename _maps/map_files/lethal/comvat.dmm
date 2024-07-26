@@ -230,8 +230,9 @@
 /turf/open/floor/mineral/titanium/white,
 /area/gakster_location/hideout_real)
 "bj" = (
-/obj/machinery/computer/terminal,
-/turf/open/floor/iron/dark/smooth_large,
+/obj/effect/mob_spawn/corpse/human/filtremob,
+/obj/effect/decal/cleanable/blood/gibs/old,
+/turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "bl" = (
 /obj/effect/turf_decal/weather/snow/corner{
@@ -419,6 +420,10 @@
 /obj/structure/maintenance_loot_structure/wall_jacket/random/directional/north,
 /obj/machinery/light/dim/directional/north,
 /turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"cx" = (
+/obj/effect/spawner/random/epic_loot/pocket_sized_valuables,
+/turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "cy" = (
 /obj/structure/table/glass,
@@ -804,12 +809,9 @@
 /turf/open/floor/iron/grimy,
 /area/gakster_location/hideout_real)
 "eI" = (
-/mob/living/simple_animal/hostile/true_changeling{
-	name = "???";
-	health = 750
-	},
-/turf/open/floor/iron/smooth,
-/area/gakster_location/war)
+/obj/effect/spawner/random/trash/graffiti,
+/turf/closed/indestructible/opshuttle,
+/area/gakster_location/ninja_hideout)
 "eJ" = (
 /obj/machinery/vending/wallmed/epic_loot/directional/north,
 /turf/open/floor/iron/smooth_large,
@@ -1348,7 +1350,7 @@
 /obj/structure/deepmaints_entrance/ninja,
 /obj/structure/deepmaints_entrance/ninja,
 /obj/machinery/light/cold/dim/directional/west,
-/turf/open/floor/bamboo/tatami/black,
+/turf/open/indestructible/plating,
 /area/gakster_location/ninja_hideout)
 "hf" = (
 /obj/structure/table,
@@ -1732,6 +1734,10 @@
 	},
 /turf/open/indestructible/dark/smooth_large,
 /area/gakster_location/hideout_real)
+"jf" = (
+/mob/living/simple_animal/hostile/trog,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "jg" = (
 /obj/machinery/camera/directional/east,
 /turf/open/floor/iron/smooth,
@@ -1984,6 +1990,10 @@
 /obj/structure/rack/shelf,
 /turf/open/floor/iron/smooth_large,
 /area/gakster_location/hideout_real)
+"kx" = (
+/obj/effect/decal/cleanable/blood/gibs/body,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "ky" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/indestructible/dark/textured,
@@ -2326,6 +2336,11 @@
 /obj/machinery/light/dim/directional/west,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
+"mn" = (
+/obj/effect/mob_spawn/corpse/human/filtremob,
+/obj/effect/spawner/random/epic_loot/pocket_sized_valuables,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "mo" = (
 /obj/machinery/door/airlock/grunge,
 /turf/open/floor/iron/colony/texture,
@@ -2622,6 +2637,7 @@
 /area/gakster_location/hideout_real)
 "nQ" = (
 /obj/effect/decal/cleanable/blood/splatter,
+/mob/living/simple_animal/hostile/trog,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "nS" = (
@@ -2945,6 +2961,10 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/iron/grimy,
 /area/gakster_location/hideout_real)
+"pI" = (
+/obj/effect/spawner/random/lethalstation_armor_set/filtre_light,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "pJ" = (
 /obj/machinery/vending/wallmed/epic_loot/directional/north,
 /turf/open/floor/mineral/titanium/white,
@@ -3085,7 +3105,7 @@
 /area/gakster_location/hideout_real)
 "qB" = (
 /obj/machinery/iv_drip/health_station/directional/north,
-/turf/open/floor/bamboo/tatami/black,
+/turf/open/indestructible/plating,
 /area/gakster_location/ninja_hideout)
 "qD" = (
 /obj/structure/rack/shelf,
@@ -3166,7 +3186,6 @@
 /area/gakster_location/hideout_real)
 "qW" = (
 /obj/effect/decal/cleanable/blood/gibs/old,
-/obj/effect/spawner/random/lethalstation_armor_set/filtre_light,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "qZ" = (
@@ -3182,9 +3201,8 @@
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "re" = (
-/obj/structure/showcase/horrific_experiment,
-/obj/machinery/light/broken/directional/south,
-/turf/open/floor/iron/dark/smooth_large,
+/mob/living/basic/migo,
+/turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "rf" = (
 /obj/machinery/vending/wallmed/epic_loot/directional/north,
@@ -3268,6 +3286,11 @@
 /obj/effect/turf_decal/arrows/red,
 /turf/open/indestructible/stone,
 /area/gakster_location/hideout_real)
+"rC" = (
+/obj/structure/ladder,
+/obj/structure/lattice/catwalk,
+/turf/open/chasm,
+/area/gakster_location/outside)
 "rD" = (
 /obj/effect/spawner/random/trash,
 /turf/open/indestructible/plating,
@@ -3577,9 +3600,9 @@
 /turf/open/indestructible/plating,
 /area/gakster_location/hideout_real)
 "tl" = (
-/obj/machinery/light/broken/directional/north,
-/obj/structure/maintenance_loot_structure/military_case/random/rare_loot,
-/turf/open/floor/iron/dark/smooth_large,
+/obj/effect/mob_spawn/corpse/human/filtremob,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "tn" = (
 /obj/effect/spawner/random/entertainment/arcade,
@@ -3858,6 +3881,10 @@
 /obj/machinery/processor,
 /turf/open/indestructible/kitchen,
 /area/gakster_location/hideout_real)
+"uZ" = (
+/obj/structure/lattice/catwalk,
+/turf/open/chasm,
+/area/gakster_location/outside)
 "va" = (
 /obj/structure/table,
 /obj/effect/spawner/random/epic_loot/random_provisions,
@@ -4078,7 +4105,7 @@
 /area/gakster_location/war)
 "wl" = (
 /obj/machinery/iv_drip/health_station/directional/south,
-/turf/open/floor/bamboo/tatami/black,
+/turf/open/indestructible/plating,
 /area/gakster_location/ninja_hideout)
 "wm" = (
 /obj/structure/table/optable,
@@ -4363,6 +4390,11 @@
 /obj/effect/spawner/random/epic_loot/random_ammunition,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
+"xS" = (
+/obj/structure/table,
+/obj/machinery/microwave/frontier_printed,
+/turf/open/indestructible/plating,
+/area/gakster_location/ninja_hideout)
 "xU" = (
 /obj/effect/spawner/random/trash/mess,
 /obj/machinery/light/small/dim/directional/west,
@@ -4706,9 +4738,9 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "zA" = (
-/obj/structure/closet/wardrobe,
 /obj/item/storage/medkit/frontier/stocked,
 /obj/item/storage/medkit/robotic_repair/stocked,
+/obj/structure/closet,
 /turf/open/floor/bamboo/tatami/black,
 /area/gakster_location/ninja_hideout)
 "zB" = (
@@ -5299,6 +5331,10 @@
 /obj/effect/spawner/random/trash,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/gakster_location/war)
+"CK" = (
+/obj/structure/lattice,
+/turf/open/chasm,
+/area/gakster_location/outside)
 "CL" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -5482,6 +5518,10 @@
 	},
 /turf/open/indestructible/plating,
 /area/gakster_location/hideout_real)
+"DB" = (
+/mob/living/simple_animal/hostile/vatbeast,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "DC" = (
 /obj/item/chair/stool/bar,
 /turf/open/floor/wood,
@@ -5678,6 +5718,11 @@
 "EL" = (
 /obj/structure/fluff/tram_rail/electric,
 /turf/open/floor/plating,
+/area/gakster_location/war)
+"EM" = (
+/obj/structure/lattice,
+/mob/living/basic/migo,
+/turf/open/openspace,
 /area/gakster_location/war)
 "EO" = (
 /obj/machinery/light/cold/dim/directional/north,
@@ -5926,6 +5971,10 @@
 /obj/structure/maintenance_loot_structure/medbox/random,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
+"Gh" = (
+/obj/effect/decal/cleanable/blood/gibs/torso,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "Gk" = (
 /obj/machinery/shower/directional/west,
 /obj/structure/drain,
@@ -6055,6 +6104,11 @@
 /obj/structure/displaycase/captain,
 /obj/machinery/light/warm/dim/directional/north,
 /turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"GR" = (
+/obj/machinery/light/broken/directional/south,
+/obj/structure/lattice,
+/turf/open/openspace,
 /area/gakster_location/war)
 "GV" = (
 /obj/machinery/light/red/dim/directional/north,
@@ -6214,6 +6268,11 @@
 /obj/effect/spawner/random/trash/mess,
 /turf/open/indestructible/hoteltile,
 /area/gakster_location/hideout_real)
+"HP" = (
+/obj/effect/decal/cleanable/blood/footprints,
+/mob/living/simple_animal/hostile/trog,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "HQ" = (
 /obj/structure/rack/shelf,
 /obj/effect/spawner/random/epic_loot/random_tools,
@@ -6960,6 +7019,10 @@
 /obj/machinery/light/cold/dim/directional/north,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
+"LD" = (
+/obj/machinery/light/broken/directional/east,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "LG" = (
 /obj/structure/sign/poster/contraband/blasto_detergent,
 /turf/closed/indestructible/steel,
@@ -7248,6 +7311,12 @@
 	},
 /turf/open/indestructible/dark/smooth_large,
 /area/gakster_location/hideout_real)
+"Nb" = (
+/obj/structure/lattice/catwalk{
+	pixel_y = -3
+	},
+/turf/open/openspace,
+/area/gakster_location/outside)
 "Ne" = (
 /obj/effect/decal/cleanable/oil,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -7408,6 +7477,10 @@
 /obj/machinery/light/cold/dim/directional/south,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
+"NZ" = (
+/obj/effect/decal/cleanable/blood/gibs/up,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "Ob" = (
 /obj/structure/mineral_door/paperframe,
 /turf/open/floor/bamboo/tatami/black,
@@ -7465,6 +7538,10 @@
 	},
 /turf/open/indestructible/kitchen,
 /area/gakster_location/hideout_real)
+"Oo" = (
+/mob/living/simple_animal/hostile/ooze/gelatinous,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "Op" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
@@ -7903,7 +7980,7 @@
 /obj/item/toy/figure/ninja{
 	pixel_y = 16
 	},
-/turf/open/floor/bamboo/tatami/black,
+/turf/open/indestructible/plating,
 /area/gakster_location/ninja_hideout)
 "QH" = (
 /obj/machinery/vending/coffee,
@@ -7961,6 +8038,10 @@
 /obj/structure/fluff/big_chain,
 /turf/open/openspace,
 /area/gakster_location/outside)
+"QU" = (
+/obj/structure/table,
+/turf/open/indestructible/plating,
+/area/gakster_location/ninja_hideout)
 "QV" = (
 /obj/structure/weightmachine/weightlifter,
 /turf/open/indestructible/dark/smooth_large,
@@ -8390,6 +8471,13 @@
 /obj/effect/landmark/observer_start,
 /turf/open/indestructible/plating,
 /area/gakster_location/hideout_real)
+"Th" = (
+/obj/machinery/light/dim/directional/west,
+/obj/machinery/computer{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
 "Tk" = (
 /obj/structure/sink/directional/north,
 /turf/open/indestructible/hoteltile,
@@ -8744,6 +8832,12 @@
 	},
 /turf/open/indestructible/plating,
 /area/gakster_location/hideout_real)
+"Ve" = (
+/obj/structure/lattice/catwalk{
+	pixel_y = -3
+	},
+/turf/open/chasm,
+/area/gakster_location/outside)
 "Vf" = (
 /obj/machinery/light/dim/directional/west,
 /turf/open/floor/iron/freezer,
@@ -8948,6 +9042,11 @@
 /obj/machinery/camera/directional/west,
 /turf/open/openspace,
 /area/gakster_location/outside)
+"We" = (
+/obj/machinery/computer/terminal,
+/obj/machinery/light/broken/directional/north,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
 "Wg" = (
 /obj/structure/chair/plastic{
 	dir = 8
@@ -9328,7 +9427,7 @@
 /area/gakster_location/war)
 "Yl" = (
 /obj/machinery/cryopod/prison/directional/north,
-/turf/open/floor/bamboo/tatami/black,
+/turf/open/indestructible/plating,
 /area/gakster_location/ninja_hideout)
 "Ym" = (
 /obj/structure/rack/shelf,
@@ -9620,7 +9719,7 @@
 /turf/open/floor/wood,
 /area/gakster_location/hideout_real)
 "ZQ" = (
-/turf/open/floor/bamboo/tatami/black,
+/turf/open/indestructible/plating,
 /area/gakster_location/ninja_hideout)
 "ZS" = (
 /obj/machinery/light/dim/directional/west,
@@ -13923,7 +14022,7 @@ bU
 bU
 bU
 bU
-bU
+uZ
 bU
 bU
 bU
@@ -14025,7 +14124,7 @@ bU
 bU
 bU
 bU
-bU
+uZ
 bU
 bU
 bU
@@ -14127,7 +14226,7 @@ bU
 bU
 bU
 bU
-bU
+uZ
 bU
 bU
 bU
@@ -14229,7 +14328,7 @@ bU
 bU
 bU
 bU
-bU
+uZ
 bU
 bU
 bU
@@ -14331,7 +14430,7 @@ bU
 bU
 bU
 bU
-bU
+uZ
 bU
 bU
 bU
@@ -14433,7 +14532,7 @@ bU
 bU
 bU
 bU
-bU
+uZ
 bU
 bU
 bU
@@ -14906,11 +15005,11 @@ bU
 bU
 bU
 bU
-bU
-bU
-bU
-bU
-bU
+CK
+CK
+CK
+uZ
+CK
 bU
 bU
 bU
@@ -16913,7 +17012,7 @@ bU
 bU
 bU
 bU
-bU
+CK
 bU
 bU
 bU
@@ -17015,8 +17114,8 @@ bU
 bU
 bU
 bU
-bU
-bU
+CK
+CK
 bU
 bU
 bU
@@ -17117,11 +17216,11 @@ bU
 bU
 bU
 bU
-bU
-bU
-bU
-bU
-bU
+rC
+CK
+CK
+CK
+CK
 bU
 bU
 bU
@@ -17219,7 +17318,7 @@ bU
 bU
 bU
 bU
-bU
+uZ
 bU
 bU
 bU
@@ -17321,7 +17420,7 @@ bU
 bU
 bU
 bU
-bU
+uZ
 bU
 bU
 bU
@@ -17423,7 +17522,7 @@ bU
 bU
 bU
 bU
-bU
+uZ
 bU
 bU
 bU
@@ -18598,7 +18697,7 @@ bU
 bU
 bU
 bU
-bU
+Ve
 bU
 bU
 bU
@@ -18699,8 +18798,8 @@ bU
 bU
 bU
 bU
-bU
-bU
+CK
+Ve
 bU
 bU
 bU
@@ -18796,13 +18895,13 @@ bU
 bU
 bU
 bU
-bU
-bU
-bU
-bU
-bU
-bU
-bU
+CK
+CK
+CK
+CK
+CK
+CK
+Ve
 bU
 bU
 bU
@@ -18904,10 +19003,10 @@ bU
 bU
 bU
 bU
-bU
-bU
-bU
-bU
+Ve
+CK
+CK
+CK
 bU
 bU
 bU
@@ -19006,7 +19105,7 @@ bU
 bU
 bU
 bU
-bU
+Ve
 bU
 bU
 bU
@@ -19108,7 +19207,7 @@ bU
 bU
 bU
 bU
-bU
+Ve
 bU
 bU
 bU
@@ -27216,7 +27315,7 @@ xw
 xw
 xw
 xw
-Fp
+Nb
 xw
 xw
 xw
@@ -37089,22 +37188,22 @@ sI
 (70,1,3) = {"
 sI
 no
-xw
-xw
-xw
-xw
-xw
-xw
-xw
-xw
-xw
-xw
-xw
-xw
-xw
-xw
-xw
-xw
+gR
+Gr
+gR
+gR
+Gr
+gR
+gR
+Gr
+Th
+gR
+Gr
+gR
+gR
+Gr
+gR
+gR
 no
 no
 no
@@ -37191,22 +37290,22 @@ sI
 (71,1,3) = {"
 sI
 no
-xw
-xw
-xw
-xw
-xw
-no
-no
-no
-no
-no
-no
-no
-xw
-xw
-xw
-xw
+DU
+Bo
+bj
+Bo
+Fu
+zW
+zW
+Bo
+Bo
+jf
+Rr
+Bo
+Bo
+Bo
+Bo
+Gr
 no
 xw
 xw
@@ -37293,22 +37392,22 @@ sI
 (72,1,3) = {"
 sI
 no
-xw
-xw
-xw
-xw
-xw
-no
 iU
+Bo
+Bo
+EM
+Bo
+jf
+Bo
 JY
 qW
-Rr
-Gr
-no
-UE
-xw
-xw
-xw
+Bo
+Bo
+re
+Bo
+zW
+TX
+PD
 no
 xw
 xw
@@ -37395,22 +37494,22 @@ sI
 (73,1,3) = {"
 sI
 no
-xw
-xw
-xw
-xw
-xw
+We
+NZ
+pI
 no
-bj
-Fu
 Bo
-Ok
-Gr
+Bo
+Bo
+Fu
 no
-UE
-xw
-xw
-xw
+Ok
+Bo
+Bo
+TX
+no
+zW
+GR
 no
 xw
 xw
@@ -37497,22 +37596,22 @@ sI
 (74,1,3) = {"
 sI
 no
-xw
-xw
-xw
-xw
-xw
-no
+zZ
+DB
+Bo
+Ok
+HP
+ng
 tl
-Rr
-eI
+Bo
+Bo
 nQ
-re
-no
-xw
-xw
-xw
-xw
+Bo
+Bo
+Bo
+Fu
+zW
+PD
 no
 xw
 xw
@@ -37599,22 +37698,22 @@ sI
 (75,1,3) = {"
 sI
 no
-xw
-xw
-xw
-xw
-xw
-no
 Gr
+Bo
+zW
+Bo
+mn
+no
+LD
 Ok
 Ck
 Yf
-Gr
+LD
 no
-xw
-xw
-xw
-xw
+Bo
+zW
+Bo
+Gr
 no
 xw
 xw
@@ -37701,9 +37800,9 @@ sI
 (76,1,3) = {"
 sI
 no
-xw
-xw
-xw
+gR
+Bo
+Oo
 no
 no
 no
@@ -37803,9 +37902,9 @@ sI
 (77,1,3) = {"
 sI
 no
-xw
-xw
-xw
+gR
+Ok
+Bo
 no
 Bo
 OU
@@ -37905,9 +38004,9 @@ sI
 (78,1,3) = {"
 sI
 no
-xw
-xw
-xw
+Gr
+Bo
+Bo
 no
 Bo
 JB
@@ -38007,9 +38106,9 @@ sI
 (79,1,3) = {"
 sI
 no
-xw
-xw
-xw
+gR
+Fu
+Bo
 no
 Bo
 Um
@@ -38109,9 +38208,9 @@ sI
 (80,1,3) = {"
 sI
 no
-xw
-xw
-xw
+eu
+kx
+Bo
 no
 no
 gN
@@ -38211,9 +38310,9 @@ sI
 (81,1,3) = {"
 sI
 no
-xw
-xw
-xw
+Gr
+cx
+Bo
 no
 fG
 HE
@@ -38313,9 +38412,9 @@ sI
 (82,1,3) = {"
 sI
 no
-xw
-xw
-xw
+zZ
+Bo
+Gh
 no
 Bo
 vi
@@ -38415,9 +38514,9 @@ sI
 (83,1,3) = {"
 sI
 no
-xw
-xw
-xw
+kl
+Bo
+Bo
 no
 no
 Bo
@@ -38517,9 +38616,9 @@ sI
 (84,1,3) = {"
 sI
 no
-xw
-xw
-xw
+Gr
+Bo
+Bo
 no
 Bo
 CP
@@ -38619,9 +38718,9 @@ sI
 (85,1,3) = {"
 sI
 no
-xw
-xw
-xw
+gR
+Bo
+Bo
 no
 Tx
 Lz
@@ -38721,9 +38820,9 @@ sI
 (86,1,3) = {"
 sI
 no
-xw
-xw
-xw
+eu
+Bo
+Bo
 no
 ME
 Ks
@@ -38823,9 +38922,9 @@ sI
 (87,1,3) = {"
 sI
 no
-UE
-xw
-xw
+Gr
+gR
+OJ
 no
 hY
 Lz
@@ -57599,7 +57698,7 @@ mv
 WI
 WI
 WI
-WI
+eI
 WI
 WI
 WI
@@ -57802,7 +57901,7 @@ mv
 mv
 WI
 My
-ZQ
+QU
 ZQ
 ZQ
 WI
@@ -57903,8 +58002,8 @@ mv
 mv
 mv
 WI
-WI
-ZQ
+eI
+xS
 ZQ
 ZQ
 WI
