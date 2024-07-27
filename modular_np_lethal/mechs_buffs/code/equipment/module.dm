@@ -10,4 +10,13 @@
 	active = FALSE
 	equipment_slot = MECHA_UTILITY
 	/// Repaired health per second
-	health_boost = 3
+	health_boost = 2.5
+
+
+/datum/armor/mecha_equipment_ccw_boost
+	melee = 10
+
+/datum/armor/mecha_equipment_ranged_boost
+	bullet = 5
+	laser = 5
+

@@ -18,7 +18,7 @@
 		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 4,
 		/datum/material/silver = SHEET_MATERIAL_AMOUNT,
 		/datum/material/gold = SHEET_MATERIAL_AMOUNT)
-	rounds = 6
+	rounds = 100
 	ammo_type = MECHA_AMMO_FLASHBANG
 
 /obj/item/mecha_ammo/pep/explosive

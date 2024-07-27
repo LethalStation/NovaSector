@@ -6,7 +6,6 @@
 	max_integrity = 1000
 	accesses = list(ACCESS_MECH_SCIENCE, ACCESS_MECH_SECURITY)
 	armor_type = /datum/armor/mecha_durand
-	max_temperature = 30000
 	force = 40
 	step_energy_drain = 4
 	destruction_sleep_duration = 20
@@ -63,21 +62,6 @@
 	destruction_sleep_duration = 20
 
 
-/obj/durand_shield/take_damage(damage_amount, damage_type = BRUTE, damage_flag = "", sound_effect = TRUE, attack_dir, armour_penetration = 0)
-	if(!chassis)
-		qdel(src)
-		return
-	if(!chassis.defense_mode) //if defense mode is disabled, we're taking damage that we shouldn't be taking
-		return
-	. = ..()
-	flick("shield_impact", src)
-	if(!chassis.use_energy((max_integrity - atom_integrity) * 0.000000000000000000000000000000000000000000000000001 * STANDARD_CELL_CHARGE))
-		for(var/O in chassis.occupants)
-			var/mob/living/occupant = O
-			var/datum/action/action = LAZYACCESSASSOC(chassis.occupant_actions, occupant, /datum/action/vehicle/sealed/mecha/mech_defense_mode)
-			action.Trigger()
-	atom_integrity = 10000
-
 
 
 /datum/armor/mecha_mauler
@@ -88,3 +72,22 @@
 	bomb = 20
 	fire = 100
 	acid = 100
+
+
+/obj/durand_shield/take_damage(damage_amount, damage_type = BRUTE, damage_flag = "", sound_effect = TRUE, attack_dir, armour_penetration = 0)
+	if(!chassis)
+		qdel(src)
+		return
+	if(!chassis.defense_mode) //if defense mode is disabled, we're taking damage that we shouldn't be taking
+		return
+	. = ..()
+	flick("shield_impact", src)
+	if(!.)
+		return
+	if(!chassis.use_energy(. * (STANDARD_CELL_CHARGE / 70)))
+		chassis.cell?.charge = 0
+		for(var/O in chassis.occupants)
+			var/mob/living/occupant = O
+			var/datum/action/action = LAZYACCESSASSOC(chassis.occupant_actions, occupant, /datum/action/vehicle/sealed/mecha/mech_defense_mode)
+			action.Trigger()
+	atom_integrity = 10000
