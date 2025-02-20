@@ -10,7 +10,7 @@
 	lefthand_file = 'modular_np_lethal/ninja_stuff/icons/weapons_lefthand.dmi'
 	righthand_file = 'modular_np_lethal/ninja_stuff/icons/weapons_righthand.dmi'
 	inhand_icon_state = "kunai"
-	bayonet = FALSE
+//	bayonet = FALSE
 
 //an oversized shuriken specialized for throwing like a boomerang. good block chance, but you have to throw it for good damage.
 /obj/item/fuuma_shuriken

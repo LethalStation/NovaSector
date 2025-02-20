@@ -310,8 +310,8 @@
 
 //don't add busted chems to this list
 	initial_products = list(
-		/obj/item/clothing/mask/cigarette/syndicate = list(PAYCHECK_CREW * 0.1, INFINITY),
-		/obj/item/clothing/mask/cigarette/rollie/cannabis = list(PAYCHECK_CREW * 0.2, INFINITY),
+		// /obj/item/clothing/mask/cigarette/syndicate = list(PAYCHECK_CREW * 0.1, INFINITY), triage fixes, find correct subtype later
+		// /obj/item/clothing/mask/cigarette/rollie/cannabis = list(PAYCHECK_CREW * 0.2, INFINITY),
 		/obj/item/lighter = list(PAYCHECK_CREW * 0.1, INFINITY),
 		/obj/item/reagent_containers/hash = list(PAYCHECK_CREW, 20),
 		/obj/item/reagent_containers/pill/neurine = list(PAYCHECK_CREW, 30),

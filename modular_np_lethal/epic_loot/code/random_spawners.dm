@@ -327,8 +327,8 @@
 		/obj/item/stack/sticky_tape = 2,
 		/obj/item/stack/sticky_tape/super = 1,
 		// Cells
-		/obj/item/stock_parts/cell/upgraded = 2,
-		/obj/item/stock_parts/cell/crap = 3,
+		/obj/item/stock_parts/power_store/battery/upgraded = 2,
+		/obj/item/stock_parts/power_store/battery/crap = 3,
 		// Masks
 		/obj/item/clothing/mask/gas/sechailer = 2,
 		/obj/item/clothing/mask/gas = 3,

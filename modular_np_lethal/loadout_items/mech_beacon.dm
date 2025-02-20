@@ -47,7 +47,7 @@
 	max_ammo()
 
 /obj/vehicle/sealed/mecha/gygax/streetsweeper/populate_parts()
-	cell = new /obj/item/stock_parts/cell/hyper(src)
+	cell = new /obj/item/stock_parts/power_store/cell/hyper(src)
 	scanmod = new /obj/item/stock_parts/scanning_module/adv(src)
 	capacitor = new /obj/item/stock_parts/capacitor/adv(src)
 	servo = new /obj/item/stock_parts/servo/nano(src)
@@ -68,7 +68,7 @@
 	max_ammo()
 
 /obj/vehicle/sealed/mecha/savannah_ivanov/exstasi/populate_parts()
-	cell = new /obj/item/stock_parts/cell/hyper(src)
+	cell = new /obj/item/stock_parts/power_store/cell/hyper(src)
 	scanmod = new /obj/item/stock_parts/scanning_module/adv(src)
 	capacitor = new /obj/item/stock_parts/capacitor/adv(src)
 	servo = new /obj/item/stock_parts/servo/nano(src)
@@ -90,7 +90,7 @@
 	max_ammo()
 
 /obj/vehicle/sealed/mecha/durand/tortuga/populate_parts()
-	cell = new /obj/item/stock_parts/cell/hyper(src)
+	cell = new /obj/item/stock_parts/power_store/cell/hyper(src)
 	scanmod = new /obj/item/stock_parts/scanning_module/adv(src)
 	capacitor = new /obj/item/stock_parts/capacitor/adv(src)
 	servo = new /obj/item/stock_parts/servo/nano(src)
@@ -111,7 +111,7 @@
 	max_ammo()
 
 /obj/vehicle/sealed/mecha/marauder/horizon/populate_parts()
-	cell = new /obj/item/stock_parts/cell/hyper(src)
+	cell = new /obj/item/stock_parts/power_store/cell/hyper(src)
 	scanmod = new /obj/item/stock_parts/scanning_module/adv(src)
 	capacitor = new /obj/item/stock_parts/capacitor/adv(src)
 	servo = new /obj/item/stock_parts/servo/nano(src)
@@ -161,7 +161,7 @@
 
 
 /obj/vehicle/sealed/mecha/marauder/seraph/firewall/populate_parts()
-	cell = new /obj/item/stock_parts/cell/hyper(src)
+	cell = new /obj/item/stock_parts/power_store/cell/hyper(src)
 	scanmod = new /obj/item/stock_parts/scanning_module/adv(src)
 	capacitor = new /obj/item/stock_parts/capacitor/adv(src)
 	servo = new /obj/item/stock_parts/servo/nano(src)

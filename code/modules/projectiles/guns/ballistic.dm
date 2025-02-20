@@ -135,6 +135,8 @@
 	var/burst_fire_selection = FALSE
 	/// If it has an icon for a selector switch indicating current firemode.
 	var/selector_switch_icon = FALSE
+	/// variable for bayonets, missing for some reason
+	var/can_bayonet = FALSE
 
 /obj/item/gun/ballistic/Initialize(mapload)
 	. = ..()

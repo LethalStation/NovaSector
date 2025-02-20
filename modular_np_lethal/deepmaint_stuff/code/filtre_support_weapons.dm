@@ -8,7 +8,7 @@
 /obj/item/choice_beacon/filtre/spawn_option(obj/choice_path, mob/living/user)
 	podspawn(list(
 		"target" = get_turf(src),
-		"style" = STYLE_MISSILE,
+		"style" = /datum/pod_style/advanced,
 		"spawn" = choice_path,
 		"delays" = list(POD_TRANSIT = 0, POD_FALLING = (15 SECONDS), POD_OPENING = (5 SECONDS), POD_LEAVING = 0),
 		"explosionSize" = list(0,0,1,2)

@@ -129,7 +129,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/vending/wallmed/epic_loot/evil/inborn
 				/obj/item/wrench/combat = INFINITY,
 				/obj/item/organ/internal/cyberimp/arm/shell_launcher = INFINITY,
 				/obj/item/organ/internal/cyberimp/arm/razorwire = INFINITY,
-				/obj/item/organ/internal/cyberimp/arm/muscle = INFINITY,
+//				/obj/item/organ/internal/cyberimp/arm/muscle = INFINITY, does not exist, throws error
 				/obj/item/organ/internal/cyberimp/arm/power_cord = INFINITY,
 				/obj/item/organ/internal/cyberimp/arm/armblade = INFINITY,
 			),

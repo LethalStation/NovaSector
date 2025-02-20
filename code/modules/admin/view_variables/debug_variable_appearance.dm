@@ -54,6 +54,7 @@ GLOBAL_DATUM_INIT(pluto, /atom/movable, new /atom/movable(null))
 /mutable_appearance/appearance_mirror/get_vv_link_ref()
 	return appearance_ref
 
+/* triage - preventing code from compiling
 /mutable_appearance/appearance_mirror/can_vv_get(var_name)
 	var/static/datum/beloved = new()
 	if(beloved.vars.Find(var_name)) // If datums have it, get out
@@ -80,6 +81,7 @@ GLOBAL_DATUM_INIT(pluto, /atom/movable, new /atom/movable(null))
 	if(var_name == NAMEOF(src, vis_contents))
 		return FALSE
 	return ..()
+*/
 
 /mutable_appearance/appearance_mirror/vv_get_var(var_name)
 	// No editing for you

@@ -2529,9 +2529,14 @@
 /turf/open/floor/mineral/titanium/white,
 /area/gakster_location/hideout_real)
 "nn" = (
-/obj/machinery/computer/cryopod/directional/north,
-/turf/closed/indestructible/rock/snow/ice/ore,
-/area/gakster_location/hideout_real)
+/obj/structure/chair/plastic{
+	dir = 4
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "no" = (
 /turf/closed/wall,
 /area/gakster_location/war)
@@ -5335,6 +5340,10 @@
 	},
 /turf/open/floor/wood,
 /area/gakster_location/hideout_real)
+"CS" = (
+/obj/effect/spawner/random/epic_loot/deathmatch_armor,
+/turf/cordon/secret,
+/area/space)
 "CU" = (
 /obj/structure/chair/office/light{
 	dir = 4
@@ -46332,7 +46341,7 @@ gE
 Bo
 zN
 zN
-zN
+nn
 Bo
 no
 CQ
@@ -55186,7 +55195,7 @@ mv
 mv
 mv
 mv
-mv
+CS
 mv
 mv
 mv
@@ -58396,7 +58405,7 @@ Ya
 iW
 iq
 iq
-nn
+iq
 MK
 Kl
 EZ
