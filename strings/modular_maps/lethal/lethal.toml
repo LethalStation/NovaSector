@@ -1,0 +1,5 @@
+directory = "_maps/map_files/lethal/modular_rooms/"
+
+[rooms.5x3]
+modules = ["5x3_1.dmm","5x3_2.dmm","5x3_3.dmm","5x3_4.dmm","5x3_5.dmm","5x3_6.dmm","5x3_7.dmm","5x3_8.dmm","5x3_9.dmm","5x3_10.dmm","5x3_11.dmm","5x3_12.dmm","5x3_13.dmm","5x3_14.dmm","5x3_15.dmm","5x3_16.dmm","5x3_17.dmm","5x3_18.dmm","5x3_19.dmm","5x3_20.dmm"]
+

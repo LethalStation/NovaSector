@@ -1,0 +1,80 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"e" = (
+/obj/machinery/light/dim/directional/east,
+/obj/structure/maintenance_loot_structure/military_case/random,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"h" = (
+/obj/structure/maintenance_loot_structure/military_case/random,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"n" = (
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/random_silly_arms,
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"q" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_ammunition,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"t" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_tools,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"K" = (
+/obj/machinery/autolathe,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"L" = (
+/obj/structure/table,
+/obj/structure/maintenance_loot_structure/grenade_box/random{
+	pixel_y = 4
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"V" = (
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"W" = (
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/random_components,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"Z" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_other_military_loot,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+
+(1,1,1) = {"
+W
+K
+Z
+"}
+(2,1,1) = {"
+n
+V
+V
+"}
+(3,1,1) = {"
+L
+V
+q
+"}
+(4,1,1) = {"
+a
+a
+t
+"}
+(5,1,1) = {"
+h
+V
+e
+"}

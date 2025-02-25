@@ -1,0 +1,68 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"b" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_serious_arms,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"c" = (
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"g" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"q" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_silly_arms,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"F" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_other_military_loot,
+/obj/effect/spawner/random/epic_loot/random_other_military_loot,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"K" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"N" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"Q" = (
+/obj/structure/maintenance_loot_structure/military_case/random,
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+
+(1,1,1) = {"
+Q
+F
+a
+"}
+(2,1,1) = {"
+a
+N
+a
+"}
+(3,1,1) = {"
+c
+b
+c
+"}
+(4,1,1) = {"
+a
+q
+a
+"}
+(5,1,1) = {"
+K
+q
+g
+"}

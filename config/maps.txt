@@ -86,3 +86,6 @@ endmap
 
 map sector_nine_warehouse
 endmap
+
+map sector_nine_surface_facility
+endmap

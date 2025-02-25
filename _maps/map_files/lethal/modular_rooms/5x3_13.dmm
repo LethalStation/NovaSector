@@ -1,0 +1,54 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"e" = (
+/turf/open/floor/plating,
+/area/gakster_location/war)
+"h" = (
+/obj/machinery/light/dim/directional/north,
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plating,
+/area/gakster_location/war)
+"t" = (
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/gakster_location/war)
+"K" = (
+/obj/machinery/camera/directional/west,
+/turf/open/floor/plating,
+/area/gakster_location/war)
+"V" = (
+/obj/effect/spawner/random/structure/shipping_container,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/gakster_location/war)
+"W" = (
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/plating,
+/area/gakster_location/war)
+"Z" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plating,
+/area/gakster_location/war)
+
+(1,1,1) = {"
+W
+K
+Z
+"}
+(2,1,1) = {"
+t
+V
+t
+"}
+(3,1,1) = {"
+e
+e
+e
+"}
+(4,1,1) = {"
+t
+t
+t
+"}
+(5,1,1) = {"
+h
+e
+e
+"}

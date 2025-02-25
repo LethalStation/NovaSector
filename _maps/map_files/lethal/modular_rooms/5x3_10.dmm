@@ -1,0 +1,65 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/maintenance_loot_structure/desk_safe/random{
+	pixel_y = 14
+	},
+/obj/structure/table/wood,
+/turf/open/floor/carpet/green,
+/area/gakster_location/war)
+"e" = (
+/turf/open/floor/carpet/green,
+/area/gakster_location/war)
+"h" = (
+/obj/structure/table/wood,
+/turf/open/floor/carpet/green,
+/area/gakster_location/war)
+"K" = (
+/obj/structure/chair/plastic{
+	dir = 1;
+	name = "profoundly uncomfortable plastic chair"
+	},
+/turf/open/floor/carpet/green,
+/area/gakster_location/war)
+"L" = (
+/obj/structure/chair/comfy/brown,
+/turf/open/floor/carpet/green,
+/area/gakster_location/war)
+"V" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green{
+	pixel_y = 10
+	},
+/turf/open/floor/carpet/green,
+/area/gakster_location/war)
+"W" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/green,
+/area/gakster_location/war)
+
+(1,1,1) = {"
+e
+e
+e
+"}
+(2,1,1) = {"
+e
+V
+W
+"}
+(3,1,1) = {"
+L
+h
+K
+"}
+(4,1,1) = {"
+W
+a
+e
+"}
+(5,1,1) = {"
+e
+e
+e
+"}

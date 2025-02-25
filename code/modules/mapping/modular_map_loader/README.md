@@ -30,7 +30,7 @@ This object is used only to determine the offsets to be used on loading, and has
 
 ### TOML configuration
 
-This TOML file is used to map between a list of `.dmm` files and a string key. The file consists of two parts. The first is a line 
+This TOML file is used to map between a list of `.dmm` files and a string key. The file consists of two parts. The first is a line
 
 ```
 directory = "_maps/etc/"

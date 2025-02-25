@@ -19,10 +19,10 @@ $include auxtools.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-# SERVERNAME tgstation
+SERVERNAME LETHALSTATION
 
 ## Server tagline: This will appear right below the server's title.
-# SERVERTAGLINE A generic TG-based server
+SERVERTAGLINE The server where everything sucks! We're gonna KILL you!
 
 ## Discord Link: This is the link to Nova Sector's discord server
 # DISCORD_LINK https://discord.gg/novasector
@@ -31,7 +31,7 @@ $include auxtools.txt
 # SERVERSQLNAME tgstation
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME Space Station 13
+STATIONNAME Sector 9
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
 #HUB

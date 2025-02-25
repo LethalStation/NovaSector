@@ -1,0 +1,55 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"h" = (
+/mob/living/basic/trooper/gakster/ranged,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"n" = (
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"t" = (
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"K" = (
+/obj/structure/maintenance_loot_structure/military_case/random,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"V" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/basic/trooper/gakster/ranged,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"Z" = (
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+
+(1,1,1) = {"
+Z
+Z
+Z
+"}
+(2,1,1) = {"
+n
+V
+a
+"}
+(3,1,1) = {"
+Z
+K
+h
+"}
+(4,1,1) = {"
+V
+a
+t
+"}
+(5,1,1) = {"
+Z
+Z
+Z
+"}

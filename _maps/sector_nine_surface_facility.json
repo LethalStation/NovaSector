@@ -1,8 +1,8 @@
 {
 	"version": 1,
-	"map_name": "Sector Nine Warehouse",
+	"map_name": "Sector Nine Surface Facility",
 	"map_path": "map_files/lethal",
-	"map_file": "comvat.dmm",
+	"map_file": "comvat2.dmm",
 	"space_ruin_levels": 0,
 	"space_empty_levels": 0,
 	"minetype": "none",
@@ -18,34 +18,17 @@
 		"/datum/unit_test/area_spawn"
 	],
 	"traits": [
-		{
-			"Up": true,
+		{	"Up": true,
 			"Linkage": null,
 			"Gravity": true,
-			"Baseturf": "/turf/open/chasm",
-			"No Parallax": true
-		},
-		{
-			"Down": true,
-			"Up": true,
-			"Linkage": null,
-			"Gravity": true,
-			"Baseturf": "/turf/open/openspace",
-			"No Parallax": true
-		},
-		{
-			"Down": true,
-			"Up": true,
-			"Linkage": null,
-			"Gravity": true,
-			"Baseturf": "/turf/open/openspace",
+			"Baseturf": "/turf/open/indestructible/plating",
 			"No Parallax": true
 		},
 		{
 			"Down": true,
 			"Linkage": null,
 			"Gravity": true,
-			"Baseturf": "/turf/open/openspace",
+			"Baseturf": "/turf/open/indestructible/plating",
 			"No Parallax": true
 		},
 		{
@@ -59,7 +42,27 @@
 			"Down": true,
 			"Linkage": null,
 			"Gravity": true,
-			"Baseturf": "/turf/open/openspace",
+			"Baseturf": "/turf/open/indestructible/plating",
+			"No Parallax": true
+		},
+		{
+			"Up": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Baseturf": "/turf/open/indestructible/plating",
+			"No Parallax": true
+		},
+		{
+			"Down": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Baseturf": "/turf/open/indestructible/plating",
+			"No Parallax": true
+		},
+		{
+			"Linkage": null,
+			"Gravity": true,
+			"Baseturf": "/turf/open/indestructible/plating",
 			"No Parallax": true
 		}
 	]

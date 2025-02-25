@@ -1,0 +1,61 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/item/chair,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"h" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"j" = (
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"r" = (
+/obj/effect/spawner/random/epic_loot/random_maint_loot_structure,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"x" = (
+/obj/structure/table/greyscale,
+/obj/effect/spawner/random/epic_loot/random_ammunition,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"G" = (
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"H" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"Z" = (
+/obj/structure/table/greyscale,
+/obj/effect/spawner/random/epic_loot/random_silly_arms,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+
+(1,1,1) = {"
+j
+H
+G
+"}
+(2,1,1) = {"
+j
+r
+H
+"}
+(3,1,1) = {"
+j
+Z
+a
+"}
+(4,1,1) = {"
+j
+x
+j
+"}
+(5,1,1) = {"
+h
+j
+j
+"}

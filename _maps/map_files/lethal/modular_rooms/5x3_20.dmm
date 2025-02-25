@@ -1,0 +1,70 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/drain,
+/obj/structure/curtain,
+/obj/machinery/shower/directional/south,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"h" = (
+/obj/structure/drain,
+/obj/structure/curtain,
+/obj/machinery/shower/directional/south,
+/obj/machinery/light/warm/dim/directional/east,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"n" = (
+/obj/effect/decal/cleanable/vomit,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"t" = (
+/obj/structure/curtain,
+/obj/structure/toilet{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"K" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"L" = (
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"V" = (
+/mob/living/simple_animal/hostile/evilborg/roomba,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"W" = (
+/obj/structure/sink/kitchen/directional/east,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"Z" = (
+/obj/effect/spawner/random/trash/bin,
+/obj/machinery/light/warm/dim/directional/west,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+
+(1,1,1) = {"
+W
+K
+Z
+"}
+(2,1,1) = {"
+L
+V
+L
+"}
+(3,1,1) = {"
+L
+L
+L
+"}
+(4,1,1) = {"
+a
+n
+t
+"}
+(5,1,1) = {"
+h
+L
+t
+"}

@@ -1,0 +1,78 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"e" = (
+/obj/machinery/light/dim/directional/east,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"h" = (
+/obj/effect/spawner/random/structure/closet_maintenance,
+/obj/effect/spawner/random/epic_loot/random_keycard,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"n" = (
+/mob/living/basic/trooper/gakster/ranged,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"t" = (
+/obj/structure/table,
+/obj/structure/maintenance_loot_structure/grenade_box/random{
+	pixel_y = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"v" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/medpens,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"K" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"L" = (
+/obj/structure/chair/plastic,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"V" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/medkit,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"W" = (
+/obj/machinery/light/dim/directional/west,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"Z" = (
+/obj/structure/maintenance_loot_structure/military_case/random,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+
+(1,1,1) = {"
+W
+K
+Z
+"}
+(2,1,1) = {"
+n
+V
+a
+"}
+(3,1,1) = {"
+L
+t
+K
+"}
+(4,1,1) = {"
+a
+v
+K
+"}
+(5,1,1) = {"
+h
+K
+e
+"}
