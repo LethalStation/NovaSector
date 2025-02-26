@@ -1,0 +1,33 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/engine,
+/area/gakster_location/war)
+"H" = (
+/obj/structure/deepmaints_entrance/exit,
+/turf/open/floor/engine,
+/area/gakster_location/war)
+"I" = (
+/obj/structure/marker_beacon/jade,
+/turf/open/floor/engine,
+/area/gakster_location/war)
+
+(1,1,1) = {"
+a
+I
+a
+"}
+(2,1,1) = {"
+I
+H
+I
+"}
+(3,1,1) = {"
+a
+I
+a
+"}
+(4,1,1) = {"
+a
+a
+a
+"}

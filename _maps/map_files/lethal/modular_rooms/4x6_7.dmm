@@ -1,0 +1,68 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/machinery/power/thermoelectric_generator,
+/turf/open/floor/engine,
+/area/gakster_location/war)
+"p" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/light/small/red/directional/south,
+/turf/open/space/basic,
+/area/gakster_location/war)
+"t" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/light/small/red/directional/north,
+/turf/open/space/basic,
+/area/gakster_location/war)
+"F" = (
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/gakster_location/war)
+"N" = (
+/obj/item/storage/toolbox/electrical,
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/gakster_location/war)
+"U" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/closet/crate/engineering/electrical,
+/obj/machinery/light/small/red/directional/north,
+/turf/open/space/basic,
+/area/gakster_location/war)
+"V" = (
+/obj/structure/lattice/catwalk,
+/obj/item/stack/cable_coil/thirty,
+/turf/open/space/basic,
+/area/gakster_location/war)
+
+(1,1,1) = {"
+t
+V
+F
+F
+N
+p
+"}
+(2,1,1) = {"
+F
+a
+a
+a
+a
+F
+"}
+(3,1,1) = {"
+F
+a
+a
+a
+a
+F
+"}
+(4,1,1) = {"
+U
+F
+F
+F
+F
+p
+"}

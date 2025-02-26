@@ -1,0 +1,85 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"f" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"j" = (
+/obj/structure/table,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"l" = (
+/obj/structure/chair/plastic{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"p" = (
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/gakster_location/war)
+"q" = (
+/obj/structure/table,
+/obj/machinery/light/warm/dim/directional/north,
+/obj/effect/spawner/random/epic_loot/random_other_military_loot,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"t" = (
+/obj/item/kirbyplants/random/fullysynthetic,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"D" = (
+/obj/machinery/camera/directional/north,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"F" = (
+/obj/structure/chair/plastic{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"P" = (
+/mob/living/basic/trooper/gakster/melee,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"Y" = (
+/obj/structure/chair/plastic{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+
+(1,1,1) = {"
+l
+l
+a
+P
+a
+p
+"}
+(2,1,1) = {"
+q
+j
+F
+a
+a
+a
+"}
+(3,1,1) = {"
+D
+Y
+a
+a
+f
+P
+"}
+(4,1,1) = {"
+t
+a
+P
+a
+a
+p
+"}

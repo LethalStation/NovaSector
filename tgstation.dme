@@ -4539,6 +4539,7 @@
 #include "code\modules\language\uncommon.dm"
 #include "code\modules\language\voltaic.dm"
 #include "code\modules\language\xenocommon.dm"
+#include "code\modules\lethal_modular_maps\code\lethal_modular_map_code.dm"
 #include "code\modules\library\admin_only.dm"
 #include "code\modules\library\barcode_scanner.dm"
 #include "code\modules\library\bibles.dm"

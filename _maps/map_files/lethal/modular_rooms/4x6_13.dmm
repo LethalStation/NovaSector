@@ -1,0 +1,99 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/mob/living/basic/trooper/gakster/melee,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"i" = (
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/random_keycard,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"l" = (
+/obj/machinery/computer{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"o" = (
+/mob/living/basic/trooper/gakster/ranged,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"p" = (
+/obj/machinery/photocopier,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"t" = (
+/obj/structure/table,
+/obj/structure/maintenance_loot_structure/computer_tower/random,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"G" = (
+/obj/machinery/computer{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"I" = (
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"K" = (
+/obj/machinery/light/red/dim/directional/north,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"M" = (
+/obj/machinery/computer{
+	dir = 4
+	},
+/obj/machinery/camera/directional/west,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"N" = (
+/obj/structure/chair/office/light{
+	dir = 8
+	},
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"O" = (
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/pocket_sized_valuables,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"S" = (
+/obj/structure/table,
+/obj/machinery/light/cold/dim/directional/west,
+/obj/effect/spawner/random/epic_loot/random_documents,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+
+(1,1,1) = {"
+t
+M
+G
+t
+S
+p
+"}
+(2,1,1) = {"
+i
+N
+I
+o
+I
+I
+"}
+(3,1,1) = {"
+O
+l
+t
+I
+a
+I
+"}
+(4,1,1) = {"
+K
+I
+I
+I
+I
+I
+"}

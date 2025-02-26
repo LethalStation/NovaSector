@@ -1,0 +1,94 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/spawner/random/trash/garbage,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/plating,
+/area/gakster_location/war)
+"l" = (
+/obj/effect/spawner/random/trash/grime,
+/turf/open/floor/plating,
+/area/gakster_location/war)
+"p" = (
+/obj/effect/spawner/random/trash/mess,
+/turf/open/floor/plating,
+/area/gakster_location/war)
+"r" = (
+/mob/living/basic/mold/diseased_rat,
+/obj/effect/spawner/random/trash/garbage,
+/obj/effect/spawner/random/epic_loot/random_keycard,
+/turf/open/floor/plating,
+/area/gakster_location/war)
+"t" = (
+/mob/living/basic/mold/diseased_rat,
+/obj/effect/spawner/random/trash/garbage,
+/turf/open/floor/plating,
+/area/gakster_location/war)
+"u" = (
+/obj/effect/spawner/random/trash/garbage,
+/obj/effect/spawner/random/epic_loot/pocket_sized_valuables,
+/turf/open/floor/plating,
+/area/gakster_location/war)
+"B" = (
+/mob/living/basic/mold/diseased_rat,
+/obj/effect/spawner/random/trash/garbage,
+/obj/effect/spawner/random/trash/garbage,
+/turf/open/floor/plating,
+/area/gakster_location/war)
+"J" = (
+/mob/living/basic/mold/diseased_rat,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/plating,
+/area/gakster_location/war)
+"M" = (
+/mob/living/basic/mold/diseased_rat,
+/obj/effect/spawner/random/trash/garbage,
+/obj/effect/spawner/random/epic_loot/random_grenade_or_explosive,
+/turf/open/floor/plating,
+/area/gakster_location/war)
+"U" = (
+/obj/effect/spawner/random/trash/garbage,
+/turf/open/floor/plating,
+/area/gakster_location/war)
+"V" = (
+/obj/effect/spawner/random/trash/grime,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/plating,
+/area/gakster_location/war)
+"Z" = (
+/mob/living/basic/mold/diseased_rat,
+/obj/effect/spawner/random/trash/mess,
+/turf/open/floor/plating,
+/area/gakster_location/war)
+
+(1,1,1) = {"
+t
+p
+a
+t
+l
+p
+"}
+(2,1,1) = {"
+l
+M
+l
+Z
+u
+B
+"}
+(3,1,1) = {"
+J
+U
+r
+p
+t
+a
+"}
+(4,1,1) = {"
+U
+p
+t
+V
+U
+p
+"}
