@@ -1,0 +1,183 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"c" = (
+/obj/machinery/light/dim/directional/north,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"e" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/camera/directional/north,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"f" = (
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"h" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_grenade_or_explosive,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"i" = (
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/random_computer_parts,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"j" = (
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/random_silly_arms,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"m" = (
+/obj/structure/table,
+/obj/structure/maintenance_loot_structure/computer_tower/random,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"n" = (
+/obj/structure/maintenance_loot_structure/large_crate/engineering,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"o" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"p" = (
+/obj/structure/table,
+/obj/structure/maintenance_loot_structure/computer_tower/random{
+	pixel_x = -4
+	},
+/obj/structure/maintenance_loot_structure/computer_tower/random{
+	pixel_x = 7
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"t" = (
+/obj/effect/spawner/random/epic_loot/random_supply_crate,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"x" = (
+/mob/living/basic/trooper/gakster/ranged,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"B" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_computer_parts,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"E" = (
+/obj/structure/rack/shelf,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"K" = (
+/obj/structure/table,
+/obj/structure/maintenance_loot_structure/toolbox/random,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"L" = (
+/obj/structure/table,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"N" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_other_military_loot/rare_loot,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"S" = (
+/obj/structure/table,
+/obj/effect/spawner/random/throwturretkit,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"V" = (
+/obj/structure/chair/plastic,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"W" = (
+/obj/effect/spawner/random/structure/closet_maintenance,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"Y" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/basic/trooper/gakster/ranged,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+
+(1,1,1) = {"
+a
+a
+a
+B
+N
+"}
+(2,1,1) = {"
+a
+a
+a
+a
+a
+"}
+(3,1,1) = {"
+t
+a
+j
+a
+a
+"}
+(4,1,1) = {"
+W
+a
+h
+a
+a
+"}
+(5,1,1) = {"
+W
+a
+S
+a
+B
+"}
+(6,1,1) = {"
+o
+a
+a
+o
+n
+"}
+(7,1,1) = {"
+e
+Y
+i
+o
+a
+"}
+(8,1,1) = {"
+c
+V
+m
+x
+f
+"}
+(9,1,1) = {"
+a
+K
+L
+p
+o
+"}
+(10,1,1) = {"
+a
+a
+a
+a
+a
+"}
+(11,1,1) = {"
+B
+E
+a
+o
+a
+"}

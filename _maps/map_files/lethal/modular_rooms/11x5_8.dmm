@@ -1,0 +1,137 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/machinery/computer{
+	dir = 1
+	},
+/obj/machinery/light/warm/dim/directional/south,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"d" = (
+/obj/structure/chair/office/light,
+/turf/open/floor/wood/large,
+/area/gakster_location/war)
+"f" = (
+/obj/structure/maintenance_loot_structure/file_cabinet/random,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"g" = (
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/turf/open/floor/wood/large,
+/area/gakster_location/war)
+"j" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/random/decoration/ornament,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"o" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/large,
+/area/gakster_location/war)
+"r" = (
+/turf/open/floor/wood/large,
+/area/gakster_location/war)
+"w" = (
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/large,
+/area/gakster_location/war)
+"z" = (
+/obj/structure/table/wood,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"C" = (
+/obj/machinery/computer,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"D" = (
+/obj/structure/table/wood,
+/obj/structure/maintenance_loot_structure/computer_tower/random,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"J" = (
+/mob/living/basic/trooper/gakster/ranged,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/large,
+/area/gakster_location/war)
+
+(1,1,1) = {"
+z
+D
+r
+j
+D
+"}
+(2,1,1) = {"
+C
+g
+o
+d
+a
+"}
+(3,1,1) = {"
+z
+o
+o
+r
+z
+"}
+(4,1,1) = {"
+r
+o
+r
+r
+f
+"}
+(5,1,1) = {"
+j
+o
+J
+r
+f
+"}
+(6,1,1) = {"
+C
+w
+r
+d
+a
+"}
+(7,1,1) = {"
+D
+z
+r
+j
+D
+"}
+(8,1,1) = {"
+o
+r
+r
+r
+f
+"}
+(9,1,1) = {"
+j
+r
+J
+o
+f
+"}
+(10,1,1) = {"
+C
+g
+o
+d
+a
+"}
+(11,1,1) = {"
+D
+z
+r
+j
+D
+"}

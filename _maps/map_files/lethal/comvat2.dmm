@@ -687,6 +687,13 @@
 /obj/structure/holosign/barrier/engineering,
 /turf/open/misc/asteroid/snow/standard_air,
 /area/gakster_location/hideout_real)
+"fs" = (
+/obj/modular_map_root/lethal{
+	key = "11x5";
+	name = "11x5"
+	},
+/turf/open/floor/mineral/uranium,
+/area/gakster_location/war)
 "ft" = (
 /obj/effect/turf_decal/delivery/red,
 /turf/open/indestructible/dark/smooth_large,
@@ -27419,7 +27426,7 @@ CA
 CA
 CA
 CA
-CA
+fs
 RO
 rA
 RO
@@ -28053,7 +28060,7 @@ CA
 CA
 CA
 CA
-CA
+fs
 RO
 vj
 vj
@@ -29047,7 +29054,7 @@ CA
 CA
 CA
 CA
-CA
+fs
 RO
 rA
 RO
@@ -30619,13 +30626,13 @@ CA
 CA
 CA
 CA
-CA
+fs
 RO
 CA
 CA
 CA
 CA
-CA
+fs
 RO
 er
 er
@@ -32192,7 +32199,7 @@ CA
 CA
 CA
 CA
-CA
+fs
 RO
 dK
 dK
@@ -33798,7 +33805,7 @@ CA
 CA
 CA
 CA
-CA
+fs
 RO
 Ms
 RO
@@ -37612,7 +37619,7 @@ CA
 CA
 CA
 CA
-CA
+fs
 RO
 dK
 dK
@@ -39159,7 +39166,7 @@ CA
 CA
 CA
 CA
-CA
+fs
 RO
 TN
 "}
@@ -39789,7 +39796,7 @@ CA
 CA
 CA
 CA
-CA
+fs
 RO
 RO
 qD
@@ -42392,7 +42399,7 @@ CA
 CA
 CA
 CA
-CA
+fs
 RO
 ZL
 dK
@@ -42719,7 +42726,7 @@ CA
 CA
 CA
 CA
-CA
+fs
 RO
 dK
 dK
@@ -45297,7 +45304,7 @@ CA
 CA
 CA
 CA
-CA
+fs
 RO
 Hy
 dK
@@ -45653,7 +45660,7 @@ CA
 CA
 CA
 CA
-CA
+fs
 RO
 RO
 XS

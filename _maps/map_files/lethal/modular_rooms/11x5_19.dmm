@@ -1,0 +1,238 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"d" = (
+/obj/effect/decal/cleanable/blood/old,
+/obj/machinery/computer,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"e" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/machinery/limbgrower/fullupgrade,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"f" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/showcase/horrific_experiment,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"g" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/structure/showcase/horrific_experiment,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"h" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"j" = (
+/obj/effect/decal/cleanable/blood/gibs/old,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"l" = (
+/obj/machinery/light/cold/dim/directional/east,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"n" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"o" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"p" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/machinery/computer,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"t" = (
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"u" = (
+/obj/effect/decal/cleanable/blood/gibs/up,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"x" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"y" = (
+/obj/effect/decal/cleanable/blood/old,
+/obj/structure/showcase/horrific_experiment,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"z" = (
+/obj/effect/decal/cleanable/blood,
+/obj/machinery/light/broken/directional/west,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"B" = (
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/structure/showcase/horrific_experiment,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"C" = (
+/obj/machinery/light/cold/dim/directional/west,
+/obj/effect/decal/cleanable/blood/gibs/down,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"D" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood/gibs/old,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"E" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/mob/living/simple_animal/hostile/zombie,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"F" = (
+/obj/effect/decal/cleanable/blood,
+/obj/machinery/light/broken/directional/east,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"G" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood/gibs/body,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"I" = (
+/obj/machinery/light/broken/directional/west,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"J" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"L" = (
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"N" = (
+/obj/effect/decal/cleanable/blood/gibs/old,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"O" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/mob/living/simple_animal/hostile/zombie,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"Q" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/structure/showcase/horrific_experiment,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"R" = (
+/obj/structure/showcase/horrific_experiment,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"S" = (
+/obj/effect/decal/cleanable/blood/gibs/core,
+/obj/effect/decal/cleanable/blood/splatter,
+/mob/living/simple_animal/hostile/zombie,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"U" = (
+/obj/effect/decal/cleanable/blood/gibs/down,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"V" = (
+/obj/effect/decal/cleanable/blood/gibs/down,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"X" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"Y" = (
+/obj/effect/decal/cleanable/blood/gibs/core,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"Z" = (
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+
+(1,1,1) = {"
+z
+L
+t
+U
+I
+"}
+(2,1,1) = {"
+t
+t
+u
+h
+L
+"}
+(3,1,1) = {"
+R
+X
+o
+E
+R
+"}
+(4,1,1) = {"
+C
+N
+Z
+a
+Z
+"}
+(5,1,1) = {"
+B
+X
+d
+V
+g
+"}
+(6,1,1) = {"
+o
+S
+e
+x
+D
+"}
+(7,1,1) = {"
+y
+G
+p
+Y
+Q
+"}
+(8,1,1) = {"
+n
+N
+J
+a
+X
+"}
+(9,1,1) = {"
+R
+a
+L
+n
+f
+"}
+(10,1,1) = {"
+t
+j
+L
+O
+o
+"}
+(11,1,1) = {"
+F
+t
+h
+L
+l
+"}

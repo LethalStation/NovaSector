@@ -1,82 +1,195 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/turf/open/floor/iron/smooth,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"b" = (
+/obj/structure/maintenance_loot_structure/file_cabinet/random,
+/obj/machinery/light/cold/dim/directional/south,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"c" = (
+/obj/machinery/computer{
+	dir = 4
+	},
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"e" = (
+/obj/structure/chair/office/light,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"g" = (
+/obj/machinery/computer{
+	dir = 8
+	},
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"h" = (
+/obj/effect/spawner/random/structure/closet_maintenance,
+/obj/machinery/light/cold/dim/directional/north,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"j" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"k" = (
+/obj/effect/spawner/random/trash/bin,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"m" = (
+/obj/structure/table,
+/obj/structure/maintenance_loot_structure/toolbox/random,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"p" = (
+/mob/living/basic/trooper/gakster/melee/prophet,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"q" = (
+/obj/machinery/computer{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"u" = (
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/random_keycard,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"y" = (
+/obj/effect/decal/cleanable/blood/trails,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"z" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"B" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"C" = (
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/random_serious_arms,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"H" = (
+/obj/structure/maintenance_loot_structure/medbox/random/advanced_loot,
+/obj/machinery/light/cold/dim/directional/south,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"J" = (
+/obj/structure/bed/maint,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"L" = (
+/obj/structure/maintenance_loot_structure/large_crate,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"N" = (
+/obj/structure/chair/office/light{
+	dir = 1
+	},
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"O" = (
+/obj/effect/mob_spawn/corpse/human/filtremob,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"R" = (
+/obj/structure/maintenance_loot_structure/file_cabinet/random,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"U" = (
+/obj/machinery/computer{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"W" = (
+/obj/effect/spawner/random/structure/closet_maintenance,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"Y" = (
+/obj/structure/maintenance_loot_structure/medbox/random/advanced_loot,
+/obj/machinery/light/cold/dim/directional/north,
+/turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 
 (1,1,1) = {"
+h
+J
+L
 a
-a
-a
-a
-a
+R
 "}
 (2,1,1) = {"
 a
 a
+y
 a
-a
-a
+b
 "}
 (3,1,1) = {"
 a
+O
 a
-a
-a
-a
+q
+q
 "}
 (4,1,1) = {"
+k
 a
-a
-a
-a
-a
+z
+e
+u
 "}
 (5,1,1) = {"
+m
 a
-a
-a
-a
-a
+O
+U
+U
 "}
 (6,1,1) = {"
+Y
 a
+p
 a
-a
-a
-a
+j
 "}
 (7,1,1) = {"
+W
 a
 a
 a
-a
-a
+j
 "}
 (8,1,1) = {"
+q
+c
 a
-a
-a
-a
-a
+O
+j
 "}
 (9,1,1) = {"
+C
+N
 a
-a
-a
-a
-a
+B
+H
 "}
 (10,1,1) = {"
+U
+g
 a
 a
-a
-a
-a
+k
 "}
 (11,1,1) = {"
+R
+O
 a
 a
-a
-a
-a
+W
 "}

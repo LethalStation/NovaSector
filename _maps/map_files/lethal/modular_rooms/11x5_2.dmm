@@ -1,0 +1,200 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/table/reinforced,
+/obj/effect/spawner/random/epic_loot/medical_tools,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"d" = (
+/obj/structure/bed/medical/anchored,
+/obj/machinery/light/cold/dim/directional/west,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"e" = (
+/obj/effect/spawner/random/trash/caution_sign,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"f" = (
+/obj/machinery/computer/operating{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"h" = (
+/obj/structure/table,
+/obj/structure/maintenance_loot_structure/medbox/random{
+	pixel_y = 4
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"i" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"j" = (
+/obj/machinery/computer{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"k" = (
+/obj/structure/table/reinforced,
+/obj/structure/maintenance_loot_structure/medbox/random{
+	pixel_y = 4
+	},
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"l" = (
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"o" = (
+/obj/structure/curtain,
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/medpens,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"v" = (
+/obj/structure/bed/medical/anchored{
+	dir = 1
+	},
+/obj/machinery/light/cold/dim/directional/east,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"w" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"B" = (
+/obj/structure/curtain,
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/medical_stack_item_advanced,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"F" = (
+/obj/structure/curtain,
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/medical_tools,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"J" = (
+/obj/structure/curtain,
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/medkit,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"K" = (
+/obj/structure/curtain,
+/obj/structure/rack/shelf,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"L" = (
+/obj/structure/table,
+/obj/item/scalpel{
+	pixel_y = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"P" = (
+/obj/structure/rack/shelf,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"T" = (
+/obj/structure/curtain,
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/medical_stack_item,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"W" = (
+/obj/structure/table/optable,
+/obj/machinery/light/cold/dim/directional/east,
+/obj/structure/table/optable,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"X" = (
+/obj/structure/table/optable,
+/obj/machinery/light/cold/dim/directional/east,
+/obj/effect/mob_spawn/corpse/human/zombie,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"Y" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+
+(1,1,1) = {"
+d
+o
+l
+B
+d
+"}
+(2,1,1) = {"
+l
+J
+i
+o
+l
+"}
+(3,1,1) = {"
+i
+e
+l
+l
+l
+"}
+(4,1,1) = {"
+i
+F
+w
+h
+i
+"}
+(5,1,1) = {"
+v
+T
+i
+f
+W
+"}
+(6,1,1) = {"
+k
+P
+l
+P
+a
+"}
+(7,1,1) = {"
+d
+T
+l
+F
+d
+"}
+(8,1,1) = {"
+l
+T
+i
+K
+i
+"}
+(9,1,1) = {"
+i
+e
+l
+Y
+l
+"}
+(10,1,1) = {"
+i
+F
+l
+L
+w
+"}
+(11,1,1) = {"
+v
+T
+i
+j
+X
+"}
