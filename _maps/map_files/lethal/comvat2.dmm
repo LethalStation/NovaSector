@@ -687,13 +687,6 @@
 /obj/structure/holosign/barrier/engineering,
 /turf/open/misc/asteroid/snow/standard_air,
 /area/gakster_location/hideout_real)
-"fs" = (
-/obj/modular_map_root/lethal{
-	key = "11x5";
-	name = "11x5"
-	},
-/turf/open/floor/mineral/uranium,
-/area/gakster_location/war)
 "ft" = (
 /obj/effect/turf_decal/delivery/red,
 /turf/open/indestructible/dark/smooth_large,
@@ -788,6 +781,13 @@
 	},
 /turf/open/indestructible/plating,
 /area/gakster_location/hideout_real)
+"gc" = (
+/obj/modular_map_root/lethal{
+	key = "11x5";
+	name = "11x5"
+	},
+/turf/open/floor/mineral/uranium,
+/area/gakster_location/war)
 "gd" = (
 /obj/machinery/door/airlock/grunge,
 /turf/open/indestructible/plating,
@@ -2153,6 +2153,10 @@
 /obj/machinery/vending/imported/yangyu,
 /turf/open/misc/asteroid/snow/standard_air,
 /area/gakster_location/hideout_real)
+"ru" = (
+/obj/structure/broken_flooring/plating/always_floorplane/directional/north,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "rv" = (
 /obj/effect/turf_decal/loading_area/red,
 /obj/structure/deepmaints_entrance,
@@ -2319,6 +2323,10 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"sx" = (
+/obj/structure/broken_flooring/plating/directional/west,
+/turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "sC" = (
 /obj/structure/deepmaints_entrance/filtre,
@@ -2991,6 +2999,11 @@
 /obj/structure/sign/poster/contraband/random/directional/north,
 /turf/open/floor/iron/smooth_large,
 /area/gakster_location/hideout_real)
+"xP" = (
+/obj/structure/table,
+/obj/structure/maintenance_loot_structure/ammo_box/random,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
 "xR" = (
 /obj/structure/fluff/metalpole/anchor{
 	dir = 4
@@ -4190,6 +4203,13 @@
 /obj/machinery/vending/pentola,
 /turf/open/floor/wood,
 /area/gakster_location/hideout_real)
+"Gp" = (
+/obj/modular_map_root/lethal{
+	key = "11x5";
+	name = "11x5"
+	},
+/turf/closed/wall,
+/area/gakster_location/war)
 "Gq" = (
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/iron/smooth,
@@ -4382,6 +4402,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/stone,
 /area/gakster_location/hideout_real)
+"HU" = (
+/obj/effect/spawner/random/epic_loot/random_maint_loot_structure,
+/turf/open/floor/plating,
+/area/gakster_location/war)
 "HW" = (
 /turf/open/space/basic,
 /area/gakster_location/war)
@@ -5399,6 +5423,10 @@
 /obj/structure/mineral_door/manual_colony_door,
 /turf/open/indestructible/dark/smooth_large,
 /area/gakster_location/inborn_spawn)
+"PL" = (
+/obj/structure/maintenance_loot_structure/ammo_box/random,
+/turf/open/floor/iron/smooth_large,
+/area/gakster_location/war)
 "PM" = (
 /obj/structure/railing{
 	dir = 8
@@ -5684,6 +5712,10 @@
 	},
 /turf/open/floor/wood,
 /area/gakster_location/hideout_real)
+"RJ" = (
+/obj/structure/broken_flooring/plating/always_floorplane/directional/east,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "RK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/weather/snow/corner,
@@ -5908,6 +5940,10 @@
 "TA" = (
 /obj/machinery/light/dim/directional/north,
 /turf/open/floor/iron/terracotta/herringbone,
+/area/gakster_location/war)
+"TC" = (
+/obj/structure/maintenance_loot_structure/ammo_box/random,
+/turf/open/floor/plating,
 /area/gakster_location/war)
 "TD" = (
 /obj/structure/filingcabinet/medical,
@@ -6335,6 +6371,10 @@
 /obj/structure/falsewall,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
+"Xu" = (
+/obj/structure/maintenance_loot_structure/ammo_box/random,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "Xv" = (
 /obj/machinery/light/broken/directional/east,
 /turf/open/floor/iron/smooth_large,
@@ -6554,6 +6594,10 @@
 /obj/machinery/deepfryer,
 /turf/open/indestructible/kitchen,
 /area/gakster_location/hideout_real)
+"Zn" = (
+/obj/effect/spawner/random/epic_loot/random_maint_loot_structure,
+/turf/open/floor/mineral/diamond,
+/area/gakster_location/war)
 "Zp" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/weather/snow/corner,
@@ -27264,24 +27308,24 @@ RO
 RO
 RO
 RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
+TN
+TN
+TN
+TN
+TN
+TN
+TN
+TN
+TN
+TN
+TN
+TN
+TN
+TN
+TN
+TN
+TN
+TN
 RO
 tL
 uv
@@ -27381,9 +27425,9 @@ RO
 RO
 RO
 RO
-RO
-RO
-RO
+TN
+TN
+TN
 RO
 tL
 uv
@@ -27426,7 +27470,7 @@ CA
 CA
 CA
 CA
-fs
+gc
 RO
 rA
 RO
@@ -27878,7 +27922,7 @@ vj
 vj
 vj
 vj
-vj
+PL
 RO
 vj
 vj
@@ -28060,7 +28104,7 @@ CA
 CA
 CA
 CA
-fs
+gc
 RO
 vj
 vj
@@ -29054,7 +29098,7 @@ CA
 CA
 CA
 CA
-fs
+gc
 RO
 rA
 RO
@@ -29465,7 +29509,7 @@ CA
 CA
 lq
 rA
-rA
+TC
 RO
 dK
 dK
@@ -29807,7 +29851,7 @@ vj
 vj
 RO
 vj
-dK
+Xu
 eB
 eB
 eB
@@ -30626,13 +30670,13 @@ CA
 CA
 CA
 CA
-fs
+gc
 RO
 CA
 CA
 CA
 CA
-fs
+gc
 RO
 er
 er
@@ -30987,7 +31031,7 @@ dK
 dK
 RO
 rA
-rA
+TC
 RO
 ZV
 ZV
@@ -31666,7 +31710,7 @@ er
 er
 er
 er
-er
+Zn
 er
 RO
 tL
@@ -32199,7 +32243,7 @@ CA
 CA
 CA
 CA
-fs
+gc
 RO
 dK
 dK
@@ -32454,7 +32498,7 @@ ZV
 RO
 dK
 RO
-rA
+TC
 rA
 RO
 RO
@@ -32508,7 +32552,7 @@ CA
 CA
 RO
 dK
-dK
+Jw
 RO
 NV
 dK
@@ -32575,7 +32619,7 @@ BF
 RO
 rA
 RO
-UC
+xP
 XB
 dK
 dK
@@ -32880,7 +32924,7 @@ RO
 RO
 RO
 rA
-rA
+HU
 RO
 cH
 cH
@@ -32964,7 +33008,7 @@ XS
 RO
 dK
 RO
-rA
+ba
 rA
 RO
 UC
@@ -33632,7 +33676,7 @@ dK
 dK
 dK
 RO
-dK
+Jw
 dK
 RO
 ZV
@@ -33805,7 +33849,7 @@ CA
 CA
 CA
 CA
-fs
+gc
 RO
 Ms
 RO
@@ -37469,7 +37513,7 @@ jW
 jW
 jW
 jW
-nZ
+jW
 nZ
 nZ
 jW
@@ -37571,8 +37615,8 @@ jW
 jW
 jW
 jW
-nZ
-nZ
+jW
+jW
 jW
 jW
 jW
@@ -37619,7 +37663,7 @@ CA
 CA
 CA
 CA
-fs
+gc
 RO
 dK
 dK
@@ -37669,10 +37713,10 @@ nZ
 jW
 jW
 jW
-jW
-jW
-jW
-jW
+sZ
+sZ
+sZ
+sZ
 jW
 jW
 jW
@@ -37771,10 +37815,10 @@ nZ
 nZ
 nZ
 nZ
-nZ
-nZ
-nZ
-jW
+sZ
+sZ
+sZ
+sZ
 jW
 jW
 jW
@@ -39166,7 +39210,7 @@ CA
 CA
 CA
 CA
-fs
+gc
 RO
 TN
 "}
@@ -39796,7 +39840,7 @@ CA
 CA
 CA
 CA
-fs
+gc
 RO
 RO
 qD
@@ -41678,7 +41722,7 @@ TJ
 dZ
 zq
 RO
-dK
+sx
 dK
 RO
 er
@@ -41883,7 +41927,7 @@ UH
 sZ
 RO
 dK
-dK
+ru
 RO
 er
 er
@@ -41984,8 +42028,8 @@ Sf
 Sf
 RO
 RO
-dK
-dK
+sZ
+UH
 RO
 er
 er
@@ -42086,8 +42130,8 @@ dZ
 UH
 sZ
 RO
-dK
-dK
+sZ
+sZ
 RO
 er
 er
@@ -42188,8 +42232,8 @@ dZ
 UH
 sZ
 RO
-dK
-dK
+UH
+sZ
 RO
 er
 er
@@ -42290,8 +42334,8 @@ dZ
 UH
 sZ
 RO
-dK
-dK
+sZ
+sZ
 RO
 RO
 RO
@@ -42392,14 +42436,14 @@ dZ
 UH
 sZ
 RO
-dK
-dK
+RJ
+sx
 RO
 CA
 CA
 CA
 CA
-fs
+gc
 RO
 ZL
 dK
@@ -42726,7 +42770,7 @@ CA
 CA
 CA
 CA
-fs
+gc
 RO
 dK
 dK
@@ -44197,7 +44241,7 @@ sZ
 sZ
 sZ
 Yc
-RO
+Gp
 UC
 cO
 AT
@@ -45304,7 +45348,7 @@ CA
 CA
 CA
 CA
-fs
+gc
 RO
 Hy
 dK
@@ -45660,7 +45704,7 @@ CA
 CA
 CA
 CA
-fs
+gc
 RO
 RO
 XS

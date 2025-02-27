@@ -1,0 +1,635 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ah" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/mob/living/carbon/human/species/monkey/punpun,
+/turf/open/floor/iron,
+/area/space)
+"aO" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/large,
+/area/space)
+"bm" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/wood,
+/area/space)
+"bL" = (
+/obj/effect/spawner/structure/window,
+/turf/open/floor/plating,
+/area/space)
+"bX" = (
+/obj/structure/chair/stool/bar/directional/south,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/space)
+"cE" = (
+/obj/item/kirbyplants/organic/plant10,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/large,
+/area/space)
+"eK" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/space)
+"fk" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/space)
+"fZ" = (
+/obj/structure/table/reinforced,
+/obj/structure/displaycase/forsale/kitchen{
+	pixel_y = 8
+	},
+/obj/machinery/computer/security/telescreen/entertainment/directional/west,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/space)
+"gr" = (
+/turf/open/floor/wood/large,
+/area/space)
+"il" = (
+/obj/machinery/door/firedoor,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/airlock/access/all/service/bar,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/effect/turf_decal/tile/neutral/opposingcorners{
+	dir = 1
+	},
+/obj/machinery/door/airlock/glass{
+	name = "Bar"
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/space)
+"jn" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/space)
+"jZ" = (
+/obj/structure/table/wood/poker,
+/turf/open/floor/wood/large,
+/area/space)
+"kc" = (
+/obj/machinery/reagentgrinder{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/cup/glass/shaker{
+	pixel_x = -6
+	},
+/obj/machinery/camera/directional/south{
+	c_tag = "Bar - Counter"
+	},
+/obj/structure/table,
+/obj/machinery/requests_console/directional/south{
+	department = "Bar";
+	name = "Bar Requests Console"
+	},
+/obj/effect/mapping_helpers/requests_console/supplies,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/space)
+"kf" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/holopad,
+/obj/machinery/light_switch/directional/south,
+/obj/structure/cable,
+/obj/machinery/vending/wardrobe/bar_wardrobe,
+/turf/open/floor/wood,
+/area/space)
+"lx" = (
+/obj/structure/table/reinforced,
+/obj/item/holosign_creator/robot_seat/bar,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/space)
+"ns" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/holopad,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/space)
+"oT" = (
+/obj/machinery/vending/boozeomat,
+/obj/structure/sign/picture_frame/portrait/bar{
+	pixel_y = -28
+	},
+/obj/item/radio/intercom/directional/west,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/space)
+"pw" = (
+/obj/structure/table/wood,
+/obj/item/storage/photo_album/bar,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/item/ammo_box/magazine/ammo_stack/s12gauge/prefilled/improvised,
+/turf/open/floor/wood,
+/area/space)
+"pF" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/space)
+"pM" = (
+/obj/machinery/airalarm/directional/west,
+/obj/machinery/chem_master/condimaster{
+	desc = "Looks like a knock-off chem-master. Perhaps useful for separating liquids when mixing drinks precisely. Also dispenses condiments.";
+	name = "HoochMaster Deluxe"
+	},
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/space)
+"qa" = (
+/obj/structure/table/reinforced,
+/obj/structure/desk_bell{
+	pixel_x = -11
+	},
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/space)
+"qe" = (
+/obj/machinery/chem_dispenser/drinks/beer{
+	dir = 1
+	},
+/obj/structure/table,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/machinery/light/small/directional/south,
+/obj/machinery/digital_clock/directional/south,
+/turf/open/floor/iron,
+/area/space)
+"sd" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/structure/reagent_dispensers/beerkeg,
+/turf/open/floor/iron,
+/area/space)
+"uF" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/machinery/vending/coffee,
+/turf/open/floor/wood/large,
+/area/space)
+"vh" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/space)
+"vi" = (
+/obj/machinery/camera/directional/north{
+	c_tag = "Bar - Backroom"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/mirror/directional/north,
+/obj/structure/sink/directional/south,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/space)
+"vq" = (
+/obj/structure/chair/stool/directional/west,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood/large,
+/area/space)
+"vJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/space)
+"vP" = (
+/obj/machinery/smartfridge/drinks,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/space)
+"wx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/space)
+"wP" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/structure/cable,
+/turf/open/floor/wood,
+/area/space)
+"xP" = (
+/obj/machinery/chem_dispenser/drinks{
+	dir = 1
+	},
+/obj/machinery/newscaster/directional/south,
+/obj/structure/table,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/space)
+"yu" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/space)
+"Cs" = (
+/obj/structure/closet/secure_closet/bar,
+/obj/machinery/light/small/directional/west,
+/obj/machinery/light_switch/directional/north,
+/turf/open/floor/wood,
+/area/space)
+"CB" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/table/wood/poker,
+/obj/effect/spawner/random/entertainment/gambling,
+/obj/effect/spawner/random/entertainment/gambling,
+/obj/effect/spawner/random/entertainment/gambling,
+/turf/open/floor/wood/large,
+/area/space)
+"CM" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/space)
+"DP" = (
+/obj/structure/chair/stool/directional/west,
+/turf/open/floor/wood,
+/area/space)
+"EG" = (
+/obj/structure/table/reinforced,
+/obj/effect/spawner/random/entertainment/lighter,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/space)
+"Hd" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/table/wood/poker,
+/obj/effect/spawner/random/entertainment/cigarette,
+/turf/open/floor/wood,
+/area/space)
+"Hg" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/space)
+"IR" = (
+/obj/item/wrench,
+/obj/item/stack/sheet/glass{
+	amount = 30
+	},
+/obj/item/stack/sheet/iron{
+	amount = 30
+	},
+/obj/item/stack/cable_coil,
+/obj/item/stack/cable_coil,
+/obj/structure/closet,
+/obj/item/vending_refill/cigarette,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/structure/extinguisher_cabinet/directional/south,
+/turf/open/floor/wood,
+/area/space)
+"Jk" = (
+/obj/machinery/door/airlock{
+	name = "Bar"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
+/obj/effect/mapping_helpers/airlock/access/all/service/bar,
+/obj/structure/cable,
+/turf/open/floor/wood,
+/area/space)
+"Kh" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron,
+/area/space)
+"KO" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/door/airlock{
+	name = "Bar Storage"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/service/bar,
+/turf/open/floor/wood,
+/area/space)
+"Lj" = (
+/obj/structure/chair/stool/bar/directional/south,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/iron,
+/area/space)
+"LB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/turf/open/floor/wood,
+/area/space)
+"Mb" = (
+/obj/machinery/light/floor,
+/turf/open/floor/wood/large,
+/area/space)
+"Oj" = (
+/obj/structure/table/wood/poker,
+/obj/effect/spawner/random/entertainment/deck,
+/turf/open/floor/wood,
+/area/space)
+"Os" = (
+/turf/closed/wall,
+/area/space)
+"OJ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/space)
+"Pe" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/random/epic_loot/random_provisions,
+/turf/open/floor/wood,
+/area/space)
+"Qa" = (
+/obj/structure/chair/stool/directional/east,
+/turf/open/floor/wood,
+/area/space)
+"Sq" = (
+/obj/item/stack/package_wrap{
+	pixel_x = -4;
+	pixel_y = 6
+	},
+/obj/item/stack/package_wrap,
+/obj/structure/table/wood,
+/obj/item/gun/ballistic/shotgun/doublebarrel,
+/obj/structure/cable,
+/turf/open/floor/wood,
+/area/space)
+"SX" = (
+/turf/open/floor/wood,
+/area/space)
+"Th" = (
+/obj/item/clothing/head/hats/tophat,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/table,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/space)
+"Tj" = (
+/obj/structure/chair/stool/bar/directional/south,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/floor/iron,
+/area/space)
+"VG" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/space)
+"Wq" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/item/reagent_containers/cup/rag,
+/obj/structure/table,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/space)
+
+(1,1,1) = {"
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+"}
+(2,1,1) = {"
+wx
+wx
+uF
+Os
+Os
+bL
+Os
+Os
+Os
+Os
+Os
+Os
+gr
+"}
+(3,1,1) = {"
+SX
+SX
+cE
+fZ
+Kh
+sd
+pM
+oT
+Os
+Cs
+Sq
+Os
+gr
+"}
+(4,1,1) = {"
+SX
+SX
+Tj
+qa
+pF
+jn
+OJ
+yu
+Jk
+wP
+pw
+Os
+gr
+"}
+(5,1,1) = {"
+SX
+SX
+bX
+VG
+CM
+Th
+vJ
+kc
+Os
+Hg
+IR
+Os
+gr
+"}
+(6,1,1) = {"
+SX
+SX
+bX
+EG
+ns
+Wq
+fk
+qe
+Os
+vi
+kf
+Os
+gr
+"}
+(7,1,1) = {"
+Qa
+Qa
+bX
+lx
+ah
+vh
+eK
+xP
+Os
+bm
+LB
+KO
+gr
+"}
+(8,1,1) = {"
+Oj
+Hd
+Lj
+vP
+il
+Os
+Os
+Os
+Os
+Os
+Os
+Os
+gr
+"}
+(9,1,1) = {"
+jZ
+CB
+aO
+gr
+gr
+gr
+Qa
+gr
+Qa
+gr
+Qa
+gr
+gr
+"}
+(10,1,1) = {"
+vq
+vq
+Mb
+gr
+gr
+Mb
+Pe
+Mb
+Pe
+Mb
+Pe
+Mb
+gr
+"}
+(11,1,1) = {"
+gr
+gr
+gr
+gr
+gr
+gr
+DP
+gr
+DP
+gr
+DP
+gr
+gr
+"}
