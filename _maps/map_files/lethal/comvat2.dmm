@@ -711,6 +711,7 @@
 	dir = 8
 	},
 /obj/effect/spawner/random/trash/bin,
+/obj/structure/broken_flooring/plating/directional/west,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "fE" = (
@@ -2366,6 +2367,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/gakster_location/hideout_real)
+"sM" = (
+/obj/structure/broken_flooring/plating/directional/west,
+/turf/open/openspace,
+/area/gakster_location/war)
 "sP" = (
 /obj/structure/fluff/tram_rail/anchor{
 	desc = "This probably won't stop a titanium tram from hitting the wall, but it's the thought that counts.";
@@ -4204,11 +4209,8 @@
 /turf/open/floor/wood,
 /area/gakster_location/hideout_real)
 "Gp" = (
-/obj/modular_map_root/lethal{
-	key = "11x5";
-	name = "11x5"
-	},
-/turf/closed/wall,
+/obj/machinery/light/dim/directional/west,
+/turf/open/floor/iron/smooth_large,
 /area/gakster_location/war)
 "Gq" = (
 /obj/effect/decal/cleanable/cobweb,
@@ -5713,8 +5715,8 @@
 /turf/open/floor/wood,
 /area/gakster_location/hideout_real)
 "RJ" = (
-/obj/structure/broken_flooring/plating/always_floorplane/directional/east,
-/turf/open/floor/iron/smooth,
+/obj/structure/broken_flooring/plating/always_floorplane/directional/north,
+/turf/open/openspace,
 /area/gakster_location/war)
 "RK" = (
 /obj/effect/decal/cleanable/dirt,
@@ -27404,7 +27406,7 @@ RO
 vj
 vj
 vj
-vj
+Gp
 vj
 vj
 vj
@@ -27514,14 +27516,14 @@ vj
 vj
 vj
 vj
+Gp
 vj
 vj
 vj
 vj
 vj
 vj
-vj
-vj
+Gp
 vj
 vj
 vj
@@ -27546,9 +27548,9 @@ RO
 Eb
 dK
 dK
+VS
 dK
-dK
-dK
+TH
 RO
 RO
 RO
@@ -27657,14 +27659,14 @@ dK
 dK
 dK
 dK
+VS
 dK
 dK
 dK
 dK
 dK
 dK
-dK
-dK
+VS
 dK
 dK
 dK
@@ -27960,7 +27962,7 @@ dK
 dK
 dK
 dK
-dK
+VS
 dK
 dK
 dK
@@ -28692,7 +28694,7 @@ dK
 dK
 dK
 dK
-dK
+VS
 dK
 dK
 dK
@@ -28925,7 +28927,7 @@ RO
 vj
 vj
 RO
-vj
+PL
 vj
 vj
 HK
@@ -29208,7 +29210,7 @@ dK
 dK
 dK
 dK
-dK
+VS
 dK
 dK
 dK
@@ -29611,7 +29613,7 @@ CA
 CA
 RO
 rA
-rA
+rr
 RO
 RO
 dG
@@ -30120,7 +30122,7 @@ CA
 CA
 CA
 RO
-rA
+rr
 rA
 RO
 ZV
@@ -30320,7 +30322,7 @@ rA
 RO
 dK
 dK
-dK
+VS
 dK
 dK
 dK
@@ -30827,7 +30829,7 @@ PZ
 dK
 RO
 rA
-rA
+rr
 RO
 ZV
 ZV
@@ -30929,7 +30931,7 @@ dG
 RO
 RO
 rA
-rA
+rr
 RO
 ZV
 ZV
@@ -31336,7 +31338,7 @@ TH
 JP
 dK
 RO
-rA
+rr
 rA
 RO
 RO
@@ -31450,7 +31452,7 @@ rA
 Rf
 dK
 dK
-dK
+VS
 dK
 dK
 dK
@@ -31646,7 +31648,7 @@ dK
 dK
 dK
 dK
-dK
+VS
 dK
 dK
 dK
@@ -41183,7 +41185,7 @@ dK
 Hn
 Ih
 dK
-dK
+VS
 dK
 RO
 PZ
@@ -41573,7 +41575,7 @@ dK
 dK
 dK
 dK
-dK
+VS
 dK
 RO
 dK
@@ -41670,7 +41672,7 @@ nZ
 dK
 dK
 dK
-dK
+Hy
 dK
 dK
 dK
@@ -41770,6 +41772,7 @@ nZ
 nZ
 nZ
 dK
+Hy
 dK
 dK
 dK
@@ -41777,8 +41780,7 @@ dK
 dK
 dK
 dK
-dK
-dK
+Hy
 RO
 Hy
 PZ
@@ -41878,7 +41880,7 @@ dK
 dK
 dK
 dK
-dK
+Hy
 dK
 dK
 RO
@@ -42028,7 +42030,7 @@ Sf
 Sf
 RO
 RO
-sZ
+sM
 UH
 RO
 er
@@ -42078,7 +42080,7 @@ Fq
 Fq
 Fq
 Fq
-Fq
+yQ
 Fq
 Fq
 RO
@@ -42097,7 +42099,7 @@ PZ
 dK
 dK
 dK
-dK
+VS
 dK
 PZ
 RO
@@ -42388,7 +42390,7 @@ sZ
 sZ
 Fq
 RO
-dK
+Dt
 dK
 dK
 RO
@@ -42695,7 +42697,7 @@ sZ
 Fq
 RO
 dK
-dK
+Hy
 dK
 RO
 dK
@@ -42792,7 +42794,7 @@ Fq
 Fq
 Fq
 Fq
-Fq
+BU
 Fq
 Fq
 RO
@@ -42991,18 +42993,18 @@ TN
 (57,1,4) = {"
 TN
 RO
+sx
+dK
+dK
+dK
+Hy
 dK
 dK
 dK
 dK
 dK
 dK
-dK
-dK
-dK
-dK
-dK
-dK
+Hy
 RO
 Bi
 PZ
@@ -43094,15 +43096,15 @@ TN
 TN
 RO
 dK
+Wa
 dK
 dK
 dK
 dK
-dK
-dK
+Wa
 PZ
 PZ
-dK
+Wa
 dK
 dK
 RO
@@ -43502,15 +43504,15 @@ TN
 TN
 RO
 dK
+VS
 dK
 dK
+Hy
 dK
-dK
-dK
-dK
+VS
 PZ
 PZ
-dK
+VS
 dK
 dK
 RO
@@ -43604,15 +43606,15 @@ TN
 TN
 RO
 dK
+Wa
 dK
 dK
 dK
 dK
-dK
-dK
+Wa
 PZ
 PZ
-dK
+Wa
 dK
 dK
 tI
@@ -43871,7 +43873,7 @@ ZL
 dK
 PZ
 dK
-dK
+ru
 RO
 rA
 rA
@@ -44012,17 +44014,17 @@ TN
 TN
 RO
 dK
+VS
 dK
 dK
 dK
 dK
-dK
-dK
+VS
 PZ
 PZ
+VS
 dK
-dK
-dK
+Hy
 RO
 Hy
 PZ
@@ -44114,15 +44116,15 @@ TN
 TN
 RO
 dK
+Wa
 dK
 dK
 dK
 dK
-dK
-dK
+Wa
 PZ
 PZ
-dK
+Wa
 dK
 dK
 RO
@@ -44241,7 +44243,7 @@ sZ
 sZ
 sZ
 Yc
-Gp
+RO
 UC
 cO
 AT
@@ -44522,15 +44524,15 @@ TN
 TN
 RO
 dK
+VS
 dK
 dK
 dK
-dK
-dK
-dK
+Hy
+VS
 PZ
 PZ
-dK
+VS
 dK
 dK
 RO
@@ -44624,17 +44626,17 @@ TN
 TN
 RO
 dK
+Wa
 dK
 dK
 dK
 dK
-dK
-dK
+Wa
 PZ
 PZ
+Wa
 dK
-dK
-dK
+Hy
 RO
 RO
 Dt
@@ -45032,17 +45034,17 @@ TN
 TN
 RO
 dK
+VS
 dK
 dK
 dK
 dK
-dK
-dK
+VS
 PZ
 PZ
+VS
 dK
-dK
-dK
+Hy
 RO
 dK
 dK
@@ -45074,7 +45076,7 @@ ZV
 ZV
 RO
 dK
-dK
+ru
 RO
 RO
 iT
@@ -45134,12 +45136,12 @@ TN
 TN
 RO
 dK
+Wa
 dK
 dK
 dK
 dK
-dK
-dK
+Wa
 dK
 dK
 dK
