@@ -20,11 +20,14 @@
 "h" = (
 /obj/structure/safe/floor,
 /obj/effect/spawner/random/epic_loot/random_other_military_loot/rare_loot,
+/obj/item/kirbyplants/random/fullysynthetic,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "j" = (
 /obj/structure/table,
-/obj/machinery/coffeemaker,
+/obj/machinery/coffeemaker{
+	pixel_y = 16
+	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "l" = (
@@ -33,11 +36,19 @@
 "m" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack/shelf,
-/obj/effect/spawner/random/epic_loot/random_other_military_loot,
+/obj/effect/spawner/random/epic_loot/random_documents,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"o" = (
+/obj/machinery/light/dim/directional/north,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "p" = (
-/obj/effect/spawner/random/structure/closet_maintenance,
+/obj/structure/maintenance_loot_structure/file_cabinet/random,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"q" = (
+/obj/machinery/light/dim/directional/east,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "r" = (
@@ -52,23 +63,28 @@
 /obj/structure/maintenance_loot_structure/computer_tower/random,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
+"z" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_components,
+/obj/effect/spawner/random/epic_loot/random_computer_parts,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "B" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "E" = (
 /obj/structure/rack/shelf,
-/obj/effect/spawner/random/epic_loot/random_components,
+/obj/effect/spawner/random/epic_loot/random_computer_parts,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "G" = (
-/obj/structure/rack/shelf,
-/obj/effect/spawner/random/epic_loot/random_ammunition,
+/obj/machinery/light/dim/directional/west,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "J" = (
 /obj/structure/rack/shelf,
-/obj/effect/spawner/random/epic_loot/random_other_military_loot,
+/obj/effect/spawner/random/epic_loot/random_documents,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "K" = (
@@ -80,9 +96,18 @@
 /obj/effect/spawner/random/epic_loot/pocket_sized_valuables,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
+"P" = (
+/obj/machinery/light/dim/directional/west,
+/obj/structure/maintenance_loot_structure/file_cabinet/random,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "R" = (
 /obj/item/kirbyplants/random/fullysynthetic,
 /turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"S" = (
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "U" = (
 /turf/open/floor/iron/smooth,
@@ -99,7 +124,7 @@ U
 U
 U
 U
-U
+q
 U
 a
 a
@@ -119,9 +144,9 @@ l
 l
 U
 U
-U
-U
-U
+p
+z
+p
 U
 U
 U
@@ -130,10 +155,10 @@ U
 U
 l
 p
-U
-U
+G
+p
 l
-U
+o
 U
 U
 U
@@ -145,15 +170,15 @@ U
 (4,1,1) = {"
 U
 l
-G
+E
 U
 U
 b
 U
 U
-U
-U
-U
+E
+p
+p
 U
 U
 U
@@ -183,7 +208,7 @@ U
 j
 R
 U
-U
+P
 t
 l
 U
@@ -199,15 +224,15 @@ U
 r
 U
 U
-U
+p
 U
 l
-U
+o
 U
 U
 "}
 (8,1,1) = {"
-U
+S
 l
 W
 U
@@ -227,12 +252,12 @@ U
 l
 l
 R
-U
+p
 m
 E
 J
 O
-U
+h
 l
 U
 U
@@ -240,7 +265,7 @@ U
 "}
 (10,1,1) = {"
 U
-h
+E
 l
 l
 l
@@ -260,7 +285,7 @@ U
 U
 U
 U
-U
+G
 a
 a
 U

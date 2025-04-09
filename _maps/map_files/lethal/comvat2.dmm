@@ -922,6 +922,10 @@
 /obj/item/knife/combat,
 /turf/open/indestructible/dark/smooth_large,
 /area/gakster_location/war)
+"gT" = (
+/obj/effect/spawner/random/structure/barricade,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "gW" = (
 /obj/structure/maintenance_loot_structure/wall_jacket/random/directional/south,
 /obj/machinery/light/dim/directional/south,
@@ -2542,6 +2546,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/plating,
 /area/gakster_location/hideout_real)
+"tQ" = (
+/obj/effect/spawner/random/epic_loot/random_maint_loot_structure,
+/turf/open/floor/iron/terracotta/herringbone,
+/area/gakster_location/war)
 "tX" = (
 /obj/structure/sink/directional/south,
 /obj/effect/decal/cleanable/dirt,
@@ -3125,6 +3133,10 @@
 /obj/structure/mecha_wreckage/ripley,
 /turf/open/misc/dirt/station,
 /area/gakster_location/hideout_real)
+"yj" = (
+/obj/effect/decal/cleanable/oil,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "yl" = (
 /obj/structure/table/wood,
 /obj/machinery/light/dim/directional/east,
@@ -3184,6 +3196,10 @@
 	},
 /turf/open/floor/wood,
 /area/gakster_location/hideout_real)
+"yI" = (
+/obj/effect/spawner/random/structure/musician/piano/random_piano,
+/turf/open/floor/iron/terracotta/herringbone,
+/area/gakster_location/war)
 "yK" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -3733,6 +3749,11 @@
 /obj/machinery/porta_turret/syndicate/energy,
 /turf/open/misc/asteroid/snow/standard_air,
 /area/icemoon/surface/outdoors/nospawn)
+"Cn" = (
+/obj/structure/table,
+/obj/machinery/recharger,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
 "Co" = (
 /obj/item/chair/stool{
 	pixel_y = 2;
@@ -4971,6 +4992,10 @@
 /obj/effect/spawner/random/trash/mess,
 /turf/open/indestructible/hoteltile,
 /area/gakster_location/hideout_real)
+"LA" = (
+/obj/structure/chair/stool/directional/west,
+/turf/open/floor/iron/terracotta/herringbone,
+/area/gakster_location/war)
 "LC" = (
 /obj/effect/turf_decal/arrows/red,
 /turf/open/indestructible/stone,
@@ -29056,7 +29081,7 @@ RO
 PL
 vj
 vj
-HK
+PZ
 vj
 vj
 RO
@@ -29158,7 +29183,7 @@ RO
 rS
 vj
 vj
-vj
+kC
 vj
 vj
 RO
@@ -30316,7 +30341,7 @@ uv
 rA
 Ko
 tL
-RO
+he
 tL
 uv
 rA
@@ -30418,7 +30443,7 @@ vG
 Fq
 CS
 tL
-RO
+he
 tL
 vG
 Fq
@@ -30482,7 +30507,7 @@ vj
 vj
 vj
 vj
-vj
+PZ
 vj
 vj
 vj
@@ -30520,7 +30545,7 @@ uv
 rA
 Ko
 tL
-RO
+he
 tL
 uv
 rA
@@ -30622,7 +30647,7 @@ uv
 rA
 Ko
 tL
-GV
+RO
 tL
 uv
 rA
@@ -30752,7 +30777,7 @@ dK
 RO
 rA
 RO
-dK
+TH
 dK
 dK
 dK
@@ -30784,7 +30809,7 @@ vj
 vj
 rK
 RO
-vj
+PZ
 vj
 he
 ZV
@@ -30826,7 +30851,7 @@ uv
 rA
 Ko
 tL
-RO
+GV
 Kn
 uv
 rA
@@ -30886,7 +30911,7 @@ rA
 rA
 vj
 RO
-rS
+rk
 vj
 he
 ZV
@@ -30988,7 +31013,7 @@ PZ
 PZ
 vj
 RO
-vj
+PZ
 vj
 he
 ZV
@@ -31298,7 +31323,7 @@ vj
 vj
 vj
 vj
-vj
+PZ
 vj
 vj
 vj
@@ -31771,12 +31796,12 @@ dK
 dK
 dK
 dK
-dK
+gT
 dK
 dK
 VS
 dK
-dK
+gT
 dK
 dK
 dK
@@ -31875,7 +31900,7 @@ dK
 dK
 dK
 dK
-dK
+gT
 dK
 dK
 dK
@@ -31977,9 +32002,9 @@ dK
 dK
 dK
 dK
+gT
 dK
-dK
-dK
+gT
 dK
 dK
 dK
@@ -32647,7 +32672,7 @@ rA
 RO
 iz
 ul
-UC
+Cn
 kk
 dK
 lq
@@ -33507,7 +33532,7 @@ ZV
 RO
 dK
 dK
-dK
+Jw
 RO
 sI
 Dv
@@ -34013,9 +34038,9 @@ Wq
 vj
 xu
 RO
+Jw
 dK
-dK
-dK
+yj
 dK
 RO
 TA
@@ -34025,7 +34050,7 @@ sI
 sI
 sI
 sI
-sI
+yI
 sI
 aK
 Xa
@@ -34120,14 +34145,14 @@ dK
 dK
 dK
 RO
+tQ
 sI
 sI
 sI
 sI
 sI
 sI
-sI
-sI
+LA
 Iq
 RO
 Xa

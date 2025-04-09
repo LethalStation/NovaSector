@@ -2,7 +2,15 @@
 "a" = (
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/gakster_location/war)
+"s" = (
+/obj/machinery/launchpad,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "U" = (
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"W" = (
+/obj/machinery/computer/launchpad,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 
@@ -75,7 +83,7 @@ U
 U
 U
 U
-U
+W
 U
 U
 U
@@ -91,7 +99,7 @@ a
 U
 U
 U
-U
+s
 U
 U
 U

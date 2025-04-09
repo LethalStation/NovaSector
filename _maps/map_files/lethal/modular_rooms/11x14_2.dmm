@@ -2,7 +2,15 @@
 "a" = (
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/gakster_location/war)
+"H" = (
+/mob/living/basic/statue/mannequin/suspicious,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "U" = (
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"W" = (
+/mob/living/basic/statue/mannequin,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 
@@ -59,11 +67,11 @@ U
 U
 U
 U
+W
 U
+W
 U
-U
-U
-U
+W
 U
 U
 U
@@ -75,11 +83,11 @@ U
 U
 U
 U
+W
 U
+H
 U
-U
-U
-U
+W
 U
 U
 U
@@ -91,11 +99,11 @@ a
 U
 U
 U
+W
 U
+W
 U
-U
-U
-U
+W
 U
 U
 U
@@ -107,11 +115,11 @@ U
 U
 U
 U
+W
 U
+W
 U
-U
-U
-U
+W
 U
 U
 U
@@ -123,11 +131,11 @@ U
 U
 U
 U
+W
 U
+W
 U
-U
-U
-U
+W
 U
 U
 U

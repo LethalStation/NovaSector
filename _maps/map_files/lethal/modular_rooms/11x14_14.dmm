@@ -2,12 +2,123 @@
 "a" = (
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/gakster_location/war)
-"G" = (
-/obj/machinery/mechpad,
+"b" = (
+/obj/effect/spawner/random/epic_loot/mech_ammo,
+/obj/structure/rack,
+/turf/open/floor/engine,
+/area/gakster_location/war)
+"f" = (
+/obj/structure/mecha_wreckage/gygax,
+/obj/machinery/door/window/right/directional/east,
+/obj/effect/mapping_helpers/airlock/access/all/science/robotics,
+/turf/open/floor/iron/recharge_floor,
+/area/gakster_location/war)
+"i" = (
+/obj/effect/spawner/random/glass_shards,
+/turf/open/floor/engine,
+/area/gakster_location/war)
+"j" = (
+/mob/living/simple_animal/hostile/evilborg,
 /turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"k" = (
+/turf/open/floor/engine,
+/area/gakster_location/war)
+"m" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/engine,
+/area/gakster_location/war)
+"n" = (
+/obj/machinery/mech_bay_recharge_port{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"o" = (
+/obj/structure/mecha_wreckage/gygax,
+/obj/effect/mapping_helpers/airlock/access/all/science/robotics,
+/turf/open/floor/iron/recharge_floor,
+/area/gakster_location/war)
+"s" = (
+/obj/machinery/light/dim/directional/east,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/gakster_location/war)
+"t" = (
+/obj/machinery/computer/mechpad,
+/turf/open/floor/engine,
+/area/gakster_location/war)
+"v" = (
+/obj/effect/spawner/random/epic_loot/mech_weapons,
+/obj/structure/rack,
+/turf/open/floor/engine,
+/area/gakster_location/war)
+"w" = (
+/obj/machinery/door/poddoor/shutters,
+/turf/open/floor/engine,
+/area/gakster_location/war)
+"A" = (
+/obj/machinery/mechpad,
+/mob/living/simple_animal/hostile/evilborg/bigguy,
+/turf/open/floor/engine,
+/area/gakster_location/war)
+"B" = (
+/obj/machinery/light/dim/directional/north,
+/turf/open/floor/engine,
+/area/gakster_location/war)
+"E" = (
+/obj/effect/spawner/random/epic_loot/mech_mods,
+/obj/structure/rack,
+/turf/open/floor/engine,
+/area/gakster_location/war)
+"F" = (
+/obj/structure/rack/shelf,
+/turf/open/floor/engine,
+/area/gakster_location/war)
+"G" = (
+/turf/closed/wall,
+/area/gakster_location/war)
+"H" = (
+/obj/machinery/mech_bay_recharge_port,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"I" = (
+/obj/structure/mecha_wreckage/durand,
+/obj/machinery/door/window/right/directional/west,
+/obj/effect/mapping_helpers/airlock/access/all/science/robotics,
+/turf/open/floor/iron/recharge_floor,
+/area/gakster_location/war)
+"L" = (
+/obj/effect/mapping_helpers/airlock/welded,
+/obj/machinery/door/airlock/grunge,
+/obj/effect/mapping_helpers/airlock/access/all/science/robotics,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"O" = (
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"Q" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"T" = (
+/obj/machinery/door/window/right/directional/west,
+/obj/effect/mapping_helpers/airlock/access/all/science/robotics,
+/obj/vehicle/sealed/mecha/durand,
+/turf/open/floor/iron/recharge_floor,
 /area/gakster_location/war)
 "U" = (
 /turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"W" = (
+/obj/machinery/light/dim/directional/west,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/gakster_location/war)
+"X" = (
+/obj/vehicle/sealed/mecha/gygax,
+/obj/machinery/door/window/right/directional/east,
+/obj/effect/mapping_helpers/airlock/access/all/science/robotics,
+/turf/open/floor/iron/recharge_floor,
 /area/gakster_location/war)
 
 (1,1,1) = {"
@@ -15,11 +126,11 @@ U
 U
 U
 U
-U
-U
 a
 a
-U
+s
+a
+a
 U
 U
 U
@@ -29,31 +140,31 @@ U
 (2,1,1) = {"
 U
 U
+b
+G
+G
+G
+G
+G
+G
+G
+v
 U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+j
 U
 "}
 (3,1,1) = {"
 U
 U
-U
+b
 G
-U
-U
-U
-U
-U
-U
-U
+H
+Q
+H
+Q
+H
+G
+E
 U
 U
 U
@@ -61,95 +172,95 @@ U
 (4,1,1) = {"
 U
 U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+G
+G
+f
+Q
+X
+Q
+o
+G
+G
+G
+B
+k
 "}
 (5,1,1) = {"
 U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+O
+G
+F
+k
+k
+k
+k
+i
+k
+k
+w
+k
+k
 "}
 (6,1,1) = {"
 a
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
 a
+L
+k
+k
+k
+A
+t
+k
+k
+k
+w
+k
+k
 "}
 (7,1,1) = {"
 U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+O
+G
+m
+k
+k
+k
+k
+k
+k
+k
+w
+k
+k
 "}
 (8,1,1) = {"
 U
 U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+G
+G
+T
+Q
+I
+Q
+I
+G
+G
+G
+B
+k
 "}
 (9,1,1) = {"
 U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+j
+v
+G
+n
+Q
+n
+Q
+n
+G
+b
 U
 U
 U
@@ -157,15 +268,15 @@ U
 (10,1,1) = {"
 U
 U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+E
+G
+G
+G
+G
+G
+G
+G
+b
 U
 U
 U
@@ -175,11 +286,11 @@ U
 U
 U
 U
-U
-U
 a
 a
-U
+W
+a
+a
 U
 U
 U

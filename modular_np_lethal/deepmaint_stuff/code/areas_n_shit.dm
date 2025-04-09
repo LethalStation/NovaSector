@@ -35,6 +35,11 @@
 	name = "The Location"
 	ambience_index = AMBIENCE_RUINS
 	ambient_buzz = 'sound/ambience/magma.ogg'
+	requires_power = FALSE //idk why the lights won't turn on. did paxil put an APC in the og comvat?
+
+/area/gakster_location/war/club
+	name = "The Club"
+	ambient_buzz = 'sound/ambience/magma.ogg' //TODO: hit club track here
 
 /area/gakster_location/outside
 	name = "DOWN"

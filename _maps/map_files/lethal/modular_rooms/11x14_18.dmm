@@ -2,8 +2,234 @@
 "a" = (
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/gakster_location/war)
+"b" = (
+/obj/structure/maintenance_loot_structure/desk_safe/random,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"c" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_components,
+/obj/effect/spawner/random/epic_loot/random_components,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"d" = (
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/random_components,
+/obj/effect/spawner/random/epic_loot/medkit,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"e" = (
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"f" = (
+/turf/closed/wall,
+/area/gakster_location/war)
+"g" = (
+/obj/item/kirbyplants/random/fullysynthetic,
+/obj/machinery/light/cold/dim/directional/north,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"h" = (
+/obj/structure/table,
+/obj/machinery/light/cold/dim/directional/west,
+/obj/structure/maintenance_loot_structure/computer_tower/random,
+/obj/structure/maintenance_loot_structure/wall_jacket/random/directional/west,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"i" = (
+/obj/effect/spawner/random/epic_loot/medical_stack_item_advanced,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"j" = (
+/obj/structure/table,
+/obj/structure/maintenance_loot_structure/medbox/random/advanced_loot,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"k" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_documents,
+/obj/effect/spawner/random/epic_loot/medpens,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"l" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"m" = (
+/obj/structure/table,
+/obj/structure/maintenance_loot_structure/medbox/random/advanced_loot,
+/obj/machinery/light/cold/dim/directional/north,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"n" = (
+/obj/structure/table,
+/obj/structure/maintenance_loot_structure/toolbox/random,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"o" = (
+/obj/structure/table,
+/obj/structure/maintenance_loot_structure/register/random,
+/turf/open/floor/plating,
+/area/gakster_location/war)
+"p" = (
+/obj/item/kirbyplants/random/fullysynthetic,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"q" = (
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/medpens,
+/turf/open/floor/plating,
+/area/gakster_location/war)
+"r" = (
+/obj/machinery/computer{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/gakster_location/war)
+"t" = (
+/obj/machinery/computer{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"v" = (
+/obj/structure/table,
+/obj/machinery/light/cold/dim/directional/south,
+/obj/structure/maintenance_loot_structure/computer_tower/random,
+/turf/open/floor/plating,
+/area/gakster_location/war)
+"w" = (
+/obj/structure/chair/office/light{
+	dir = 4
+	},
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"y" = (
+/obj/machinery/light/cold/dim/directional/east,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"z" = (
+/obj/structure/table,
+/turf/open/floor/plating,
+/area/gakster_location/war)
+"A" = (
+/obj/structure/table,
+/obj/machinery/light/cold/dim/directional/north,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"B" = (
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"C" = (
+/obj/effect/spawner/random/epic_loot/medical_stack_item_advanced,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"F" = (
+/obj/item/kirbyplants/random/fullysynthetic,
+/obj/machinery/light/cold/dim/directional/south,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"G" = (
+/obj/structure/chair/comfy/black,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"H" = (
+/obj/effect/spawner/random/epic_loot/medical_stack_item,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"I" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_provisions,
+/obj/effect/spawner/random/epic_loot/medpens,
+/obj/effect/spawner/random/epic_loot/medpens,
+/obj/effect/spawner/random/epic_loot/medpens,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"J" = (
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/medpens_combat_based_redpilled,
+/obj/effect/spawner/random/epic_loot/medical_tools,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"K" = (
+/obj/structure/maintenance_loot_structure/large_crate/medical,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"L" = (
+/obj/structure/chair/office/light,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"M" = (
+/obj/machinery/light/cold/dim/directional/south,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"N" = (
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/medical_stack_item,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"P" = (
+/obj/structure/table,
+/obj/structure/maintenance_loot_structure/medbox/random{
+	pixel_y = 4
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"Q" = (
+/obj/machinery/camera/directional/north,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"R" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_provisions,
+/obj/effect/spawner/random/epic_loot/random_provisions,
+/obj/effect/spawner/random/epic_loot/medpens_combat_based_redpilled,
+/obj/effect/spawner/random/epic_loot/medpens_combat_based_redpilled,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"S" = (
+/obj/structure/maintenance_loot_structure/file_cabinet/random,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"T" = (
+/obj/structure/table,
+/obj/item/kirbyplants/random/fullysynthetic{
+	pixel_y = 10
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
 "U" = (
 /turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"V" = (
+/obj/structure/chair/comfy/black{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"W" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"X" = (
+/obj/machinery/light/cold/dim/directional/south,
+/obj/structure/chair/comfy/black{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"Y" = (
+/obj/machinery/light/cold/dim/directional/south,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"Z" = (
+/mob/living/basic/bot/cleanbot,
+/turf/open/floor/iron/freezer,
 /area/gakster_location/war)
 
 (1,1,1) = {"
@@ -15,165 +241,165 @@ U
 U
 a
 a
-U
-U
-U
-U
-U
-U
+B
+F
+f
+g
+B
+V
 "}
 (2,1,1) = {"
+f
+S
+B
+T
+t
+h
+P
 U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+Q
+B
+o
+l
+B
+T
 "}
 (3,1,1) = {"
+Q
+B
+l
+l
+l
+B
+B
 U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+B
+L
+z
+B
+l
+X
 "}
 (4,1,1) = {"
+w
+w
+l
+y
+B
+B
+p
 U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+w
+B
+q
+B
+B
+W
 "}
 (5,1,1) = {"
 U
 U
+K
+I
+R
+H
+k
 U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+r
+v
+f
+g
+B
+B
 "}
 (6,1,1) = {"
 a
 U
+n
+l
+C
+B
+e
 U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-a
+B
+B
+B
+Z
+l
+l
 "}
 (7,1,1) = {"
 U
 U
 U
+m
+J
+M
+e
 U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+G
+B
+V
+G
+B
+l
 "}
 (8,1,1) = {"
 U
 U
+d
+B
+l
+i
+b
 U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+A
+l
+p
+N
+l
+l
 "}
 (9,1,1) = {"
 U
 U
+j
+B
+H
+l
+e
 U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+G
+l
+V
+G
+B
+Y
 "}
 (10,1,1) = {"
 U
 U
 U
+m
+c
+Y
+e
 U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+B
+l
+B
+B
+B
+p
 "}
 (11,1,1) = {"
 U
 U
-U
-U
-U
-U
-a
+H
+B
+l
+B
+H
 a
 U
 U

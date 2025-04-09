@@ -2,6 +2,11 @@
 "a" = (
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/gakster_location/war)
+"l" = (
+/obj/structure/closet/crate/secure/syndicrate,
+/mob/living/simple_animal/hostile/megafauna/colossus,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "U" = (
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
@@ -93,7 +98,7 @@ U
 U
 U
 U
-U
+l
 U
 U
 U
