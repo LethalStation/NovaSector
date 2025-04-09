@@ -11,3 +11,6 @@ modules =["4x3_1.dmm","4x3_2.dmm","4x3_3.dmm","4x3_4.dmm","4x3_5.dmm","4x3_6.dmm
 
 [rooms.11x5]
 modules =["11x5_1.dmm","11x5_2.dmm","11x5_3.dmm","11x5_4.dmm","11x5_5.dmm","11x5_6.dmm","11x5_7.dmm","11x5_8.dmm","11x5_9.dmm","11x5_10.dmm","11x5_11.dmm","11x5_12.dmm","11x5_13.dmm","11x5_14.dmm","11x5_15.dmm","11x5_16.dmm","11x5_17.dmm","11x5_18.dmm","11x5_19.dmm","11x5_20.dmm"]
+
+[rooms.11x14]
+modules =["11x14_1.dmm","11x14_2.dmm","11x14_3.dmm","11x14_4.dmm","11x14_5.dmm","11x14_6.dmm","11x14_7.dmm","11x14_8.dmm","11x14_9.dmm","11x14_10.dmm","11x14_11.dmm","11x14_12.dmm","11x14_13.dmm","11x14_14.dmm","11x14_15.dmm","11x14_16.dmm","11x14_17.dmm","11x14_18.dmm","11x14_19.dmm","11x14_20.dmm"]

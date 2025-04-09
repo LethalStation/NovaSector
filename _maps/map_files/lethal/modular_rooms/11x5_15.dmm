@@ -72,7 +72,7 @@
 /turf/open/chasm,
 /area/gakster_location/war)
 "Z" = (
-/obj/machinery/porta_turret,
+/obj/machinery/porta_turret/syndicate/energy,
 /turf/open/floor/plating/reinforced,
 /area/gakster_location/war)
 

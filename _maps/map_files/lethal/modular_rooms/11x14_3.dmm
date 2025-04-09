@@ -4,13 +4,13 @@
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /mob/living/carbon/human/species/monkey/punpun,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "aO" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
 /turf/open/floor/wood/large,
-/area/space)
+/area/gakster_location/war)
 "bm" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /obj/structure/disposalpipe/segment{
@@ -18,11 +18,11 @@
 	},
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/wood,
-/area/space)
+/area/gakster_location/war)
 "bL" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
-/area/space)
+/area/gakster_location/war)
 "bX" = (
 /obj/structure/chair/stool/bar/directional/south,
 /obj/effect/turf_decal/siding/wood{
@@ -30,14 +30,14 @@
 	},
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "cE" = (
 /obj/item/kirbyplants/organic/plant10,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
 /turf/open/floor/wood/large,
-/area/space)
+/area/gakster_location/war)
 "eK" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
@@ -45,12 +45,12 @@
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "fk" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "fZ" = (
 /obj/structure/table/reinforced,
 /obj/structure/displaycase/forsale/kitchen{
@@ -62,10 +62,10 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "gr" = (
 /turf/open/floor/wood/large,
-/area/space)
+/area/gakster_location/war)
 "il" = (
 /obj/machinery/door/firedoor,
 /obj/effect/decal/cleanable/dirt,
@@ -81,18 +81,18 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "jn" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "jZ" = (
 /obj/structure/table/wood/poker,
 /turf/open/floor/wood/large,
-/area/space)
+/area/gakster_location/war)
 "kc" = (
 /obj/machinery/reagentgrinder{
 	pixel_x = 6;
@@ -112,7 +112,7 @@
 /obj/effect/mapping_helpers/requests_console/supplies,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "kf" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -121,19 +121,19 @@
 /obj/structure/cable,
 /obj/machinery/vending/wardrobe/bar_wardrobe,
 /turf/open/floor/wood,
-/area/space)
+/area/gakster_location/war)
 "lx" = (
 /obj/structure/table/reinforced,
 /obj/item/holosign_creator/robot_seat/bar,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "ns" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/holopad,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "oT" = (
 /obj/machinery/vending/boozeomat,
 /obj/structure/sign/picture_frame/portrait/bar{
@@ -142,7 +142,7 @@
 /obj/item/radio/intercom/directional/west,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "pw" = (
 /obj/structure/table/wood,
 /obj/item/storage/photo_album/bar,
@@ -151,7 +151,7 @@
 /obj/structure/cable,
 /obj/item/ammo_box/magazine/ammo_stack/s12gauge/prefilled/improvised,
 /turf/open/floor/wood,
-/area/space)
+/area/gakster_location/war)
 "pF" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
@@ -161,7 +161,7 @@
 	},
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "pM" = (
 /obj/machinery/airalarm/directional/west,
 /obj/machinery/chem_master/condimaster{
@@ -171,7 +171,7 @@
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "qa" = (
 /obj/structure/table/reinforced,
 /obj/structure/desk_bell{
@@ -182,7 +182,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "qe" = (
 /obj/machinery/chem_dispenser/drinks/beer{
 	dir = 1
@@ -192,25 +192,25 @@
 /obj/machinery/light/small/directional/south,
 /obj/machinery/digital_clock/directional/south,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "sd" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/structure/reagent_dispensers/beerkeg,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "uF" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
 /obj/machinery/vending/coffee,
 /turf/open/floor/wood/large,
-/area/space)
+/area/gakster_location/war)
 "vh" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "vi" = (
 /obj/machinery/camera/directional/north{
 	c_tag = "Bar - Backroom"
@@ -222,20 +222,20 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/gakster_location/war)
 "vq" = (
 /obj/structure/chair/stool/directional/west,
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
 /turf/open/floor/wood/large,
-/area/space)
+/area/gakster_location/war)
 "vJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "vP" = (
 /obj/machinery/smartfridge/drinks,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
@@ -243,14 +243,14 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "wx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/gakster_location/war)
 "wP" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -260,7 +260,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/wood,
-/area/space)
+/area/gakster_location/war)
 "xP" = (
 /obj/machinery/chem_dispenser/drinks{
 	dir = 1
@@ -269,7 +269,7 @@
 /obj/structure/table,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "yu" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -278,13 +278,13 @@
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "Cs" = (
 /obj/structure/closet/secure_closet/bar,
 /obj/machinery/light/small/directional/west,
 /obj/machinery/light_switch/directional/north,
 /turf/open/floor/wood,
-/area/space)
+/area/gakster_location/war)
 "CB" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -293,28 +293,34 @@
 /obj/effect/spawner/random/entertainment/gambling,
 /obj/effect/spawner/random/entertainment/gambling,
 /turf/open/floor/wood/large,
-/area/space)
+/area/gakster_location/war)
 "CM" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "DP" = (
 /obj/structure/chair/stool/directional/west,
 /turf/open/floor/wood,
-/area/space)
+/area/gakster_location/war)
 "EG" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/random/entertainment/lighter,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
+"Gv" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/gakster_location/war)
 "Hd" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/table/wood/poker,
 /obj/effect/spawner/random/entertainment/cigarette,
 /turf/open/floor/wood,
-/area/space)
+/area/gakster_location/war)
 "Hg" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -323,7 +329,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/gakster_location/war)
 "IR" = (
 /obj/item/wrench,
 /obj/item/stack/sheet/glass{
@@ -341,7 +347,7 @@
 /obj/structure/cable,
 /obj/structure/extinguisher_cabinet/directional/south,
 /turf/open/floor/wood,
-/area/space)
+/area/gakster_location/war)
 "Jk" = (
 /obj/machinery/door/airlock{
 	name = "Bar"
@@ -354,7 +360,7 @@
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /obj/structure/cable,
 /turf/open/floor/wood,
-/area/space)
+/area/gakster_location/war)
 "Kh" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
@@ -364,7 +370,7 @@
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "KO" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -377,7 +383,7 @@
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /turf/open/floor/wood,
-/area/space)
+/area/gakster_location/war)
 "Lj" = (
 /obj/structure/chair/stool/bar/directional/south,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
@@ -385,7 +391,7 @@
 	dir = 5
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "LB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -393,19 +399,19 @@
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
 /turf/open/floor/wood,
-/area/space)
+/area/gakster_location/war)
 "Mb" = (
 /obj/machinery/light/floor,
 /turf/open/floor/wood/large,
-/area/space)
+/area/gakster_location/war)
 "Oj" = (
 /obj/structure/table/wood/poker,
 /obj/effect/spawner/random/entertainment/deck,
 /turf/open/floor/wood,
-/area/space)
+/area/gakster_location/war)
 "Os" = (
 /turf/closed/wall,
-/area/space)
+/area/gakster_location/war)
 "OJ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -413,16 +419,16 @@
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "Pe" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/random/epic_loot/random_provisions,
 /turf/open/floor/wood,
-/area/space)
+/area/gakster_location/war)
 "Qa" = (
 /obj/structure/chair/stool/directional/east,
 /turf/open/floor/wood,
-/area/space)
+/area/gakster_location/war)
 "Sq" = (
 /obj/item/stack/package_wrap{
 	pixel_x = -4;
@@ -433,10 +439,10 @@
 /obj/item/gun/ballistic/shotgun/doublebarrel,
 /obj/structure/cable,
 /turf/open/floor/wood,
-/area/space)
+/area/gakster_location/war)
 "SX" = (
 /turf/open/floor/wood,
-/area/space)
+/area/gakster_location/war)
 "Th" = (
 /obj/item/clothing/head/hats/tophat,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -444,7 +450,7 @@
 /obj/structure/table,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "Tj" = (
 /obj/structure/chair/stool/bar/directional/south,
 /obj/effect/decal/cleanable/dirt,
@@ -453,12 +459,12 @@
 	dir = 9
 	},
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "VG" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 "Wq" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -466,9 +472,10 @@
 /obj/structure/table,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
-/area/space)
+/area/gakster_location/war)
 
 (1,1,1) = {"
+SX
 gr
 gr
 gr
@@ -486,6 +493,7 @@ gr
 (2,1,1) = {"
 wx
 wx
+wx
 uF
 Os
 Os
@@ -499,6 +507,7 @@ Os
 gr
 "}
 (3,1,1) = {"
+SX
 SX
 SX
 cE
@@ -516,6 +525,7 @@ gr
 (4,1,1) = {"
 SX
 SX
+SX
 Tj
 qa
 pF
@@ -529,6 +539,7 @@ Os
 gr
 "}
 (5,1,1) = {"
+SX
 SX
 SX
 bX
@@ -546,6 +557,7 @@ gr
 (6,1,1) = {"
 SX
 SX
+SX
 bX
 EG
 ns
@@ -559,6 +571,7 @@ Os
 gr
 "}
 (7,1,1) = {"
+SX
 Qa
 Qa
 bX
@@ -574,6 +587,7 @@ KO
 gr
 "}
 (8,1,1) = {"
+SX
 Oj
 Hd
 Lj
@@ -589,6 +603,7 @@ Os
 gr
 "}
 (9,1,1) = {"
+SX
 jZ
 CB
 aO
@@ -604,6 +619,7 @@ gr
 gr
 "}
 (10,1,1) = {"
+Gv
 vq
 vq
 Mb
@@ -619,6 +635,7 @@ Mb
 gr
 "}
 (11,1,1) = {"
+SX
 gr
 gr
 gr

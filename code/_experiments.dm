@@ -6,6 +6,11 @@
 // EXPERIMENT_MY_COOL_FEATURE
 // - Does something really cool, just so neat, absolutely banging, gaming and chill
 
+//LETHAL
+//so basically idk what this is but it explodes when the client is newer than 515.
+//we're not really doing any fancy testing or whatever so im just gonna untick this and whatever happens happens because shit needs to compile. yay!
+//if one million things break then this is where it started
+
 #if DM_VERSION < 515
 
 	// You can't X-macro custom names :(

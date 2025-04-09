@@ -229,7 +229,7 @@
 /area/gakster_location/war)
 "rt" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 5
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -272,9 +272,6 @@
 /turf/closed/wall/r_wall,
 /area/gakster_location/war)
 "uC" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 1;
@@ -317,6 +314,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /obj/machinery/power/energy_accumulator/tesla_coil/anchored,
 /obj/structure/window/reinforced/plasma/spawner/directional/south,
+/turf/open/floor/engine,
+/area/gakster_location/war)
+"Ah" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer,
 /turf/open/floor/engine,
 /area/gakster_location/war)
 "Ap" = (
@@ -370,10 +374,6 @@
 /turf/open/floor/iron/dark,
 /area/gakster_location/war)
 "Fv" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/item/radio/intercom/directional/north,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/engine,
 /area/gakster_location/war)
@@ -465,6 +465,12 @@
 /area/gakster_location/war)
 "OG" = (
 /obj/machinery/power/supermatter_crystal/engine,
+/turf/open/floor/engine,
+/area/gakster_location/war)
+"OS" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
 /turf/open/floor/engine,
 /area/gakster_location/war)
 "OT" = (
@@ -629,9 +635,6 @@
 /turf/open/floor/engine,
 /area/gakster_location/war)
 "Yz" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
 /obj/machinery/atmospherics/components/binary/pump{
 	name = "Mix to Gas"
 	},
@@ -646,6 +649,7 @@
 
 (1,1,1) = {"
 cW
+OT
 AC
 OT
 OT
@@ -661,6 +665,7 @@ bY
 "}
 (2,1,1) = {"
 Hu
+SW
 rF
 rs
 Xa
@@ -676,6 +681,7 @@ gY
 "}
 (3,1,1) = {"
 Hu
+SW
 Wx
 bk
 bk
@@ -691,6 +697,7 @@ gY
 "}
 (4,1,1) = {"
 Tc
+SW
 Wx
 Ei
 Ei
@@ -705,6 +712,7 @@ UJ
 Zu
 "}
 (5,1,1) = {"
+Ah
 Yz
 FM
 gQ
@@ -721,6 +729,7 @@ Jh
 "}
 (6,1,1) = {"
 Hu
+SW
 Wx
 fx
 SW
@@ -736,6 +745,7 @@ WV
 "}
 (7,1,1) = {"
 Hu
+SW
 Wx
 rM
 gg
@@ -751,6 +761,7 @@ dR
 "}
 (8,1,1) = {"
 Hu
+SW
 Uc
 fx
 rU
@@ -765,6 +776,7 @@ Ch
 tA
 "}
 (9,1,1) = {"
+Hu
 uC
 kK
 gQ
@@ -780,6 +792,7 @@ KW
 bF
 "}
 (10,1,1) = {"
+Hu
 Fv
 hr
 Xb
@@ -795,6 +808,7 @@ yB
 WV
 "}
 (11,1,1) = {"
+OS
 rt
 CM
 wt
