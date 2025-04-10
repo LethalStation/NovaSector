@@ -1,6 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/turf/open/floor/catwalk_floor/iron_smooth,
+/obj/effect/spawner/random/epic_loot/medical_stack_item,
+/turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "b" = (
 /obj/structure/maintenance_loot_structure/desk_safe/random,
@@ -31,11 +32,9 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "h" = (
-/obj/structure/table,
-/obj/machinery/light/cold/dim/directional/west,
-/obj/structure/maintenance_loot_structure/computer_tower/random,
-/obj/structure/maintenance_loot_structure/wall_jacket/random/directional/west,
-/turf/open/floor/iron/dark/smooth_large,
+/obj/machinery/door/airlock/psych,
+/obj/effect/mapping_helpers/airlock/access/all/medical/general,
+/turf/open/floor/iron/freezer,
 /area/gakster_location/war)
 "i" = (
 /obj/effect/spawner/random/epic_loot/medical_stack_item_advanced,
@@ -93,6 +92,11 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
+"u" = (
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/random_documents,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
 "v" = (
 /obj/structure/table,
 /obj/machinery/light/cold/dim/directional/south,
@@ -117,6 +121,7 @@
 "A" = (
 /obj/structure/table,
 /obj/machinery/light/cold/dim/directional/north,
+/obj/item/cigarette/candy,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "B" = (
@@ -164,8 +169,10 @@
 /turf/open/floor/iron/freezer,
 /area/gakster_location/war)
 "M" = (
-/obj/machinery/light/cold/dim/directional/south,
-/turf/open/floor/iron/freezer,
+/obj/structure/table,
+/obj/machinery/light/cold/dim/directional/west,
+/obj/structure/maintenance_loot_structure/computer_tower/random,
+/turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "N" = (
 /obj/structure/table,
@@ -193,6 +200,7 @@
 /area/gakster_location/war)
 "S" = (
 /obj/structure/maintenance_loot_structure/file_cabinet/random,
+/obj/machinery/camera/directional/north,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "T" = (
@@ -203,7 +211,11 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "U" = (
-/turf/open/floor/iron/smooth,
+/obj/structure/table,
+/obj/machinery/computer/med_data/laptop{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "V" = (
 /obj/structure/chair/comfy/black{
@@ -233,14 +245,14 @@
 /area/gakster_location/war)
 
 (1,1,1) = {"
-U
-U
-U
-U
-U
-U
-a
-a
+B
+B
+B
+T
+t
+M
+P
+f
 B
 F
 f
@@ -252,11 +264,11 @@ V
 f
 S
 B
-T
-t
-h
-P
-U
+B
+B
+B
+B
+f
 Q
 B
 o
@@ -265,14 +277,14 @@ B
 T
 "}
 (3,1,1) = {"
-Q
+B
 B
 l
 l
 l
 B
 B
-U
+f
 B
 L
 z
@@ -288,7 +300,7 @@ y
 B
 B
 p
-U
+f
 w
 B
 q
@@ -297,14 +309,14 @@ B
 W
 "}
 (5,1,1) = {"
-U
+u
 U
 K
 I
 R
 H
 k
-U
+f
 r
 v
 f
@@ -313,14 +325,14 @@ B
 B
 "}
 (6,1,1) = {"
-a
-U
+B
+B
 n
 l
 C
 B
-e
-U
+B
+h
 B
 B
 B
@@ -329,14 +341,14 @@ l
 l
 "}
 (7,1,1) = {"
-U
-U
-U
+I
+B
+e
 m
 J
-M
-e
-U
+B
+k
+f
 G
 B
 V
@@ -345,14 +357,14 @@ B
 l
 "}
 (8,1,1) = {"
-U
-U
+R
+B
 d
 B
 l
 i
 b
-U
+f
 A
 l
 p
@@ -361,14 +373,14 @@ l
 l
 "}
 (9,1,1) = {"
-U
-U
+d
+B
 j
 B
 H
 l
-e
-U
+m
+f
 G
 l
 V
@@ -377,14 +389,14 @@ B
 Y
 "}
 (10,1,1) = {"
-U
-U
-U
+j
+B
+e
 m
 c
-Y
-e
-U
+l
+R
+f
 B
 l
 B
@@ -393,18 +405,18 @@ B
 p
 "}
 (11,1,1) = {"
-U
-U
-H
+B
+B
+a
 B
 l
 B
 H
-a
-U
-U
-U
-U
-U
-U
+f
+l
+l
+l
+l
+l
+l
 "}

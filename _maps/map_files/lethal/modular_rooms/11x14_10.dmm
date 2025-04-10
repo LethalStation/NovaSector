@@ -1,6 +1,9 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/turf/open/floor/catwalk_floor/iron_smooth,
+/obj/structure/chair/plastic{
+	dir = 1
+	},
+/turf/open/floor/iron/grimy,
 /area/gakster_location/war)
 "b" = (
 /obj/machinery/door/airlock/grunge,
@@ -15,19 +18,21 @@
 /obj/structure/chair/plastic{
 	dir = 8
 	},
-/turf/open/floor/iron/smooth,
+/turf/open/floor/iron/grimy,
 /area/gakster_location/war)
 "h" = (
 /obj/structure/safe/floor,
 /obj/effect/spawner/random/epic_loot/random_other_military_loot/rare_loot,
 /obj/item/kirbyplants/random/fullysynthetic,
-/turf/open/floor/iron/smooth,
+/obj/effect/spawner/random/entertainment/drugs,
+/turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "j" = (
 /obj/structure/table,
 /obj/machinery/coffeemaker{
 	pixel_y = 16
 	},
+/obj/effect/spawner/random/epic_loot/random_provisions,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "l" = (
@@ -37,69 +42,81 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack/shelf,
 /obj/effect/spawner/random/epic_loot/random_documents,
-/turf/open/floor/iron/smooth,
+/turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "o" = (
 /obj/machinery/light/dim/directional/north,
-/turf/open/floor/iron/smooth,
+/turf/open/floor/iron/grimy,
 /area/gakster_location/war)
 "p" = (
-/obj/structure/maintenance_loot_structure/file_cabinet/random,
-/turf/open/floor/iron/smooth,
+/obj/structure/reagent_dispensers/water_cooler/directional/north,
+/turf/open/floor/iron/grimy,
 /area/gakster_location/war)
 "q" = (
 /obj/machinery/light/dim/directional/east,
-/turf/open/floor/iron/smooth,
+/turf/open/floor/iron/grimy,
 /area/gakster_location/war)
 "r" = (
-/turf/open/floor/plating,
+/turf/open/floor/iron/grimy,
 /area/gakster_location/war)
 "t" = (
 /obj/effect/spawner/random/trash/bin,
-/turf/open/floor/iron/smooth,
+/turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "v" = (
 /obj/structure/table,
 /obj/structure/maintenance_loot_structure/computer_tower/random,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
-"z" = (
+"w" = (
 /obj/structure/rack/shelf,
-/obj/effect/spawner/random/epic_loot/random_components,
 /obj/effect/spawner/random/epic_loot/random_computer_parts,
-/turf/open/floor/iron/smooth,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"z" = (
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/random_documents,
+/obj/effect/spawner/random/epic_loot/random_provisions,
+/turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "B" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth,
+/turf/open/floor/iron/grimy,
 /area/gakster_location/war)
 "E" = (
 /obj/structure/rack/shelf,
 /obj/effect/spawner/random/epic_loot/random_computer_parts,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
+"F" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_documents,
+/obj/effect/spawner/random/epic_loot/random_computer_parts,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
 "G" = (
 /obj/machinery/light/dim/directional/west,
-/turf/open/floor/iron/smooth,
+/turf/open/floor/iron/grimy,
 /area/gakster_location/war)
 "J" = (
 /obj/structure/rack/shelf,
 /obj/effect/spawner/random/epic_loot/random_documents,
-/turf/open/floor/iron/smooth,
+/turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "K" = (
-/obj/structure/broken_flooring/plating/directional/north,
-/turf/open/floor/iron/smooth,
+/obj/structure/table,
+/obj/effect/spawner/random/entertainment/cigarette_pack,
+/turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "O" = (
 /obj/structure/table,
 /obj/effect/spawner/random/epic_loot/pocket_sized_valuables,
-/turf/open/floor/iron/smooth,
+/turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "P" = (
 /obj/machinery/light/dim/directional/west,
 /obj/structure/maintenance_loot_structure/file_cabinet/random,
-/turf/open/floor/iron/smooth,
+/turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "R" = (
 /obj/item/kirbyplants/random/fullysynthetic,
@@ -107,10 +124,11 @@
 /area/gakster_location/war)
 "S" = (
 /obj/machinery/light/dim/directional/south,
-/turf/open/floor/iron/smooth,
+/turf/open/floor/iron/grimy,
 /area/gakster_location/war)
 "U" = (
-/turf/open/floor/iron/smooth,
+/obj/structure/maintenance_loot_structure/file_cabinet/random,
+/turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "W" = (
 /obj/structure/table,
@@ -120,71 +138,71 @@
 /area/gakster_location/war)
 
 (1,1,1) = {"
-U
-U
-U
-U
+r
+r
+r
+r
 q
-U
-a
-a
-U
-U
-U
-U
-U
-U
+r
+r
+r
+r
+r
+r
+r
+r
+r
 "}
 (2,1,1) = {"
-U
+r
 l
 l
 l
 l
 l
-U
-U
-p
+r
+v
+r
 z
-p
+r
 U
-U
-U
+J
+r
 "}
 (3,1,1) = {"
-U
+r
 l
-p
+U
 G
-p
+U
 l
 o
-U
-U
-U
-U
-U
-U
-U
+d
+g
+d
+a
+r
+r
+r
 "}
 (4,1,1) = {"
-U
+r
 l
-E
-U
-U
+w
+r
+r
 b
+r
+K
+r
+v
+r
+J
 U
-U
-E
-p
-p
-U
-U
-U
+r
 "}
 (5,1,1) = {"
-U
+r
 l
 l
 l
@@ -195,76 +213,76 @@ l
 l
 l
 l
-U
-U
-U
+p
+r
+r
 "}
 (6,1,1) = {"
-a
+r
 l
 v
-U
-U
+r
+r
 j
 R
-U
+r
 P
 t
 l
-U
-U
-a
+r
+r
+r
 "}
 (7,1,1) = {"
-U
+r
 l
 d
 g
-U
+r
+r
+r
 r
 U
-U
-p
-U
+r
 l
 o
-U
-U
+J
+r
 "}
 (8,1,1) = {"
 S
 l
 W
-U
-U
-U
+r
+r
+r
 B
 B
-U
-U
+r
+r
 b
+r
 U
-U
-U
+r
 "}
 (9,1,1) = {"
-U
+r
 l
 l
 R
-p
+U
 m
-E
+w
 J
 O
 h
 l
+r
 U
-U
-U
+r
 "}
 (10,1,1) = {"
-U
+r
 E
 l
 l
@@ -275,23 +293,23 @@ l
 l
 l
 l
-U
-U
-U
+r
+F
+r
 "}
 (11,1,1) = {"
-U
-U
-U
-U
-U
+r
+r
+r
+r
+r
 G
-a
-a
-U
-U
-U
-U
-U
-K
+r
+r
+r
+r
+r
+r
+r
+r
 "}

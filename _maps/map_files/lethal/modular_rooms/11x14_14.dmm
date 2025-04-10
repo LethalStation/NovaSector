@@ -13,6 +13,11 @@
 /obj/effect/mapping_helpers/airlock/access/all/science/robotics,
 /turf/open/floor/iron/recharge_floor,
 /area/gakster_location/war)
+"g" = (
+/mob/living/simple_animal/hostile/evilborg,
+/obj/effect/decal/cleanable/oil,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "i" = (
 /obj/effect/spawner/random/glass_shards,
 /turf/open/floor/engine,
@@ -26,6 +31,7 @@
 /area/gakster_location/war)
 "m" = (
 /obj/structure/reagent_dispensers/fueltank,
+/obj/effect/decal/cleanable/fuel_pool,
 /turf/open/floor/engine,
 /area/gakster_location/war)
 "n" = (
@@ -38,6 +44,10 @@
 /obj/structure/mecha_wreckage/gygax,
 /obj/effect/mapping_helpers/airlock/access/all/science/robotics,
 /turf/open/floor/iron/recharge_floor,
+/area/gakster_location/war)
+"r" = (
+/obj/effect/decal/cleanable/fuel_pool,
+/turf/open/floor/engine,
 /area/gakster_location/war)
 "s" = (
 /obj/machinery/light/dim/directional/east,
@@ -54,6 +64,10 @@
 /area/gakster_location/war)
 "w" = (
 /obj/machinery/door/poddoor/shutters,
+/turf/open/floor/engine,
+/area/gakster_location/war)
+"x" = (
+/obj/effect/decal/cleanable/oil,
 /turf/open/floor/engine,
 /area/gakster_location/war)
 "A" = (
@@ -86,6 +100,10 @@
 /obj/machinery/door/window/right/directional/west,
 /obj/effect/mapping_helpers/airlock/access/all/science/robotics,
 /turf/open/floor/iron/recharge_floor,
+/area/gakster_location/war)
+"J" = (
+/obj/effect/decal/cleanable/oil,
+/turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "L" = (
 /obj/effect/mapping_helpers/airlock/welded,
@@ -120,6 +138,11 @@
 /obj/effect/mapping_helpers/airlock/access/all/science/robotics,
 /turf/open/floor/iron/recharge_floor,
 /area/gakster_location/war)
+"Y" = (
+/obj/effect/decal/cleanable/fuel_pool,
+/obj/effect/decal/cleanable/oil/slippery,
+/turf/open/floor/engine,
+/area/gakster_location/war)
 
 (1,1,1) = {"
 U
@@ -149,7 +172,7 @@ G
 G
 G
 v
-U
+J
 j
 U
 "}
@@ -192,10 +215,10 @@ G
 F
 k
 k
-k
+x
 k
 i
-k
+r
 k
 w
 k
@@ -205,8 +228,8 @@ k
 a
 a
 L
-k
-k
+r
+Y
 k
 A
 t
@@ -222,13 +245,13 @@ U
 O
 G
 m
+r
+x
+k
+r
 k
 k
-k
-k
-k
-k
-k
+x
 w
 k
 k
@@ -251,7 +274,7 @@ k
 "}
 (9,1,1) = {"
 U
-j
+g
 v
 G
 n
@@ -278,7 +301,7 @@ G
 G
 b
 U
-U
+J
 U
 "}
 (11,1,1) = {"

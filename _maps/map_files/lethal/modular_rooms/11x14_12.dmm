@@ -9,9 +9,8 @@
 /turf/open/floor/wood,
 /area/gakster_location/war)
 "d" = (
-/obj/structure/closet/crate/wooden,
-/obj/effect/spawner/random/epic_loot/random_silly_arms,
-/obj/effect/spawner/random/epic_loot/random_ammunition,
+/obj/machinery/light/warm/dim/directional/west,
+/mob/living/basic/trooper/gakster/ranged,
 /turf/open/floor/wood,
 /area/gakster_location/war)
 "e" = (
@@ -25,8 +24,8 @@
 /area/gakster_location/war)
 "g" = (
 /obj/structure/closet/crate/wooden,
-/obj/effect/spawner/random/epic_loot/random_silly_arms,
-/obj/effect/spawner/random/epic_loot/random_silly_arms,
+/obj/effect/spawner/random/epic_loot/random_ammunition,
+/obj/effect/spawner/random/epic_loot/random_ammunition,
 /obj/effect/spawner/random/epic_loot/random_ammunition,
 /turf/open/floor/wood,
 /area/gakster_location/war)
@@ -37,10 +36,10 @@
 /area/gakster_location/war)
 "i" = (
 /obj/structure/closet/crate/wooden,
-/obj/effect/spawner/random/epic_loot/random_serious_arms,
-/obj/effect/spawner/random/epic_loot/random_silly_arms,
 /obj/effect/spawner/random/epic_loot/random_ammunition,
 /obj/effect/decal/cleanable/cobweb,
+/obj/effect/spawner/random/epic_loot/random_ammunition,
+/obj/effect/spawner/random/epic_loot/random_ammunition,
 /turf/open/floor/wood,
 /area/gakster_location/war)
 "j" = (
@@ -56,6 +55,11 @@
 /obj/machinery/light/warm/dim/directional/south,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
+"m" = (
+/obj/machinery/ammo_workbench/unlocked,
+/obj/effect/decal/cleanable/fuel_pool,
+/turf/open/floor/wood,
+/area/gakster_location/war)
 "n" = (
 /obj/machinery/light/warm/dim/directional/north,
 /turf/open/floor/iron/smooth,
@@ -68,11 +72,16 @@
 /obj/structure/table/wood,
 /obj/effect/spawner/random/epic_loot/random_ammunition,
 /obj/machinery/light/warm/dim/directional/north,
+/obj/effect/decal/cleanable/ash,
+/turf/open/floor/wood,
+/area/gakster_location/war)
+"q" = (
+/obj/effect/decal/cleanable/fuel_pool,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/gakster_location/war)
 "r" = (
-/obj/structure/table/wood,
-/obj/structure/maintenance_loot_structure/gun_box/random,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/gakster_location/war)
 "s" = (
@@ -90,14 +99,21 @@
 /obj/effect/spawner/random/epic_loot/random_ammunition,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
+"v" = (
+/obj/effect/decal/cleanable/fuel_pool,
+/obj/effect/decal/cleanable/ash,
+/turf/open/floor/wood,
+/area/gakster_location/war)
 "w" = (
 /obj/structure/rack/wooden,
 /obj/effect/spawner/random/epic_loot/random_ammunition,
+/obj/effect/decal/cleanable/fuel_pool,
 /turf/open/floor/wood,
 /area/gakster_location/war)
 "x" = (
 /obj/structure/closet/crate/wooden,
-/obj/effect/spawner/random/epic_loot/random_silly_arms,
+/obj/effect/spawner/random/epic_loot/random_ammunition,
+/obj/effect/spawner/random/epic_loot/random_ammunition,
 /turf/open/floor/wood,
 /area/gakster_location/war)
 "y" = (
@@ -111,11 +127,23 @@
 /obj/structure/maintenance_loot_structure/gun_box/random,
 /turf/open/floor/wood,
 /area/gakster_location/war)
+"B" = (
+/obj/structure/reagent_dispensers/fueltank,
+/obj/effect/decal/cleanable/fuel_pool,
+/obj/effect/decal/cleanable/fuel_pool,
+/turf/open/floor/wood,
+/area/gakster_location/war)
 "C" = (
 /obj/structure/closet/crate/wooden,
 /obj/effect/spawner/random/epic_loot/random_grenade_or_explosive,
 /obj/effect/spawner/random/epic_loot/random_grenade_or_explosive,
 /obj/effect/spawner/random/epic_loot/random_grenade_or_explosive,
+/turf/open/floor/wood,
+/area/gakster_location/war)
+"D" = (
+/mob/living/basic/trooper/gakster/ranged,
+/obj/effect/decal/cleanable/fuel_pool,
+/obj/effect/decal/cleanable/ash,
 /turf/open/floor/wood,
 /area/gakster_location/war)
 "E" = (
@@ -126,6 +154,32 @@
 /area/gakster_location/war)
 "F" = (
 /obj/machinery/ammo_workbench/unlocked,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/gakster_location/war)
+"G" = (
+/obj/effect/decal/cleanable/fuel_pool,
+/obj/effect/decal/cleanable/ash,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/gakster_location/war)
+"H" = (
+/obj/effect/decal/cleanable/ash,
+/turf/open/floor/wood,
+/area/gakster_location/war)
+"I" = (
+/obj/structure/closet/crate/wooden,
+/obj/effect/spawner/random/epic_loot/random_grenade_or_explosive,
+/obj/effect/spawner/random/epic_loot/random_grenade_or_explosive,
+/obj/effect/spawner/random/epic_loot/random_grenade_or_explosive,
+/obj/effect/decal/cleanable/fuel_pool,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/gakster_location/war)
+"J" = (
+/obj/effect/spawner/random/epic_loot/random_ammunition,
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/ash,
 /turf/open/floor/wood,
 /area/gakster_location/war)
 "K" = (
@@ -157,6 +211,10 @@
 /mob/living/basic/trooper/gakster/ranged,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
+"Q" = (
+/obj/effect/decal/cleanable/fuel_pool,
+/turf/open/floor/wood,
+/area/gakster_location/war)
 "R" = (
 /obj/machinery/light/warm/dim/directional/west,
 /turf/open/floor/wood,
@@ -174,6 +232,13 @@
 /area/gakster_location/war)
 "U" = (
 /turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"V" = (
+/obj/structure/rack/wooden,
+/obj/item/grenade/iedcasing,
+/obj/item/grenade/iedcasing,
+/obj/item/grenade/iedcasing,
+/turf/open/floor/wood,
 /area/gakster_location/war)
 "W" = (
 /obj/structure/table/wood,
@@ -233,11 +298,11 @@ y
 y
 y
 y
+V
+B
+d
 S
-f
-R
-S
-f
+D
 y
 n
 U
@@ -249,11 +314,11 @@ y
 c
 f
 e
-N
-N
-N
-N
-N
+q
+v
+Q
+r
+Q
 o
 U
 z
@@ -264,10 +329,10 @@ U
 y
 p
 N
-N
-N
-e
-N
+Q
+Q
+J
+G
 W
 y
 y
@@ -279,12 +344,12 @@ a
 a
 y
 F
+v
+I
 N
-C
+k
 N
-K
-N
-F
+m
 y
 x
 U
@@ -295,9 +360,9 @@ a
 U
 y
 M
-N
-r
-N
+H
+k
+Q
 L
 f
 k
@@ -315,7 +380,7 @@ w
 e
 f
 T
-N
+r
 C
 y
 x
@@ -355,7 +420,7 @@ N
 N
 "}
 (11,1,1) = {"
-d
+g
 C
 A
 y

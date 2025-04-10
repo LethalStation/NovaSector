@@ -117,7 +117,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/holopad,
-/obj/machinery/light_switch/directional/south,
 /obj/structure/cable,
 /obj/machinery/vending/wardrobe/bar_wardrobe,
 /turf/open/floor/wood,
@@ -197,6 +196,10 @@
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/structure/reagent_dispensers/beerkeg,
 /turf/open/floor/iron,
+/area/gakster_location/war)
+"uD" = (
+/obj/machinery/light/floor,
+/turf/open/floor/wood,
 /area/gakster_location/war)
 "uF" = (
 /obj/effect/turf_decal/siding/wood{
@@ -282,7 +285,6 @@
 "Cs" = (
 /obj/structure/closet/secure_closet/bar,
 /obj/machinery/light/small/directional/west,
-/obj/machinery/light_switch/directional/north,
 /turf/open/floor/wood,
 /area/gakster_location/war)
 "CB" = (
@@ -508,7 +510,7 @@ gr
 "}
 (3,1,1) = {"
 SX
-SX
+uD
 SX
 cE
 fZ

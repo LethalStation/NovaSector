@@ -33,21 +33,11 @@
 /obj/machinery/light/dim/directional/north,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
-"kI" = (
-/obj/machinery/light/dim/directional/east,
-/turf/open/floor/catwalk_floor/iron_smooth,
-/area/gakster_location/war)
 "lz" = (
 /obj/structure/spacevine,
 /obj/structure/spacevine,
 /obj/effect/decal/remains/human,
 /obj/effect/spawner/random/epic_loot/pocket_sized_valuables,
-/turf/open/floor/plating/kudzu,
-/area/gakster_location/war)
-"oC" = (
-/obj/structure/spacevine,
-/obj/structure/spacevine,
-/obj/structure/flora/biolumi/flower,
 /turf/open/floor/plating/kudzu,
 /area/gakster_location/war)
 "oT" = (
@@ -71,6 +61,7 @@
 /obj/structure/spacevine,
 /obj/structure/spacevine,
 /obj/effect/decal/cleanable/blood/gibs,
+/obj/item/seeds/kudzu,
 /turf/open/floor/plating/kudzu,
 /area/gakster_location/war)
 "tI" = (
@@ -89,7 +80,6 @@
 /area/gakster_location/war)
 "vo" = (
 /obj/structure/decorative/shelf/crates1,
-/obj/machinery/light/dim/directional/south,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "vA" = (
@@ -114,7 +104,7 @@
 /obj/effect/spawner/random/food_or_drink/seed_rare,
 /obj/effect/spawner/random/food_or_drink/seed,
 /obj/effect/spawner/random/epic_loot/random_provisions,
-/obj/machinery/light/dim/directional/north,
+/obj/structure/sign/poster/contraband/kudzu/directional/north,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "yE" = (
@@ -161,10 +151,6 @@
 /obj/effect/decal/remains/human,
 /obj/effect/spawner/random/epic_loot/random_grenade_or_explosive,
 /turf/open/floor/plating/kudzu,
-/area/gakster_location/war)
-"Gt" = (
-/obj/machinery/light/dim/directional/south,
-/turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "Hu" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -266,10 +252,6 @@
 /obj/effect/decal/cleanable/blood/gibs/limb,
 /turf/open/floor/plating/kudzu,
 /area/gakster_location/war)
-"Tx" = (
-/obj/machinery/light/dim/directional/west,
-/turf/open/floor/catwalk_floor/iron_smooth,
-/area/gakster_location/war)
 "VE" = (
 /obj/structure/spacevine,
 /obj/structure/spacevine,
@@ -295,12 +277,12 @@ Bp
 Bp
 Bp
 Bp
-kI
-kI
+RD
+RD
 Bp
 Bp
 Bp
-Bp
+LL
 Bp
 Bp
 "}
@@ -334,7 +316,7 @@ Qf
 gi
 am
 cA
-LL
+Bp
 "}
 (4,1,1) = {"
 Mn
@@ -354,7 +336,7 @@ Bp
 "}
 (5,1,1) = {"
 cA
-Gt
+Bp
 WW
 Qf
 yE
@@ -370,7 +352,7 @@ Bp
 "}
 (6,1,1) = {"
 RD
-LL
+Bp
 uM
 Qf
 HM
@@ -378,7 +360,7 @@ yE
 HM
 VE
 HM
-oC
+HM
 Du
 WW
 xG
@@ -392,16 +374,16 @@ Qf
 HM
 ME
 QG
-oC
+HM
 vA
 rz
-Qf
+qw
 WW
 Dr
 Bp
 "}
 (8,1,1) = {"
-Bp
+LL
 So
 Pe
 qw
@@ -411,7 +393,7 @@ yE
 Ju
 QG
 Ge
-qw
+Qf
 am
 cA
 Bp
@@ -455,8 +437,8 @@ Bp
 Bp
 Bp
 Bp
-Tx
-Tx
+RD
+RD
 Bp
 Bp
 Bp

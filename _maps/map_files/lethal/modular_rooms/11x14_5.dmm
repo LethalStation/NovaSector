@@ -6,11 +6,17 @@
 /obj/machinery/light/red/dim/directional/west,
 /turf/open/floor/iron/smooth,
 /area/space)
+"c" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_other_military_loot,
+/turf/open/floor/iron/smooth,
+/area/space)
 "d" = (
 /turf/closed/wall,
 /area/space)
 "e" = (
 /obj/structure/maintenance_loot_structure/wall_jacket/random/directional/east,
+/obj/structure/rack/shelf,
 /turf/open/floor/iron/smooth,
 /area/space)
 "f" = (
@@ -104,6 +110,12 @@
 /obj/machinery/light/red/dim/directional/south,
 /turf/open/floor/iron/smooth,
 /area/space)
+"y" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_other_military_loot,
+/obj/effect/spawner/random/epic_loot/medpens,
+/turf/open/floor/plating,
+/area/space)
 "z" = (
 /obj/effect/spawner/random/trash/bin,
 /turf/open/floor/iron/dark/smooth_large,
@@ -140,6 +152,10 @@
 "F" = (
 /turf/open/floor/iron/freezer,
 /area/space)
+"G" = (
+/obj/structure/maintenance_loot_structure/file_cabinet/random,
+/turf/open/floor/iron/smooth,
+/area/space)
 "H" = (
 /obj/machinery/door/airlock/grunge,
 /turf/open/floor/iron/colony/texture,
@@ -159,6 +175,13 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/iron/freezer,
 /area/space)
+"L" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_grenade_or_explosive,
+/obj/effect/spawner/random/epic_loot/medical_tools,
+/obj/machinery/light/red/dim/directional/south,
+/turf/open/floor/plating,
+/area/space)
 "M" = (
 /obj/machinery/photocopier,
 /turf/open/floor/iron/dark/smooth_large,
@@ -167,6 +190,11 @@
 /obj/structure/rack/shelf,
 /obj/effect/spawner/random/epic_loot/random_computer_parts,
 /turf/open/floor/iron/dark/smooth_large,
+/area/space)
+"O" = (
+/obj/machinery/light/red/dim/directional/west,
+/obj/structure/maintenance_loot_structure/file_cabinet/random,
+/turf/open/floor/iron/smooth,
 /area/space)
 "P" = (
 /obj/structure/rack/shelf,
@@ -318,8 +346,8 @@ x
 d
 N
 v
-b
-U
+O
+G
 d
 X
 l
@@ -345,12 +373,12 @@ P
 a
 "}
 (9,1,1) = {"
-U
+L
 x
 d
 V
 U
-U
+c
 e
 d
 k
@@ -361,7 +389,7 @@ Q
 a
 "}
 (10,1,1) = {"
-U
+y
 U
 d
 d
