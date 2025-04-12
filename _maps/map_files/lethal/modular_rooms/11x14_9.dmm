@@ -1,49 +1,235 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/turf/open/floor/catwalk_floor/iron_smooth,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"b" = (
+/obj/effect/spawner/random/epic_loot/medical_tools,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"c" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/medical_stack_item,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"d" = (
+/obj/item/surgery_tray/full/deployed,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"f" = (
+/obj/machinery/light/cold/dim/directional/west,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"g" = (
+/obj/structure/table,
+/obj/item/stack/sticky_tape/surgical,
+/obj/effect/spawner/random/epic_loot/medical_tools,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"i" = (
+/obj/machinery/iv_drip,
+/obj/machinery/light/cold/dim/directional/west,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"j" = (
+/obj/structure/bed/medical/anchored,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"k" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/medical_stack_item_advanced,
+/obj/effect/spawner/random/epic_loot/medical_stack_item_advanced,
+/obj/effect/spawner/random/epic_loot/medpens_combat_based_redpilled,
+/obj/effect/spawner/random/epic_loot/medpens_combat_based_redpilled,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"m" = (
+/obj/machinery/iv_drip,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"o" = (
+/obj/machinery/iv_drip/health_station/directional/north,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"p" = (
+/obj/structure/table,
+/obj/structure/maintenance_loot_structure/medbox/random{
+	pixel_y = 4
+	},
+/obj/machinery/light/cold/dim/directional/west,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"q" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/medical_stack_item,
+/obj/effect/spawner/random/epic_loot/medpens,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"r" = (
+/obj/machinery/stasis{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"t" = (
+/obj/structure/curtain,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"u" = (
+/obj/structure/table/optable,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"v" = (
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"x" = (
+/obj/machinery/stasis,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"y" = (
+/obj/machinery/light/cold/dim/directional/east,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"z" = (
+/obj/machinery/door/airlock/medical,
+/obj/effect/mapping_helpers/airlock/access/all/medical/general,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"A" = (
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/medkit,
+/obj/effect/spawner/random/epic_loot/medical_tools,
+/turf/open/floor/iron/freezer,
 /area/gakster_location/war)
 "B" = (
 /turf/closed/wall,
 /area/gakster_location/war)
+"D" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/medical_stack_item,
+/obj/effect/spawner/random/epic_loot/medical_stack_item_advanced,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"E" = (
+/obj/structure/maintenance_loot_structure/large_crate/medical/airdrop,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"F" = (
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/medical_tools,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"G" = (
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/deathmatch_medkit,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"H" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/curtain,
+/obj/effect/spawner/random/epic_loot/medical_tools,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"I" = (
+/obj/structure/bed/medical/anchored,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"J" = (
+/obj/structure/rack/shelf,
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/medical_stack_item,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"K" = (
+/obj/structure/table,
+/obj/machinery/light/cold/dim/directional/west,
+/obj/item/clothing/suit/apron/surgical,
+/obj/effect/spawner/random/epic_loot/medical_tools,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"L" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/spawner/random/epic_loot/medical_tools,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"M" = (
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/medkit,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"O" = (
+/obj/structure/curtain,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"P" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/medical_stack_item_advanced,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"Q" = (
+/obj/structure/table,
+/obj/structure/maintenance_loot_structure/medbox/random{
+	pixel_y = 4
+	},
+/obj/machinery/light/cold/dim/directional/west,
+/obj/structure/curtain,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"S" = (
+/obj/structure/closet/crate/freezer/surplus_limbs,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
 "U" = (
-/turf/open/floor/iron/smooth,
+/obj/structure/closet/crate/freezer/blood,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"X" = (
+/obj/machinery/light/cold/dim/directional/east,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"Y" = (
+/obj/machinery/computer/operating,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"Z" = (
+/obj/machinery/door/airlock/medical,
+/obj/effect/mapping_helpers/airlock/access/all/medical/general,
+/turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 
 (1,1,1) = {"
-U
-U
-U
-U
-U
-U
+E
+c
+P
+M
+q
+c
 a
-a
+v
+v
+D
+B
+G
 U
-U
-U
-U
-U
-U
+k
 "}
 (2,1,1) = {"
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+a
+y
+a
+a
+a
+a
+y
+a
+v
+v
+z
+X
+v
+k
 "}
 (3,1,1) = {"
-U
-U
+a
 B
 B
 B
@@ -54,92 +240,93 @@ B
 B
 B
 B
-U
-U
+B
+v
+k
 "}
 (4,1,1) = {"
-U
-U
+a
 B
-U
-U
-U
-U
-U
-U
-U
-U
+a
+r
+f
+Q
+I
+i
+t
+I
+p
 B
-U
-U
+z
+B
 "}
 (5,1,1) = {"
-U
-U
+a
 B
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+v
+a
+v
+H
+v
+v
+t
+v
+L
+B
+v
+v
 "}
 (6,1,1) = {"
 a
-U
+Z
+a
+a
+a
 B
-U
-U
-U
-U
-U
-U
-U
-U
+t
+t
 B
-U
+o
+a
+Z
+a
 a
 "}
 (7,1,1) = {"
-U
-U
-U
-U
-U
-U
-U
-U
+a
+B
+E
+a
+v
+O
+v
+b
 B
 B
 B
 B
-U
-U
+a
+v
 "}
 (8,1,1) = {"
-U
-U
+a
 B
-U
-U
-U
-U
-U
 B
-U
-U
-U
-U
-U
+x
+X
+O
+m
+j
+B
+u
+v
+K
+a
+v
 "}
 (9,1,1) = {"
-U
-U
+a
+a
 B
 B
 B
@@ -147,41 +334,41 @@ B
 B
 B
 B
-U
-U
-U
-U
-U
+Y
+v
+d
+a
+v
 "}
 (10,1,1) = {"
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+M
+a
+f
+a
+a
+a
+a
+a
+f
+a
+a
+a
+a
+v
 "}
 (11,1,1) = {"
-U
-U
-U
-U
-U
-U
+F
+A
+S
+q
+c
+q
 a
 a
-U
-U
-U
-U
-U
-U
+J
+c
+D
+c
+g
+M
 "}

@@ -30,6 +30,7 @@
 /area/gakster_location/war)
 "k" = (
 /obj/effect/spawner/structure/window/ice,
+/mob/living/basic/mining/watcher/icewing,
 /turf/open/misc/ice,
 /area/gakster_location/war)
 "l" = (
@@ -70,6 +71,10 @@
 /obj/structure/table,
 /obj/item/flashlight/lamp,
 /turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"v" = (
+/mob/living/basic/mining/watcher/icewing,
+/turf/open/misc/ice,
 /area/gakster_location/war)
 "x" = (
 /obj/item/gibtonite,
@@ -258,8 +263,8 @@ h
 h
 h
 h
-l
-l
+W
+W
 a
 R
 S
@@ -274,7 +279,7 @@ o
 Q
 o
 T
-l
+W
 l
 K
 R
@@ -327,7 +332,7 @@ l
 h
 x
 h
-l
+v
 h
 l
 "}

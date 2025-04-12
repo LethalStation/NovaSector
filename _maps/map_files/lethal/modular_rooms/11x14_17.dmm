@@ -185,6 +185,7 @@
 /obj/structure/spacevine,
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/spawner/random/trash/botanical_waste,
+/obj/structure/flora/biolumi/flower,
 /turf/open/floor/plating/kudzu,
 /area/gakster_location/war)
 "NV" = (
@@ -201,7 +202,7 @@
 /area/gakster_location/war)
 "PQ" = (
 /obj/structure/spacevine,
-/mob/living/simple_animal/hostile/plantmutant,
+/obj/structure/spacevine,
 /obj/structure/flora/biolumi/flower,
 /turf/open/floor/plating/kudzu,
 /area/gakster_location/war)
@@ -308,7 +309,7 @@ LL
 Hu
 Qf
 Qf
-PQ
+gi
 Ts
 Qf
 Qf
@@ -359,7 +360,7 @@ HM
 yE
 HM
 VE
-HM
+PQ
 HM
 Du
 WW
@@ -377,7 +378,7 @@ QG
 HM
 vA
 rz
-qw
+Qf
 WW
 Dr
 Bp
@@ -386,7 +387,7 @@ Bp
 LL
 So
 Pe
-qw
+Qf
 oT
 Qz
 yE

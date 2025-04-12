@@ -2,29 +2,152 @@
 "a" = (
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/gakster_location/war)
+"b" = (
+/obj/machinery/door/airlock/grunge,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/mapping_helpers/airlock/welded,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"c" = (
+/obj/effect/decal/cleanable/blood/gibs/body,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"d" = (
+/obj/machinery/conveyor,
+/mob/living/basic/statue/mannequin,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"e" = (
+/obj/machinery/conveyor{
+	dir = 4
+	},
+/obj/effect/mob_spawn/corpse/human/gakstermob,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"g" = (
+/obj/effect/decal/cleanable/blood/gibs/core,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"h" = (
+/obj/effect/mob_spawn/corpse/human/gakstermob,
+/obj/effect/decal/cleanable/blood/splatter/over_window,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"m" = (
+/obj/effect/decal/cleanable/blood/gibs/up,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"n" = (
+/obj/machinery/conveyor{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"o" = (
+/obj/machinery/door/airlock/grunge,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "q" = (
 /obj/machinery/self_actualization_device,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
+"r" = (
+/obj/effect/decal/cleanable/blood/gibs/old,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"s" = (
+/obj/effect/decal/cleanable/blood/innards,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"x" = (
+/obj/effect/mob_spawn/corpse/human/gakstermob,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"C" = (
+/obj/effect/mob_spawn/corpse/human/gakstermob,
+/obj/effect/decal/cleanable/blood/gibs/down,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "H" = (
-/mob/living/basic/statue/mannequin/suspicious,
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"I" = (
+/obj/effect/decal/cleanable/blood/gibs/down,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"J" = (
+/obj/machinery/conveyor,
+/obj/machinery/door/airlock/hatch,
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/mapping_helpers/airlock/welded,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"K" = (
+/obj/machinery/conveyor{
+	dir = 4
+	},
+/mob/living/basic/statue/mannequin,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"M" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"N" = (
+/obj/machinery/conveyor{
+	dir = 4
+	},
+/obj/machinery/recycler/deathtrap{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"P" = (
+/obj/effect/decal/cleanable/blood/gibs/limb,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"Q" = (
+/obj/effect/mob_spawn/corpse/human/gakstermob,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"S" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"T" = (
+/obj/machinery/conveyor{
+	dir = 6
+	},
+/mob/living/basic/statue/mannequin,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "U" = (
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"V" = (
+/obj/machinery/conveyor,
+/mob/living/basic/statue/mannequin/suspicious,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "W" = (
 /mob/living/basic/statue/mannequin,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
+"Y" = (
+/turf/closed/wall,
+/area/gakster_location/war)
 
 (1,1,1) = {"
 U
 U
 U
+n
 U
-U
-U
+Y
 a
 a
 U
@@ -38,26 +161,26 @@ U
 U
 U
 U
+e
+U
+o
 U
 U
 U
 U
 U
-U
-U
-U
-U
+W
 U
 U
 "}
 (3,1,1) = {"
-U
-U
-U
-U
-U
-U
-U
+Y
+Y
+Y
+N
+Y
+Y
+Y
 U
 U
 U
@@ -70,12 +193,12 @@ U
 U
 U
 U
+K
 U
-W
 U
-W
+H
 U
-W
+U
 U
 U
 U
@@ -86,12 +209,12 @@ U
 U
 U
 U
+K
 U
 W
-U
 H
 U
-W
+U
 U
 U
 U
@@ -102,12 +225,12 @@ U
 a
 U
 U
+K
 U
-W
 U
-W
+H
 U
-W
+U
 U
 U
 U
@@ -118,65 +241,65 @@ a
 U
 U
 U
-U
-W
-U
-W
-U
-W
+K
 U
 U
-U
-U
-U
+Y
+o
+Y
+Y
+Y
+b
+Y
+Y
 "}
 (8,1,1) = {"
 U
 U
 U
-U
-W
-U
-W
-U
-W
+K
 U
 U
 U
 U
-U
+Y
+g
+C
+P
+g
+Q
 "}
 (9,1,1) = {"
 U
 U
 U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
-U
+T
+d
+d
+d
+d
+J
+V
+q
+x
+h
+I
 "}
 (10,1,1) = {"
 U
-U
-U
-U
-q
-U
+W
 U
 U
 U
 U
 U
 U
-U
-U
+Y
+r
+m
+c
+s
+Q
 "}
 (11,1,1) = {"
 U
@@ -187,10 +310,10 @@ U
 U
 a
 a
-U
-U
-U
-U
-U
-U
+Y
+x
+M
+Q
+S
+S
 "}

@@ -7812,6 +7812,10 @@
 /obj/machinery/light/cold/dim/directional/west,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
+"Qi" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/gakster_location/war)
 "Qj" = (
 /obj/structure/railing{
 	dir = 8
@@ -45072,7 +45076,7 @@ xw
 BP
 aK
 Lz
-Lz
+Qi
 no
 rY
 Bo
@@ -45174,7 +45178,7 @@ xw
 Lj
 no
 pP
-Lz
+Qi
 no
 no
 mo

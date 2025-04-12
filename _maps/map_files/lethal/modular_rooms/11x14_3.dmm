@@ -91,6 +91,7 @@
 /area/gakster_location/war)
 "jZ" = (
 /obj/structure/table/wood/poker,
+/obj/effect/spawner/random/epic_loot/random_silly_arms,
 /turf/open/floor/wood/large,
 /area/gakster_location/war)
 "kc" = (
@@ -180,6 +181,7 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
 	},
+/obj/effect/spawner/random/epic_loot/chainlet,
 /turf/open/floor/iron,
 /area/gakster_location/war)
 "qe" = (
@@ -285,6 +287,8 @@
 "Cs" = (
 /obj/structure/closet/secure_closet/bar,
 /obj/machinery/light/small/directional/west,
+/obj/effect/spawner/random/epic_loot/random_keycard,
+/obj/effect/spawner/random/epic_loot/random_documents,
 /turf/open/floor/wood,
 /area/gakster_location/war)
 "CB" = (
@@ -473,7 +477,16 @@
 /obj/item/reagent_containers/cup/rag,
 /obj/structure/table,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/effect/spawner/random/epic_loot/random_strongbox_loot,
 /turf/open/floor/iron,
+/area/gakster_location/war)
+"XK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/wood,
 /area/gakster_location/war)
 
 (1,1,1) = {"
@@ -493,7 +506,7 @@ gr
 gr
 "}
 (2,1,1) = {"
-wx
+XK
 wx
 wx
 uF
@@ -510,7 +523,7 @@ gr
 "}
 (3,1,1) = {"
 SX
-uD
+SX
 SX
 cE
 fZ
@@ -605,7 +618,7 @@ Os
 gr
 "}
 (9,1,1) = {"
-SX
+uD
 jZ
 CB
 aO
