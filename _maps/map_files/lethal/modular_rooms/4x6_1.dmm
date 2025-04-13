@@ -6,9 +6,28 @@
 /obj/machinery/light/dim/directional/south,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/gakster_location/war)
+"r" = (
+/obj/structure/maintenance_loot_structure/military_case/random,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "t" = (
 /obj/machinery/light/red/dim/directional/north,
 /turf/open/floor/catwalk_floor/iron_smooth,
+/area/gakster_location/war)
+"K" = (
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/random_ammunition,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"V" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_other_military_loot,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"X" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_other_military_loot/rare_loot,
+/turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 
 (1,1,1) = {"
@@ -21,18 +40,18 @@ p
 "}
 (2,1,1) = {"
 a
-a
-a
-a
-a
+K
+V
+K
+r
 a
 "}
 (3,1,1) = {"
 a
-a
-a
-a
-a
+V
+K
+X
+V
 a
 "}
 (4,1,1) = {"

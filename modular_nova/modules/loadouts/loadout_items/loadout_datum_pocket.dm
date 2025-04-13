@@ -219,22 +219,6 @@
 	name = "Random Pizza Box"
 	item_path = /obj/item/pizzabox/random
 
-/datum/loadout_item/pocket_items/medkit
-	name = "First-Aid Kit"
-	item_path = /obj/item/storage/medkit/regular
-
-/datum/loadout_item/pocket_items/deforest_cheesekit
-	name = "Civil Defense Medical Kit"
-	item_path = /obj/item/storage/medkit/civil_defense/stocked
-
-/datum/loadout_item/pocket_items/deforest_frontiermedkit
-	name = "Frontier Medical Kit"
-	item_path = /obj/item/storage/medkit/frontier/stocked
-
-/datum/loadout_item/pocket_items/synthetic_medkit
-	name = "Robotic Repair Equipment Kit"
-	item_path = /obj/item/storage/medkit/robotic_repair/stocked
-
 /datum/loadout_item/pocket_items/ingredients
 	name = "Wildcard Ingredient Box"
 	item_path = /obj/item/storage/box/ingredients/wildcard
@@ -327,23 +311,32 @@
 	name = "Amber Perfume"
 	item_path = /obj/item/perfume/amber
 
+//misc
 
-/*
-*	DONATOR
-*/
+/datum/loadout_item/pocket_items/cat_toy
+	name = "Cat Toy"
+	item_path = /obj/item/toy/cattoy
 
-/datum/loadout_item/pocket_items/donator
-	abstract_type = /datum/loadout_item/pocket_items/donator
-	donator_only = TRUE
+/datum/loadout_item/pocket_items/crayons
+	name = "Box of Crayons"
+	item_path = /obj/item/storage/crayons
 
-/datum/loadout_item/pocket_items/donator/coin
-	name = "Iron Coin"
-	item_path = /obj/item/coin/iron
+/datum/loadout_item/pocket_items/spray_can
+	name = "Spray Can"
+	item_path = /obj/item/toy/crayon/spraycan
 
-/datum/loadout_item/pocket_items/donator/havana_cigar_case
-	name = "Havanian Cigars"
-	item_path = /obj/item/storage/fancy/cigarettes/cigars/havana
+/datum/loadout_item/pocket_items/eightball
+	name = "Magic Eightball"
+	item_path = /obj/item/toy/eightball
 
-/datum/loadout_item/pocket_items/donator/vape
-	name = "E-Cigarette"
-	item_path = /obj/item/vape
+/datum/loadout_item/pocket_items/tarot
+	name = "Tarot Card Deck"
+	item_path = /obj/item/toy/cards/deck/tarot
+
+/datum/loadout_item/pocket_items/card_deck
+	name = "Playing Card Deck"
+	item_path = /obj/item/toy/cards/deck
+
+/datum/loadout_item/pocket_items/candle_box
+	name = "Candle Box"
+	item_path = /obj/item/storage/fancy/candle_box

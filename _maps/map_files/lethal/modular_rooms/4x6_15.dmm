@@ -2,8 +2,12 @@
 "a" = (
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
+"j" = (
+/obj/structure/punching_bag,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
 "n" = (
-/obj/effect/spawner/random/epic_loot/random_tools,
+/obj/effect/turf_decal/bot_red,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "p" = (
@@ -15,7 +19,7 @@
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/gakster_location/war)
 "w" = (
-/obj/effect/spawner/random/epic_loot/random_silly_arms,
+/obj/item/toy/basketball,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "E" = (
@@ -28,38 +32,45 @@
 /area/gakster_location/war)
 "M" = (
 /obj/effect/spawner/random/epic_loot/random_other_military_loot,
+/obj/structure/closet/athletic_mixed,
+/turf/open/floor/iron/smooth,
+/area/gakster_location/war)
+"Y" = (
+/obj/structure/closet/athletic_mixed,
+/obj/effect/spawner/random/epic_loot/random_silly_arms,
+/obj/effect/spawner/random/epic_loot/random_tools,
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 
 (1,1,1) = {"
 t
+w
 a
 a
 a
-n
 p
 "}
 (2,1,1) = {"
 M
 a
-E
 a
+E
 a
 a
 "}
 (3,1,1) = {"
-a
+Y
 a
 F
 a
-a
+j
 a
 "}
 (4,1,1) = {"
 t
 a
 a
-w
 a
+n
 p
 "}

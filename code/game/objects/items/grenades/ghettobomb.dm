@@ -48,7 +48,7 @@
 				effects[effect_type] += as_stack.amount
 			else
 				effects[effect_type]++
-			break	
+			break
 
 /obj/item/grenade/iedcasing/examine(mob/user)
 	. = ..()
@@ -131,7 +131,7 @@
 	update_icon(UPDATE_ICON_STATE)
 	user.balloon_alert_to_viewers("arming!")
 	COOLDOWN_START(src, spam_cd, 1 SECONDS)
-	
+
 /obj/item/grenade/iedcasing/detonate(mob/living/lanced_by) //Blowing that can up
 	if(effects[/obj/item/shard]) //this has to be before so it initializes us a pellet cloud or something
 		shrapnel_radius = effects[/obj/item/shard]
@@ -229,7 +229,7 @@
 				as_stack.merge_type = null //prevent them from merging inside for contents.len
 			to_put.forceMove(src)
 			return
-		
+
 		//if the item has reagents lets allow it to transfer
 		if(item.reagents)
 			return ..()
@@ -268,11 +268,11 @@
 		if(!user.transferItemToLoc(assembly, src))
 			return
 		user.balloon_alert(user, "attached")
-		
+
 		var/obj/item/grenade/iedcasing/pipebomb = new(drop_location())
 		for(var/atom/movable/item_inside as anything in contents)
 			item_inside.forceMove(pipebomb)
-		
+
 		pipebomb.power = power
 		pipebomb.attach_activator(assembly)
 		pipebomb.setup_effects_from_contents()

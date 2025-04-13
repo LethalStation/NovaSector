@@ -71,51 +71,6 @@
 	name = "Refitted Shoredress Wetsuit"
 	item_path = /obj/item/clothing/under/akula_wetsuit/refit
 
-/datum/loadout_item/under/jumpsuit/impcap
-	name = "Captain's Naval Jumpsuit"
-	item_path = /obj/item/clothing/under/rank/captain/nova/imperial
-	restricted_roles = list(JOB_CAPTAIN, JOB_NT_REP)
-
-/datum/loadout_item/under/jumpsuit/imphop
-	name = "Head of Personnel's Naval Jumpsuit"
-	item_path = /obj/item/clothing/under/rank/civilian/head_of_personnel/nova/imperial
-	restricted_roles = list(JOB_HEAD_OF_PERSONNEL, JOB_NT_REP)
-
-/datum/loadout_item/under/jumpsuit/imphos
-	name = "Head of Security's Naval Uniform"
-	item_path = /obj/item/clothing/under/rank/security/head_of_security/nova/imperial
-	restricted_roles = list(JOB_HEAD_OF_SECURITY)
-
-/datum/loadout_item/under/jumpsuit/impcmo
-	name = "Chief Medical Officer's Naval Uniform"
-	item_path = /obj/item/clothing/under/rank/medical/chief_medical_officer/nova/imperial
-	restricted_roles = list(JOB_CHIEF_MEDICAL_OFFICER)
-
-/datum/loadout_item/under/jumpsuit/impce
-	name = "Chief Engineer's Naval Uniform"
-	item_path = /obj/item/clothing/under/rank/engineering/chief_engineer/nova/imperial
-	restricted_roles = list(JOB_CHIEF_ENGINEER)
-
-/datum/loadout_item/under/jumpsuit/imprd
-	name = "Research Director's Naval Uniform"
-	item_path = /obj/item/clothing/under/rank/rnd/research_director/nova/imperial
-	restricted_roles = list(JOB_RESEARCH_DIRECTOR)
-
-/datum/loadout_item/under/jumpsuit/impcommand
-	name = "Light Grey Officer's Naval Jumpsuit"
-	item_path = /obj/item/clothing/under/rank/captain/nova/imperial/generic
-
-/datum/loadout_item/under/jumpsuit/impcom
-	name = "Grey Officer's Naval Jumpsuit"
-	item_path = /obj/item/clothing/under/rank/captain/nova/imperial/generic/grey
-
-/datum/loadout_item/under/jumpsuit/impred
-	name = "Red Officer's Naval Jumpsuit"
-	item_path = /obj/item/clothing/under/rank/captain/nova/imperial/generic/red
-
-/datum/loadout_item/under/jumpsuit/impcomtrous
-	name = "Grey Officer's Naval Jumpsuit (Trousers)"
-	item_path = /obj/item/clothing/under/rank/captain/nova/imperial/generic/pants
 
 /datum/loadout_item/under/jumpsuit/security_dress
 	name = "Security Battle Dress"
@@ -189,13 +144,6 @@
 	name = "Light Paramedic Skirt"
 	item_path = /obj/item/clothing/under/rank/medical/paramedic/nova/light/skirt
 
-/datum/loadout_item/under/jumpsuit/chemist_formal
-	name = "Chemist's Formal Jumpsuit"
-	item_path = /obj/item/clothing/under/rank/medical/chemist/nova/formal
-
-/datum/loadout_item/under/jumpsuit/chemist_formal_skirt
-	name = "Chemist's Formal Jumpskirt"
-	item_path = /obj/item/clothing/under/rank/medical/chemist/nova/formal/skirt
 
 /datum/loadout_item/under/jumpsuit/hlscientist
 	name = "Ridiculous Scientist Outfit"
@@ -237,51 +185,6 @@
 /datum/loadout_item/under/jumpsuit/utility_cargo
 	name = "Supply Utility Uniform"
 	item_path = /obj/item/clothing/under/rank/cargo/tech/nova/utility
-
-/datum/loadout_item/under/jumpsuit/utility_sec
-	name = "Security Utility Uniform"
-	item_path = /obj/item/clothing/under/rank/security/nova/utility
-	restricted_roles = list(JOB_SECURITY_OFFICER, JOB_DETECTIVE, JOB_WARDEN, JOB_BLUESHIELD, JOB_HEAD_OF_SECURITY, JOB_CORRECTIONS_OFFICER) //i dunno about the blueshield, they're a weird combo of sec and command, thats why they arent in the loadout pr im making
-
-/datum/loadout_item/under/jumpsuit/utility_com
-	name = "Command Utility Uniform"
-	item_path = /obj/item/clothing/under/rank/captain/nova/utility
-	restricted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_BLUESHIELD, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_CHIEF_MEDICAL_OFFICER, JOB_CHIEF_ENGINEER)
-
-/datum/loadout_item/under/jumpsuit/tarkon
-	name = "Tarkon Deck Jumpsuit"
-	item_path = /obj/item/clothing/under/tarkon
-	blacklisted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_BLUESHIELD, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_CHIEF_MEDICAL_OFFICER, JOB_CHIEF_ENGINEER, JOB_SECURITY_OFFICER, JOB_DETECTIVE, JOB_WARDEN, JOB_BLUESHIELD, JOB_CORRECTIONS_OFFICER)
-
-/datum/loadout_item/under/jumpsuit/tarkon/sci
-	name = "Tarkon Science Jumpsuit"
-	item_path = /obj/item/clothing/under/tarkon/sci
-	blacklisted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_BLUESHIELD, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_CHIEF_MEDICAL_OFFICER, JOB_CHIEF_ENGINEER, JOB_SECURITY_OFFICER, JOB_DETECTIVE, JOB_WARDEN, JOB_BLUESHIELD, JOB_CORRECTIONS_OFFICER)
-
-/datum/loadout_item/under/jumpsuit/tarkon/eng
-	name = "Tarkon Engineer Jumpsuit"
-	item_path = /obj/item/clothing/under/tarkon/eng
-	blacklisted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_BLUESHIELD, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_CHIEF_MEDICAL_OFFICER, JOB_CHIEF_ENGINEER, JOB_SECURITY_OFFICER, JOB_DETECTIVE, JOB_WARDEN, JOB_BLUESHIELD, JOB_CORRECTIONS_OFFICER)
-
-/datum/loadout_item/under/jumpsuit/tarkon/med
-	name = "Tarkon Medical Jumpsuit"
-	item_path = /obj/item/clothing/under/tarkon/med
-	blacklisted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_BLUESHIELD, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_CHIEF_MEDICAL_OFFICER, JOB_CHIEF_ENGINEER, JOB_SECURITY_OFFICER, JOB_DETECTIVE, JOB_WARDEN, JOB_BLUESHIELD, JOB_CORRECTIONS_OFFICER)
-
-/datum/loadout_item/under/jumpsuit/tarkon/cargo
-	name = "Tarkon Cargo Jumpsuit"
-	item_path = /obj/item/clothing/under/tarkon/cargo
-	blacklisted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_BLUESHIELD, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_CHIEF_MEDICAL_OFFICER, JOB_CHIEF_ENGINEER, JOB_SECURITY_OFFICER, JOB_DETECTIVE, JOB_WARDEN, JOB_BLUESHIELD, JOB_CORRECTIONS_OFFICER)
-
-/datum/loadout_item/under/jumpsuit/tarkon/sec
-	name = "Tarkon Guard Jumpsuit"
-	item_path = /obj/item/clothing/under/tarkon/sec
-	blacklisted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_BLUESHIELD, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_CHIEF_MEDICAL_OFFICER, JOB_CHIEF_ENGINEER, JOB_SECURITY_OFFICER, JOB_DETECTIVE, JOB_WARDEN, JOB_BLUESHIELD, JOB_CORRECTIONS_OFFICER)
-
-/datum/loadout_item/under/jumpsuit/tarkon/com
-	name = "Tarkon Command Jumpsuit"
-	item_path = /obj/item/clothing/under/tarkon/com
-	blacklisted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_BLUESHIELD, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_CHIEF_MEDICAL_OFFICER, JOB_CHIEF_ENGINEER, JOB_SECURITY_OFFICER, JOB_DETECTIVE, JOB_WARDEN, JOB_BLUESHIELD, JOB_CORRECTIONS_OFFICER)
 
 /*
  *	MISC UNDERSUITS
@@ -959,58 +862,6 @@
 /datum/loadout_item/under/formal/recolorable_suit/executive
 	name = "Executive Casual Suit"
 	item_path = /obj/item/clothing/under/suit/nova/recolorable/executive
-
-/datum/loadout_item/under/formal/trek_command
-	name = "Trekkie Command Uniform"
-	item_path = /obj/item/clothing/under/trek/command
-
-/datum/loadout_item/under/formal/trek_engsec
-	name = "Trekkie Engsec Uniform"
-	item_path = /obj/item/clothing/under/trek/engsec
-
-/datum/loadout_item/under/formal/trek_medsci
-	name = "Trekkie Medsci Uniform"
-	item_path = /obj/item/clothing/under/trek/medsci
-
-/datum/loadout_item/under/formal/trek_next_command
-	name = "Trekkie TNG Command Uniform"
-	item_path = /obj/item/clothing/under/trek/command/next
-
-/datum/loadout_item/under/formal/trek_next_engsec
-	name = "Trekkie TNG Engsec Uniform"
-	item_path = /obj/item/clothing/under/trek/engsec/next
-
-/datum/loadout_item/under/formal/trek_next_medsci
-	name = "Trekkie TNG Medsci Uniform"
-	item_path = /obj/item/clothing/under/trek/medsci/next
-
-/datum/loadout_item/under/formal/trek_ent_command
-	name = "Trekkie ENT Command Uniform"
-	item_path = /obj/item/clothing/under/trek/command/ent
-
-/datum/loadout_item/under/formal/trek_ent_engsec
-	name = "Trekkie ENT Engsec Uniform"
-	item_path = /obj/item/clothing/under/trek/engsec/ent
-
-/datum/loadout_item/under/formal/trek_ent_medsci
-	name = "Trekkie ENT Medsci Uniform"
-	item_path = /obj/item/clothing/under/trek/medsci/ent
-
-/datum/loadout_item/under/formal/trek_voy_command
-	name = "Trekkie VOY Command Uniform"
-	item_path = /obj/item/clothing/under/trek/command/voy
-
-/datum/loadout_item/under/formal/trek_voy_engsec
-	name = "Trekkie VOY Engsec Uniform"
-	item_path = /obj/item/clothing/under/trek/engsec/voy
-
-/datum/loadout_item/under/formal/trek_voy_medsci
-	name = "Trekkie VOY Medsci Uniform"
-	item_path = /obj/item/clothing/under/trek/medsci/voy
-
-/datum/loadout_item/under/formal/the_q
-	name = "French Marshall's Uniform"
-	item_path = /obj/item/clothing/under/trek/q
 
 //FAMILIES GEAR
 /datum/loadout_item/under/formal/osi

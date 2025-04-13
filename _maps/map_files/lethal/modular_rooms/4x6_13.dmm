@@ -8,6 +8,11 @@
 /obj/effect/spawner/random/epic_loot/random_keycard,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
+"j" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_grenade_or_explosive,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
 "l" = (
 /obj/machinery/computer{
 	dir = 8
@@ -86,7 +91,7 @@ O
 l
 t
 I
-a
+j
 I
 "}
 (4,1,1) = {"
@@ -95,5 +100,5 @@ I
 I
 I
 I
-I
+a
 "}

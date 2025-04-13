@@ -19,6 +19,7 @@
 /area/gakster_location/war)
 "t" = (
 /obj/machinery/light/red/dim/directional/north,
+/obj/effect/spawner/random/epic_loot/random_maint_loot_structure,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "u" = (

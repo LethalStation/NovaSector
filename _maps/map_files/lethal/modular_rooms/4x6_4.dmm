@@ -2,13 +2,27 @@
 "a" = (
 /turf/open/floor/iron/smooth,
 /area/gakster_location/war)
+"b" = (
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/pocket_sized_valuables,
+/obj/effect/spawner/random/epic_loot/random_ammunition,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"e" = (
+/obj/effect/spawner/random/epic_loot/random_ammunition,
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/medpens_combat_based_redpilled,
+/obj/effect/spawner/random/epic_loot/medpens_combat_based_redpilled,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
 "f" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/smooth,
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/random_other_military_loot,
+/turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "j" = (
-/obj/structure/table,
-/turf/open/floor/iron/dark/smooth_large,
+/obj/structure/chair/plastic,
+/turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "l" = (
 /obj/structure/chair/plastic{
@@ -21,10 +35,8 @@
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/gakster_location/war)
 "q" = (
-/obj/structure/table,
 /obj/machinery/light/warm/dim/directional/north,
-/obj/effect/spawner/random/epic_loot/random_other_military_loot,
-/turf/open/floor/iron/dark/smooth_large,
+/turf/open/floor/iron/smooth,
 /area/gakster_location/war)
 "t" = (
 /obj/item/kirbyplants/random/fullysynthetic,
@@ -52,8 +64,8 @@
 /area/gakster_location/war)
 
 (1,1,1) = {"
-l
-l
+e
+a
 a
 P
 a
@@ -61,25 +73,25 @@ p
 "}
 (2,1,1) = {"
 q
-j
-F
 a
+a
+l
 a
 a
 "}
 (3,1,1) = {"
 D
-Y
-a
-a
+j
 f
+b
+F
 P
 "}
 (4,1,1) = {"
 t
 a
 P
-a
+Y
 a
 p
 "}

@@ -1,37 +1,94 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/turf/open/chasm,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"g" = (
+/obj/structure/maintenance_loot_structure/large_crate/medical/airdrop,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"j" = (
+/obj/structure/girder,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"p" = (
+/obj/structure/table/optable,
+/obj/machinery/light/cold/dim/directional/east,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"w" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/red/dim/directional/north,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"C" = (
+/obj/structure/girder,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"D" = (
+/obj/machinery/light/dim/directional/south,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"L" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/curtain,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"N" = (
+/obj/item/surgery_tray/full/deployed,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"O" = (
+/obj/structure/table,
+/obj/structure/maintenance_loot_structure/medbox/random{
+	pixel_y = 4
+	},
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"S" = (
+/obj/machinery/light/red/dim/directional/north,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"U" = (
+/obj/structure/curtain,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"V" = (
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"Z" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/freezer,
 /area/gakster_location/war)
 
 (1,1,1) = {"
+S
+j
 a
-a
-a
-a
-a
-a
+g
+C
+D
 "}
 (2,1,1) = {"
+Z
+U
 a
 a
-a
-a
-a
-a
+L
+V
 "}
 (3,1,1) = {"
+V
+U
+p
 a
-a
-a
-a
-a
-a
+U
+Z
 "}
 (4,1,1) = {"
-a
-a
-a
-a
-a
-a
+w
+j
+O
+N
+C
+D
 "}

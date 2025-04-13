@@ -27,7 +27,6 @@
 /area/gakster_location/war)
 "J" = (
 /obj/effect/spawner/random/decoration/showcase,
-/obj/effect/spawner/structure/window/hollow/directional,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/gakster_location/war)

@@ -4,6 +4,7 @@
 /area/gakster_location/war)
 "c" = (
 /obj/structure/table,
+/obj/effect/spawner/random/epic_loot/random_ammunition,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "g" = (
@@ -67,6 +68,12 @@
 /obj/machinery/computer,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
+"X" = (
+/obj/structure/table,
+/obj/structure/window/reinforced/spawner/directional,
+/obj/effect/spawner/random/epic_loot/random_ammunition,
+/turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
 "Y" = (
 /obj/structure/chair/plastic,
 /obj/effect/decal/cleanable/dirt,
@@ -83,7 +90,7 @@ n
 Q
 Q
 a
-E
+X
 p
 "}
 (2,1,1) = {"

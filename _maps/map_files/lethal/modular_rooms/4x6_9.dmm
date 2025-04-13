@@ -23,18 +23,31 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
+"w" = (
+/obj/structure/girder,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
+"y" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/medical_stack_item_advanced,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
 "C" = (
 /obj/structure/table,
+/obj/effect/spawner/random/medical/medkit,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
 "D" = (
 /obj/machinery/light/cold/dim/directional/west,
+/obj/structure/table,
+/obj/effect/spawner/random/medical/medkit,
 /turf/open/floor/iron/freezer,
 /area/gakster_location/war)
 "H" = (
-/obj/structure/curtain,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark/smooth_large,
+/obj/structure/girder,
+/turf/open/floor/iron/freezer,
 /area/gakster_location/war)
 "J" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -47,6 +60,8 @@
 /area/gakster_location/war)
 "O" = (
 /obj/machinery/light/cold/dim/directional/east,
+/obj/structure/table,
+/obj/effect/spawner/random/epic_loot/medical_tools,
 /turf/open/floor/iron/freezer,
 /area/gakster_location/war)
 "Q" = (
@@ -54,6 +69,11 @@
 /obj/effect/spawner/random/epic_loot/medical_tools,
 /obj/machinery/light/cold/dim/directional/north,
 /turf/open/floor/iron/dark/smooth_large,
+/area/gakster_location/war)
+"T" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/medical_stack_item,
+/turf/open/floor/iron/freezer,
 /area/gakster_location/war)
 "Y" = (
 /obj/structure/curtain,
@@ -65,8 +85,8 @@ p
 a
 J
 D
-Y
-p
+w
+y
 "}
 (2,1,1) = {"
 a
@@ -88,7 +108,7 @@ a
 t
 C
 o
-a
+T
 H
 O
 "}

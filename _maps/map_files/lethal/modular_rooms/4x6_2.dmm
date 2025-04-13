@@ -54,11 +54,6 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plating,
 /area/gakster_location/war)
-"Z" = (
-/mob/living/basic/mold/diseased_rat,
-/obj/effect/spawner/random/trash/mess,
-/turf/open/floor/plating,
-/area/gakster_location/war)
 
 (1,1,1) = {"
 t
@@ -72,7 +67,7 @@ p
 l
 M
 l
-Z
+p
 u
 B
 "}
@@ -87,7 +82,7 @@ a
 (4,1,1) = {"
 U
 p
-t
+U
 V
 U
 p

@@ -6,6 +6,11 @@
 /obj/machinery/camera/directional/west,
 /turf/open/floor/iron/dark/smooth_large,
 /area/gakster_location/war)
+"b" = (
+/obj/structure/rack/shelf,
+/obj/effect/spawner/random/epic_loot/random_components,
+/turf/open/floor/iron/freezer,
+/area/gakster_location/war)
 "h" = (
 /obj/machinery/light/red/dim/directional/north,
 /turf/open/floor/iron/freezer,
@@ -78,7 +83,7 @@ H
 C
 t
 p
-p
+b
 p
 "}
 (4,1,1) = {"
